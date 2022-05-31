@@ -515,8 +515,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[14]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Ở Sài Gòn nhiều người chuộng bún bò có thịt nạm nấu chín trong khi tô bún bò yêu thích của người Huế có thịt tái xoăn ửng hồng, ăn thật mềm. 101]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Ở]]></Token>
@@ -551,7 +549,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[101]]></Token>
-        </Sentence>
     </Document>
 </corpus>

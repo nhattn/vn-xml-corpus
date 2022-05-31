@@ -1390,8 +1390,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[15]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Vào một ngày Hà Nội không đẹp trời, gia đình Thu Trang quyết định lên xe đi xuyên Việt một tháng, đưa con lên rừng xuống biển. 17]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Vào]]></Token>
@@ -1422,7 +1420,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[17]]></Token>
-        </Sentence>
     </Document>
 </corpus>

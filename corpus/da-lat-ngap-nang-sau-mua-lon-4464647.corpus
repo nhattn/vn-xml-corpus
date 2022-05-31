@@ -329,8 +329,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Cơn mưa lớn kéo dài hơn 2 giờ đã nhấn chìm nhiều khu dân cư, hoa màu tại thành phố Đà Lạt, Lâm Đồng. 112]]></SimpleTextPart>
         <Sentence>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[Cơn]]></Token>
@@ -355,7 +353,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[112]]></Token>
-        </Sentence>
     </Document>
 </corpus>

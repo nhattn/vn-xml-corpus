@@ -229,8 +229,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[71]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Trong lúc người phụ nữ hỏi mua nước mía, nói chuyện với chủ quán thì bé gái đi chung vào trong lấy điện thoại iPhone rồi nhanh chóng ra xe. 58]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Trong]]></Token>
@@ -263,7 +261,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[58]]></Token>
-        </Sentence>
     </Document>
 </corpus>

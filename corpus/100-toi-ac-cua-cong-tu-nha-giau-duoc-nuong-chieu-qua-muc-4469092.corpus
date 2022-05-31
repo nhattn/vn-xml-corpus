@@ -1255,8 +1255,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Trong khi cha mẹ chi 2 triệu USD để chuộc con, Patricia Hearst nảy sinh thiện cảm với nhóm bắt cóc mình, cùng gia nhập băng đảng. 23]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Trong]]></Token>
@@ -1285,8 +1283,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[23]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Hai công tử Nathan Leopold và Richard Loeb gây ra vụ bắt cóc, tống tiền với kế hoạch tỉ mỉ, không để lộ dấu vết chỉ để "thử tài phá án của cảnh sát". 30]]></SimpleTextPart>
         <Sentence>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[Hai]]></Token>
@@ -1320,8 +1316,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[30]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Với ý định bắt cóc vợ Rupert Murdoch đòi tiền chuộc, anh em Hosein theo đuôi siêu xe vị tỷ phú để tìm địa chỉ nhà mà không biết nó đang được người khác lái. 6]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Với]]></Token>
@@ -1357,7 +1351,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
-        </Sentence>
     </Document>
 </corpus>

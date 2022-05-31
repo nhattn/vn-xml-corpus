@@ -665,8 +665,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[115]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Năm ngoái, trong khi nguồn cung xăng dầu trong nước mới đáp ứng được 70%, Việt Nam vẫn phải xuất đi 3,1 triệu tấn dầu thô rồi nhập về gần 10 triệu tấn dầu. 186]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Năm_ngoái]]></Token>
@@ -704,7 +702,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[186]]></Token>
-        </Sentence>
     </Document>
 </corpus>

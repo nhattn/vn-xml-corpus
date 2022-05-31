@@ -625,8 +625,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Canh chua đầu cá nấu cà ri, bún laksa hoặc cơm nasi lemak là những món ngon được nhiều người yêu thích. 12]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Canh]]></Token>
@@ -655,7 +653,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[12]]></Token>
-        </Sentence>
     </Document>
 </corpus>

@@ -642,8 +642,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Cho rằng UBND tỉnh Khánh Hòa vi phạm quy định khi từ chối cung cấp thông tin về dự án sân golf cho người dân, ông Nguyễn Văn Bình khởi kiện. 49]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Cho_rằng]]></Token>
@@ -670,7 +668,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[49]]></Token>
-        </Sentence>
     </Document>
 </corpus>

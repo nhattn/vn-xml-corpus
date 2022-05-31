@@ -1539,8 +1539,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[20]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Bài học kinh nghiệm của Dy Khoa, nếu trở lại Ấn Độ sẽ ưu tiên di chuyển bằng máy bay hoặc tàu hỏa vì có sân bay, nhà ga cố định. 45]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Bài_học]]></Token>
@@ -1567,7 +1565,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[45]]></Token>
-        </Sentence>
     </Document>
 </corpus>

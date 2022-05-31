@@ -819,8 +819,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[31]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Tuyến đường ven sông Đồng Nai dài 5,2 km, tổng đầu tư gần 1.300 tỷ đồng, kết nối TP Biên Hòa và huyện Vĩnh Cửu, khởi công sáng 25/12. 6]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Tuyến_đường]]></Token>
@@ -851,7 +849,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
-        </Sentence>
     </Document>
 </corpus>

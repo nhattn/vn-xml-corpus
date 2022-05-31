@@ -997,8 +997,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[64]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Dubai cởi mở với du khách, không cách ly và thủ tục visa nhanh gọn nên chị Huyền đặt vé đi hai tuần, từ ngày 30/1. 7]]></SimpleTextPart>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Dubai]]></Token>
@@ -1030,7 +1028,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[7]]></Token>
-        </Sentence>
     </Document>
 </corpus>

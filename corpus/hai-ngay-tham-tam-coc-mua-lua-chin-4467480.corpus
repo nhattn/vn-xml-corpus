@@ -1509,8 +1509,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Nhiều du khách thăm Tam Cốc, Ninh Bình vào mùa lúa chín đều ngỡ ngàng trước cảnh sắc núi đồi, đồng ruộng đẹp như tranh vẽ. 43]]></SimpleTextPart>
         <Sentence>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[Nhiều]]></Token>
@@ -1538,8 +1536,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[43]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Tuần lễ du lịch Ninh Bình bắt đầu với lễ hội rước thuyền rồng trên sông Ngô Đồng ở xã Ninh Hải, huyện Hoa Lư. 5]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Tuần_lễ]]></Token>
@@ -1562,7 +1558,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
-        </Sentence>
     </Document>
 </corpus>

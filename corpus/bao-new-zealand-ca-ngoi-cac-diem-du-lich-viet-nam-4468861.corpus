@@ -532,8 +532,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Tờ Times gọi Việt Nam là "ngôi sao đang lên" tại Đông Nam Á khi mở cửa từ giữa tháng 3 và khuyến khích du khách ghé thăm. 18]]></SimpleTextPart>
         <Sentence>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[Tờ]]></Token>
@@ -574,7 +572,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[18]]></Token>
-        </Sentence>
     </Document>
 </corpus>

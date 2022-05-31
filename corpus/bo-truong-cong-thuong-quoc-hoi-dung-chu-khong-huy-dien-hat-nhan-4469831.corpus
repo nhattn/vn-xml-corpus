@@ -1106,8 +1106,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[345]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Một số đại biểu cho rằng, trước mắt nên ưu tiên các nguồn năng lượng đã phát triển nhưng tương lai cần cân nhắc đến điện hạt nhân. 73]]></SimpleTextPart>
         <Sentence>
             <Token tag="L" chunking="B-NP" ner="O"><![CDATA[Một_số]]></Token>
@@ -1133,7 +1131,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[73]]></Token>
-        </Sentence>
     </Document>
 </corpus>

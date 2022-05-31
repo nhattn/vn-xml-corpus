@@ -367,8 +367,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Yaki-imo (khoai lang nướng) có vị ngọt và mùi thơm, là món ăn đường phố phổ biến từ những năm 1600. 18]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Yaki-imo]]></Token>
@@ -395,7 +393,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[18]]></Token>
-        </Sentence>
     </Document>
 </corpus>

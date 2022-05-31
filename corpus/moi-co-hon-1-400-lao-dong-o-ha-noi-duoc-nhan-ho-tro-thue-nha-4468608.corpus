@@ -507,8 +507,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[24]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[UBND TP Hà Nội ủy quyền cho các quận, huyện, thị xã xét duyệt, chi trả hỗ trợ tiền trọ ba tháng cho lao động đang làm việc trong doanh nghiệp và quay lại thị trường. 12]]></SimpleTextPart>
         <Sentence>
             <Token tag="Ny" chunking="B-NP" ner="B-ORG"><![CDATA[UBND]]></Token>
@@ -544,7 +542,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[12]]></Token>
-        </Sentence>
     </Document>
 </corpus>

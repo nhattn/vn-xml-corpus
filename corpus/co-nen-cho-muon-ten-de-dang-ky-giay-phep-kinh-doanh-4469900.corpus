@@ -557,8 +557,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[37]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Nhà mặt tiền, khi về hưu bố mẹ tôi muốn mở cửa hàng tạp hóa song nhiều người nói phải xin giấy phép kinh doanh, cá nhân tôi thấy điều này là vô lý. 18]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Nhà]]></Token>
@@ -592,8 +590,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[18]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Gần nhà tôi có quán karaoke đang hoạt động nhưng chưa thấy chủ quán xin ý kiến các hộ liền kề trong lúc làm thủ tục kinh doanh. (Dương Mai) 20]]></SimpleTextPart>
         <Sentence>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[Gần]]></Token>
@@ -645,7 +641,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[8]]></Token>
-        </Sentence>
     </Document>
 </corpus>

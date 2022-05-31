@@ -637,8 +637,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[23]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Mua nhiều chưa chắc đã rẻ, chớ ham quà tặng kèm, kiểm tra kỹ hạn sử dụng... là những bài học giúp người tiêu dùng tỉnh táo trước món hàng khuyến mãi. 18]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Mua]]></Token>
@@ -673,7 +671,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[18]]></Token>
-        </Sentence>
     </Document>
 </corpus>

@@ -1095,8 +1095,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[17]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Nguyễn Anh ghi lại hình ảnh thành phố Paris nhuộm vàng bởi nắng thu dịu nhẹ và những hàng cây vàng rực. 8]]></SimpleTextPart>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Nguyễn_Anh]]></Token>
@@ -1120,7 +1118,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[8]]></Token>
-        </Sentence>
     </Document>
 </corpus>

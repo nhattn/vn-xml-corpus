@@ -1237,8 +1237,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[96]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Hoàng Trung bị người đàn ông cùng đoàn nhắn tin gạ tình, còn Huyền Thương bị quản lý khách sạn xông vào phòng khi biết cô du lịch một mình. 24]]></SimpleTextPart>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Hoàng]]></Token>
@@ -1268,7 +1266,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[24]]></Token>
-        </Sentence>
     </Document>
 </corpus>

@@ -618,8 +618,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[33]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Nghỉ hưu sớm là mong muốn của nhiều người nhưng nếu các khoản nợ vẫn còn, chưa có thói quen tiết kiệm... thì đây không phải thời điểm thích hợp. 25]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Nghỉ]]></Token>
@@ -652,7 +650,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[25]]></Token>
-        </Sentence>
     </Document>
 </corpus>

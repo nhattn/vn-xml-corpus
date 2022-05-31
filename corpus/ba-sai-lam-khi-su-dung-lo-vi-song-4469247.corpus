@@ -593,8 +593,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[12]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Thức ăn rơi vãi bị cháy khét, dầu mỡ bám trên thanh nướng hoặc bề mặt trong của lò... có thể là nguyên nhân gây ra mùi khó chịu cho thiết bị. 1]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Thức_ăn]]></Token>
@@ -626,8 +624,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Lửa bùng lên trong ngôi nhà ở Essex sau khi con chó của gia chủ bật lò vi sóng, làm cháy thức ăn bên trong. 12]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Lửa]]></Token>
@@ -655,8 +651,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[12]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Thiếu nữ Anh đau đớn và không nhìn thấy gì sau khi bị trứng lấy từ lò vi sóng ra nổ vào mặt. 7]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Thiếu_nữ]]></Token>
@@ -681,7 +675,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[7]]></Token>
-        </Sentence>
     </Document>
 </corpus>

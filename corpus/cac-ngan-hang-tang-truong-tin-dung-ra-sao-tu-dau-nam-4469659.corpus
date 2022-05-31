@@ -791,8 +791,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Chất lượng tài sản xấu đi nhưng lợi nhuận ngành ngân hàng quý đầu năm vẫn duy trì tăng trưởng hai chữ số. 17]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Chất_lượng]]></Token>
@@ -814,7 +812,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[17]]></Token>
-        </Sentence>
     </Document>
 </corpus>

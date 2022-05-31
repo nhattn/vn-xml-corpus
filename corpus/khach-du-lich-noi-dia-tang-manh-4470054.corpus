@@ -440,8 +440,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[TripAdvisor, website du lịch nổi tiếng thế giới của Mỹ, công bố 25 điểm đến được yêu thích nhất châu Á 2022, trong đó Hà Nội đứng thứ 13 và Đà Nẵng thứ 21. 6]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[TripAdvisor]]></Token>
@@ -476,7 +474,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
-        </Sentence>
     </Document>
 </corpus>

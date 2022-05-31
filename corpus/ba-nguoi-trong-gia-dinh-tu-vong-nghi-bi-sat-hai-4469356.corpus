@@ -476,8 +476,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[72]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Cảnh sát phát hiện người đàn ông đứng trước căn nhà ở quận 5 với biểu hiện bất thường, bên trong mẹ và dì ruột của anh ta đã tử vong. 23]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Cảnh_sát]]></Token>
@@ -509,7 +507,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[23]]></Token>
-        </Sentence>
     </Document>
 </corpus>

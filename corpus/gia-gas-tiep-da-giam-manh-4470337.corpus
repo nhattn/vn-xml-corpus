@@ -275,8 +275,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Từ 1/4, mỗi bình gas loại 12 kg đến tay người tiêu dùng tăng 14.000 đồng, tiếp tục lập đỉnh mới 516.000 đồng. 8]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Từ]]></Token>
@@ -307,7 +305,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[8]]></Token>
-        </Sentence>
     </Document>
 </corpus>

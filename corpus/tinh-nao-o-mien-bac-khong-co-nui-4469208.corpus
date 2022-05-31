@@ -292,8 +292,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Cùng tìm hiểu địa lý kinh tế qua những kiến thức về vị trí, vai trò các vùng kinh tế trọng điểm tại Việt Nam. 1]]></SimpleTextPart>
         <Sentence>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[Cùng]]></Token>
@@ -316,7 +314,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
-        </Sentence>
     </Document>
 </corpus>

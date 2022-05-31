@@ -298,8 +298,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Thấy con trai bị nhóm bạn đuổi đánh, Y Yut Căm, 49 tuổi, lấy dao chém một thanh niên trọng thương. 32]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Thấy]]></Token>
@@ -324,7 +322,5 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[32]]></Token>
-        </Sentence>
     </Document>
 </corpus>
