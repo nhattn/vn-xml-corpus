@@ -110,9 +110,7 @@
         <SimpleTextPart><![CDATA[Ngày 17/3, một nhóm bốn nữ sinh đánh hai em nhập viện tại xã Tú Sơn, Kiến Thụy, Hải Phòng. Ngày 25/3, tại THPT Phan Bội Châu (Hải Dương) một nam sinh lớp 12 dùng dao đâm trọng thương một học trò lớp 10. Ngày 29/3 tại THPT Hương Trà, Huế, một nữ sinh bị bạn học đánh chấn thương não.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[17]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[17/3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[một]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nhóm]]></Token>
@@ -133,9 +131,7 @@
         </Sentence>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[25]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[25/3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[tại]]></Token>
             <Token tag="Ny" chunking="B-NP" ner="B-LOC"><![CDATA[THPT]]></Token>
@@ -159,9 +155,7 @@
         </Sentence>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[29]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[29/3]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[tại]]></Token>
             <Token tag="Ny" chunking="B-NP" ner="B-LOC"><![CDATA[THPT]]></Token>
             <Token tag="Np" chunking="I-NP" ner="I-LOC"><![CDATA[Hương_Trà]]></Token>
@@ -182,7 +176,7 @@
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Hồi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[một]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nữ_sinh]]></Token>
@@ -609,7 +603,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nhau]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Tôi nghĩ về Sách trắng, một cuốn sách về bạo lực học đường mà nhà trường chính là chủ biên. Phụ huynh tham gia đồng hành và lũ trẻ là đối tượng được quan tâm. Nhà trường không thể chỉ được đo qua thành tích học tập mà còn phải qua năng lực giáo dục con người. Trong đó, giáo dục phòng tránh bạo lực là quan trọng. Thống kê của Bộ Công an cho biết: Mỗi tháng có hơn 1.000 thanh thiếu niên phạm tội. Trước kia, tội phạm giết người trong độ tuổi 30 đến dưới 45 chiếm số lượng cao nhất. Bây giờ, nhóm tuổi này giảm xuống còn 34%. Độ tuổi phạm tội 18 đến dưới 30 cao hơn, lên tới 41%; và độ tuổi 14 đến dưới 18 chiếm đến 17%. Tội phạm đang ngày càng được trẻ hóa.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Tôi nghĩ về Sách trắng, một cuốn sách về bạo lực học đường mà nhà trường chính là chủ biên. Phụ huynh tham gia đồng hành và lũ trẻ là đối tượng được quan tâm. Nhà trường không thể chỉ được đo qua thành tích học tập mà còn phải qua năng lực giáo dục con người. Trong đó, giáo dục phòng tránh bạo lực là quan trọng. Thống kê của Bộ Công an cho biết: Mỗi tháng có hơn 1.000 thanh thiếu niên phạm tội. Trước kia, tội phạm giết người trong độ tuổi 30 đến dưới 45 chiếm số lượng cao nhất. Bây giờ, nhóm tuổi này giảm xuống còn 34 % . Độ tuổi phạm tội 18 đến dưới 30 cao hơn, lên tới 41 % ; và độ tuổi 14 đến dưới 18 chiếm đến 17 % . Tội phạm đang ngày càng được trẻ hóa.]]></SimpleTextPart>
         <Sentence>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[Tôi]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[nghĩ]]></Token>

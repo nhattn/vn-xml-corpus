@@ -47,9 +47,7 @@
         </Sentence>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[31]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[31/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[TAND]]></Token>
             <Token tag="Ny" chunking="B-NP" ner="B-ORG"><![CDATA[TP]]></Token>
@@ -166,7 +164,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[pháp_luật]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Hợp đồng ghi nhận ông Thịnh được hưởng 35% giá trị căn nhà 446-448 đường Nguyễn Thị Minh Khai, quận 3, nếu đòi được (giá thị trường khoảng 324 tỷ đồng). Tuy nhiên, căn nhà này là tài sản chung của vợ chồng bà Khanh, lúc chết người chồng không để lại di chúc nên bà Khanh không được toàn quyền định đoạt toàn bộ giá trị căn nhà. Theo luật định 50% giá trị căn nhà phải được chia đều cho bà Khanh và 9 người con.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Hợp đồng ghi nhận ông Thịnh được hưởng 35 % giá trị căn nhà 446-448 đường Nguyễn Thị Minh Khai, quận 3, nếu đòi được (giá thị trường khoảng 324 tỷ đồng). Tuy nhiên, căn nhà này là tài sản chung của vợ chồng bà Khanh, lúc chết người chồng không để lại di chúc nên bà Khanh không được toàn quyền định đoạt toàn bộ giá trị căn nhà. Theo luật định 50 % giá trị căn nhà phải được chia đều cho bà Khanh và 9 người con.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Hợp_đồng]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ghi_nhận]]></Token>
@@ -256,7 +254,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[con]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Do đó, tòa công nhận cho ông Thịnh được hưởng 35% giá trị tài sản bà Khanh và ông Quang được hưởng (194,4 tỷ đồng) - tương đương với 68 tỷ đồng. Trừ đi số tiền 7,6 tỷ đồng ông Thịnh đã nhận, những người thừa kế quyền nghĩa vụ của bị đơn phải trả thêm cho nguyên đơn hơn 61 tỷ đồng.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Do đó, tòa công nhận cho ông Thịnh được hưởng 35 % giá trị tài sản bà Khanh và ông Quang được hưởng (194,4 tỷ đồng) - tương đương với 68 tỷ đồng. Trừ đi số tiền 7,6 tỷ đồng ông Thịnh đã nhận, những người thừa kế quyền nghĩa vụ của bị đơn phải trả thêm cho nguyên đơn hơn 61 tỷ đồng.]]></SimpleTextPart>
         <Sentence>
             <Token tag="C" chunking="O" ner="O"><![CDATA[Do_đó]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
@@ -402,7 +400,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[phần]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Khi về Việt Nam, bà Khanh và con trai Nguyễn Đắc Quang muốn xin lại căn nhà này. Năm 2007, mẹ con bà Khanh và luật gia Thịnh ký hợp đồng tư vấn pháp lý. Ông Thịnh sẽ thay mặt bà Khanh liên hệ các cơ quan có thẩm quyền khiếu nại để đòi nhà; bà Khanh sẽ trả thưởng cho ông Thịnh 35% tổng giá trị nhà và đất sau khi đòi lại được.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Khi về Việt Nam, bà Khanh và con trai Nguyễn Đắc Quang muốn xin lại căn nhà này. Năm 2007, mẹ con bà Khanh và luật gia Thịnh ký hợp đồng tư vấn pháp lý. Ông Thịnh sẽ thay mặt bà Khanh liên hệ các cơ quan có thẩm quyền khiếu nại để đòi nhà; bà Khanh sẽ trả thưởng cho ông Thịnh 35 % tổng giá trị nhà và đất sau khi đòi lại được.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Khi]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[về]]></Token>
@@ -477,7 +475,7 @@
             <Token tag="R" chunking="O" ner="O"><![CDATA[được]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Đến ngày 28/6/2011, Bộ Xây dựng ra quyết định trả nhà cho bà Khanh. Khoảng một tuần sau, UBND TP HCM cũng ban hành quyết định trả nhà cho nữ Việt kiều. Hoàn thành nghĩa vụ với thân chủ, ông Thịnh đề nghị mẹ con bà Khanh trả thưởng nhưng họ cho rằng chỉ hứa thưởng cho luật gia 15% giá trị tài sản chứ không phải 35%. Ông Thịnh kiện ra tòa.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Đến ngày 28/6/2011, Bộ Xây dựng ra quyết định trả nhà cho bà Khanh. Khoảng một tuần sau, UBND TP HCM cũng ban hành quyết định trả nhà cho nữ Việt kiều. Hoàn thành nghĩa vụ với thân chủ, ông Thịnh đề nghị mẹ con bà Khanh trả thưởng nhưng họ cho rằng chỉ hứa thưởng cho luật gia 15 % giá trị tài sản chứ không phải 35 % . Ông Thịnh kiện ra tòa.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Đến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
@@ -651,7 +649,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[quyền_lợi]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Vụ án được TAND TP HCM xử sơ thẩm lần đầu năm 2015, TAND Cấp cao tại TP HCM phúc thẩm năm 2016, tuyên chấp nhận yêu cầu của ông Thịnh buộc bà Khanh và ông Quang phải trả 35% tổng giá trị căn nhà, đất theo hợp đồng hứa thưởng. Giá trị tài sản căn nhà và đất của bất động sản được định giá là 156 tỷ đồng, do đó tòa tuyên bà Khanh phải trả cho luật gia Thịnh gần 55 tỷ đồng. Đối với yêu cầu của những người liên quan khác tòa sơ thẩm giải quyết chung trong cùng vụ án của ông Thịnh. Song, cấp phúc thẩm tuyên hủy, tách các quan hệ tranh chấp này thành vụ án khác.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Vụ án được TAND TP HCM xử sơ thẩm lần đầu năm 2015, TAND Cấp cao tại TP HCM phúc thẩm năm 2016, tuyên chấp nhận yêu cầu của ông Thịnh buộc bà Khanh và ông Quang phải trả 35 % tổng giá trị căn nhà, đất theo hợp đồng hứa thưởng. Giá trị tài sản căn nhà và đất của bất động sản được định giá là 156 tỷ đồng, do đó tòa tuyên bà Khanh phải trả cho luật gia Thịnh gần 55 tỷ đồng. Đối với yêu cầu của những người liên quan khác tòa sơ thẩm giải quyết chung trong cùng vụ án của ông Thịnh. Song, cấp phúc thẩm tuyên hủy, tách các quan hệ tranh chấp này thành vụ án khác.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Vụ_án]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[được]]></Token>
@@ -806,7 +804,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[liên_quan]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Quá trình TAND TP HCM xét xử lại lần này, ông Thịnh giữ nguyên yêu cầu đòi bồi thường 35% giá trị tài sản căn nhà - tương đương với giá thị trường là 113 tỷ đồng. Còn những người thừa kế quyền và nghĩa vụ của bà Khanh, ông Quang không đồng ý với yêu cầu của nguyên đơn.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Quá trình TAND TP HCM xét xử lại lần này, ông Thịnh giữ nguyên yêu cầu đòi bồi thường 35 % giá trị tài sản căn nhà - tương đương với giá thị trường là 113 tỷ đồng. Còn những người thừa kế quyền và nghĩa vụ của bà Khanh, ông Quang không đồng ý với yêu cầu của nguyên đơn.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Quá_trình]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[TAND]]></Token>

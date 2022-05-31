@@ -41,9 +41,7 @@
         </Sentence>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[31]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[31/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[bà]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Tôn_Thị_Ngọc_Hạnh]]></Token>
@@ -85,7 +83,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tại_Gia_Nghĩa]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[1]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6/2021]]></Token>
@@ -109,7 +107,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[núi]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Năm 2019, giáo viên đang trực tiếp giảng dạy trong các cơ sở giáo dục công lập được hưởng chế độ phụ cấp ưu đãi. Mức phụ cấp 50% được áp dụng đối với nhà giáo trong các trường mầm non, tiểu học ở miền núi, hải đảo và vùng sâu.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Năm 2019, giáo viên đang trực tiếp giảng dạy trong các cơ sở giáo dục công lập được hưởng chế độ phụ cấp ưu đãi. Mức phụ cấp 50 % được áp dụng đối với nhà giáo trong các trường mầm non, tiểu học ở miền núi, hải đảo và vùng sâu.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Năm]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[2019]]></Token>
@@ -154,7 +152,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[vùng_sâu]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Tuy nhiên, tháng 1/2020, thị xã Gia Nghĩa trở thành thành phố trực thuộc tỉnh Đăk Nông. Theo Sở Tài chính, các giáo viên này chỉ được nhận mức phụ cấp 35% thay vì 50% như trước. Từ đó, Sở Tài chính yêu cầu 30 trường thuộc Phòng Giáo dục và Đào đạo TP Gia Nghĩa đã chi vượt quy định phải thu hồi tổng cộng hơn 5,5 tỷ đồng.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Tuy nhiên, tháng 1/2020, thị xã Gia Nghĩa trở thành thành phố trực thuộc tỉnh Đăk Nông. Theo Sở Tài chính, các giáo viên này chỉ được nhận mức phụ cấp 35 % thay vì 50 % như trước. Từ đó, Sở Tài chính yêu cầu 30 trường thuộc Phòng Giáo dục và Đào đạo TP Gia Nghĩa đã chi vượt quy định phải thu hồi tổng cộng hơn 5,5 tỷ đồng.]]></SimpleTextPart>
         <Sentence>
             <Token tag="C" chunking="O" ner="O"><![CDATA[Tuy_nhiên]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>

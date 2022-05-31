@@ -99,7 +99,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Tính]]></Token>
             <Token tag="T" chunking="O" ner="O"><![CDATA[cả]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="Cc" chunking="B-NP" ner="O"><![CDATA[và]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
@@ -167,7 +167,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giá]]></Token>
             <Token tag="Nb" chunking="B-NP" ner="O"><![CDATA[gas]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[giảm]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[là]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nhà]]></Token>
@@ -192,7 +192,7 @@
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[trước]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Hiện giá gas trong nước phụ thuộc vào diễn biến thế giới do nguồn cung nội địa chủ động được khoảng 60% mức tiêu thụ. Thời tiết nóng lên vào mùa hè khiến nhu cầu nhiên liệu, khí đốt nhiều khu vực trên thế giới giảm xuống, giúp giá gas thế giới hạ nhiệt.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Hiện giá gas trong nước phụ thuộc vào diễn biến thế giới do nguồn cung nội địa chủ động được khoảng 60 % mức tiêu thụ. Thời tiết nóng lên vào mùa hè khiến nhu cầu nhiên liệu, khí đốt nhiều khu vực trên thế giới giảm xuống, giúp giá gas thế giới hạ nhiệt.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Hiện]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giá]]></Token>

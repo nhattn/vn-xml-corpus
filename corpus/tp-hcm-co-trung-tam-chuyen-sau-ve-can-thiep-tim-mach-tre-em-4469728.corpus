@@ -47,9 +47,7 @@
             <Token tag="Ny" chunking="I-NP" ner="I-ORG"><![CDATA[HCM]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[30]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[30/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[cho]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[biết]]></Token>
@@ -398,7 +396,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Bệnh_viện]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[cung_cấp]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Bệnh viện Nhi đồng 1 là bệnh viện chuyên khoa nhi đầu ngành khu vực phía Nam, phụ trách chỉ đạo tuyến về nhi khoa cho các tỉnh, thành từ TP HCM đến Cà Mau. Trải qua 66 năm hoạt động, từ quy mô 268 giường bệnh, đến nay bệnh viện đã đạt quy mô 1.500 giường bệnh với hơn 1.700 nhân viên. Tuy nhiên, bệnh viện luôn trong tình trạng quá tải với công suất sử dụng giường bệnh luôn ở mức trên 120%, số bệnh nhân ngoại trú trung bình 5.000-6.000 lượt mỗi ngày. Cơ sở hạ tầng của bệnh viện từ lâu không thể đáp ứng được nhu cầu hoạt động và phát triển của bệnh viện nhi khoa tuyến cuối, theo Sở Y tế.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Bệnh viện Nhi đồng 1 là bệnh viện chuyên khoa nhi đầu ngành khu vực phía Nam, phụ trách chỉ đạo tuyến về nhi khoa cho các tỉnh, thành từ TP HCM đến Cà Mau. Trải qua 66 năm hoạt động, từ quy mô 268 giường bệnh, đến nay bệnh viện đã đạt quy mô 1.500 giường bệnh với hơn 1.700 nhân viên. Tuy nhiên, bệnh viện luôn trong tình trạng quá tải với công suất sử dụng giường bệnh luôn ở mức trên 120 % , số bệnh nhân ngoại trú trung bình 5.000-6.000 lượt mỗi ngày. Cơ sở hạ tầng của bệnh viện từ lâu không thể đáp ứng được nhu cầu hoạt động và phát triển của bệnh viện nhi khoa tuyến cuối, theo Sở Y tế.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Bệnh_viện]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Nhi_đồng]]></Token>

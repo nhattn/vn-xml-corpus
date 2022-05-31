@@ -49,9 +49,7 @@
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Báo_cáo]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[31]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[31/5]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[về]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[rà_soát]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[quy_định]]></Token>

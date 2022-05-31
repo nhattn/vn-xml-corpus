@@ -60,7 +60,7 @@
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Theo đó, Đại hội đồng cổ đông thông qua kế hoạch doanh thu và lợi nhuận sau thuế năm nay dự kiến đạt mức tăng trưởng lần lượt 27 % và 3,85 %. Giai đoạn 2022-2026 lợi nhuận đạt mức 1.300-1.500 tỷ đồng. Vốn hoá vượt ngưỡng 1 tỷ USD trong ba năm tới. Phương án niêm yết cổ phiếu với mã chứng khoán là NCG trên HoSE dự kiến thực hiện vào tháng 6.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Theo đó, Đại hội đồng cổ đông thông qua kế hoạch doanh thu và lợi nhuận sau thuế năm nay dự kiến đạt mức tăng trưởng lần lượt 27 % và 3,85 % . Giai đoạn 2022-2026 lợi nhuận đạt mức 1.300-1.500 tỷ đồng. Vốn hoá vượt ngưỡng 1 tỷ USD trong ba năm tới. Phương án niêm yết cổ phiếu với mã chứng khoán là NCG trên HoSE dự kiến thực hiện vào tháng 6.]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Theo]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[đó]]></Token>
@@ -131,10 +131,10 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thực_hiện]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Về tỷ trọng doanh thu năm nay, Nova Consumer dự kiến khoảng 90% vẫn đến từ hàng nông nghiệp. Tuy nhiên, trong chiến lược mở rộng kinh doanh đến năm 2025, tỷ lệ doanh thu đến từ nông nghiệp chỉ còn 60% và tăng tỷ trọng doanh thu từ ngành hàng tiêu dùng. Doanh nghiệp này sẽ tiếp tục mở rộng mảng kinh doanh cốt lõi là nông nghiệp nhằm cung cấp giải pháp chăn nuôi toàn diện cho khách hàng, bao gồm cả con giống, thức ăn chăn nuôi, thuốc thú y - vaccine và trang trại, đồng thời phát triển mạnh lĩnh vực hàng tiêu dùng nhanh, hoàn thiện chuỗi 3F.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Về tỷ trọng doanh thu năm nay, Nova Consumer dự kiến khoảng 90 % vẫn đến từ hàng nông nghiệp. Tuy nhiên, trong chiến lược mở rộng kinh doanh đến năm 2025, tỷ lệ doanh thu đến từ nông nghiệp chỉ còn 60 % và tăng tỷ trọng doanh thu từ ngành hàng tiêu dùng. Doanh nghiệp này sẽ tiếp tục mở rộng mảng kinh doanh cốt lõi là nông nghiệp nhằm cung cấp giải pháp chăn nuôi toàn diện cho khách hàng, bao gồm cả con giống, thức ăn chăn nuôi, thuốc thú y - vaccine và trang trại, đồng thời phát triển mạnh lĩnh vực hàng tiêu dùng nhanh, hoàn thiện chuỗi 3F.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Về]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tỷ_trọng]]></Token>
@@ -483,7 +483,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[hoàn_tất]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tới]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[giúp]]></Token>

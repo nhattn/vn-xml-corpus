@@ -64,7 +64,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[tới]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[trung_ương]]></Token>
             <Token tag="Cc" chunking="B-NP" ner="O"><![CDATA[và]]></Token>
@@ -162,7 +162,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Tùng]]></Token>
             <Token tag="Np" chunking="I-NP" ner="I-PER"><![CDATA[Đinh]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Gói 26.000 tỷ đồng, với 12 chính sách ban hành hồi tháng 7/2021, đã hỗ trợ cho 36,55 triệu lượt lao động. Tổng kinh phí từ ngân sách trung ương và địa phương gần 42.000 tỷ đồng. Trong đó, nhóm chính sách hỗ trợ tiền trực tiếp chi trên 31.000 tỷ (chiếm 74%); các chính sách về bảo hiểm giải ngân gần 6.200 tỷ (khoảng 15%) và nhóm cho vay vốn chi hơn 4.600 tỷ đồng (chiếm 11%).]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Gói 26.000 tỷ đồng, với 12 chính sách ban hành hồi tháng 7/2021, đã hỗ trợ cho 36,55 triệu lượt lao động. Tổng kinh phí từ ngân sách trung ương và địa phương gần 42.000 tỷ đồng. Trong đó, nhóm chính sách hỗ trợ tiền trực tiếp chi trên 31.000 tỷ (chiếm 74 % ); các chính sách về bảo hiểm giải ngân gần 6.200 tỷ (khoảng 15 % ) và nhóm cho vay vốn chi hơn 4.600 tỷ đồng (chiếm 11 % ).]]></SimpleTextPart>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Gói]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[26.000]]></Token>
@@ -482,7 +482,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hồi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[đang]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[giải_ngân]]></Token>

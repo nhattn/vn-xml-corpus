@@ -849,7 +849,7 @@
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Giữa]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[tại]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[phiên]]></Token>
@@ -949,9 +949,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[ở]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hội_trường]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[14]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[14/6]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Ép lựa chọn giới tính thai nhi xâm phạm đến sức khỏe, tinh thần phụ nữ, cần được quy định là hành vi bạo lực gia đình, theo Chủ tịch Quốc hội. 48]]></SimpleTextPart>

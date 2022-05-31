@@ -80,9 +80,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[dự_án]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trước]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[31]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[8]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[31/8]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -487,7 +485,7 @@
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Tổng_công_ty]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Xây_dựng]]></Token>
@@ -805,7 +803,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[PPP]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Ông Chủng cho rằng, hiện nay Luật PPP đã nêu cơ bản quyền và nghĩa vụ của các bên, song còn điểm nghẽn như góp vốn của nhà nước không quá 50% tổng mức đầu tư dự án. Quy định này sẽ không khích lệ các nhà đầu tư cho dự án hạ tầng tại các vùng xa bởi lưu lượng phương tiện thấp, khả năng thu hồi vốn không cao. Các dự án này cần tăng mức hỗ trợ của ngân sách nhà nước.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Ông Chủng cho rằng, hiện nay Luật PPP đã nêu cơ bản quyền và nghĩa vụ của các bên, song còn điểm nghẽn như góp vốn của nhà nước không quá 50 % tổng mức đầu tư dự án. Quy định này sẽ không khích lệ các nhà đầu tư cho dự án hạ tầng tại các vùng xa bởi lưu lượng phương tiện thấp, khả năng thu hồi vốn không cao. Các dự án này cần tăng mức hỗ trợ của ngân sách nhà nước.]]></SimpleTextPart>
         <Sentence>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[Ông]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Chủng]]></Token>

@@ -39,7 +39,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[cổ_đông]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -76,7 +76,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[hiện_hữu]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Với giá mua 12.000 đồng mỗi cổ phần, ông Vinh cần chi 72 tỷ đồng để hoàn tất giao dịch. Dự kiến, Chủ tịch SHS sẽ nâng sở hữu lên 0,92% vốn điều lệ công ty. Trước đó, ông Vinh không sở hữu cổ phiếu của công ty này.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Với giá mua 12.000 đồng mỗi cổ phần, ông Vinh cần chi 72 tỷ đồng để hoàn tất giao dịch. Dự kiến, Chủ tịch SHS sẽ nâng sở hữu lên 0,92 % vốn điều lệ công ty. Trước đó, ông Vinh không sở hữu cổ phiếu của công ty này.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Với]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giá_mua]]></Token>
@@ -130,7 +130,7 @@
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[SHS]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[đã]]></Token>
@@ -170,7 +170,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[năm]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Số lượng cổ phiếu đã được các cổ đông đăng ký mua là hơn 294 triệu cổ phiếu, tương đương hơn 90% khối lượng chào bán. Với gần 31 triệu cổ phiếu còn lại, ngoài ông Vinh còn có thêm 21 nhà đầu tư khác đăng ký mua.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Số lượng cổ phiếu đã được các cổ đông đăng ký mua là hơn 294 triệu cổ phiếu, tương đương hơn 90 % khối lượng chào bán. Với gần 31 triệu cổ phiếu còn lại, ngoài ông Vinh còn có thêm 21 nhà đầu tư khác đăng ký mua.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Số_lượng]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cổ_phiếu]]></Token>
@@ -245,7 +245,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cổ_phiếu]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Trên thị trường, cổ phiếu SHS chốt phiên giao dịch 31/5 ở mức 18.200 đồng. Mức thị giá này cao hơn 51% so với mức giá trong đợt chào bán cổ phiếu cho cổ đông.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Trên thị trường, cổ phiếu SHS chốt phiên giao dịch 31/5 ở mức 18.200 đồng. Mức thị giá này cao hơn 51 % so với mức giá trong đợt chào bán cổ phiếu cho cổ đông.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Trên]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thị_trường]]></Token>
@@ -285,7 +285,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cổ_đông]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Năm nay, SHS đặt kế hoạch kinh doanh dựa trên giả định VN-Index ở mức 1.700 - 1.750 điểm, giá trị giao dịch bình quân mỗi phiên trong khoảng 26.500-27.900 tỷ đồng. Theo đó, tổng doanh thu dự kiến của công ty đạt hơn 3.400 tỷ đồng, tăng 18,2% so với thực hiện năm trước. Lợi nhuận trước thuế kế hoạch tăng 15,6%, đạt hơn 2.000 tỷ đồng.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Năm nay, SHS đặt kế hoạch kinh doanh dựa trên giả định VN-Index ở mức 1.700 - 1.750 điểm, giá trị giao dịch bình quân mỗi phiên trong khoảng 26.500-27.900 tỷ đồng. Theo đó, tổng doanh thu dự kiến của công ty đạt hơn 3.400 tỷ đồng, tăng 18,2 % so với thực hiện năm trước. Lợi nhuận trước thuế kế hoạch tăng 15,6 % , đạt hơn 2.000 tỷ đồng.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Năm]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[nay]]></Token>

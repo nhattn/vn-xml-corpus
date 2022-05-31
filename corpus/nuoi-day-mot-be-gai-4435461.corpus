@@ -220,7 +220,7 @@
         <SimpleTextPart><![CDATA[Tháng 4 năm ngoái, tôi đăng ký tham gia Câu lạc bộ Trao quyền phụ nữ, một sáng kiến được tài trợ bởi Tổng Lãnh sự quán Mỹ tại TP HCM. Chúng tôi được thảo luận và trao đổi về giá trị cốt lõi mà mỗi cá nhân tin tưởng và đang theo đuổi. Trong khi một số chọn giá trị của tình yêu thương, người khác có thể theo đuổi sự hợp tác, có người chọn hy sinh, và cũng có người muốn khẳng định sự tự do. Chúng tôi cũng được chia sẻ cách để lắng nghe tiếng nói từ bên trong tâm trí và cơ thể, từ đó quay về chăm sóc sức khỏe tinh thần, thể chất, chế độ dinh dưỡng lành mạnh cho bản thân. Điều ấn tượng nhất với tôi, là cách áp dụng tư duy phát triển (Growth Mindset) để mỗi chị em đều tin vào giá trị của việc đầu tư vào tri thức và nội lực, từ đó phá vỡ định kiến, rào cản cho sự khám phá các tiềm năng. Trên cơ sở đó, phụ nữ được trang bị để sẵn sàng đón nhận cơ hội, cũng như xử lý và đối mặt những biến cố trong cuộc sống.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[năm_ngoái]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[tôi]]></Token>

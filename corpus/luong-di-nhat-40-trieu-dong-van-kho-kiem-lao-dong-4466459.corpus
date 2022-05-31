@@ -42,7 +42,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[khu_vực]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Hơn tuần qua, Công ty cổ phần xuất khẩu lao động và dịch vụ, thương mại Biển Đông (Estrala) nhận hơn chục cuộc điện thoại hỏi thông tin về mẩu tuyển 8 lao động nam lái máy xúc tại Nhật. Mức lương cơ bản mỗi tháng 40 triệu đồng, chưa kể tăng ca và các khoản phụ cấp. Tuần làm 5 ngày, mỗi ngày 8 tiếng. Người lao động không cần kinh nghiệm, chỉ cần học hết lớp 9, sức khỏe tốt, tuổi 18-35, cao từ 1,6 m. Ngân hàng cho vay đến 80% chi phí ban đầu.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Hơn tuần qua, Công ty cổ phần xuất khẩu lao động và dịch vụ, thương mại Biển Đông (Estrala) nhận hơn chục cuộc điện thoại hỏi thông tin về mẩu tuyển 8 lao động nam lái máy xúc tại Nhật. Mức lương cơ bản mỗi tháng 40 triệu đồng, chưa kể tăng ca và các khoản phụ cấp. Tuần làm 5 ngày, mỗi ngày 8 tiếng. Người lao động không cần kinh nghiệm, chỉ cần học hết lớp 9, sức khỏe tốt, tuổi 18-35, cao từ 1,6 m. Ngân hàng cho vay đến 80 % chi phí ban đầu.]]></SimpleTextPart>
         <Sentence>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[Hơn]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tuần]]></Token>
@@ -84,7 +84,7 @@
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[cơ_bản]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[mỗi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[40]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[40]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[triệu]]></Token>
             <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[đồng]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
@@ -106,7 +106,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[mỗi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[8]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[8]]></Token>
             <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[tiếng]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
@@ -838,7 +838,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Huế]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hồi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -990,7 +990,7 @@
         <SimpleTextPart><![CDATA[Tháng 3 vừa qua, Chính phủ Nhật mở cửa nhập cảnh lao động. Thực tập sinh người Việt Nam tiêm đủ ba mũi vaccine phòng Covid-19 được nhập cảnh và không phải cách ly theo dõi sức khỏe 7 ngày.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="X" chunking="O" ner="O"><![CDATA[vừa_qua]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Chính_phủ]]></Token>

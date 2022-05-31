@@ -658,9 +658,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[danh]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[1/6]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[với]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[học_bổng]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
@@ -681,7 +679,7 @@
             <Token tag="R" chunking="O" ner="O"><![CDATA[chỉ]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

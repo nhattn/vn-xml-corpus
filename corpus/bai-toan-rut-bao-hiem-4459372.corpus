@@ -324,7 +324,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[mỗi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[triệu]]></Token>
             <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[đồng]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
@@ -573,7 +573,7 @@
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[an_tâm]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Chị Hà nằm trong nhóm 97% người chọn nhận trợ cấp một lần sau một năm nghỉ việc, theo thống kê của Bảo hiểm xã hội Việt Nam. Cơ quan này cũng ghi nhận tuổi của lao động rút bảo hiểm một lần ngày càng trẻ, dưới 40, trong đó phần lớn 20-30, chủ yếu ở khu vực ngoài nhà nước.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Chị Hà nằm trong nhóm 97 % người chọn nhận trợ cấp một lần sau một năm nghỉ việc, theo thống kê của Bảo hiểm xã hội Việt Nam. Cơ quan này cũng ghi nhận tuổi của lao động rút bảo hiểm một lần ngày càng trẻ, dưới 40, trong đó phần lớn 20-30, chủ yếu ở khu vực ngoài nhà nước.]]></SimpleTextPart>
         <Sentence>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[Chị]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Hà]]></Token>
@@ -835,7 +835,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[lao_động]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Theo báo cáo của Bộ Lao động, Thương binh và Xã hội trong 5 năm thực hiện luật Bảo hiểm xã hội 2014 (2016-2020), tổng số người hưởng trợ cấp một lần là trên 3,7 triệu người, tức trung bình mỗi năm có gần 750.000 người rời khỏi hệ thống. Số người hưởng bảo hiểm xã hội một lần năm sau thường cao hơn năm trước với mức tăng bình quân 6,5%/năm. Nghĩa là Quỹ phải chi ra hàng chục nghìn tỷ đồng mỗi năm cho khoản trợ cấp một lần.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Theo báo cáo của Bộ Lao động, Thương binh và Xã hội trong 5 năm thực hiện luật Bảo hiểm xã hội 2014 (2016-2020), tổng số người hưởng trợ cấp một lần là trên 3,7 triệu người, tức trung bình mỗi năm có gần 750.000 người rời khỏi hệ thống. Số người hưởng bảo hiểm xã hội một lần năm sau thường cao hơn năm trước với mức tăng bình quân 6,5 % /năm. Nghĩa là Quỹ phải chi ra hàng chục nghìn tỷ đồng mỗi năm cho khoản trợ cấp một lần.]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Theo]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[báo_cáo]]></Token>

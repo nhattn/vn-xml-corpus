@@ -12,9 +12,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giờ]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[7]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[1/7]]></Token>
         </Sentence>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Lương]]></Token>
@@ -43,16 +41,12 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[%]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[7]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[1/7]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[20]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[20/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Bộ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Lao_động_Thương_binh_và_Xã_hội]]></Token>
@@ -84,7 +78,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[doanh_nghiệp]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Dự thảo đề xuất lương tối thiểu tháng tăng thêm 6% từ ngày 1/7, tương ứng 180.000-260.000 đồng so với hiện hành. Nếu được thông qua, lương tối thiểu lần lượt vùng I là 4,68 triệu; vùng II 4,16 triệu, vùng III là 3,64 triệu và vùng IV là 3,25 triệu đồng. Mức hiện hành dao động 3,07-4,42 triệu đồng, giữ nguyên từ đầu năm 2020 đến nay.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Dự thảo đề xuất lương tối thiểu tháng tăng thêm 6 % từ ngày 1/7, tương ứng 180.000-260.000 đồng so với hiện hành. Nếu được thông qua, lương tối thiểu lần lượt vùng I là 4,68 triệu; vùng II 4,16 triệu, vùng III là 3,64 triệu và vùng IV là 3,25 triệu đồng. Mức hiện hành dao động 3,07-4,42 triệu đồng, giữ nguyên từ đầu năm 2020 đến nay.]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Dự_thảo]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[đề_xuất]]></Token>
@@ -97,9 +91,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[%]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[7]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[1/7]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tương_ứng]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[180.000]]></Token>
@@ -164,7 +156,7 @@
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[nay]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Bộ Lao động Thương binh và Xã hội cho rằng mức điều chỉnh này có sự chia sẻ, hài hòa lợi ích của người lao động và doanh nghiệp. Thông thường, lương tối thiểu vùng được điều chỉnh sau một năm thực hiện, song từ đầu năm 2020 đến nay, đại dịch tác động tiêu cực khiến việc tăng lương tối thiểu vùng bị trì hoãn tới hai năm. Lương tối thiểu hiện tại không còn đảm bảo mức sống tối thiểu của người lao động và gia đình, thấp hơn khoảng 1,3% vào năm 2022, theo tính toán của Bộ phận kỹ thuật, Hội đồng Tiền lương quốc gia.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Bộ Lao động Thương binh và Xã hội cho rằng mức điều chỉnh này có sự chia sẻ, hài hòa lợi ích của người lao động và doanh nghiệp. Thông thường, lương tối thiểu vùng được điều chỉnh sau một năm thực hiện, song từ đầu năm 2020 đến nay, đại dịch tác động tiêu cực khiến việc tăng lương tối thiểu vùng bị trì hoãn tới hai năm. Lương tối thiểu hiện tại không còn đảm bảo mức sống tối thiểu của người lao động và gia đình, thấp hơn khoảng 1,3 % vào năm 2022, theo tính toán của Bộ phận kỹ thuật, Hội đồng Tiền lương quốc gia.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Bộ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Lao_động_Thương_binh_và_Xã_hội]]></Token>
@@ -556,7 +548,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Chính_phủ]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Hội đồng Tiền lương quốc gia hôm 12/4 thống nhất đề xuất tăng lương tối thiểu vùng thêm 6% từ ngày 1/7/2022. Nếu được thông qua, đây là lần đầu tiên kể từ khi áp dụng lương tối thiểu vùng tại doanh nghiệp (năm 2009), tiền lương tăng vào giữa năm thay vì đầu năm và dự kiến kéo dài 18 tháng thay vì 12 tháng như thường lệ.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Hội đồng Tiền lương quốc gia hôm 12/4 thống nhất đề xuất tăng lương tối thiểu vùng thêm 6 % từ ngày 1/7/2022. Nếu được thông qua, đây là lần đầu tiên kể từ khi áp dụng lương tối thiểu vùng tại doanh nghiệp (năm 2009), tiền lương tăng vào giữa năm thay vì đầu năm và dự kiến kéo dài 18 tháng thay vì 12 tháng như thường lệ.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Hội_đồng_Tiền_lương]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[quốc_gia]]></Token>
@@ -621,7 +613,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thường_lệ]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Đại diện VCCI đồng ý với mức tăng 6% song chưa hài lòng với thời điểm tăng từ 1/7, mong muốn điều chỉnh từ 1/1/2023 để doanh nghiệp có thêm thời gian chuẩn bị. Ngày 14/4, tám hiệp hội doanh nghiệp có công văn gửi Chính phủ kiến nghị lùi thời điểm tăng lương sang đầu năm sau. Tổng liên đoàn Lao động Việt Nam sau đó có ý kiến, đề nghị các hiệp hội rút đề xuất này, trong bối cảnh khảo sát 56% lao động nói tiền lương không đủ sống.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Đại diện VCCI đồng ý với mức tăng 6 % song chưa hài lòng với thời điểm tăng từ 1/7, mong muốn điều chỉnh từ 1/1/2023 để doanh nghiệp có thêm thời gian chuẩn bị. Ngày 14/4, tám hiệp hội doanh nghiệp có công văn gửi Chính phủ kiến nghị lùi thời điểm tăng lương sang đầu năm sau. Tổng liên đoàn Lao động Việt Nam sau đó có ý kiến, đề nghị các hiệp hội rút đề xuất này, trong bối cảnh khảo sát 56 % lao động nói tiền lương không đủ sống.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Đại_diện]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[VCCI]]></Token>
@@ -656,9 +648,7 @@
         </Sentence>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[14]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[14/4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[tám]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hiệp_hội]]></Token>

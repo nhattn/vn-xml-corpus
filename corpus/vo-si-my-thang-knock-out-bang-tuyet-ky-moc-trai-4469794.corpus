@@ -37,9 +37,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[tại]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Brooklyn]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[29]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[29/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Tại đấu trường đa năng trong nhà ở Brooklyn, New York, Romero tung nhiều đòn hơn, nhưng Davis đánh hiệu quả hơn trước khi thắng knock-out kỹ thuật ở hiệp sáu. Khi hiệp đấu còn 21 giây, tận dụng việc đối thủ tấn công và sơ hở, Davis tung cú móc trái nặng trúng mặt khiến Romero ngã về phía dây đài rồi gục xuống.]]></SimpleTextPart>
@@ -122,9 +120,7 @@
             <Token tag="Vb" chunking="B-NP" ner="O"><![CDATA[knock-out]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Romero]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[29]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[29/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -351,7 +347,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[trận]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Theo thống kê từ CompuBox, Davis tung 84 đòn, với 25 cú trúng đích - đạt tỷ lệ 30%. Romero đấm tới 115 cú, nhưng chỉ có 22 đòn chính xác, chỉ đạt tỷ lệ 19%. Tương tự, Davis có 26 cú thọc (jab), trúng đích năm lần, đạt tỷ lệ 19%. Trong khi, con số này của Romero chỉ là 8%, với ba cú thọc trúng đích trên tổng số 39 đòn. Davis cũng có 20 pha ra đòn nặng chính xác, so với 19 của đối thủ.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Theo thống kê từ CompuBox, Davis tung 84 đòn, với 25 cú trúng đích - đạt tỷ lệ 30 % . Romero đấm tới 115 cú, nhưng chỉ có 22 đòn chính xác, chỉ đạt tỷ lệ 19 % . Tương tự, Davis có 26 cú thọc (jab), trúng đích năm lần, đạt tỷ lệ 19 % . Trong khi, con số này của Romero chỉ là 8 % , với ba cú thọc trúng đích trên tổng số 39 đòn. Davis cũng có 20 pha ra đòn nặng chính xác, so với 19 của đối thủ.]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Theo]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thống_kê]]></Token>
@@ -502,7 +498,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Romero]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Trước khi thượng đài tại Brooklyn, Davis có tỷ lệ ra đòn nặng chính xác là 47,7%, nhưng tỷ lệ này chỉ còn 34% khi đấu Romero. Davis cũng chỉ đấm trung bình 14 cú mỗi hiệp, thua xa mức trung bình trước trận là 36,6. Trong đó, 48% các cú đấm chính xác của Davis nhắm vào phần cơ thể của Romero. Những thống kê này cho thấy Davis trải qua trận đấu khó khăn trước khi giữ danh hiệu WBA hạng nhẹ.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Trước khi thượng đài tại Brooklyn, Davis có tỷ lệ ra đòn nặng chính xác là 47,7 % , nhưng tỷ lệ này chỉ còn 34 % khi đấu Romero. Davis cũng chỉ đấm trung bình 14 cú mỗi hiệp, thua xa mức trung bình trước trận là 36,6. Trong đó, 48 % các cú đấm chính xác của Davis nhắm vào phần cơ thể của Romero. Những thống kê này cho thấy Davis trải qua trận đấu khó khăn trước khi giữ danh hiệu WBA hạng nhẹ.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Trước]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[khi]]></Token>

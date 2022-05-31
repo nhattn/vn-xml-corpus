@@ -165,7 +165,7 @@
         <SimpleTextPart><![CDATA[Tháng 6 tới tôi sẽ bay qua Canada, đã có visa đầy đủ. Tôi đang thắc mắc về việc quá cảnh tại Hàn Quốc. 5]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[tới]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[tôi]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[sẽ]]></Token>

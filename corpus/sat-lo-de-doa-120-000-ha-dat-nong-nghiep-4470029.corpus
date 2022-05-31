@@ -397,7 +397,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[nói]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Cà Mau nằm ở cực nam đất nước, rộng hơn 5.300 km2, khoảng 1,2 triệu dân. Địa phương có thế mạnh về thuỷ sản, đặc biệt là nuôi và chế biến tôm xuất khẩu. Giai đoạn năm 2020-2025, tỉnh đặt mục tiêu tăng trưởng kinh tế 6,5-7% mỗi năm; thu nhập bình quân đầu người đến 2025 đạt 77 triệu đồng.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Cà Mau nằm ở cực nam đất nước, rộng hơn 5.300 km2, khoảng 1,2 triệu dân. Địa phương có thế mạnh về thuỷ sản, đặc biệt là nuôi và chế biến tôm xuất khẩu. Giai đoạn năm 2020-2025, tỉnh đặt mục tiêu tăng trưởng kinh tế 6,5-7 % mỗi năm; thu nhập bình quân đầu người đến 2025 đạt 77 triệu đồng.]]></SimpleTextPart>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Cà_Mau]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[nằm]]></Token>
@@ -518,9 +518,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ứng_phó]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[27]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[8]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[27/8]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

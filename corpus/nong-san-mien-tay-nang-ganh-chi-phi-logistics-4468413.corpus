@@ -62,9 +62,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[tại]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Cần_Thơ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[26]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[26/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -241,7 +239,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[nói]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Theo Ban tổ chức Diễn đàn, Đồng bằng sông Cửu Long hiện có 1.461 doanh nghiệp cung cấp dịch vụ logistics, chỉ chiếm hơn 4% số đơn vị hoạt động trong lĩnh vực này trên cả nước. Tuy nhiên, phần lớn các dịch vụ logistics ở miền Tây chỉ dừng lại ở từng hoạt động riêng lẻ, thiếu chuyên nghiệp, chưa có sự kết nối chặt chẽ giữa các phương thức vận tải, nên thường gây ra chậm trễ, chi phí phát sinh cao.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Theo Ban tổ chức Diễn đàn, Đồng bằng sông Cửu Long hiện có 1.461 doanh nghiệp cung cấp dịch vụ logistics, chỉ chiếm hơn 4 % số đơn vị hoạt động trong lĩnh vực này trên cả nước. Tuy nhiên, phần lớn các dịch vụ logistics ở miền Tây chỉ dừng lại ở từng hoạt động riêng lẻ, thiếu chuyên nghiệp, chưa có sự kết nối chặt chẽ giữa các phương thức vận tải, nên thường gây ra chậm trễ, chi phí phát sinh cao.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Theo]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ban]]></Token>
@@ -351,7 +349,7 @@
             <Token tag="Np" chunking="I-NP" ner="B-LOC"><![CDATA[Trung_Quốc]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[...]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Ông Hoàng Hồng Giang - Phó cục trưởng Cục Hàng hải (Bộ Giao thông Vận tải) cho biết miền Tây có 12 cảng biển nhưng chỉ đạt khoảng 50% công suất. Cụ thể, theo quy hoạch, năm 2020, sản lượng hàng hóa thông qua của đồng bằng sông Cửu Long 45-50 triệu tấn với khoảng 500.000 container mỗi năm. Tuy nhiên, thực tế thấp hơn rất nhiều. Năm 2019 đạt 21 triệu tấn, năm 2020 là 22,9 triệu tấn, năm 2021 số lượng hàng hóa có giảm xuống còn 21 triệu tấn (do ảnh hưởng dịch Covid-19).]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Ông Hoàng Hồng Giang - Phó cục trưởng Cục Hàng hải (Bộ Giao thông Vận tải) cho biết miền Tây có 12 cảng biển nhưng chỉ đạt khoảng 50 % công suất. Cụ thể, theo quy hoạch, năm 2020, sản lượng hàng hóa thông qua của đồng bằng sông Cửu Long 45-50 triệu tấn với khoảng 500.000 container mỗi năm. Tuy nhiên, thực tế thấp hơn rất nhiều. Năm 2019 đạt 21 triệu tấn, năm 2020 là 22,9 triệu tấn, năm 2021 số lượng hàng hóa có giảm xuống còn 21 triệu tấn (do ảnh hưởng dịch Covid-19).]]></SimpleTextPart>
         <Sentence>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[Ông]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Hoàng_Hồng_Giang]]></Token>

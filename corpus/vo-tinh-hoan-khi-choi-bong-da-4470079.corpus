@@ -44,9 +44,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Việt]]></Token>
             <Token tag="Np" chunking="I-NP" ner="I-LOC"><![CDATA[Đức]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[31]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[31/5]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thông_tin]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[sau]]></Token>
@@ -76,7 +74,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[điều_trị]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Bác sĩ Nguyễn Duy Khánh, Trung tâm Nam học, cho biết người bệnh vào viện trong tình trạng tinh hoàn phải sưng nề, bầm tím, tụ máu lớn vùng bìu. Khi phẫu thuật, ê kíp nhận thấy tinh hoàn phải vỡ hai vị trí, mất 50% nhu mô. Các bác sĩ lấy máu tụ, khâu cầm máu, bảo tồn tinh hoàn. May mắn sau ba ngày, tình trạng bệnh nhân ổn định.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Bác sĩ Nguyễn Duy Khánh, Trung tâm Nam học, cho biết người bệnh vào viện trong tình trạng tinh hoàn phải sưng nề, bầm tím, tụ máu lớn vùng bìu. Khi phẫu thuật, ê kíp nhận thấy tinh hoàn phải vỡ hai vị trí, mất 50 % nhu mô. Các bác sĩ lấy máu tụ, khâu cầm máu, bảo tồn tinh hoàn. May mắn sau ba ngày, tình trạng bệnh nhân ổn định.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Bác_sĩ]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Nguyễn_Duy_Khánh]]></Token>

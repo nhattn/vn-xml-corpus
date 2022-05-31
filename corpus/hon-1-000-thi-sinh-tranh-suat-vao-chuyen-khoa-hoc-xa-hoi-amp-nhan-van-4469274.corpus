@@ -147,7 +147,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giữa]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Để chuẩn bị cho kỳ thi vào lớp 10, ngoài ba môn Văn, Toán, Anh, nữ sinh tự học thêm môn Sử. Tận dụng các bài giảng miễn phí trên Internet, Yến còn xin thêm tài liệu của các anh, chị khóa trên để ôn luyện. Lần đầu tham dự một kỳ thi với số lượng thí sinh tương đối lớn, Yến tỏ ra khá lo lắng. "Em không quen ai nên cũng khá hồi hộp", nữ sinh chia sẻ.]]></SimpleTextPart>
@@ -612,9 +612,7 @@
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[17]]></Token>
             <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[h]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[10]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[10/6]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

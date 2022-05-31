@@ -66,7 +66,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[quốc_tế]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Đại diện Vietnam Airlines cho biết, từ 1/6 đến 15/8, Vietnam Airlines Group (bao gồm Vietnam Airlines, Pacific Airlines, VASCO) dự kiến cung cấp hơn 7,1 triệu chỗ bay nội địa và quốc tế, tương ứng hơn 36.000 chuyến. Trong đó, chuyến bay nội địa có gần 6,3 triệu chỗ, tăng 6% so với năm 2019. Các chặng giữa Hà Nội, TP HCM, Đà Nẵng và các điểm du lịch sẽ tăng chỗ gần 30% so với cuối tháng 3. Các đường bay quốc tế, hãng sẽ cung ứng hơn 852.000 chỗ, bằng 40% sản lượng năm 2019 do nhu cầu bay quốc tế dự báo hồi phục chậm hơn.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Đại diện Vietnam Airlines cho biết, từ 1/6 đến 15/8, Vietnam Airlines Group (bao gồm Vietnam Airlines, Pacific Airlines, VASCO) dự kiến cung cấp hơn 7,1 triệu chỗ bay nội địa và quốc tế, tương ứng hơn 36.000 chuyến. Trong đó, chuyến bay nội địa có gần 6,3 triệu chỗ, tăng 6 % so với năm 2019. Các chặng giữa Hà Nội, TP HCM, Đà Nẵng và các điểm du lịch sẽ tăng chỗ gần 30 % so với cuối tháng 3. Các đường bay quốc tế, hãng sẽ cung ứng hơn 852.000 chỗ, bằng 40 % sản lượng năm 2019 do nhu cầu bay quốc tế dự báo hồi phục chậm hơn.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Đại_diện]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Vietnam_Airlines]]></Token>
@@ -154,7 +154,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[với]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -199,7 +199,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[:]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Giang_Huy]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Vietravel Airlines sẽ tăng mỗi ngày thêm 2 chuyến Hà Nội - TP HCM, 2 chuyến Hà Nội - Đà Nẵng, một chuyến Hà Nội - Quy Nhơn, 1-2 chuyến chặng TP HCM - Đà Nẵng/Quy Nhơn/Phú Quốc. Các chuyến bay nội địa trong thời gian từ tháng 6 đến tháng 8 đã lấp đầy trên 80%. Các chuyến Hà Nội - Đà Nẵng và TP HCM - Phú Quốc được quan tâm nhiều nhất hè này. Hãng cũng có kế hoạch mở các chuyến bay quốc tế đến Indonesia, Thái Lan, Hàn Quốc, mà gần nhất là các chuyến charter TP HCM - Jakarta và Cần Thơ - Bangkok.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Vietravel Airlines sẽ tăng mỗi ngày thêm 2 chuyến Hà Nội - TP HCM, 2 chuyến Hà Nội - Đà Nẵng, một chuyến Hà Nội - Quy Nhơn, 1-2 chuyến chặng TP HCM - Đà Nẵng/Quy Nhơn/Phú Quốc. Các chuyến bay nội địa trong thời gian từ tháng 6 đến tháng 8 đã lấp đầy trên 80 % . Các chuyến Hà Nội - Đà Nẵng và TP HCM - Phú Quốc được quan tâm nhiều nhất hè này. Hãng cũng có kế hoạch mở các chuyến bay quốc tế đến Indonesia, Thái Lan, Hàn Quốc, mà gần nhất là các chuyến charter TP HCM - Jakarta và Cần Thơ - Bangkok.]]></SimpleTextPart>
         <Sentence>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[Vietravel]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Airlines]]></Token>
@@ -251,10 +251,10 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thời_gian]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[8]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[8]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[đã]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[lấp]]></Token>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[đầy]]></Token>
@@ -360,7 +360,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tàu_bay]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[...]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Bamboo Airways cũng dự kiến tăng 15% số chỗ so với hiện tại, đồng thời khai trương thêm đường bay quốc tế mới. Các chuyến bay tăng cường tới các điểm du lịch Phú Quốc, Đà Nẵng, Nha Trang, Quy Nhơn... và đường bay trục Hà Nội - TP HCM - Đà Nẵng. Hãng đã chủ động bố trí các chuyến bay muộn sau 19h đến các điểm du lịch và đưa khách về từ các điểm du lịch sau 21h. Các sản phẩm bay đêm sẽ góp phần giảm ùn ứ tại sân bay dịp cao điểm.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Bamboo Airways cũng dự kiến tăng 15 % số chỗ so với hiện tại, đồng thời khai trương thêm đường bay quốc tế mới. Các chuyến bay tăng cường tới các điểm du lịch Phú Quốc, Đà Nẵng, Nha Trang, Quy Nhơn... và đường bay trục Hà Nội - TP HCM - Đà Nẵng. Hãng đã chủ động bố trí các chuyến bay muộn sau 19h đến các điểm du lịch và đưa khách về từ các điểm du lịch sau 21h. Các sản phẩm bay đêm sẽ góp phần giảm ùn ứ tại sân bay dịp cao điểm.]]></SimpleTextPart>
         <Sentence>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[Bamboo]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Airways]]></Token>
@@ -601,7 +601,7 @@
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Hiện tại, giá vé máy bay cũng đang tăng cao. Cuối tuần, giá cao hơn thời điểm trong tuần 30-50%. Chặng Hà Nội - Nha Trang dịp cuối tuần tháng 6 của Vietnam Airlines khoảng 6 triệu đồng khứ hồi, chặng Hà Nội - Đà Nẵng giá hơn 4 triệu đồng khứ hồi. Chặng TP HCM - Đà Nẵng giá gần 3 triệu đồng khứ hồi, TP HCM - Phú Quốc gần 4 triệu đồng khứ hồi. Chặng Hà Nội - Côn Đảo của Bamboo Airlines có giá cao nhất vào cuối tuần hơn 8 triệu đồng khứ hồi (bao gồm thuế, phí), chặng Hà Nội - Phú Quốc giá hơn 6 triệu đồng khứ hồi...]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Hiện tại, giá vé máy bay cũng đang tăng cao. Cuối tuần, giá cao hơn thời điểm trong tuần 30-50 % . Chặng Hà Nội - Nha Trang dịp cuối tuần tháng 6 của Vietnam Airlines khoảng 6 triệu đồng khứ hồi, chặng Hà Nội - Đà Nẵng giá hơn 4 triệu đồng khứ hồi. Chặng TP HCM - Đà Nẵng giá gần 3 triệu đồng khứ hồi, TP HCM - Phú Quốc gần 4 triệu đồng khứ hồi. Chặng Hà Nội - Côn Đảo của Bamboo Airlines có giá cao nhất vào cuối tuần hơn 8 triệu đồng khứ hồi (bao gồm thuế, phí), chặng Hà Nội - Phú Quốc giá hơn 6 triệu đồng khứ hồi...]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Hiện_tại]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
@@ -636,7 +636,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tuần]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[của]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Vietnam_Airlines]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[khoảng]]></Token>

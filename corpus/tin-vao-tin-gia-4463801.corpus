@@ -84,7 +84,7 @@
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[này]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Một nghiên cứu mới đây từ nhóm các tác giả thuộc Đại học Oxford, được UNICEF công bố cho thấy, 76% thanh thiếu niên đối mặt với tin giả từ các nguồn trực tuyến ít nhất một lần một tuần, tăng 50% so với hai năm trước đó. Câu nói, được cho là của nhà văn Mark Twain, rằng "một lời nói dối có thể đi vòng quanh thế giới và quay trở lại trong khi sự thật đang buộc dây giày của nó", dường như rất đúng về vấn đề nhức nhối hôm nay.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Một nghiên cứu mới đây từ nhóm các tác giả thuộc Đại học Oxford, được UNICEF công bố cho thấy, 76 % thanh thiếu niên đối mặt với tin giả từ các nguồn trực tuyến ít nhất một lần một tuần, tăng 50 % so với hai năm trước đó. Câu nói, được cho là của nhà văn Mark Twain, rằng "một lời nói dối có thể đi vòng quanh thế giới và quay trở lại trong khi sự thật đang buộc dây giày của nó", dường như rất đúng về vấn đề nhức nhối hôm nay.]]></SimpleTextPart>
         <Sentence>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[Một]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[nghiên_cứu]]></Token>
@@ -410,35 +410,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Số_liệu]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[của]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[datareportal.com]]></Token>
-            <Token tag="X" chunking="O" ner="O"><![CDATA[mới_đây]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[cho]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thấy]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
-            <Token tag="Nc" chunking="B-NP" ner="B-MISC"><![CDATA[người]]></Token>
-            <Token tag="Np" chunking="I-NP" ner="I-MISC"><![CDATA[Việt]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[dành]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[trung_bình]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[7,06]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giờ]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[mỗi]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trên]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Internet]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[cao]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[hơn]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[mức]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[trung_bình]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6,53]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giờ]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[của]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thế_giới]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Tổng số 4,62 tỷ người dùng mạng xã hội hiện nay, cao gấp 3,1 lần so với con số 1,48 tỷ mà datareportal từng công bố 10 năm trước (2012). Một công bố từ Đại học Harvard, Mỹ chỉ ra rằng, một thập kỷ trước, chỉ có 8% người Mỹ trên 65 tuổi sử dụng mạng xã hội. Ngày nay, con số đó lên tới 40%.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Tổng số 4,62 tỷ người dùng mạng xã hội hiện nay, cao gấp 3,1 lần so với con số 1,48 tỷ mà datareportal từng công bố 10 năm trước (2012). Một công bố từ Đại học Harvard, Mỹ chỉ ra rằng, một thập kỷ trước, chỉ có 8 % người Mỹ trên 65 tuổi sử dụng mạng xã hội. Ngày nay, con số đó lên tới 40 % .]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Tổng_số]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4,62]]></Token>

@@ -45,7 +45,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[phong_tỏa]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Các cảng ở Biển Đen của Ukraine, đặc biệt là cảng Odessa, đã bị phong tỏa kể từ khi Nga mở chiến dịch quân sự và hơn 20 triệu tấn ngũ cốc đang mắc kẹt trong các hầm chứa. Nga và Ukraine chiếm 29% lượng lúa mì xuất khẩu toàn cầu, chủ yếu vận chuyển qua Biển Đen, và 80% lượng dầu hướng dương xuất khẩu trên khắp thế giới. Ukraine cũng là nước xuất khẩu ngô quy mô lớn. Liên Hợp Quốc cảnh báo thiếu lượng ngũ cốc xuất khẩu từ các cảng Ukraine có thể gây ra khủng hoảng lương thực toàn cầu trong vài tháng tới.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Các cảng ở Biển Đen của Ukraine, đặc biệt là cảng Odessa, đã bị phong tỏa kể từ khi Nga mở chiến dịch quân sự và hơn 20 triệu tấn ngũ cốc đang mắc kẹt trong các hầm chứa. Nga và Ukraine chiếm 29 % lượng lúa mì xuất khẩu toàn cầu, chủ yếu vận chuyển qua Biển Đen, và 80 % lượng dầu hướng dương xuất khẩu trên khắp thế giới. Ukraine cũng là nước xuất khẩu ngô quy mô lớn. Liên Hợp Quốc cảnh báo thiếu lượng ngũ cốc xuất khẩu từ các cảng Ukraine có thể gây ra khủng hoảng lương thực toàn cầu trong vài tháng tới.]]></SimpleTextPart>
         <Sentence>
             <Token tag="L" chunking="B-NP" ner="O"><![CDATA[Các]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cảng]]></Token>
@@ -211,9 +211,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Moskva]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[25]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[25/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

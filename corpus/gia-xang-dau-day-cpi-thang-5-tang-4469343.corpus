@@ -10,7 +10,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[đẩy]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[CPI]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tăng]]></Token>
         </Sentence>
         <Sentence>
@@ -27,16 +27,16 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[khiến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[CPI]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tăng]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[0,38]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[%]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Thông tin này vừa được Tổng cục Thống kê công bố. Nếu so với cùng kỳ năm ngoái, CPI tháng này tăng 2,86%.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Thông tin này vừa được Tổng cục Thống kê công bố. Nếu so với cùng kỳ năm ngoái, CPI tháng này tăng 2,86 % .]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Thông_tin]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[này]]></Token>
@@ -100,13 +100,13 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đầu_vào]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Cụ thể, trong tháng 5, các đợt điều chỉnh giá xăng, dầu tăng lần lượt 5,93% và 3,99% khiến CPI của nhóm giao thông có mức bật cao nhất với 2,34%. Điều này tác động đáng kể đến CPI nói chung.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Cụ thể, trong tháng 5, các đợt điều chỉnh giá xăng, dầu tăng lần lượt 5,93 % và 3,99 % khiến CPI của nhóm giao thông có mức bật cao nhất với 2,34 % . Điều này tác động đáng kể đến CPI nói chung.]]></SimpleTextPart>
         <Sentence>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[Cụ_thể]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="L" chunking="B-NP" ner="O"><![CDATA[các]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đợt]]></Token>
@@ -147,7 +147,7 @@
             <Token tag="X" chunking="O" ner="O"><![CDATA[nói_chung]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Nhóm văn hoá, giải trí và du lịch tăng 0,74% do nhu cầu đi lại, nghỉ dưỡng của người dân quay trở lại. Nhóm đồ uống, thuốc lá hay các mặt hàng lương thực cũng có sự điều chỉnh về giá do nguyên liệu đầu vào, vận chuyển tăng...]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Nhóm văn hoá, giải trí và du lịch tăng 0,74 % do nhu cầu đi lại, nghỉ dưỡng của người dân quay trở lại. Nhóm đồ uống, thuốc lá hay các mặt hàng lương thực cũng có sự điều chỉnh về giá do nguyên liệu đầu vào, vận chuyển tăng...]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Nhóm]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[văn_hoá]]></Token>
@@ -193,7 +193,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tăng]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[...]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Chỉ số giá nhiều nhóm hàng hoá trong tháng đi lên là lý do khiến CPI bình quân 5 tháng đầu năm tăng 2,25% so với cùng kỳ năm trước. Tuy nhiên, mức này lại thấp hơn mức tăng của 5 tháng đầu năm giai đoạn 2017-2020. Còn lạm phát cơ bản tăng 1,1%, thấp hơn mức CPI bình quân chung, theo Tổng cục Thống kê, việc này phản ánh biến động giá tiêu dùng chủ yếu do giá lương thực, xăng dầu.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Chỉ số giá nhiều nhóm hàng hoá trong tháng đi lên là lý do khiến CPI bình quân 5 tháng đầu năm tăng 2,25 % so với cùng kỳ năm trước. Tuy nhiên, mức này lại thấp hơn mức tăng của 5 tháng đầu năm giai đoạn 2017-2020. Còn lạm phát cơ bản tăng 1,1 % , thấp hơn mức CPI bình quân chung, theo Tổng cục Thống kê, việc này phản ánh biến động giá tiêu dùng chủ yếu do giá lương thực, xăng dầu.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Chỉ_số]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giá]]></Token>
@@ -278,14 +278,14 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[xăng_dầu]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Giá vàng trong nước tháng 5 cũng biến động cùng chiều với giá thế giới. Tính đến ngày 25/5, bình quân giá vàng thế giới ở mức 1.845 USD một ounce, giảm 4,6% so với tháng trước do đồng USD mạnh lên và lợi suất trái phiếu tăng trở lại làm giảm sức hấp dẫn của vàng. Trong nước, chỉ số giá vàng tháng 5 giảm 0,52% so với tháng trước.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Giá vàng trong nước tháng 5 cũng biến động cùng chiều với giá thế giới. Tính đến ngày 25/5, bình quân giá vàng thế giới ở mức 1.845 USD một ounce, giảm 4,6 % so với tháng trước do đồng USD mạnh lên và lợi suất trái phiếu tăng trở lại làm giảm sức hấp dẫn của vàng. Trong nước, chỉ số giá vàng tháng 5 giảm 0,52 % so với tháng trước.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Giá]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[vàng]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nước]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[cũng]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[biến_động]]></Token>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[cùng]]></Token>
@@ -299,9 +299,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Tính]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[25]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[25/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[bình_quân]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giá]]></Token>
@@ -347,7 +345,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giá]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[vàng]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[giảm]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[0,52]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[%]]></Token>
@@ -357,7 +355,7 @@
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[trước]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Thuế bảo vệ môi trường với xăng, dầu đã giảm 50% từ đầu tháng 4 nhưng theo các chuyên gia, vẫn như "muối bỏ bể" trước đà tăng giá thế giới. 53]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Thuế bảo vệ môi trường với xăng, dầu đã giảm 50 % từ đầu tháng 4 nhưng theo các chuyên gia, vẫn như "muối bỏ bể" trước đà tăng giá thế giới. 53]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Thuế]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[bảo_vệ]]></Token>
@@ -373,7 +371,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đầu]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="C" chunking="O" ner="O"><![CDATA[nhưng]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[theo]]></Token>
             <Token tag="L" chunking="B-NP" ner="O"><![CDATA[các]]></Token>
@@ -402,7 +400,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[mức]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đỉnh]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="C" chunking="O" ner="O"><![CDATA[nhưng]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giá]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[xăng]]></Token>

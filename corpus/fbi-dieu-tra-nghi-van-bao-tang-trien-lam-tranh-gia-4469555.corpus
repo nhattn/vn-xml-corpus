@@ -31,9 +31,7 @@
         <SimpleTextPart><![CDATA[Ngày 29/5 (theo giờ địa phương), New York Times đưa tin Đội tội phạm nghệ thuật của FBI (Art crime team) đang điều tra tính xác thực của 25 bức tranh trong triển lãm Heroes & Monsters (diễn ra ngày 12/2-30/6) tại Bảo tàng Nghệ thuật Orlando. Các tác phẩm lần đầu được giới thiệu đến giới chuyên môn và công chúng.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[29]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[29/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[(]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[theo]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giờ]]></Token>
@@ -69,8 +67,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[diễn]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[ra]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[12]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[12/]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[2-30]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
@@ -223,9 +220,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ra]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[12]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[2]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[12/2]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[30]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>

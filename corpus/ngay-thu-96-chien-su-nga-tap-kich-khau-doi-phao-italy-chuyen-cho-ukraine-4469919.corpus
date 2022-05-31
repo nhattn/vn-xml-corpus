@@ -250,7 +250,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hồi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giữa]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[cho]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[biết]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Italy]]></Token>
@@ -400,7 +400,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[đình_chỉ]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Tổng thống Ukraine Volodymyr Zelensky cho rằng giành được Severodonetsk là "nhiệm vụ quan trọng của đối phương". "90% công trình hư hại, hơn hai phần ba nhà cửa trong thành phố đã bị phá hủy", ông nói.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Tổng thống Ukraine Volodymyr Zelensky cho rằng giành được Severodonetsk là "nhiệm vụ quan trọng của đối phương". "90 % công trình hư hại, hơn hai phần ba nhà cửa trong thành phố đã bị phá hủy", ông nói.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Tổng_thống]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Ukraine_Volodymyr_Zelensky]]></Token>
@@ -861,9 +861,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[chiến_dịch]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[quân_sự]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[24]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[2]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[24/2]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

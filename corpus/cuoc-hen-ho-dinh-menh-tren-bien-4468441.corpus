@@ -495,9 +495,7 @@
         <SimpleTextPart><![CDATA[Ngày 27/8, hai người thuê một chiếc thuyền nhỏ đến Nusa Dua lặn, người chèo là Joseph. Chiếc thuyền thả neo tại một vị trí sâu khoảng 10 mét. Jenny đeo trang bị vào, lặn xuống biển, Sunny và Joseph ở trên thuyền chờ.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[27]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[8]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[27/8]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[hai]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[người]]></Token>
@@ -1101,7 +1099,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thu_nhập]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[mỗi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[300]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[300]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[SGD]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="C" chunking="O" ner="O"><![CDATA[còn]]></Token>

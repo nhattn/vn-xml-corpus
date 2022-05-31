@@ -619,9 +619,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA["]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[23]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[23/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -629,7 +627,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[:]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Reuters]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Đậu mùa khỉ đang bùng phát ở một số nước châu Âu như Pháp, Tây Ban Nha... Tính đến 30/5, thế giới ghi nhận hơn 200 ca nhiễm, 117 ca nghi nhiễm ở 19 quốc gia, chưa có ca tử vong. Có 2 chủng đậu mùa khỉ, gồm chủng có nguồn gốc từ Congo với tỷ lệ tử vong là 10% trên tổng số người mắc và chủng từ Tây Phi có tỷ lệ tử vong là 1%.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Đậu mùa khỉ đang bùng phát ở một số nước châu Âu như Pháp, Tây Ban Nha... Tính đến 30/5, thế giới ghi nhận hơn 200 ca nhiễm, 117 ca nghi nhiễm ở 19 quốc gia, chưa có ca tử vong. Có 2 chủng đậu mùa khỉ, gồm chủng có nguồn gốc từ Congo với tỷ lệ tử vong là 10 % trên tổng số người mắc và chủng từ Tây Phi có tỷ lệ tử vong là 1 % .]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Đậu_mùa]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[khỉ]]></Token>

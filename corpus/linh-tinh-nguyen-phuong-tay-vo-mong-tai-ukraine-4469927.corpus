@@ -341,7 +341,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hồi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[2]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[2]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[sau]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[khi]]></Token>
@@ -602,7 +602,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Ukraine]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đầu]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thông_báo]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[dừng]]></Token>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[hoàn_toàn]]></Token>
@@ -833,7 +833,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đầu]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -887,7 +887,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hồi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -1075,7 +1075,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ukraine]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="Cc" chunking="B-NP" ner="O"><![CDATA[và]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[đang]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[phục_hồi]]></Token>

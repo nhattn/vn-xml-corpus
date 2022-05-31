@@ -172,7 +172,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[:]]></Token>
             <Token tag="Np" chunking="B-NP" ner="O"><![CDATA[CGV]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Các báo cáo thị trường chỉ ra 58% khán giả của Top Gun: Maverick là đàn ông. Đồng thời, phim hấp dẫn nhóm người xem lớn tuổi, với 55% ở độ tuổi trên 35. Theo cuộc khảo sát của Deadline, hơn một nửa số khán giả được hỏi cho biết tác phẩm vượt kỳ vọng. 30% khán giả nói sẽ trở lại rạp để xem lần hai.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Các báo cáo thị trường chỉ ra 58 % khán giả của Top Gun: Maverick là đàn ông. Đồng thời, phim hấp dẫn nhóm người xem lớn tuổi, với 55 % ở độ tuổi trên 35. Theo cuộc khảo sát của Deadline, hơn một nửa số khán giả được hỏi cho biết tác phẩm vượt kỳ vọng. 30 % khán giả nói sẽ trở lại rạp để xem lần hai.]]></SimpleTextPart>
         <Sentence>
             <Token tag="L" chunking="B-NP" ner="O"><![CDATA[Các]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[báo_cáo]]></Token>
@@ -395,9 +395,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[tại]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Mỹ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[27]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[27/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[trùng]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[dịp]]></Token>

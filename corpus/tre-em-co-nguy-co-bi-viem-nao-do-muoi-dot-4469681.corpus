@@ -67,7 +67,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[(]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[)]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[khiến]]></Token>
             <Token tag="L" chunking="B-NP" ner="O"><![CDATA[các]]></Token>
@@ -150,7 +150,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="L" chunking="B-NP" ner="O"><![CDATA[các]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
@@ -270,7 +270,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[sốt_xuất_huyết]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Virus viêm não Nhật Bản tấn công khiến các mô não bị viêm. Bệnh diễn tiến nhanh, trẻ rơi vào lơ mơ, nôn ói, cứng cổ, đau đầu, co giật, toàn thân gồng duỗi hoặc ưỡn người, hôn mê, suy hô hấp. Mọi lứa tuổi nếu chưa có miễn dịch với virus viêm não Nhật Bản đều có thể mắc bệnh. Bệnh chủ yếu gặp ở trẻ dưới 15 tuổi, chiếm hơn 90% số ca mắc, trong đó đa số là trẻ 1-5 tuổi. Khoảng 30-50% những trường hợp bị viêm não Nhật Bản sẽ có di chứng thần kinh và tâm thần vĩnh viễn. Các di chứng sớm có thể là liệt nửa người, mất ngôn ngữ, rối loạn phối hợp vận động, giảm trí nhớ nghiêm trọng... Các di chứng muộn có thể gặp là động kinh, nghe kém hoặc điếc, rối loạn tâm thần, sống thực vật...]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Virus viêm não Nhật Bản tấn công khiến các mô não bị viêm. Bệnh diễn tiến nhanh, trẻ rơi vào lơ mơ, nôn ói, cứng cổ, đau đầu, co giật, toàn thân gồng duỗi hoặc ưỡn người, hôn mê, suy hô hấp. Mọi lứa tuổi nếu chưa có miễn dịch với virus viêm não Nhật Bản đều có thể mắc bệnh. Bệnh chủ yếu gặp ở trẻ dưới 15 tuổi, chiếm hơn 90 % số ca mắc, trong đó đa số là trẻ 1-5 tuổi. Khoảng 30-50 % những trường hợp bị viêm não Nhật Bản sẽ có di chứng thần kinh và tâm thần vĩnh viễn. Các di chứng sớm có thể là liệt nửa người, mất ngôn ngữ, rối loạn phối hợp vận động, giảm trí nhớ nghiêm trọng... Các di chứng muộn có thể gặp là động kinh, nghe kém hoặc điếc, rối loạn tâm thần, sống thực vật...]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Virus]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[viêm_não_Nhật_Bản]]></Token>
@@ -698,7 +698,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[mũi]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Báo cáo mới đây của Trung tâm Kiểm soát bệnh tật TP HCM cho thấy, tỷ lệ tiêm chủng đầy đủ cho trẻ dưới 1 tuổi tại 21 quận, huyện, TP Thủ Đức đều không đạt chỉ tiêu lớn hơn hoặc bằng 95% (trừ huyện Cần Giờ). Đối với tỷ lệ tiêm mũi nhắc 18 tháng, 22 quận, huyện, TP Thủ Đức cũng không đạt chỉ tiêu.Trung tâm Kiểm soát bệnh tật TP HCM cho biết tình hình này sẽ dẫn đến nguy cơ cao bùng phát các dịch bệnh đã có vaccine.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Báo cáo mới đây của Trung tâm Kiểm soát bệnh tật TP HCM cho thấy, tỷ lệ tiêm chủng đầy đủ cho trẻ dưới 1 tuổi tại 21 quận, huyện, TP Thủ Đức đều không đạt chỉ tiêu lớn hơn hoặc bằng 95 % (trừ huyện Cần Giờ). Đối với tỷ lệ tiêm mũi nhắc 18 tháng, 22 quận, huyện, TP Thủ Đức cũng không đạt chỉ tiêu.Trung tâm Kiểm soát bệnh tật TP HCM cho biết tình hình này sẽ dẫn đến nguy cơ cao bùng phát các dịch bệnh đã có vaccine.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Báo_cáo]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[mới_đây]]></Token>
@@ -1022,7 +1022,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[mũi]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Theo số liệu của Cục Y tế dự phòng, cả nước ghi nhận gần 30.200 ca mắc sốt xuất huyết, 15 ca tử vong. So với cùng kỳ 2021, số mắc tăng 17,9%, tử vong tăng 8 ca, dự báo số mắc còn có thể tăng trong thời gian tới. Số trẻ mắc bệnh tay chân miệng trong những ngày cuối tháng 5 tại TP HCM cũng đang tăng gấp đôi so với tháng trước.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Theo số liệu của Cục Y tế dự phòng, cả nước ghi nhận gần 30.200 ca mắc sốt xuất huyết, 15 ca tử vong. So với cùng kỳ 2021, số mắc tăng 17,9 % , tử vong tăng 8 ca, dự báo số mắc còn có thể tăng trong thời gian tới. Số trẻ mắc bệnh tay chân miệng trong những ngày cuối tháng 5 tại TP HCM cũng đang tăng gấp đôi so với tháng trước.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Theo]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[số_liệu]]></Token>
@@ -1086,7 +1086,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[tại]]></Token>
             <Token tag="Ny" chunking="B-NP" ner="B-LOC"><![CDATA[TP]]></Token>
             <Token tag="Ny" chunking="I-NP" ner="I-LOC"><![CDATA[HCM]]></Token>
@@ -1174,9 +1174,7 @@
             <Token tag="Np" chunking="I-NP" ner="I-LOC"><![CDATA[Thanh_Chương]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[25]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[25/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

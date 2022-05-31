@@ -392,10 +392,10 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Silicon]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Hãng cũng nhận ra 43% khách uống trà không bỏ đường và 25% khách uống cafe không bỏ sữa, dựa vào đó tạo ra dòng sản phẩm k-cups tiện lợi bán sẵn trong siêu thị cho những nhóm này. Họ còn phát hiện rằng rất nhiều người vào cửa hàng chỉ vì cần một cái nhà vệ sinh sạch sẽ, hoạt động tốt. Chỉ số "cơ sở vật chất" này trở nên vô cùng quan trọng trong các báo cáo của Starbucks, tất cả vì mục đích phục vụ khách hàng một cách hoàn thiện.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Hãng cũng nhận ra 43 % khách uống trà không bỏ đường và 25 % khách uống cafe không bỏ sữa, dựa vào đó tạo ra dòng sản phẩm k-cups tiện lợi bán sẵn trong siêu thị cho những nhóm này. Họ còn phát hiện rằng rất nhiều người vào cửa hàng chỉ vì cần một cái nhà vệ sinh sạch sẽ, hoạt động tốt. Chỉ số "cơ sở vật chất" này trở nên vô cùng quan trọng trong các báo cáo của Starbucks, tất cả vì mục đích phục vụ khách hàng một cách hoàn thiện.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Hãng]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[cũng]]></Token>
@@ -879,7 +879,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[đúng_hướng]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Sử dụng dữ liệu người dùng để mang ích lợi cho chính những đối tượng đó, đã từ lâu không còn xa lạ với mọi ngành nghề, từ tư nhân đến quốc doanh. Đại học Purdue tại Mỹ phân tích dữ liệu sinh viên để dự báo em nào có khả năng bỏ học nhằm can thiệp kịp thời, từ đó tỷ lệ sinh viên bỏ ngang giữa chừng giảm 21%. Năm 2013, chưa đầy một ngày sau vụ khủng bố ở giải chạy Marathon Boston, FBI đã tổng hợp 10 terabytes dữ liệu, trong đó có 480 nghìn hình ảnh từ các camera công cộng, để nhanh chóng tìm ra thủ phạm.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Sử dụng dữ liệu người dùng để mang ích lợi cho chính những đối tượng đó, đã từ lâu không còn xa lạ với mọi ngành nghề, từ tư nhân đến quốc doanh. Đại học Purdue tại Mỹ phân tích dữ liệu sinh viên để dự báo em nào có khả năng bỏ học nhằm can thiệp kịp thời, từ đó tỷ lệ sinh viên bỏ ngang giữa chừng giảm 21 % . Năm 2013, chưa đầy một ngày sau vụ khủng bố ở giải chạy Marathon Boston, FBI đã tổng hợp 10 terabytes dữ liệu, trong đó có 480 nghìn hình ảnh từ các camera công cộng, để nhanh chóng tìm ra thủ phạm.]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Sử_dụng]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[dữ_liệu]]></Token>

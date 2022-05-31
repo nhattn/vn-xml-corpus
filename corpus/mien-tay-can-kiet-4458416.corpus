@@ -283,7 +283,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[qua]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Theo số liệu của Tổng cục Thống kê, suốt 20 năm qua (2000-2020), Đồng bằng sông Cửu Long luôn giữ vị thế "vựa lúa số một", với diện tích và sản lượng luôn đạt trên 50% tổng diện tích và sản lượng cả nước. Đồng bằng sông Cửu Long cũng đóng góp hơn 90% lượng gạo xuất khẩu của Việt Nam, phát triển được giống gạo ST-25 ngon nhất thế giới; đảm bảo an ninh lương thực quốc gia, tạo công ăn việc làm cho 65% cư dân nông thôn của vùng.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Theo số liệu của Tổng cục Thống kê, suốt 20 năm qua (2000-2020), Đồng bằng sông Cửu Long luôn giữ vị thế "vựa lúa số một", với diện tích và sản lượng luôn đạt trên 50 % tổng diện tích và sản lượng cả nước. Đồng bằng sông Cửu Long cũng đóng góp hơn 90 % lượng gạo xuất khẩu của Việt Nam, phát triển được giống gạo ST-25 ngon nhất thế giới; đảm bảo an ninh lương thực quốc gia, tạo công ăn việc làm cho 65 % cư dân nông thôn của vùng.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Theo]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[số_liệu]]></Token>
@@ -1006,9 +1006,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Đồng_bằng]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Sông_Cửu_Long]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[22]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[22/4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Tổng_Bí_thư]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Nguyễn_Phú_Trọng]]></Token>

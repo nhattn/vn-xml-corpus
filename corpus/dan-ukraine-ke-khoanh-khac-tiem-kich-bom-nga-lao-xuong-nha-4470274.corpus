@@ -276,9 +276,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ảnh]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[công_bố]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[30]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[30/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -715,9 +713,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Nga]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[rơi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5/3]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[nằm]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[số]]></Token>
@@ -834,9 +830,7 @@
         <Sentence>
             <Token tag="CH" chunking="O" ner="O"><![CDATA["]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5/3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[tôi]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[phát]]></Token>
@@ -856,9 +850,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA["]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Sang]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6/3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[chúng_tôi]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[chẳng]]></Token>

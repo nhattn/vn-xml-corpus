@@ -381,7 +381,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[chuyến]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[du_lịch]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Chuyến tàu kéo dài 45 phút giúp du khách thay đổi không khí, trải nghiệm cuộc sống khác vào cuối tuần. 62]]></SimpleTextPart>

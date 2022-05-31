@@ -54,9 +54,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[áp_chót]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Serie_A]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[15]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[15/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ống_kính]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[máy]]></Token>
@@ -2113,7 +2111,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Champions_League]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Ý chí ấy đã được ông khẳng định ngay sau khi Milan vô địch Serie A: "Đây là một đội bóng bị đánh giá thấp. Chúng tôi đã chơi với 100% khả năng, nhưng vẫn còn dư địa để phát triển. Đây sẽ là khởi điểm để bắt đầu cạnh tranh tại châu Âu".]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Ý chí ấy đã được ông khẳng định ngay sau khi Milan vô địch Serie A: "Đây là một đội bóng bị đánh giá thấp. Chúng tôi đã chơi với 100 % khả năng, nhưng vẫn còn dư địa để phát triển. Đây sẽ là khởi điểm để bắt đầu cạnh tranh tại châu Âu".]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ý_chí]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[ấy]]></Token>

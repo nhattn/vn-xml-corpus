@@ -49,9 +49,7 @@
         <SimpleTextPart><![CDATA[Ngày 30/5, vụ tranh chấp hợp đồng hứa thưởng giữa ông Đặng Đình Thịnh, 48 tuổi, với bị đơn Vương Thị Khanh cùng con trai Nguyễn Đắc Quang (đều đã chết) được TAND TP HCM đưa ra xét xử sơ thẩm lần hai. Những người thừa kế của bà Khanh và ông Quang tham gia với tư cách là bị đơn. Trong cùng vụ án, tòa cũng xem xét nhiều yêu cầu tranh chấp khác.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[30]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[30/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[vụ]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tranh_chấp]]></Token>
@@ -253,7 +251,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[phần]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Khi về Việt Nam, bà Khanh và con trai Nguyễn Đắc Quang muốn xin lại căn nhà này. Năm 2007, mẹ con bà Khanh và luật gia Thịnh ký hợp đồng tư vấn pháp lý, đòi lại căn nhà này với nội dung: ông Thịnh sẽ thay mặt bà Khanh liên hệ các cơ quan có thẩm quyền khiếu nại để đòi nhà; bà Khanh sẽ trả thưởng cho ông Thịnh 35% tổng giá trị nhà và đất sau khi đòi lại được.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Khi về Việt Nam, bà Khanh và con trai Nguyễn Đắc Quang muốn xin lại căn nhà này. Năm 2007, mẹ con bà Khanh và luật gia Thịnh ký hợp đồng tư vấn pháp lý, đòi lại căn nhà này với nội dung: ông Thịnh sẽ thay mặt bà Khanh liên hệ các cơ quan có thẩm quyền khiếu nại để đòi nhà; bà Khanh sẽ trả thưởng cho ông Thịnh 35 % tổng giá trị nhà và đất sau khi đòi lại được.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Khi]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[về]]></Token>
@@ -349,7 +347,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Thảo]]></Token>
             <Token tag="Np" chunking="I-NP" ner="I-PER"><![CDATA[Mi]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Đến ngày 28/6/2011, Bộ Xây dựng ra quyết định trả nhà cho bà Khanh. Khoảng một tuần sau, UBND TP HCM cũng ban hành quyết định trả nhà cho nữ Việt kiều này. Sau khi hoàn thành nhiệm vụ theo hợp đồng, ông Thịnh đề nghị mẹ con bà Khanh thực hiện trả thưởng như đã hứa. Tuy nhiên, mẹ con bà Khanh cho rằng chỉ hứa thưởng cho luật gia 15% giá trị tài sản chứ không phải 35%. Ông Thịnh sau đó kiện ra tòa.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Đến ngày 28/6/2011, Bộ Xây dựng ra quyết định trả nhà cho bà Khanh. Khoảng một tuần sau, UBND TP HCM cũng ban hành quyết định trả nhà cho nữ Việt kiều này. Sau khi hoàn thành nhiệm vụ theo hợp đồng, ông Thịnh đề nghị mẹ con bà Khanh thực hiện trả thưởng như đã hứa. Tuy nhiên, mẹ con bà Khanh cho rằng chỉ hứa thưởng cho luật gia 15 % giá trị tài sản chứ không phải 35 % . Ông Thịnh sau đó kiện ra tòa.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Đến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
@@ -538,7 +536,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[quyền_lợi]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Quá trình giải quyết vụ án, ông Thịnh cho biết phải bỏ nhiều công sức đi gõ cửa các cơ quan chức năng trong suốt 5 năm để đòi lại nhà cho bà Khanh. Do việc đòi lại nhà khó khăn nên mẹ con bà đã đồng ý hứa thưởng 35% giá trị nhà đất nói trên, song không thực hiện hợp đồng.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Quá trình giải quyết vụ án, ông Thịnh cho biết phải bỏ nhiều công sức đi gõ cửa các cơ quan chức năng trong suốt 5 năm để đòi lại nhà cho bà Khanh. Do việc đòi lại nhà khó khăn nên mẹ con bà đã đồng ý hứa thưởng 35 % giá trị nhà đất nói trên, song không thực hiện hợp đồng.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Quá_trình]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[giải_quyết]]></Token>
@@ -597,7 +595,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hợp_đồng]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Về phía bị đơn, người đại diện theo ủy quyền của bà Khanh thừa nhận bà có hứa thưởng nhưng chỉ đồng ý trả 15% giá trị nhà và đất thuộc phần sở hữu của bà. Đây là tài sản chung của vợ chồng nhưng việc hứa thưởng chỉ do mình bà Khanh thỏa thuận với ông Thịnh. Trước khi chết chồng bà không để lại di chúc nên phần tài sản của ông phải được chia cho 9 người con khác, không phụ thuộc vào việc hứa thưởng.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Về phía bị đơn, người đại diện theo ủy quyền của bà Khanh thừa nhận bà có hứa thưởng nhưng chỉ đồng ý trả 15 % giá trị nhà và đất thuộc phần sở hữu của bà. Đây là tài sản chung của vợ chồng nhưng việc hứa thưởng chỉ do mình bà Khanh thỏa thuận với ông Thịnh. Trước khi chết chồng bà không để lại di chúc nên phần tài sản của ông phải được chia cho 9 người con khác, không phụ thuộc vào việc hứa thưởng.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Về]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[phía]]></Token>
@@ -687,7 +685,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thưởng]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Hồi tháng 2/2015, TAND TP HCM xử sơ thẩm lần đầu chấp nhận yêu cầu khởi kiện của luật gia Thịnh, tuyên buộc bà Khanh và con trai Nguyễn Đắc Quang phải trả 35% tổng giá trị căn nhà, đất theo hợp đồng hứa thưởng. Giá trị tài sản căn nhà và đất của bất động sản được định giá là 156 tỷ đồng, do đó tòa tuyên bà Khanh phải trả cho luật gia Thịnh gần 55 tỷ đồng.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Hồi tháng 2/2015, TAND TP HCM xử sơ thẩm lần đầu chấp nhận yêu cầu khởi kiện của luật gia Thịnh, tuyên buộc bà Khanh và con trai Nguyễn Đắc Quang phải trả 35 % tổng giá trị căn nhà, đất theo hợp đồng hứa thưởng. Giá trị tài sản căn nhà và đất của bất động sản được định giá là 156 tỷ đồng, do đó tòa tuyên bà Khanh phải trả cho luật gia Thịnh gần 55 tỷ đồng.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Hồi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
@@ -1002,7 +1000,7 @@
             <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[đồng]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Ông trình bày, những năm đầu đi đòi nhà cho bà Khanh đều bị các cơ quan chức năng bác nhưng vẫn kiên trì khiếu nại. Phải mất hơn 5 năm ông mới đòi được nhà cho thân chủ. Lần thân chủ ký bản cam kết mức hứa thưởng 35% giá trị căn nhà ông phải sang tận Mỹ. Những giấy tờ này đều đã được làm thủ tục hợp pháp hóa lãnh sự. "Nhưng đến nay, sau hơn 10 năm đòi lại nhà cho thân chủ công sức của tôi vẫn chưa được ghi nhận", ông Thịnh nói.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Ông trình bày, những năm đầu đi đòi nhà cho bà Khanh đều bị các cơ quan chức năng bác nhưng vẫn kiên trì khiếu nại. Phải mất hơn 5 năm ông mới đòi được nhà cho thân chủ. Lần thân chủ ký bản cam kết mức hứa thưởng 35 % giá trị căn nhà ông phải sang tận Mỹ. Những giấy tờ này đều đã được làm thủ tục hợp pháp hóa lãnh sự. "Nhưng đến nay, sau hơn 10 năm đòi lại nhà cho thân chủ công sức của tôi vẫn chưa được ghi nhận", ông Thịnh nói.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ông]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[trình_bày]]></Token>
@@ -1295,7 +1293,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tranh_luận]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Cho rằng thân chủ không thực hiện hợp đồng hứa thưởng 35% giá trị tài sản đòi được, một luật gia ở Sài Gòn kiện ra tòa, đòi gần 55 tỷ đồng. 148]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Cho rằng thân chủ không thực hiện hợp đồng hứa thưởng 35 % giá trị tài sản đòi được, một luật gia ở Sài Gòn kiện ra tòa, đòi gần 55 tỷ đồng. 148]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Cho_rằng]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thân_chủ]]></Token>

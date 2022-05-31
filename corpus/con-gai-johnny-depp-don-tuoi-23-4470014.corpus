@@ -36,9 +36,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[People]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[30]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[30/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Lily-Rose_Depp]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[đăng]]></Token>
@@ -149,9 +147,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[phán_quyết]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[31]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[31/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[(]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giờ_địa_phương]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[)]]></Token>
@@ -200,7 +196,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[đối_tụng]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đầu]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Amber_Heard]]></Token>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[nhiều]]></Token>

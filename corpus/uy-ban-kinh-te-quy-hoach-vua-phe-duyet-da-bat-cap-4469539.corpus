@@ -39,7 +39,7 @@
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[bất_cập]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Luật Quy hoạch năm 2017 có hiệu lực từ ngày 1/1/2019. Theo báo cáo đoàn giám sát của Quốc hội và được Quốc hội thảo luận ngày 30/5, 99% cho quy hoạch quốc gia, quy hoạch vùng và tỉnh được duyệt nhiệm vụ. Nhưng tới bước lập chỉ 7 trong 111 quy hoạch được xem xét, phê duyệt, trong đó có 1 quy hoạch quốc gia, 2 quy hoạch vùng, tỉnh và 4 quy hoạch ngành.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Luật Quy hoạch năm 2017 có hiệu lực từ ngày 1/1/2019. Theo báo cáo đoàn giám sát của Quốc hội và được Quốc hội thảo luận ngày 30/5, 99 % cho quy hoạch quốc gia, quy hoạch vùng và tỉnh được duyệt nhiệm vụ. Nhưng tới bước lập chỉ 7 trong 111 quy hoạch được xem xét, phê duyệt, trong đó có 1 quy hoạch quốc gia, 2 quy hoạch vùng, tỉnh và 4 quy hoạch ngành.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Luật]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Quy_hoạch]]></Token>
@@ -64,9 +64,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Quốc_hội]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thảo_luận]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[30]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[30/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[99]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[%]]></Token>
@@ -275,7 +273,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[triển_khai]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Đây là nguyên nhân khiến việc lập, phê duyệt quy hoạch rất chậm. Hiện còn gần 94% quy hoạch chưa hoàn thành lập, phê duyệt. Việc này ảnh hưởng tới thực hiện chiến lược phát triển kinh tế xã hội 2021-2030 và kế hoạch phát triển kinh tế xã hội 5 năm tới.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Đây là nguyên nhân khiến việc lập, phê duyệt quy hoạch rất chậm. Hiện còn gần 94 % quy hoạch chưa hoàn thành lập, phê duyệt. Việc này ảnh hưởng tới thực hiện chiến lược phát triển kinh tế xã hội 2021-2030 và kế hoạch phát triển kinh tế xã hội 5 năm tới.]]></SimpleTextPart>
         <Sentence>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[Đây]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[là]]></Token>

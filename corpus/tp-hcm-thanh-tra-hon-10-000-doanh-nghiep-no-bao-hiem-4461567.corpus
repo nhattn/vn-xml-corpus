@@ -142,12 +142,12 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[lao_động]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Đến cuối tháng 3, thành phố ghi nhận gần 45.000 doanh nghiệp nợ bảo hiểm xã hội từ một đến trên 12 tháng với tổng số tiền hơn 4.000 tỷ đồng. Trong đó, khoảng 25.000 đơn vị nợ 1-3 tháng với hơn 1.500 tỷ đồng; trên 12.800 doanh nghiệp để nợ từ 3 đến dưới 12 tháng với tổng số tiền gần 665 tỷ đồng; gần 6.400 đơn vị nợ trên 12 tháng với hơn 1.700 tỷ đồng. Tổng số tiền doanh nghiệp nợ chiếm gần 7% kế hoạch thu năm 2022 của Bảo hiểm xã hội thành phố.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Đến cuối tháng 3, thành phố ghi nhận gần 45.000 doanh nghiệp nợ bảo hiểm xã hội từ một đến trên 12 tháng với tổng số tiền hơn 4.000 tỷ đồng. Trong đó, khoảng 25.000 đơn vị nợ 1-3 tháng với hơn 1.500 tỷ đồng; trên 12.800 doanh nghiệp để nợ từ 3 đến dưới 12 tháng với tổng số tiền gần 665 tỷ đồng; gần 6.400 đơn vị nợ trên 12 tháng với hơn 1.700 tỷ đồng. Tổng số tiền doanh nghiệp nợ chiếm gần 7 % kế hoạch thu năm 2022 của Bảo hiểm xã hội thành phố.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Đến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thành_phố]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ghi_nhận]]></Token>
@@ -301,7 +301,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Đến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thành_phố]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ghi_nhận]]></Token>

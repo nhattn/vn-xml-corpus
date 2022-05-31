@@ -38,9 +38,7 @@
         <SimpleTextPart><![CDATA[Ngày 26/5, Sở Giao thông Vận tải Quảng Ngãi cho biết đã cho phép các doanh nghiệp kinh doanh tàu cao tốc áp dụng mức giá vé mới. Cụ thể, mỗi vé từ đất liền ra Lý Sơn, từ 178.000 đồng tăng lên 213.000 đồng; chiều ngược lại 140.000 đồng-160.000 đồng tăng lên 195.000 đồng.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[26]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[26/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Sở]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Giao_thông]]></Token>
@@ -381,7 +379,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[12]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[12]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[tư]]></Token>

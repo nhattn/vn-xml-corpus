@@ -162,9 +162,7 @@
         <SimpleTextPart><![CDATA[Ngày 31/5, Công an huyện Cẩm Xuyên đã triệu tập một số người liên quan để lấy lời khai. Bước đầu, một nghi phạm đã ra đầu thú song cơ quan có thẩm quyền chưa cung cấp danh tính cũng như lời khai ban đầu.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[31]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[31/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="B-LOC"><![CDATA[Công_an]]></Token>
             <Token tag="N" chunking="I-NP" ner="I-LOC"><![CDATA[huyện]]></Token>

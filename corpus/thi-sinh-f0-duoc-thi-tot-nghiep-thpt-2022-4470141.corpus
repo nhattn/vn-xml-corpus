@@ -54,9 +54,7 @@
             <Token tag="L" chunking="B-NP" ner="O"><![CDATA[các]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[địa_phương]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[30]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[30/5]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[cho]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[biết]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
@@ -225,9 +223,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[nghi_ngờ]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[7]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6/7]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[(]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[một]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
@@ -362,7 +358,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Bộ_Giáo_dục_và]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Đào_tạo]]></Token>
@@ -400,7 +396,7 @@
             <Token tag="N" chunking="I-NP" ner="O"><![CDATA[Y_tế]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đầu]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[cũng]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[đưa]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ra]]></Token>
@@ -437,7 +433,7 @@
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[14.000]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Trong hơn một triệu thí sinh đăng ký dự thi, hơn 859.500 em sẽ dùng kết quả để vừa xét tốt nghiệp, vừa xét tuyển đại học (chiếm 85,87%). Số thí sinh chỉ thi để xét tốt nghiệp THPT là gần 103.400 (chiếm 10,33%). Số chỉ xét tuyển đại học và xét vào các trường cao đẳng sư phạm là hơn 33.100 (chiếm 3,81%).]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Trong hơn một triệu thí sinh đăng ký dự thi, hơn 859.500 em sẽ dùng kết quả để vừa xét tốt nghiệp, vừa xét tuyển đại học (chiếm 85,87 % ). Số thí sinh chỉ thi để xét tốt nghiệp THPT là gần 103.400 (chiếm 10,33 % ). Số chỉ xét tuyển đại học và xét vào các trường cao đẳng sư phạm là hơn 33.100 (chiếm 3,81 % ).]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Trong]]></Token>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[hơn]]></Token>
@@ -602,7 +598,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thời_gian]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

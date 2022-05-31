@@ -426,9 +426,7 @@
         <SimpleTextPart><![CDATA[Ngày 21/4, gia đình xuất phát từ Phú Thọ đến TP Vinh, Nghệ An. Họ ở đây 3 ngày 2 đêm thăm khu di tích Làng Sen quê Bác, vui chơi ở bãi biển Cửa Lò, khu vui chơi trẻ em cho các bạn chơi xe điện đụng, câu cá...]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[21]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[21/4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[gia_đình]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[xuất_phát]]></Token>
@@ -448,7 +446,7 @@
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[đây]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[2]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[2]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đêm]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thăm]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[khu]]></Token>
@@ -480,9 +478,7 @@
         <SimpleTextPart><![CDATA[Ngày 23/4, họ từ Vinh đi TP Huế, lưu trú 2 đêm. Những trải nghiệm ở đây là đi thuyền trên sông Hương, nghe Ca Huế, thả đèn hoa đăng, thăm lăng Tự Đức, Đại Nội, chùa Thiên Mụ, nhà vườn An Hiên...]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[23]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[23/4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[họ]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
@@ -530,9 +526,7 @@
         </Sentence>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[25]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[25/4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[họ]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[di_chuyển]]></Token>
@@ -578,9 +572,7 @@
         <SimpleTextPart><![CDATA[Ngày 28/4, họ đến Quy Nhơn, lưu trú tại FLC Quy Nhơn, đi ăn trong thành phố. Vì trời mưa nên cả nhà không khám phá được những thắng cảnh ở đây.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[28]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[28/4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[họ]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
@@ -721,9 +713,7 @@
         <SimpleTextPart><![CDATA[Ngày 1/5, cả nhà đến TP Nha Trang lưu trú ba đêm, trong đó ở resort nghỉ dưỡng và tắm biển là chính. Gia đình cũng thăm Viện Hải dương học và các điểm đến khác ở trung tâm thành phố.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[1/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[cả]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nhà]]></Token>
@@ -765,9 +755,7 @@
         </Sentence>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[họ]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[di_chuyển]]></Token>
@@ -790,7 +778,7 @@
         </Sentence>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6]]></Token>
             <Token tag="Cc" chunking="B-NP" ner="O"><![CDATA[và]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[7]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
@@ -814,9 +802,7 @@
         <SimpleTextPart><![CDATA[Ngày 9/5, trên đường ra lại miền Bắc, họ đến Đắk Nông thăm họ hàng. Ngày 11 tới 14/5 chạy ngược về Kon Tum, Huế, Nghệ An, Phú Thọ và không tham quan điểm nào khác.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[9]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[9/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trên]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đường]]></Token>
@@ -834,7 +820,7 @@
         </Sentence>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[11]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[11]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[tới]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[14]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>

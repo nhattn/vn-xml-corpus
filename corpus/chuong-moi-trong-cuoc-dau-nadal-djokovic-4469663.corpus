@@ -310,7 +310,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA["]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[So với Nadal, Djokovic gây ấn tượng mạnh hơn trong bốn vòng đầu. Anh giữ mạch thắng set và mới thua 30 game. Tay vợt số một thế giới chỉ tốn 2 tiếng 17 phút để hạ hạt giống số 15 Diego Schwartzman, người sở trường chơi sân đất nện và từng kéo Djokovic vào set năm ở Roland Garros 2017. Đây là trận đấu áp đảo của Djokovic, với những pha điều bóng hiểm, lối chơi đa dạng và dứt điểm hiệu quả. Hạt giống số một đạt tỷ lệ thắng điểm từ giao bóng một 74% và thắng 84% trong 31 lần lên lưới.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[So với Nadal, Djokovic gây ấn tượng mạnh hơn trong bốn vòng đầu. Anh giữ mạch thắng set và mới thua 30 game. Tay vợt số một thế giới chỉ tốn 2 tiếng 17 phút để hạ hạt giống số 15 Diego Schwartzman, người sở trường chơi sân đất nện và từng kéo Djokovic vào set năm ở Roland Garros 2017. Đây là trận đấu áp đảo của Djokovic, với những pha điều bóng hiểm, lối chơi đa dạng và dứt điểm hiệu quả. Hạt giống số một đạt tỷ lệ thắng điểm từ giao bóng một 74 % và thắng 84 % trong 31 lần lên lưới.]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[So]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[với]]></Token>
@@ -438,9 +438,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tứ_kết]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Roland_Garros]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[31]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[31/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

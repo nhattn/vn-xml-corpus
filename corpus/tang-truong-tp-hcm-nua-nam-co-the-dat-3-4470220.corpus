@@ -67,7 +67,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Việt_Nam]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Theo ông Hoan, nền kinh tế TP HCM đang hồi phục rất nhanh. Năm 2021, lần đầu tiên trong lịch sử từ giai đoạn đổi mới, thành phố tăng trưởng âm 6,78% do ảnh hưởng nặng nề bởi đại dịch. Tuy nhiên, GRDP quý I/2022 đã đạt 1,88%.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Theo ông Hoan, nền kinh tế TP HCM đang hồi phục rất nhanh. Năm 2021, lần đầu tiên trong lịch sử từ giai đoạn đổi mới, thành phố tăng trưởng âm 6,78 % do ảnh hưởng nặng nề bởi đại dịch. Tuy nhiên, GRDP quý I/2022 đã đạt 1,88 % .]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Theo]]></Token>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[ông]]></Token>
@@ -305,11 +305,11 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[vốn]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Trong tháng 5, chỉ số sản xuất toàn ngành công nghiệp (IIP) của TP HCM tăng 6,5% so với tháng 4 và tăng 9% so với cùng kỳ. Tính chung 5 tháng đầu năm nay, chỉ số IIP tăng 2,6% so với cùng kỳ 2021. Sở Công thương TP HCM cũng cho biết hoạt thương mại và dịch vụ tháng này tiếp tục duy trì đà phục hồi và đạt được mức tăng trưởng dương.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Trong tháng 5, chỉ số sản xuất toàn ngành công nghiệp (IIP) của TP HCM tăng 6,5 % so với tháng 4 và tăng 9 % so với cùng kỳ. Tính chung 5 tháng đầu năm nay, chỉ số IIP tăng 2,6 % so với cùng kỳ 2021. Sở Công thương TP HCM cũng cho biết hoạt thương mại và dịch vụ tháng này tiếp tục duy trì đà phục hồi và đạt được mức tăng trưởng dương.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[chỉ_số]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[sản_xuất]]></Token>
@@ -328,7 +328,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[so]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[với]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="Cc" chunking="B-NP" ner="O"><![CDATA[và]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tăng]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[9]]></Token>
@@ -389,9 +389,7 @@
         <SimpleTextPart><![CDATA[Ngày 5/6, Diễn đàn Kinh tế Việt Nam lần 4 của Ban Kinh tế Trung ương sẽ diễn ra tại TP HCM với chủ đề "Xây dựng nền kinh tế độc lập, tự chủ gắn với hội nhập kinh tế sâu rộng trong tình hình mới". Sự kiện bao gồm phiên toàn thể đối thoại chính sách cấp cao và 3 phiên hội thảo chuyên đề, dự kiến quy tụ 1.000 đại biểu tham dự.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5/6]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Diễn_đàn]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Kinh_tế]]></Token>

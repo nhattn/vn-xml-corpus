@@ -267,9 +267,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[họp]]></Token>
             <Token tag="L" chunking="B-NP" ner="O"><![CDATA[toàn_thể]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[22]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[22/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ủy_ban]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Văn_hóa]]></Token>
@@ -344,7 +342,7 @@
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Giữa]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Bộ_Giáo_dục_và]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Đào_tạo]]></Token>

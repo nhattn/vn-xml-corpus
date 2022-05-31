@@ -159,7 +159,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[:]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Đình_Văn]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Bà lý giải, nhiều lao động chịu sức ép về bệnh tật, chi trả viện phí và vẫn phải bươn chải kiếm sống khi về già. Có trường hợp hưởng lương hưu thấp do tiền đóng BHXH mức thấp, thời gian đóng BHXH chỉ đạt tối thiểu 20 năm để hưởng lương hưu 45%. Trường hợp nghỉ hưu sớm cũng bị giảm trừ tỷ lệ phần trăm, theo quy định hiện hành quy định mỗi năm nghỉ hưu sớm sẽ bị trừ 2% mức hưởng.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Bà lý giải, nhiều lao động chịu sức ép về bệnh tật, chi trả viện phí và vẫn phải bươn chải kiếm sống khi về già. Có trường hợp hưởng lương hưu thấp do tiền đóng BHXH mức thấp, thời gian đóng BHXH chỉ đạt tối thiểu 20 năm để hưởng lương hưu 45 % . Trường hợp nghỉ hưu sớm cũng bị giảm trừ tỷ lệ phần trăm, theo quy định hiện hành quy định mỗi năm nghỉ hưu sớm sẽ bị trừ 2 % mức hưởng.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Bà]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[lý_giải]]></Token>
@@ -244,7 +244,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[hưởng]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Song hằng năm, lương hưu đều được điều chỉnh để bù đắp phần trượt giá. Từ năm 1995 đến nay, nhà nước đã 22 lần điều chỉnh lương hưu nhằm đảm bảo cuộc sống cho người về hưu. Năm 2022, tỷ lệ điều chỉnh là 7,4%.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Song hằng năm, lương hưu đều được điều chỉnh để bù đắp phần trượt giá. Từ năm 1995 đến nay, nhà nước đã 22 lần điều chỉnh lương hưu nhằm đảm bảo cuộc sống cho người về hưu. Năm 2022, tỷ lệ điều chỉnh là 7,4 % .]]></SimpleTextPart>
         <Sentence>
             <Token tag="C" chunking="O" ner="O"><![CDATA[Song]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[hằng]]></Token>
@@ -332,12 +332,12 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[nói]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Thống kê hết tháng 4, hơn 302.000 lao động rút BHXH một lần. Người rút ngày càng trẻ hóa, phần lớn 20-30 tuổi và ngoài khu vực nhà nước. 97% người chọn rút một lần là lao động sau một năm nghỉ việc không đóng BHXH. Tình trạng "về một cục" tăng nhanh trong bối cảnh bao phủ BHXH chậm có thể tạo nên nguy cơ mất an ninh thu nhập tuổi già, làm tăng gánh nặng ngân sách chi trợ giúp xã hội cho người cao tuổi sau này.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Thống kê hết tháng 4, hơn 302.000 lao động rút BHXH một lần. Người rút ngày càng trẻ hóa, phần lớn 20-30 tuổi và ngoài khu vực nhà nước. 97 % người chọn rút một lần là lao động sau một năm nghỉ việc không đóng BHXH. Tình trạng "về một cục" tăng nhanh trong bối cảnh bao phủ BHXH chậm có thể tạo nên nguy cơ mất an ninh thu nhập tuổi già, làm tăng gánh nặng ngân sách chi trợ giúp xã hội cho người cao tuổi sau này.]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Thống_kê]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[hết]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[hơn]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[302.000]]></Token>
@@ -499,7 +499,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[lần]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[...]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Cả nước có hơn 4,94 triệu người cao tuổi sau độ tuổi nghỉ hưu hưởng lương hưu, trợ cấp BHXH, trợ cấp xã hội hàng tháng. Trong đó, 2,6 triệu người hưởng lương hưu; 640.000 người hưởng trợ cấp BHXH hàng tháng; hơn 1,7 triệu người hưởng trợ cấp hưu trí xã hội. Còn hơn 9 triệu người sau tuổi nghỉ hưu chưa được hưởng một tầng an sinh nào khác. Nguồn thu nhập của người già Việt Nam phần lớn vẫn tới từ hỗ trợ của con cái, tới 38%; 29% từ tiếp tục làm việc, chỉ 15% hưởng hưu trí và 10% nhận trợ cấp xã hội.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Cả nước có hơn 4,94 triệu người cao tuổi sau độ tuổi nghỉ hưu hưởng lương hưu, trợ cấp BHXH, trợ cấp xã hội hàng tháng. Trong đó, 2,6 triệu người hưởng lương hưu; 640.000 người hưởng trợ cấp BHXH hàng tháng; hơn 1,7 triệu người hưởng trợ cấp hưu trí xã hội. Còn hơn 9 triệu người sau tuổi nghỉ hưu chưa được hưởng một tầng an sinh nào khác. Nguồn thu nhập của người già Việt Nam phần lớn vẫn tới từ hỗ trợ của con cái, tới 38 % ; 29 % từ tiếp tục làm việc, chỉ 15 % hưởng hưu trí và 10 % nhận trợ cấp xã hội.]]></SimpleTextPart>
         <Sentence>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[Cả]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nước]]></Token>

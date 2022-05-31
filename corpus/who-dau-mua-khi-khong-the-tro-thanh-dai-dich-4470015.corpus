@@ -53,9 +53,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[đưa]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[ra]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[30]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[30/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -167,7 +165,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đậu_mùa]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Đậu mùa khỉ có hai chủng chính. Chủng Congo biểu hiện nặng, tỷ lệ tử vong là 10%. Chủng Tây Phi ít nghiêm trọng hơn, tỷ lệ tử vong là 1%. Trong đợt bùng hiện nay, virus lưu hành chủ yếu thuộc chủng Tây Phi.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Đậu mùa khỉ có hai chủng chính. Chủng Congo biểu hiện nặng, tỷ lệ tử vong là 10 % . Chủng Tây Phi ít nghiêm trọng hơn, tỷ lệ tử vong là 1 % . Trong đợt bùng hiện nay, virus lưu hành chủ yếu thuộc chủng Tây Phi.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Đậu_mùa]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[khỉ]]></Token>
@@ -298,7 +296,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[khỉ]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[tại]]></Token>
             <Token tag="X" chunking="O" ner="O"><![CDATA[ít_nhất]]></Token>

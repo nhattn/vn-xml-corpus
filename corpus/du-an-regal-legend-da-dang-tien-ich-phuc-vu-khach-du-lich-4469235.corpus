@@ -388,7 +388,7 @@
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[trung_bình]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[2]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[2]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đêm]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
@@ -541,7 +541,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Oxalis]]></Token>
             <Token tag="Np" chunking="I-NP" ner="I-PER"><![CDATA[Adventure]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Nhiều năm qua, Quảng Bình nổi lên là một trong những điểm đến thu hút bởi thiên nhiên kỳ vĩ với hang Sơn Đoòng, Phong Nha Kẻ Bàng... Oxalis Adventure, đơn vị trong nước duy nhất được cấp phép thực hiện tour du lịch "Chinh phục Sơn Đoòng - hang động lớn nhất thế giới", cho biết, các tour đến Sơn Đoòng năm 2022 đều đã kín chỗ với mức giá 70 triệu đồng một tour khám phá. Các tour năm 2023 đang được mở bán với hơn 80% là du khách nước ngoài. Điều này cho thấy sức hút của Sơn Đoòng nói riêng và Quảng Bình nói chung với du khách.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Nhiều năm qua, Quảng Bình nổi lên là một trong những điểm đến thu hút bởi thiên nhiên kỳ vĩ với hang Sơn Đoòng, Phong Nha Kẻ Bàng... Oxalis Adventure, đơn vị trong nước duy nhất được cấp phép thực hiện tour du lịch "Chinh phục Sơn Đoòng - hang động lớn nhất thế giới", cho biết, các tour đến Sơn Đoòng năm 2022 đều đã kín chỗ với mức giá 70 triệu đồng một tour khám phá. Các tour năm 2023 đang được mở bán với hơn 80 % là du khách nước ngoài. Điều này cho thấy sức hút của Sơn Đoòng nói riêng và Quảng Bình nói chung với du khách.]]></SimpleTextPart>
         <Sentence>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[Nhiều]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[năm]]></Token>

@@ -55,7 +55,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[:]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Thanh_Nhàn]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Nội dung này được đại biểu thông qua tại kỳ họp HĐND tỉnh, ngày 24/5. Số tiền tương ứng 50% giá trị bồi thường, giải phóng mặt bằng thực hiện cao tốc qua địa bàn. Tỉnh cũng cam kết bổ sung vốn nếu dự án tăng vốn đầu tư.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Nội dung này được đại biểu thông qua tại kỳ họp HĐND tỉnh, ngày 24/5. Số tiền tương ứng 50 % giá trị bồi thường, giải phóng mặt bằng thực hiện cao tốc qua địa bàn. Tỉnh cũng cam kết bổ sung vốn nếu dự án tăng vốn đầu tư.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Nội_dung]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[này]]></Token>
@@ -69,9 +69,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tỉnh]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[24]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[24/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

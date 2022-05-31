@@ -32,7 +32,7 @@
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[sạch_sẽ]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Theo Logistics Managers, chỉ số đo lường áp lực chuỗi cung ứng Mỹ trong tháng 4 đã lên mức cao nhất trong lịch sử, tăng tháng thứ ba liên tiếp ở mức 76,2%. Báo cáo cũng lưu ý tình trạng tắc nghẽn hàng hóa tiếp tục khiến chi phí hàng tồn kho, giá kho bãi và tổng chi phí logistics lên mức cao nhất trong lịch sử, gây áp lực lớn hơn nữa đối với ngành này. Tình trạng này có thể vẫn sẽ tiếp tục trong tương lai.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Theo Logistics Managers, chỉ số đo lường áp lực chuỗi cung ứng Mỹ trong tháng 4 đã lên mức cao nhất trong lịch sử, tăng tháng thứ ba liên tiếp ở mức 76,2 % . Báo cáo cũng lưu ý tình trạng tắc nghẽn hàng hóa tiếp tục khiến chi phí hàng tồn kho, giá kho bãi và tổng chi phí logistics lên mức cao nhất trong lịch sử, gây áp lực lớn hơn nữa đối với ngành này. Tình trạng này có thể vẫn sẽ tiếp tục trong tương lai.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Theo]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Logistics_Managers]]></Token>
@@ -46,7 +46,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Mỹ]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[đã]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[lên]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[mức]]></Token>
@@ -192,7 +192,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[của]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-ORG"><![CDATA[nhà_kho]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Nhà kho về bản chất là môi trường năng động. Con người hay máy móc đều có thể đổi ca làm việc, di chuyển hàng tồn vào tất cả giờ trong ngày và tạo ra trải nghiệm làm việc chóng mặt. Trên thực tế, nghiên cứu của Avidbots cho thấy 82% các cơ sở lưu trữ hàng hóa phải trải qua thay đổi cấu trúc dẫn tới ảnh hưởng hiệu suất làm việc của robot trong khoảng một tuần. Họ buộc đưa ra giải pháp nhân viên thường xuyên phải giám sát hoạt động của robot, thường xuyên can thiệp để nó tiếp tục dọn dẹp.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Nhà kho về bản chất là môi trường năng động. Con người hay máy móc đều có thể đổi ca làm việc, di chuyển hàng tồn vào tất cả giờ trong ngày và tạo ra trải nghiệm làm việc chóng mặt. Trên thực tế, nghiên cứu của Avidbots cho thấy 82 % các cơ sở lưu trữ hàng hóa phải trải qua thay đổi cấu trúc dẫn tới ảnh hưởng hiệu suất làm việc của robot trong khoảng một tuần. Họ buộc đưa ra giải pháp nhân viên thường xuyên phải giám sát hoạt động của robot, thường xuyên can thiệp để nó tiếp tục dọn dẹp.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Nhà_kho]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[về]]></Token>
@@ -378,7 +378,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tự_động_hóa]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Báo cáo của State of Warehouse Labour cho thấy, 73% doanh nghiệp cho biết họ gặp vấn đề trong việc tuyển dụng nhân viên, tăng từ con số 26% trong cuộc khảo sát năm 2021. Nguồn lao động khan hiếm kết hợp với sự thay đổi của chuỗi cung ứng đang gây khó khăn cho các nhà quản lý trong việc duy trì lực lượng lao động. Trên thực tế, tỷ lệ nghỉ việc của nhân viên khoảng 200% so với trước đại dịch.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Báo cáo của State of Warehouse Labour cho thấy, 73 % doanh nghiệp cho biết họ gặp vấn đề trong việc tuyển dụng nhân viên, tăng từ con số 26 % trong cuộc khảo sát năm 2021. Nguồn lao động khan hiếm kết hợp với sự thay đổi của chuỗi cung ứng đang gây khó khăn cho các nhà quản lý trong việc duy trì lực lượng lao động. Trên thực tế, tỷ lệ nghỉ việc của nhân viên khoảng 200 % so với trước đại dịch.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Báo_cáo]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[của]]></Token>

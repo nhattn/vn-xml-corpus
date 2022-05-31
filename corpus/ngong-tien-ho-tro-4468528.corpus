@@ -132,7 +132,7 @@
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Giữa]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[2]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[2]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[anh]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Thanh]]></Token>
@@ -170,7 +170,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Đến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[gói]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[hỗ_trợ]]></Token>
@@ -566,7 +566,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Covid-19]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Nhưng thực tế không như kỳ vọng. Theo số liệu của Cục Việc làm (Bộ Lao động, Thương binh và Xã hội), tính đến ngày 16/5, chưa có lao động nào nhận được tiền, tất cả mới chỉ dừng ở bước đã ban hành kế hoạch hoặc nhanh nhất là tiếp nhận hồ sơ. Tại TP HCM, dự kiến gần 1,2 triệu người lao động ngoại tỉnh và đang ở thuê tại TP HCM sẽ được hỗ trợ tiền thuê nhà. Đến chiều 23/5, Bảo hiểm xã hội TP HCM mới xác nhận cho hơn 21.000 trường hợp, chiếm gần 2%; nhưng tiền vẫn chưa có.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Nhưng thực tế không như kỳ vọng. Theo số liệu của Cục Việc làm (Bộ Lao động, Thương binh và Xã hội), tính đến ngày 16/5, chưa có lao động nào nhận được tiền, tất cả mới chỉ dừng ở bước đã ban hành kế hoạch hoặc nhanh nhất là tiếp nhận hồ sơ. Tại TP HCM, dự kiến gần 1,2 triệu người lao động ngoại tỉnh và đang ở thuê tại TP HCM sẽ được hỗ trợ tiền thuê nhà. Đến chiều 23/5, Bảo hiểm xã hội TP HCM mới xác nhận cho hơn 21.000 trường hợp, chiếm gần 2 % ; nhưng tiền vẫn chưa có.]]></SimpleTextPart>
         <Sentence>
             <Token tag="C" chunking="O" ner="O"><![CDATA[Nhưng]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thực_tế]]></Token>
@@ -591,9 +591,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tính]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[16]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[16/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[chưa]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[có]]></Token>
@@ -677,7 +675,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[có]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Không riêng gì gói hỗ trợ tiền thuê trọ, hàng loạt gói hỗ trợ khác rơi vào tình cảnh tương tự. Trong đó phải kể đến chính sách hỗ trợ đào tạo duy trì việc làm cho lao động với kinh phí dự kiến 4.500 tỷ đồng nhưng sau 10 tháng mới giải ngân được 17,1 tỷ; vay vốn phục hồi sản xuất kinh doanh chi được 297 tỷ (khoảng 3%); vay vốn trả lương ngừng việc giải ngân 262 tỷ đồng (3,5%)... Tại TP HCM, hiện vẫn còn hơn một triệu người đang chờ gói hỗ trợ đợt ba ban hành từ tháng 9 năm ngoái với mục tiêu giúp đỡ người khó khăn do dịch, mỗi trường hợp nhận một triệu đồng...]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Không riêng gì gói hỗ trợ tiền thuê trọ, hàng loạt gói hỗ trợ khác rơi vào tình cảnh tương tự. Trong đó phải kể đến chính sách hỗ trợ đào tạo duy trì việc làm cho lao động với kinh phí dự kiến 4.500 tỷ đồng nhưng sau 10 tháng mới giải ngân được 17,1 tỷ; vay vốn phục hồi sản xuất kinh doanh chi được 297 tỷ (khoảng 3 % ); vay vốn trả lương ngừng việc giải ngân 262 tỷ đồng (3,5 % )... Tại TP HCM, hiện vẫn còn hơn một triệu người đang chờ gói hỗ trợ đợt ba ban hành từ tháng 9 năm ngoái với mục tiêu giúp đỡ người khó khăn do dịch, mỗi trường hợp nhận một triệu đồng...]]></SimpleTextPart>
         <Sentence>
             <Token tag="R" chunking="O" ner="O"><![CDATA[Không]]></Token>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[riêng]]></Token>
@@ -779,7 +777,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ban_hành]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[9]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[9]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[năm_ngoái]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[với]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[mục_tiêu]]></Token>
@@ -856,7 +854,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nhà]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[8]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[8]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thời_gian]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tiếp_nhận]]></Token>
@@ -866,9 +864,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[hết]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[15]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[8]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[15/8]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

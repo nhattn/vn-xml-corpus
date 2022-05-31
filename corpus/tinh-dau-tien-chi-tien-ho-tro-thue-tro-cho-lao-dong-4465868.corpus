@@ -44,9 +44,7 @@
         <SimpleTextPart><![CDATA[Ngày 20/5, UBND tỉnh Cà Mau đã phê duyệt hỗ trợ tiền trọ cho công nhân các công ty chế biến thủy sản trên địa bàn, mức tiền 500.000 đồng mỗi người. Theo quy định, tiền sẽ được chuyển về doanh nghiệp chi trả trực tiếp cho người lao động trong 2 ngày. Đây là những lao động đầu tiên nhận hỗ trợ, sau gần hai tháng triển khai gói an sinh trên cả nước với dự kiến 3,4 triệu người thụ hưởng.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[20]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[20/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="Ny" chunking="B-NP" ner="B-ORG"><![CDATA[UBND]]></Token>
             <Token tag="N" chunking="I-NP" ner="I-ORG"><![CDATA[tỉnh]]></Token>
@@ -272,7 +270,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[hoàn_thành]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[8]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[8]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

@@ -233,9 +233,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[hết]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[15]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[8]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[15/8]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Sau ba ngày kể từ khi nhận hồ sơ, địa phương hoàn tất thẩm định, phê duyệt danh sách và cấp kinh phí hỗ trợ. Tiền được chuyển qua tài khoản người lao động hoặc trao trực tiếp với trường hợp không có tài khoản.]]></SimpleTextPart>
@@ -311,7 +309,7 @@
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Chính_phủ]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thông_qua]]></Token>

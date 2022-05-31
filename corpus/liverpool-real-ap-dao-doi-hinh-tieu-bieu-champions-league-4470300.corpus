@@ -36,9 +36,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[UEFA]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[công_bố]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[31]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[31/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -49,9 +47,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[UEFA]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[công_bố]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[31]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[31/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Nhà vô địch Real có thủ môn Thibaut Courtois, tiền vệ Luka Modric, tiền đạo Karim Benzema và Vinicius Junior. Còn á quân Liverpool có trung vệ Virgil van Dijk, cặp hậu vệ cánh Andy Robertson - Trent Alexander-Arnold và tiền vệ Fabinho.]]></SimpleTextPart>

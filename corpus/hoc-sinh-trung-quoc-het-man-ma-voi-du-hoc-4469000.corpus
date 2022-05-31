@@ -341,7 +341,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nước_ngoài]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Tạp chí Fortune cho biết số lượng hồ sơ của sinh viên Trung Quốc vào các trường đại học Mỹ trong năm 2022 đã giảm 18% so với 2021. Báo cáo của Chương trình Du học sinh và Trao đổi sinh viên Mỹ hồi tháng 4 cho thấy có 348.992 học sinh Trung Quốc ở Mỹ năm ngoái, ít hơn 33.569 so với năm 2020.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Tạp chí Fortune cho biết số lượng hồ sơ của sinh viên Trung Quốc vào các trường đại học Mỹ trong năm 2022 đã giảm 18 % so với 2021. Báo cáo của Chương trình Du học sinh và Trao đổi sinh viên Mỹ hồi tháng 4 cho thấy có 348.992 học sinh Trung Quốc ở Mỹ năm ngoái, ít hơn 33.569 so với năm 2020.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Tạp_chí]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Fortune]]></Token>
@@ -380,7 +380,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Mỹ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hồi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[cho]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thấy]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[có]]></Token>
@@ -400,7 +400,7 @@
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[2020]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Năm 2019, số lượng học sinh Trung Quốc ở Anh là 119.825 nhưng sau đó giảm đáng kể 32% vào năm 2020. Năm 2021, con số đạt 119.334, ngay dưới mức của năm 2019, theo dữ liệu từ văn phòng nhập cư nước này.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Năm 2019, số lượng học sinh Trung Quốc ở Anh là 119.825 nhưng sau đó giảm đáng kể 32 % vào năm 2020. Năm 2021, con số đạt 119.334, ngay dưới mức của năm 2019, theo dữ liệu từ văn phòng nhập cư nước này.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Năm]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[2019]]></Token>
@@ -803,7 +803,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[du_học]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Nan từng có khoảng thời gian vất vả chuẩn bị cho kỳ thi trung khảo, thậm chí còn cạnh tranh hơn cả cao khảo với tỷ lệ trượt 50%. Cuối cùng, Nan quyết định tiếp tục kế hoạch của mình.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Nan từng có khoảng thời gian vất vả chuẩn bị cho kỳ thi trung khảo, thậm chí còn cạnh tranh hơn cả cao khảo với tỷ lệ trượt 50 % . Cuối cùng, Nan quyết định tiếp tục kế hoạch của mình.]]></SimpleTextPart>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Nan]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[từng]]></Token>
@@ -1966,14 +1966,14 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ra]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[(]]></Token>
             <Token tag="C" chunking="O" ner="O"><![CDATA[nhưng]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[bị]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[hoãn]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[sang]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[7]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[7]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[ở]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Thượng_Hải]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[do]]></Token>
@@ -1997,9 +1997,7 @@
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[mình]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trước]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[1/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

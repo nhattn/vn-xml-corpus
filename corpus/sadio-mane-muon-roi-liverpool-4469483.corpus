@@ -40,9 +40,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Fabrizio_Romano]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[công_bố]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[29]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[29/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -140,9 +138,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[với]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Real_Madrid]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[28]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[28/5]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[là]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[trận]]></Token>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[cuối_cùng]]></Token>

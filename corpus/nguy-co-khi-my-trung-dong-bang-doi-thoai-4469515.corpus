@@ -213,7 +213,7 @@
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[trực_tuyến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hồi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[11]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[11]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[năm_ngoái]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
@@ -1255,7 +1255,7 @@
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[8/2020]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[năm]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[nay]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>

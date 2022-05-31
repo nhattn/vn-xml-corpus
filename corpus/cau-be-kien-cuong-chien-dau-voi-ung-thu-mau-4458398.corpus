@@ -87,7 +87,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[cho]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[10]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[10]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[năm_ngoái]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[khi]]></Token>
@@ -811,7 +811,7 @@
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[triền_miên]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Bên cạnh đó, vốn là trụ cột kinh tế của gia đình, nay dành 100% thời gian trông con trong bệnh viện, Tuấn phải nghỉ công việc phụ hồ, bốc vác ở quê. Hai cha con thuê một phòng trọ nhỏ trên đường Nguyễn Huy Lượng, tiện cho Duy ra vào bệnh viện, còn bà nội già yếu thì ở quê.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Bên cạnh đó, vốn là trụ cột kinh tế của gia đình, nay dành 100 % thời gian trông con trong bệnh viện, Tuấn phải nghỉ công việc phụ hồ, bốc vác ở quê. Hai cha con thuê một phòng trọ nhỏ trên đường Nguyễn Huy Lượng, tiện cho Duy ra vào bệnh viện, còn bà nội già yếu thì ở quê.]]></SimpleTextPart>
         <Sentence>
             <Token tag="R" chunking="O" ner="O"><![CDATA[Bên_cạnh]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[đó]]></Token>

@@ -21,9 +21,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[2.0]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[MyVIB]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[30]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[30/5]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[với]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[công_nghệ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thực_tế]]></Token>
@@ -210,9 +208,7 @@
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[chính_thức]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ra_mắt]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[30]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[30/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -525,7 +521,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thêm]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[MyVIB 1.0 ra mắt năm 2015, sau đó liên tục được VIB ứng dụng công nghệ mới để phát triển nhiều tiện ích trên nền tảng ngân hàng số. Nhờ quá trình đổi mới nhà băng này đạt được tăng trưởng vượt bậc về số lượng người dùng và giao dịch trong những năm qua. Tỷ trọng giao dịch qua ứng dụng ngân hàng số của VIB đạt tỷ lệ tới 91%. Số lượng khách hàng đăng ký dịch vụ tăng trưởng 130% trong năm 2021 và số lượng giao dịch luôn gấp đôi qua các năm. MyVIB cũng mới được Tạp chí The Asset vinh danh là Ứng dụng Ngân hàng di động tốt nhất Việt Nam.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[MyVIB 1.0 ra mắt năm 2015, sau đó liên tục được VIB ứng dụng công nghệ mới để phát triển nhiều tiện ích trên nền tảng ngân hàng số. Nhờ quá trình đổi mới nhà băng này đạt được tăng trưởng vượt bậc về số lượng người dùng và giao dịch trong những năm qua. Tỷ trọng giao dịch qua ứng dụng ngân hàng số của VIB đạt tỷ lệ tới 91 % . Số lượng khách hàng đăng ký dịch vụ tăng trưởng 130 % trong năm 2021 và số lượng giao dịch luôn gấp đôi qua các năm. MyVIB cũng mới được Tạp chí The Asset vinh danh là Ứng dụng Ngân hàng di động tốt nhất Việt Nam.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[MyVIB]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[1.0]]></Token>

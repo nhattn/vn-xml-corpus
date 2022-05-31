@@ -148,9 +148,7 @@
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[họ]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6/4]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trên]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tạp_chí]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Nature]]></Token>
@@ -367,7 +365,7 @@
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[nặng]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Lieberman cho biết, ở những bệnh nhân bị nhiễm trùng, khoảng 6% bạch cầu đơn nhân trong máu bị tiêu diệt do viêm nhiễm. Khi nghiên cứu các tế bào để tìm dấu hiệu của SARS-CoV-2, các nhà khoa học phát hiện ra rằng khoảng 10% tế bào đơn nhân và 8% đại thực bào phổi đã bị nhiễm bệnh.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Lieberman cho biết, ở những bệnh nhân bị nhiễm trùng, khoảng 6 % bạch cầu đơn nhân trong máu bị tiêu diệt do viêm nhiễm. Khi nghiên cứu các tế bào để tìm dấu hiệu của SARS-CoV-2, các nhà khoa học phát hiện ra rằng khoảng 10 % tế bào đơn nhân và 8 % đại thực bào phổi đã bị nhiễm bệnh.]]></SimpleTextPart>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Lieberman]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[cho]]></Token>
@@ -633,7 +631,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nhiễm_trùng]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[?]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Một nhóm bạch cầu đơn nhân nhất định đặc biệt có khả năng bị nhiễm bệnh: những tế bào mang thụ thể có tên là CD16. Các nhà nghiên cứu phát hiện ra rằng, những bạch cầu đơn nhân loại này chỉ chiếm khoảng 10% tổng số bạch cầu đơn nhân, nhưng số lượng của chúng đã tăng lên ở những bệnh nhân mắc Covid-19. Họ cũng có nhiều khả năng bị nhiễm bệnh hơn (khoảng một nửa bị nhiễm trùng) so với không có bạch cầu đơn nhân trong máu cổ điển nào.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Một nhóm bạch cầu đơn nhân nhất định đặc biệt có khả năng bị nhiễm bệnh: những tế bào mang thụ thể có tên là CD16. Các nhà nghiên cứu phát hiện ra rằng, những bạch cầu đơn nhân loại này chỉ chiếm khoảng 10 % tổng số bạch cầu đơn nhân, nhưng số lượng của chúng đã tăng lên ở những bệnh nhân mắc Covid-19. Họ cũng có nhiều khả năng bị nhiễm bệnh hơn (khoảng một nửa bị nhiễm trùng) so với không có bạch cầu đơn nhân trong máu cổ điển nào.]]></SimpleTextPart>
         <Sentence>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[Một]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nhóm]]></Token>

@@ -38,9 +38,7 @@
         <SimpleTextPart><![CDATA[Ngày 28/4, các đội thi đã có buổi thuyết trình về dự án, sản phẩm trước thành viên Hội đồng giám khảo cuộc thi Sáng kiến Khoa học 2022. Đây là 29 dự án, sản phẩm được sàng lọc bởi Ban giám khảo và bình chọn của độc giả VnExpress trong số 88 hồ sơ hợp lệ tham gia cuộc thi.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[28]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[28/4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="L" chunking="B-NP" ner="O"><![CDATA[các]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đội]]></Token>
@@ -1147,7 +1145,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Lộc]]></Token>
             <Token tag="Np" chunking="I-NP" ner="I-PER"><![CDATA[Chung]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Ngoài điểm đánh giá từ Ban giám khảo, độc giả VnExpress cũng sẽ tiếp tục tham gia bình chọn cho dự án, ý tưởng mình tâm đắc. Điểm chung kết sẽ bao gồm 70% điểm đánh giá của Hội đồng giám khảo và 30% bình chọn của độc giả.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Ngoài điểm đánh giá từ Ban giám khảo, độc giả VnExpress cũng sẽ tiếp tục tham gia bình chọn cho dự án, ý tưởng mình tâm đắc. Điểm chung kết sẽ bao gồm 70 % điểm đánh giá của Hội đồng giám khảo và 30 % bình chọn của độc giả.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Ngoài]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[điểm]]></Token>
@@ -1211,7 +1209,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[)]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

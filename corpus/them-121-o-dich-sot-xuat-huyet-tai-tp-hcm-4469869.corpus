@@ -41,7 +41,7 @@
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[đó]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Theo Trung tâm Kiểm soát Bệnh tật TP HCM (HCDC), thành phố ghi nhận hơn 1.400 ca mắc mới từ 20/5 đến 26/5, tăng hơn 48% so với trung bình tháng trước. Nhiều phường xã có số ca bệnh tăng cao như phường 7 (quận 8), xã Lê Minh Xuân, Vĩnh Lộc A (Bình Chánh), phường Bình Hưng Hòa A (Bình Tân), xã Tân An Hội (Củ Chi), phường Tây Thạnh (Tân Phú). Trong khi đó, số ca tử vong do căn bệnh này từ đầu năm đến nay là 7.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Theo Trung tâm Kiểm soát Bệnh tật TP HCM (HCDC), thành phố ghi nhận hơn 1.400 ca mắc mới từ 20/5 đến 26/5, tăng hơn 48 % so với trung bình tháng trước. Nhiều phường xã có số ca bệnh tăng cao như phường 7 (quận 8), xã Lê Minh Xuân, Vĩnh Lộc A (Bình Chánh), phường Bình Hưng Hòa A (Bình Tân), xã Tân An Hội (Củ Chi), phường Tây Thạnh (Tân Phú). Trong khi đó, số ca tử vong do căn bệnh này từ đầu năm đến nay là 7.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Theo]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Trung_tâm]]></Token>
@@ -145,7 +145,7 @@
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[7]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Trong 5 tháng đầu năm, thành phố ghi nhận hơn 10.000 trường hợp mắc sốt xuất huyết, tăng hơn 46% với cùng kỳ năm ngoái. Số ca sốt xuất huyết nặng là 19, tăng gần gấp 5 lần so với cùng kỳ năm 2021.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Trong 5 tháng đầu năm, thành phố ghi nhận hơn 10.000 trường hợp mắc sốt xuất huyết, tăng hơn 46 % với cùng kỳ năm ngoái. Số ca sốt xuất huyết nặng là 19, tăng gần gấp 5 lần so với cùng kỳ năm 2021.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Trong]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
@@ -197,7 +197,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[HCDC]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[bắt_đầu]]></Token>
@@ -307,9 +307,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA["]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[15]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[15/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

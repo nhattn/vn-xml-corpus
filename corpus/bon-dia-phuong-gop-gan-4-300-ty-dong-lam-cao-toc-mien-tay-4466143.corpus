@@ -48,12 +48,10 @@
             <Token tag="Np" chunking="I-NP" ner="I-LOC"><![CDATA[Tây]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Ngày 20/5, HĐND tỉnh Sóc Trăng đã thông qua Nghị quyết bố trí 1.000 tỷ đồng (tương đương 50%) để giải phóng mặt bằng đoạn cao tốc Châu Đốc - Cần Thơ - Sóc Trăng qua địa bàn tỉnh. Nguồn vốn này từ ngân sách địa phương, nằm trong kế hoạch đầu tư công trung hạn giai đoạn 2021-2025.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Ngày 20/5, HĐND tỉnh Sóc Trăng đã thông qua Nghị quyết bố trí 1.000 tỷ đồng (tương đương 50 % ) để giải phóng mặt bằng đoạn cao tốc Châu Đốc - Cần Thơ - Sóc Trăng qua địa bàn tỉnh. Nguồn vốn này từ ngân sách địa phương, nằm trong kế hoạch đầu tư công trung hạn giai đoạn 2021-2025.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[20]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[20/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="Ny" chunking="B-NP" ner="O"><![CDATA[HĐND]]></Token>
             <Token tag="N" chunking="B-NP" ner="B-LOC"><![CDATA[tỉnh]]></Token>
@@ -253,7 +251,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[họp]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[sẽ]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[trình]]></Token>
             <Token tag="Ny" chunking="B-NP" ner="O"><![CDATA[HĐND]]></Token>

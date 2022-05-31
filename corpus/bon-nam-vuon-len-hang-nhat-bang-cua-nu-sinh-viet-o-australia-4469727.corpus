@@ -70,7 +70,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Hồi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cựu_học_sinh]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[trường_Trung_học]]></Token>
@@ -180,7 +180,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hồi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[2]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[2]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -547,7 +547,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giải]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -712,7 +712,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[trường_Trung_học_Bonnyrigg]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Như cho hay, ATAR là xếp hạng quan trọng với những học sinh muốn vào đại học ở Australia. Đây là thước đo thứ hạng giữa các học sinh cùng dự thi tốt nghiệp trung học phổ thông ở nước này, quyết định việc bạn vào được trường đại học nào dựa trên nguyện vọng đăng ký. Nếu đạt điểm ATAR 70, nghĩa là bạn đã hoàn thành tốt hơn 70% học sinh trong năm đó.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Như cho hay, ATAR là xếp hạng quan trọng với những học sinh muốn vào đại học ở Australia. Đây là thước đo thứ hạng giữa các học sinh cùng dự thi tốt nghiệp trung học phổ thông ở nước này, quyết định việc bạn vào được trường đại học nào dựa trên nguyện vọng đăng ký. Nếu đạt điểm ATAR 70, nghĩa là bạn đã hoàn thành tốt hơn 70 % học sinh trong năm đó.]]></SimpleTextPart>
         <Sentence>
             <Token tag="C" chunking="O" ner="O"><![CDATA[Như]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[cho]]></Token>

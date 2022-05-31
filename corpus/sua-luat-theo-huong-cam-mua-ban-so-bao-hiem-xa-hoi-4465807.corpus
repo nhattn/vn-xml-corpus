@@ -46,9 +46,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[gửi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Quốc_hội]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[19]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[19/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Bộ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Lao_động_Thương_binh_và_Xã_hội]]></Token>
@@ -441,7 +439,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hiện_nay]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Cả nước có khoảng 50 triệu lao động trong độ tuổi, số tham gia BHXH chỉ gần 16,6 triệu, chiếm 37%. Mức độ bao phủ BHXH thấp trở thành thách thức kép tới an toàn thu nhập của lao động trong độ tuổi và về lâu dài khi đến tuổi nghỉ hưu.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Cả nước có khoảng 50 triệu lao động trong độ tuổi, số tham gia BHXH chỉ gần 16,6 triệu, chiếm 37 % . Mức độ bao phủ BHXH thấp trở thành thách thức kép tới an toàn thu nhập của lao động trong độ tuổi và về lâu dài khi đến tuổi nghỉ hưu.]]></SimpleTextPart>
         <Sentence>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[Cả]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nước]]></Token>

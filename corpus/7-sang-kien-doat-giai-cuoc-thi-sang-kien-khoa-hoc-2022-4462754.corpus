@@ -20,9 +20,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[được]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[vinh_danh]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[17]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[17/5]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[có]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giá_trị]]></Token>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[thiết_thực]]></Token>
@@ -479,7 +477,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[quả]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[gấc]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Sáng kiến của nhóm nhà khoa học G5-nhóm nghiên cứu phát triển vật liệu mới thuộc Viện hóa học, Viện Hàn lâm Khoa học và Công nghệ Việt Nam được trao giải Nhất, giải thưởng trị giá 50 triệu đồng. Công trình đã tách chiết thành công lycopen tinh khiết 98% và nano lycopen dễ tan trong nước.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Sáng kiến của nhóm nhà khoa học G5-nhóm nghiên cứu phát triển vật liệu mới thuộc Viện hóa học, Viện Hàn lâm Khoa học và Công nghệ Việt Nam được trao giải Nhất, giải thưởng trị giá 50 triệu đồng. Công trình đã tách chiết thành công lycopen tinh khiết 98 % và nano lycopen dễ tan trong nước.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Sáng_kiến]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[của]]></Token>

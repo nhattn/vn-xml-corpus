@@ -35,9 +35,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[15]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[15/5]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[15]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
@@ -163,7 +161,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[VietravelPlus]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Khi tải app Vietravel, du khách được tặng voucher 100.000 đồng khi thanh toán online tại đây. Ngoài ra, thanh toán trên Website & App Vietravel khi mua tour trọn gói, du khách được giảm đến 500.000 đồng và mua combo dịch vụ được giảm 5% trên tổng hóa đơn thanh toán.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Khi tải app Vietravel, du khách được tặng voucher 100.000 đồng khi thanh toán online tại đây. Ngoài ra, thanh toán trên Website & App Vietravel khi mua tour trọn gói, du khách được giảm đến 500.000 đồng và mua combo dịch vụ được giảm 5 % trên tổng hóa đơn thanh toán.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Khi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tải]]></Token>
@@ -229,9 +227,7 @@
             <Token tag="Ny" chunking="B-NP" ner="B-ORG"><![CDATA[TP]]></Token>
             <Token tag="Ny" chunking="I-NP" ner="I-ORG"><![CDATA[HCM]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[27]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[27/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -239,7 +235,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[:]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Vietravel]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Vietravel còn giảm 500.000 đồng khi du khách thanh toán hóa đơn đặt tour, có thời gian khởi hành cách thời điểm đăng ký trước 30 ngày. Đặc biệt, từ ngày 6/6 trở đi, công ty này sẽ triển khai gian hàng trực tuyến trên Shopee và Lazada với các chương trình bán đồng giá, giảm giá 50%... cùng nhiều quà tặng.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Vietravel còn giảm 500.000 đồng khi du khách thanh toán hóa đơn đặt tour, có thời gian khởi hành cách thời điểm đăng ký trước 30 ngày. Đặc biệt, từ ngày 6/6 trở đi, công ty này sẽ triển khai gian hàng trực tuyến trên Shopee và Lazada với các chương trình bán đồng giá, giảm giá 50 % ... cùng nhiều quà tặng.]]></SimpleTextPart>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Vietravel]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[còn]]></Token>
@@ -268,9 +264,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6/6]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[trở_đi]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[công_ty]]></Token>
@@ -806,7 +800,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[này]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Vietravel]]></Token>

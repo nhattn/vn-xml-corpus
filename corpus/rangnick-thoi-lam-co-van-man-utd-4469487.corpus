@@ -164,7 +164,7 @@
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Liên_đoàn]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Bóng_đá]]></Token>
@@ -345,12 +345,10 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[UEFA]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Nations_League]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3/6]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Từng nhận nhiều kỳ vọng khi thế chỗ Ole Gunnar Solskjaer tháng 11/2021, nhưng Rangnick không thể vực dậy Man Utd, sớm bị loại khỏi Cup Liên Đoàn, Cup FA, Champions League. Họ cũng chỉ cán đích thứ sáu với số bàn thua và điểm số tệ nhất kỷ nguyên Ngoại hạng Anh. "Quỷ Đỏ" còn hứng chịu nhiều thất bại nặng nề, như thua Man City 1-4, Liverpool và Brighton cùng 0-4. Với 37,9%, Rangnick là HLV có tỷ lệ thắng thấp nhất CLB trong lịch sử Ngoại hạng Anh.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Từng nhận nhiều kỳ vọng khi thế chỗ Ole Gunnar Solskjaer tháng 11/2021, nhưng Rangnick không thể vực dậy Man Utd, sớm bị loại khỏi Cup Liên Đoàn, Cup FA, Champions League. Họ cũng chỉ cán đích thứ sáu với số bàn thua và điểm số tệ nhất kỷ nguyên Ngoại hạng Anh. "Quỷ Đỏ" còn hứng chịu nhiều thất bại nặng nề, như thua Man City 1-4, Liverpool và Brighton cùng 0-4. Với 37,9 % , Rangnick là HLV có tỷ lệ thắng thấp nhất CLB trong lịch sử Ngoại hạng Anh.]]></SimpleTextPart>
         <Sentence>
             <Token tag="R" chunking="O" ner="O"><![CDATA[Từng]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[nhận]]></Token>

@@ -116,9 +116,7 @@
         <SimpleTextPart><![CDATA[Ngày 30/5, Hải được Cục cảnh sát Hình sự (C02, Bộ Công an) phối hợp Công an tỉnh Phú Yên di lý về địa phương để điều tra hành vi Giết người. Nghi phạm có tiền án tội Cố ý gây thương tích.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[30]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[30/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Hải]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[được]]></Token>

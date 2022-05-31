@@ -71,9 +71,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[sông_Cửu_Long]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[19]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[19/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -343,7 +341,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Nguyên]]></Token>
             <Token tag="Np" chunking="I-NP" ner="I-PER"><![CDATA[Anh]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Đồng bằng sông Cửu Long nằm ở phần cuối của châu thổ sông Mekong, rộng gần 3,96 triệu ha (12% diện tích cả nước) và 17,5 triệu dân (18% dân số cả nước). Với hơn 2,4 triệu ha đất nông nghiệp, 700.000 ha mặt nước nuôi trồng thủy sản toàn vùng đã đóng góp 54% sản lượng lúa, cung cấp 90% lượng gạo xuất khẩu; 70% lượng thủy sản và 60% lượng trái cây của cả nước.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Đồng bằng sông Cửu Long nằm ở phần cuối của châu thổ sông Mekong, rộng gần 3,96 triệu ha (12 % diện tích cả nước) và 17,5 triệu dân (18 % dân số cả nước). Với hơn 2,4 triệu ha đất nông nghiệp, 700.000 ha mặt nước nuôi trồng thủy sản toàn vùng đã đóng góp 54 % sản lượng lúa, cung cấp 90 % lượng gạo xuất khẩu; 70 % lượng thủy sản và 60 % lượng trái cây của cả nước.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Đồng_bằng]]></Token>
             <Token tag="Np" chunking="B-NP" ner="O"><![CDATA[sông_Cửu_Long]]></Token>

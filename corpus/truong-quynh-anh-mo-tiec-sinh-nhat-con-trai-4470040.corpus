@@ -33,9 +33,7 @@
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[10]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tuổi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[31]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[31/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Hai năm qua, Sushi không tổ chức tiệc mời bạn bè chung vui do Covid-19. Khi cuộc sống trở lại bình thường, Trương Quỳnh Anh muốn bù đắp cho con nên chọn không gian bể bơi thuộc chung cư đang sống để bày tiệc. Cô mong con trai tuổi mới luôn vui, khỏe.]]></SimpleTextPart>
@@ -175,7 +173,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Việt_Nam]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[hồi_đầu]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[sau]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[bảy]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[năm]]></Token>
@@ -269,7 +267,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hồi_đầu]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

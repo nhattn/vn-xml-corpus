@@ -135,7 +135,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đất_nước]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Kể từ khi tổ máy đầu tiên đi vào hoạt động từ tháng 6 năm ngoái, nhà máy đã sản xuất hơn 26,9 tỷ kW giờ điện, dù vẫn chưa vận hành đầy đủ. Với việc tổ máy số 5 bắt đầu phát điện chính thức vào hôm 30/5 sau khi kết thúc quá trình thử nghiệm kéo dài 72 giờ, dự án mới đạt 50% công suất thiết kế.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Kể từ khi tổ máy đầu tiên đi vào hoạt động từ tháng 6 năm ngoái, nhà máy đã sản xuất hơn 26,9 tỷ kW giờ điện, dù vẫn chưa vận hành đầy đủ. Với việc tổ máy số 5 bắt đầu phát điện chính thức vào hôm 30/5 sau khi kết thúc quá trình thử nghiệm kéo dài 72 giờ, dự án mới đạt 50 % công suất thiết kế.]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Kể]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
@@ -148,7 +148,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hoạt_động]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[năm_ngoái]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nhà_máy]]></Token>

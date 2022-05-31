@@ -610,7 +610,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tăng_trưởng]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Hơn 18% thanh niên Trung Quốc 16-24 tuổi thất nghiệp trong tháng 4, mức cao nhất kể từ khi Trung Quốc bắt đầu có thống kê chính thức. "Vẫn chưa kiếm được việc làm sau một năm? Tốt thôi, tôi sẽ ở nhà và xem TV cả ngày", một người viết.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Hơn 18 % thanh niên Trung Quốc 16-24 tuổi thất nghiệp trong tháng 4, mức cao nhất kể từ khi Trung Quốc bắt đầu có thống kê chính thức. "Vẫn chưa kiếm được việc làm sau một năm? Tốt thôi, tôi sẽ ở nhà và xem TV cả ngày", một người viết.]]></SimpleTextPart>
         <Sentence>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[Hơn]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[18]]></Token>
@@ -622,7 +622,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thất_nghiệp]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[mức]]></Token>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[cao]]></Token>
@@ -707,7 +707,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đại_dịch]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Theo trang web tuyển dụng Zhaopin, chỉ số triển vọng việc làm của họ trong quý một năm nay chỉ bằng khoảng một nửa so với năm ngoái và thậm chí còn thấp hơn so với khi Covid-19 xuất hiện lần đầu vào năm 2020. Lương trung bình hàng tháng của sinh viên mới tốt nghiệp thấp hơn 12% so với năm ngoái.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Theo trang web tuyển dụng Zhaopin, chỉ số triển vọng việc làm của họ trong quý một năm nay chỉ bằng khoảng một nửa so với năm ngoái và thậm chí còn thấp hơn so với khi Covid-19 xuất hiện lần đầu vào năm 2020. Lương trung bình hàng tháng của sinh viên mới tốt nghiệp thấp hơn 12 % so với năm ngoái.]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Theo]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[trang_web]]></Token>
@@ -818,7 +818,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Bắc_Kinh]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[có]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[bằng]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thạc_sĩ]]></Token>
@@ -918,7 +918,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Bắc_Kinh]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

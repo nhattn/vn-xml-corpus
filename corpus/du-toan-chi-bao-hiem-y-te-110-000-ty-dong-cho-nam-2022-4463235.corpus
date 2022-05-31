@@ -47,9 +47,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Lê_Minh_Khái]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ký]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[13]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[13/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[số]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[dự_toán]]></Token>
@@ -145,7 +143,7 @@
             <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[đồng]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Nếu số chi bảo hiểm y tế năm 2022 và các năm trước vượt dự toán, được Bảo hiểm xã hội Việt Nam thẩm định, đảm bảo nguyên nhân khách quan, thì Hội đồng quản lý Bảo hiểm xã hội tạm cấp kinh phí cho các địa phương. Số kinh phí tạm cấp tối đa 80% kinh phí được Bảo hiểm xã hội Việt Nam thẩm định.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Nếu số chi bảo hiểm y tế năm 2022 và các năm trước vượt dự toán, được Bảo hiểm xã hội Việt Nam thẩm định, đảm bảo nguyên nhân khách quan, thì Hội đồng quản lý Bảo hiểm xã hội tạm cấp kinh phí cho các địa phương. Số kinh phí tạm cấp tối đa 80 % kinh phí được Bảo hiểm xã hội Việt Nam thẩm định.]]></SimpleTextPart>
         <Sentence>
             <Token tag="C" chunking="O" ner="O"><![CDATA[Nếu]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[số]]></Token>
@@ -458,7 +456,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[quỹ]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Từ 1/1/2021, người có thẻ BHYT đi khám chữa bệnh không đúng tuyến - nghĩa là không đúng nơi đăng ký khám chữa bệnh ban đầu, không có giấy chuyển tuyến tại các bệnh viện tuyến tỉnh, nếu được chỉ định và điều trị nội trú, thì chi phí sẽ được Quỹ BHYT thanh toán 100% theo mức hưởng của nhóm đó, thay vì 60% như trước đây. Quy định này không áp dụng cho khám chữa bệnh ngoại trú.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Từ 1/1/2021, người có thẻ BHYT đi khám chữa bệnh không đúng tuyến - nghĩa là không đúng nơi đăng ký khám chữa bệnh ban đầu, không có giấy chuyển tuyến tại các bệnh viện tuyến tỉnh, nếu được chỉ định và điều trị nội trú, thì chi phí sẽ được Quỹ BHYT thanh toán 100 % theo mức hưởng của nhóm đó, thay vì 60 % như trước đây. Quy định này không áp dụng cho khám chữa bệnh ngoại trú.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[1/1/2021]]></Token>
@@ -555,7 +553,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[y_tế]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Thủ tướng giao chỉ tiêu cả nước phủ bảo hiểm y tế cho hơn 95% dân số vào năm 2025, theo quyết định ngày 29/4. 83]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Thủ tướng giao chỉ tiêu cả nước phủ bảo hiểm y tế cho hơn 95 % dân số vào năm 2025, theo quyết định ngày 29/4. 83]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Thủ_tướng]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[giao]]></Token>
@@ -577,13 +575,11 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[theo]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[quyết_định]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[29]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[29/4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-        <SimpleTextPart><![CDATA[Cần có cơ chế khuyến khích người giàu tham gia bảo hiểm y tế (BHYT), bởi gần 10% dân số chưa tham gia chủ yếu là nhóm này, theo Bộ trưởng Tài chính. 71]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Cần có cơ chế khuyến khích người giàu tham gia bảo hiểm y tế (BHYT), bởi gần 10 % dân số chưa tham gia chủ yếu là nhóm này, theo Bộ trưởng Tài chính. 71]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Cần]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[có]]></Token>

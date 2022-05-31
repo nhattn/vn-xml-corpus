@@ -704,9 +704,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Trước]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[đó]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[23]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[23/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thẩm_tra]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[báo_cáo]]></Token>

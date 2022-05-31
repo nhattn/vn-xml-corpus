@@ -82,7 +82,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[kinh_tế]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Hàng năm, rừng ở Quảng Nam cung cấp gần 1,2 triệu m3 gỗ tiêu dùng trong nước và chế biến phục vụ xuất khẩu. Giá trị sản xuất lâm nghiệp, chế biến lâm sản và xuất khẩu của tỉnh hơn 1.400 tỷ đồng, chiếm hơn 10% tổng giá trị sản xuất toàn tỉnh.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Hàng năm, rừng ở Quảng Nam cung cấp gần 1,2 triệu m3 gỗ tiêu dùng trong nước và chế biến phục vụ xuất khẩu. Giá trị sản xuất lâm nghiệp, chế biến lâm sản và xuất khẩu của tỉnh hơn 1.400 tỷ đồng, chiếm hơn 10 % tổng giá trị sản xuất toàn tỉnh.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Hàng]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[năm]]></Token>
@@ -195,7 +195,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Sáng]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giữa]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[anh]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Lê_Văn_Nhành]]></Token>

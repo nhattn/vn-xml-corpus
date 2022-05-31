@@ -403,10 +403,10 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[lễ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đầu]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[là]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thời_điểm]]></Token>
             <Token tag="L" chunking="B-NP" ner="O"><![CDATA[các]]></Token>
@@ -645,9 +645,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thấy]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="B-PER"><![CDATA[Bộ]]></Token>
             <Token tag="N" chunking="I-NP" ner="I-PER"><![CDATA[Giao_thông]]></Token>
@@ -721,7 +719,7 @@
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[này]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Cách làm "mạnh tay" nên được triển khai rộng ở một số tuyến cao tốc khác. Nỗi lo lắng giờ đây là các xe chưa dán thiết bị thu phí thì sao? Không lẽ ngăn cấm họ qua lại. Nỗi lo này có cơ sở khi hiện chỉ 57%, tức khoảng gần 2,6 triệu phương tiện đã dán thẻ dịch vụ không dừng trong số gần 5 triệu xe. Trong số phương tiện đã dán, chỉ 60% đã nạp tiền vào tài khoản.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Cách làm "mạnh tay" nên được triển khai rộng ở một số tuyến cao tốc khác. Nỗi lo lắng giờ đây là các xe chưa dán thiết bị thu phí thì sao? Không lẽ ngăn cấm họ qua lại. Nỗi lo này có cơ sở khi hiện chỉ 57 % , tức khoảng gần 2,6 triệu phương tiện đã dán thẻ dịch vụ không dừng trong số gần 5 triệu xe. Trong số phương tiện đã dán, chỉ 60 % đã nạp tiền vào tài khoản.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Cách]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[làm]]></Token>

@@ -74,9 +74,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[cập_nhật]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[26]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[26/5]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[với]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[RON]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[92]]></Token>
@@ -120,9 +118,7 @@
             <Token tag="Ny" chunking="I-NP" ner="I-ORG"><![CDATA[HCM]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[)]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[23]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[23/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -131,7 +127,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Quỳnh]]></Token>
             <Token tag="Np" chunking="I-NP" ner="I-PER"><![CDATA[Trần]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Chia sẻ với VnExpress, lãnh đạo một doanh nghiệp đầu mối ở TP HCM cho rằng, tuần qua giá xăng dầu thế giới tiếp tục xu hướng tăng. Tính chung cả tuần, giá dầu thô Brent đã tăng tới 6%, chạm mức cao nhất 2 tháng qua và giá dầu thô WTI tăng 1,5%. Do đó, kỳ điều hành này giá xăng và dầu sẽ điều chỉnh tăng lần thứ 5 liên tiếp.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Chia sẻ với VnExpress, lãnh đạo một doanh nghiệp đầu mối ở TP HCM cho rằng, tuần qua giá xăng dầu thế giới tiếp tục xu hướng tăng. Tính chung cả tuần, giá dầu thô Brent đã tăng tới 6 % , chạm mức cao nhất 2 tháng qua và giá dầu thô WTI tăng 1,5 % . Do đó, kỳ điều hành này giá xăng và dầu sẽ điều chỉnh tăng lần thứ 5 liên tiếp.]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Chia_sẻ]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[với]]></Token>
@@ -527,7 +523,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[sản_lượng]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[của]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[7]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[7]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[lên]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[432.000]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thùng]]></Token>
@@ -665,7 +661,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-        <SimpleTextPart><![CDATA[Năm ngoái, trong khi nguồn cung xăng dầu trong nước mới đáp ứng được 70%, Việt Nam vẫn phải xuất đi 3,1 triệu tấn dầu thô rồi nhập về gần 10 triệu tấn dầu. 186]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Năm ngoái, trong khi nguồn cung xăng dầu trong nước mới đáp ứng được 70 % , Việt Nam vẫn phải xuất đi 3,1 triệu tấn dầu thô rồi nhập về gần 10 triệu tấn dầu. 186]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Năm_ngoái]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>

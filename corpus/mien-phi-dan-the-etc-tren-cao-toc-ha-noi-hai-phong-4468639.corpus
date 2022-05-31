@@ -39,18 +39,14 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Hải_Phòng]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[1/6]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Từ ngày 1/6, cao tốc Hà Nội - Hải Phòng sẽ thu phí không dừng (ETC) toàn bộ. Các xe lưu thông phải sử dụng một trong hai loại thẻ eTag hoặc ePass của doanh nghiệp cung cấp dịch vụ không dừng. Là doanh nghiệp cung cấp dịch vụ thu phí không dừng tại cao tốc Hà Nội - Hải Phòng, ông Hồ Trọng Vinh, Phó tổng giám đốc Công ty Thu phí tự động VETC, cho biết sẽ bố trí 200 nhân viên tại 15 điểm trạm thu phí để dán thẻ trong một tháng đầu. Chủ xe chỉ cần dừng chờ 2 phút là hoàn tất thủ tục dán thẻ Etag và mở tài khoản giao thông.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[1/6]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cao_tốc]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Hà_Nội]]></Token>
@@ -627,9 +623,7 @@
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[1/6]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tài_xế]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ôtô]]></Token>

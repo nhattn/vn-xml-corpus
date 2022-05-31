@@ -57,9 +57,7 @@
             <Token tag="Ny" chunking="I-NP" ner="I-ORG"><![CDATA[HCM]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[)]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[23]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[23/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -136,9 +134,7 @@
             <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[lít]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[23]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[23/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Cơ quan này lấy ví dụ giá bình quân xăng dầu thế giới ở ngày 11/5 là 1,3 USD một lít. Cùng thời điểm này, giá xăng RON 95 sau điều chỉnh tăng lên mức đối đa 29.988 đồng một lít, tương đương 1,3 USD. Tức là mỗi lít xăng trong nước bằng mức bình quân của thế giới khi đứng thứ 86 trong 170 quốc gia.]]></SimpleTextPart>
@@ -153,9 +149,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thế_giới]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[ở]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[11]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[11/5]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[là]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1,3]]></Token>
             <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[USD]]></Token>
@@ -282,9 +276,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giá]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[xăng]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[1/6]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[mặt_bằng]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giá]]></Token>

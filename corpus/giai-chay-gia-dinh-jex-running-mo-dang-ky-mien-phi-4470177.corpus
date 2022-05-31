@@ -29,9 +29,7 @@
             <Token tag="Ny" chunking="B-NP" ner="B-LOC"><![CDATA[TP]]></Token>
             <Token tag="Ny" chunking="I-NP" ner="I-LOC"><![CDATA[HCM]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[7]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3/7]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[bắt_đầu]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[nhận]]></Token>
@@ -498,7 +496,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[biết]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Theo thống kê của Hội Cơ xương khớp Việt Nam, khoảng 30% người trên 35 tuổi gặp triệu chứng của bệnh về xương khớp. Sau 5 năm mắc, 60% bệnh nhân mất chức năng lao động bình thường, 16% khác mất chức năng đi lại. Để góp phần cải thiện thực trạng này, ban tổ chức Jex Running 2022 còn tổ chức nhiều hoạt động bên lề giải chạy như chuỗi workshop tư vấn về dinh dưỡng, chế độ tập luyện và các phòng tránh các vấn đề về xương khớp; khám và tư vấn sức khỏe cho runner; trang bị những loại máy điều trị căng cơ, thư giãn cho vận động viên sau giải chạy.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Theo thống kê của Hội Cơ xương khớp Việt Nam, khoảng 30 % người trên 35 tuổi gặp triệu chứng của bệnh về xương khớp. Sau 5 năm mắc, 60 % bệnh nhân mất chức năng lao động bình thường, 16 % khác mất chức năng đi lại. Để góp phần cải thiện thực trạng này, ban tổ chức Jex Running 2022 còn tổ chức nhiều hoạt động bên lề giải chạy như chuỗi workshop tư vấn về dinh dưỡng, chế độ tập luyện và các phòng tránh các vấn đề về xương khớp; khám và tư vấn sức khỏe cho runner; trang bị những loại máy điều trị căng cơ, thư giãn cho vận động viên sau giải chạy.]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Theo]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thống_kê]]></Token>

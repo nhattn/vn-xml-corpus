@@ -44,7 +44,7 @@
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[đó]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Theo các nhà phân tích, yếu tố lớn nhất thúc đẩy đà tăng giá vàng là sự suy yếu của đồng bạc xanh. Đồng đôla Mỹ vẫn ở mức tương đối cao, tuy nhiên đã giảm 3% so với mức cao nhất vào đầu tháng.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Theo các nhà phân tích, yếu tố lớn nhất thúc đẩy đà tăng giá vàng là sự suy yếu của đồng bạc xanh. Đồng đôla Mỹ vẫn ở mức tương đối cao, tuy nhiên đã giảm 3 % so với mức cao nhất vào đầu tháng.]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Theo]]></Token>
             <Token tag="L" chunking="B-NP" ner="O"><![CDATA[các]]></Token>
@@ -122,7 +122,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[lãi_suất]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[7]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[7]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -232,7 +232,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[suy_yếu]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Tuần này, 17 nhà phân tích Phố Wall đã tham gia cuộc khảo sát giá vàng của Kitco News. Trong đó, 11 nhà phân tích (65%) dự báo giá vàng tăng tuần tới. Hai nhà phân tích (12%) cho rằng kim loại quý sẽ giảm, còn 4 người (23%) dự báo thị trường sẽ đi ngang.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Tuần này, 17 nhà phân tích Phố Wall đã tham gia cuộc khảo sát giá vàng của Kitco News. Trong đó, 11 nhà phân tích (65 % ) dự báo giá vàng tăng tuần tới. Hai nhà phân tích (12 % ) cho rằng kim loại quý sẽ giảm, còn 4 người (23 % ) dự báo thị trường sẽ đi ngang.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Tuần]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[này]]></Token>
@@ -381,7 +381,7 @@
             <Token tag="X" chunking="O" ner="O"><![CDATA[vừa_qua]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Kim loại quý tăng trong tuần trước khi số liệu cho thấy lạm phát tại Mỹ có xu hướng đạt đỉnh. CPI tháng này của Mỹ tăng 4,9% so với cùng kỳ năm ngoái (tháng 3 tăng 5,2%).]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Kim loại quý tăng trong tuần trước khi số liệu cho thấy lạm phát tại Mỹ có xu hướng đạt đỉnh. CPI tháng này của Mỹ tăng 4,9 % so với cùng kỳ năm ngoái (tháng 3 tăng 5,2 % ).]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Kim_loại]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[quý]]></Token>
@@ -418,7 +418,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[năm_ngoái]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[(]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tăng]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5,2]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[%]]></Token>

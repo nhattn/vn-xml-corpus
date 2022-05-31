@@ -30,7 +30,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thứ]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[ba]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[cao]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[nhất]]></Token>
@@ -38,19 +38,17 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Trong tuần tính đến ngày 27/5, 34 tàu dầu đã chở 25 triệu thùng rời các cảng xuất khẩu của Nga, theo số liệu của các hãng theo dấu tàu biển và các cảng. Tính trung bình, mỗi ngày Nga xuất đi 3,58 triệu thùng dầu, tăng 4% so với tuần trước đó và cũng là cao nhất kể từ cuối tháng 4.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Trong tuần tính đến ngày 27/5, 34 tàu dầu đã chở 25 triệu thùng rời các cảng xuất khẩu của Nga, theo số liệu của các hãng theo dấu tàu biển và các cảng. Tính trung bình, mỗi ngày Nga xuất đi 3,58 triệu thùng dầu, tăng 4 % so với tuần trước đó và cũng là cao nhất kể từ cuối tháng 4.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tuần]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tính]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[27]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[27/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[34]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tàu]]></Token>
@@ -111,7 +109,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Xuất khẩu dầu của Nga vẫn tăng, bất chấp việc Liên minh châu Âu (EU) khi đó vẫn đang tìm cách đạt thỏa thuận cấm nhập dầu nước này. Việc châu Âu xa lánh dầu Nga chỉ khiến các thùng dầu đi xa hơn, cập cảng các nước châu Á. Hiện tại, Ấn Độ là thị trường lớn nhất cho dầu từ phía tây nước Nga.]]></SimpleTextPart>
@@ -234,9 +232,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tính]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[27]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[27/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -293,7 +289,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thời_tiết]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Dầu Urals xuất đi từ các cảng ở Baltic giảm 7% trong tuần, tương đương 104.000 thùng một ngày. Dù vậy, dầu từ cảng Novorossiysk tại Biển Đen lại tăng 24%, tương đương 167.000 thùng một ngày.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Dầu Urals xuất đi từ các cảng ở Baltic giảm 7 % trong tuần, tương đương 104.000 thùng một ngày. Dù vậy, dầu từ cảng Novorossiysk tại Biển Đen lại tăng 24 % , tương đương 167.000 thùng một ngày.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Dầu]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Urals]]></Token>
@@ -339,7 +335,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Dầu xuất từ Murmansk (nằm trên vòng Bắc Cực) tăng tới 37%, lên cao nhất 3 tuần. Trong khi đó, dầu từ Thái Bình Dương gần như không đổi so với tuần trước đó.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Dầu xuất từ Murmansk (nằm trên vòng Bắc Cực) tăng tới 37 % , lên cao nhất 3 tuần. Trong khi đó, dầu từ Thái Bình Dương gần như không đổi so với tuần trước đó.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Dầu]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[xuất]]></Token>
@@ -426,7 +422,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Thuế]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[được]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thiết_lập]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[ở]]></Token>

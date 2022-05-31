@@ -158,7 +158,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[khuyên_nhủ]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Nỗi lo của chị không xa xôi. Một nghiên cứu được Bộ Y tế và Tổ chức Y tế Thế giới (WHO) công bố ngày 25/4 cho thấy tỷ lệ quan hệ tình dục trước 14 tuổi ở học sinh Việt Nam tăng gấp hai lần, từ 1,45% (năm 2013) lên 3,51% (năm 2019). Tỷ lệ sử dụng biện pháp tránh thai giảm đi.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Nỗi lo của chị không xa xôi. Một nghiên cứu được Bộ Y tế và Tổ chức Y tế Thế giới (WHO) công bố ngày 25/4 cho thấy tỷ lệ quan hệ tình dục trước 14 tuổi ở học sinh Việt Nam tăng gấp hai lần, từ 1,45 % (năm 2013) lên 3,51 % (năm 2019). Tỷ lệ sử dụng biện pháp tránh thai giảm đi.]]></SimpleTextPart>
         <Sentence>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[Nỗi]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[lo]]></Token>
@@ -182,9 +182,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[)]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[công_bố]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[25]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[25/4]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[cho]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thấy]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tỷ_lệ]]></Token>

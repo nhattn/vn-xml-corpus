@@ -74,7 +74,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[sinh_nhật]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giữa]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cô]]></Token>
             <Token tag="Cc" chunking="B-NP" ner="O"><![CDATA[và]]></Token>
@@ -194,9 +194,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[của]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Thùy]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[14]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[14/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[David]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[hẹn]]></Token>

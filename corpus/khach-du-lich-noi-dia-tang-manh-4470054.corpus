@@ -11,7 +11,7 @@
         </Sentence>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Việt_Nam]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[đạt]]></Token>
@@ -31,12 +31,12 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[2021]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Theo báo cáo tháng 5 của Tổng cục Du lịch, lượng khách nội địa tăng 14% so với tháng 4 - tháng có hai kỳ nghỉ giỗ Tổ và 30/4 và tăng 243% so với cùng kỳ 2021. Trong đó, lượng khách lưu trú là 8 triệu lượt. Việt Nam đang chứng kiến sự tăng trưởng mạnh của khách nội địa, khi 5 tháng đầu năm đón 48,6 triệu lượt.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Theo báo cáo tháng 5 của Tổng cục Du lịch, lượng khách nội địa tăng 14 % so với tháng 4 - tháng có hai kỳ nghỉ giỗ Tổ và 30/4 và tăng 243 % so với cùng kỳ 2021. Trong đó, lượng khách lưu trú là 8 triệu lượt. Việt Nam đang chứng kiến sự tăng trưởng mạnh của khách nội địa, khi 5 tháng đầu năm đón 48,6 triệu lượt.]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Theo]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[báo_cáo]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[của]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Tổng_cục]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Du_lịch]]></Token>
@@ -50,8 +50,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[so]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[với]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[-]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4-]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[có]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[hai]]></Token>
@@ -122,7 +121,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Việt_Nam]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[là]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[136.000]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[lượt]]></Token>
@@ -134,7 +133,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[so]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[với]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -244,7 +243,7 @@
             <Token tag="R" chunking="O" ner="O"><![CDATA[nhất]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Còn theo Tổng cục Thống kê, doanh thu du lịch lữ hành trong 5 tháng đầu năm 2022 tăng 34,7% so với cùng kỳ năm trước. Doanh thu từ dịch vụ lưu trú, ăn uống cũng tăng 15,7% so với cùng kỳ năm trước khi nhu cầu của người dân tăng cao.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Còn theo Tổng cục Thống kê, doanh thu du lịch lữ hành trong 5 tháng đầu năm 2022 tăng 34,7 % so với cùng kỳ năm trước. Doanh thu từ dịch vụ lưu trú, ăn uống cũng tăng 15,7 % so với cùng kỳ năm trước khi nhu cầu của người dân tăng cao.]]></SimpleTextPart>
         <Sentence>
             <Token tag="C" chunking="O" ner="O"><![CDATA[Còn]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[theo]]></Token>
@@ -297,7 +296,7 @@
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[cao]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Với lượng khách tăng cao, các hãng hàng không đồng loạt tăng chuyến. Vietnam Airlines Group dự kiến cung cấp hơn 7,1 triệu chuyến bay, trong đó có 6,3 triệu chỗ bay nội địa, tăng 6% so với năm 2019. Bamboo Airways dự kiến tăng 15% số chỗ so với hiện tại, các chuyến bay tăng cường tới các điểm du lịch Phú Quốc, Đà Nẵng, Nha Trang, Quy Nhơn... và đường bay trục Hà Nội - TP HCM - Đà Nẵng.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Với lượng khách tăng cao, các hãng hàng không đồng loạt tăng chuyến. Vietnam Airlines Group dự kiến cung cấp hơn 7,1 triệu chuyến bay, trong đó có 6,3 triệu chỗ bay nội địa, tăng 6 % so với năm 2019. Bamboo Airways dự kiến tăng 15 % số chỗ so với hiện tại, các chuyến bay tăng cường tới các điểm du lịch Phú Quốc, Đà Nẵng, Nha Trang, Quy Nhơn... và đường bay trục Hà Nội - TP HCM - Đà Nẵng.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Với]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[lượng]]></Token>

@@ -43,9 +43,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[trao]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giải]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[17]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[17/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Buổi lễ vinh danh các chủ nhân giải thưởng Sáng kiến Khoa học của VnExpress thu hút sự chú ý của các nhà khoa học trong nước và quốc tế. 15h ngày 16/5, trước thềm Lễ trao giải, đại diện các đội thi từ các tỉnh, thành phố trong cả nước đã tề tựu về Hà Nội.]]></SimpleTextPart>
@@ -76,9 +74,7 @@
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[15]]></Token>
             <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[h]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[16]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[16/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trước]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thềm]]></Token>

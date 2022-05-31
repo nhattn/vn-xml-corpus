@@ -44,7 +44,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[máy_móc]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Bộ Lao động Thương binh và Xã hội hôm 20/5 bắt đầu lấy ý kiến bộ ngành về dự thảo nghị định quy định tiền lương tối thiểu, dự kiến thực hiện từ ngày 1/7. Ngoài đề xuất mức tăng 6% với lương tối thiểu tháng, lần đầu tiên Bộ áp dụng lương tối thiểu giờ, dao động 15.600 tới 22.500 đồng.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Bộ Lao động Thương binh và Xã hội hôm 20/5 bắt đầu lấy ý kiến bộ ngành về dự thảo nghị định quy định tiền lương tối thiểu, dự kiến thực hiện từ ngày 1/7. Ngoài đề xuất mức tăng 6 % với lương tối thiểu tháng, lần đầu tiên Bộ áp dụng lương tối thiểu giờ, dao động 15.600 tới 22.500 đồng.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Bộ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Lao_động_Thương_binh_và_Xã_hội]]></Token>
@@ -68,9 +68,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thực_hiện]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[7]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[1/7]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -1150,9 +1148,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thực_hiện]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[7]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[1/7]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -1175,7 +1171,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Hồng]]></Token>
             <Token tag="Np" chunking="I-NP" ner="I-PER"><![CDATA[Chiêu]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Lương tối thiểu giờ được đề xuất từ 15.600 đồng tới 22.500 đồng tương ứng bốn vùng, bên cạnh tăng lương tối thiểu tháng thêm 6% từ ngày 1/7. 197]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Lương tối thiểu giờ được đề xuất từ 15.600 đồng tới 22.500 đồng tương ứng bốn vùng, bên cạnh tăng lương tối thiểu tháng thêm 6 % từ ngày 1/7. 197]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Lương]]></Token>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[tối_thiểu]]></Token>
@@ -1203,9 +1199,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[%]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[7]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[1/7]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

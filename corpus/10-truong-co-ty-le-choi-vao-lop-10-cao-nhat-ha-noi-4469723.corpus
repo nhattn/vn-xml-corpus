@@ -47,9 +47,7 @@
         <SimpleTextPart><![CDATA[Ngày 30/5, Sở Giáo dục và Đào tạo Hà Nội công bố số lượng đăng ký dự thi lớp 10 THPT công lập năm học 2022-2023. Tỷ lệ chọi của mỗi trường là kết quả của tổng số học sinh đăng ký nguyện vọng 1 chia cho chỉ tiêu của trường đó.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[30]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[30/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Sở]]></Token>
             <Token tag="Ny" chunking="B-NP" ner="O"><![CDATA[Giáo_dục_và_Đào_tạo]]></Token>

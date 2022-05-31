@@ -136,26 +136,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Người]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[lao_động]]></Token>
-            <Token tag="R" chunking="O" ner="O"><![CDATA[có_thể]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[góp_ý]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[trực_tiếp]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[với]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[công_đoàn]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cơ_sở]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[liên_đoàn]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[lao_động]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[địa_phương]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
-            <Token tag="Cc" chunking="B-NP" ner="O"><![CDATA[hoặc]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[gửi]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ý_kiến]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[về]]></Token>
-            <Token tag="Nb" chunking="B-NP" ner="O"><![CDATA[email]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[bantuyengiaotongliendoan@gmail.com.]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Tổng liên đoàn mong muốn cuộc đối thoại sẽ diễn ra vào cuối tháng 5, sau hai năm đại dịch tác động khiến nhiều vấn đề về an sinh, lao động, việc làm bộc lộ rõ. "Đối thoại là dịp để lãnh đạo Chính phủ, Nhà nước lắng nghe tâm tư, nguyện vọng, kịp thời giải quyết những vấn đề và động viên công nhân vượt khó", ông Hiểu nói.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Tổng_liên_đoàn]]></Token>
@@ -168,7 +148,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[sau]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[hai]]></Token>
@@ -227,7 +207,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Công nhân Việt Nam chiếm 15% dân số, 27% lực lượng lao động nhưng đóng góp 70% ngân sách và 65% GDP. Theo Tổng liên đoàn, đóng góp nhiều nhưng công nhân chưa được hưởng thành quả tương xứng khi đời sống còn bấp bênh, nhiều vấn đề cấp bách về tiền lương, nhà ở, nuôi con... chưa được giải quyết thỏa đáng.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Công nhân Việt Nam chiếm 15 % dân số, 27 % lực lượng lao động nhưng đóng góp 70 % ngân sách và 65 % GDP. Theo Tổng liên đoàn, đóng góp nhiều nhưng công nhân chưa được hưởng thành quả tương xứng khi đời sống còn bấp bênh, nhiều vấn đề cấp bách về tiền lương, nhà ở, nuôi con... chưa được giải quyết thỏa đáng.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Công_nhân]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Việt_Nam]]></Token>
@@ -293,7 +273,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[công_đoàn]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[năm]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[nay]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[cho]]></Token>
@@ -374,7 +354,7 @@
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[10]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Khoảng 70% lao động cả nước đang thuê trọ trong các khu nhà người dân tự xây, diện tích dưới 3 m2 một người. Hàng loạt khu công nghiệp tại TP HCM, Đồng Nai, Bình Dương, Hà Nội, Bắc Ninh, Bắc Giang, Vĩnh Phúc... thu hút hàng triệu lao động làm việc, nhu cầu chỗ ở tăng cao. Song với mức thu nhập bình quân 4 đến 6 triệu đồng mỗi tháng, công nhân hầu như không có khả năng mua nhà, khi chi phí phòng trọ, nuôi con đã khiến họ không còn tích lũy.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Khoảng 70 % lao động cả nước đang thuê trọ trong các khu nhà người dân tự xây, diện tích dưới 3 m2 một người. Hàng loạt khu công nghiệp tại TP HCM, Đồng Nai, Bình Dương, Hà Nội, Bắc Ninh, Bắc Giang, Vĩnh Phúc... thu hút hàng triệu lao động làm việc, nhu cầu chỗ ở tăng cao. Song với mức thu nhập bình quân 4 đến 6 triệu đồng mỗi tháng, công nhân hầu như không có khả năng mua nhà, khi chi phí phòng trọ, nuôi con đã khiến họ không còn tích lũy.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Khoảng]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[70]]></Token>
@@ -471,7 +451,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tích_lũy]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[40% công nhân phải gửi con về quê cho người thân trông nom, gần 22% gửi ở nhóm trẻ gia đình, nhà trẻ tư nhân. Công nhân xa con ảnh hưởng lớn đến tình cảm gia đình. Họ cũng không có nhiều thời gian chăm sóc con khi phải tăng ca. Đời sống giải trí, tinh thần của công nhân Việt Nam khá "nghèo nàn". Tình trạng bạo lực gia đình, công nhân mắc nợ xấu, tín dụng đen... có thể gia tăng sau đại dịch.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[40 % công nhân phải gửi con về quê cho người thân trông nom, gần 22 % gửi ở nhóm trẻ gia đình, nhà trẻ tư nhân. Công nhân xa con ảnh hưởng lớn đến tình cảm gia đình. Họ cũng không có nhiều thời gian chăm sóc con khi phải tăng ca. Đời sống giải trí, tinh thần của công nhân Việt Nam khá "nghèo nàn". Tình trạng bạo lực gia đình, công nhân mắc nợ xấu, tín dụng đen... có thể gia tăng sau đại dịch.]]></SimpleTextPart>
         <Sentence>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[40]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[%]]></Token>

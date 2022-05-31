@@ -52,9 +52,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[cho]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[chính_sách]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[18]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[18/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[ông]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Trương_Anh_Dũng]]></Token>
@@ -127,7 +125,7 @@
             <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[đồng]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Song thống kê của Bảo hiểm xã hội Việt Nam tới ngày 17/5 cho thấy cơ quan Bảo hiểm xã hội của 12 tỉnh thành mới nhận hồ sơ đề nghị chi hỗ trợ của 31 doanh nghiệp được địa phương phê duyệt. Thực tế, phía bảo hiểm xã hội mới giải ngân được 17,1 tỷ đồng (đạt 0,38%), chi đào tạo cho 4.000 người lao động.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Song thống kê của Bảo hiểm xã hội Việt Nam tới ngày 17/5 cho thấy cơ quan Bảo hiểm xã hội của 12 tỉnh thành mới nhận hồ sơ đề nghị chi hỗ trợ của 31 doanh nghiệp được địa phương phê duyệt. Thực tế, phía bảo hiểm xã hội mới giải ngân được 17,1 tỷ đồng (đạt 0,38 % ), chi đào tạo cho 4.000 người lao động.]]></SimpleTextPart>
         <Sentence>
             <Token tag="C" chunking="O" ner="O"><![CDATA[Song]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thống_kê]]></Token>
@@ -136,9 +134,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Việt_Nam]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[tới]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[17]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[17/5]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[cho]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thấy]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cơ_quan]]></Token>
@@ -324,9 +320,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hồ_sơ]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[là]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[30]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[30/6]]></Token>
             <Token tag="Cc" chunking="B-NP" ner="O"><![CDATA[và]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thời_gian]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[triển_khai]]></Token>
@@ -731,7 +725,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[:]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Hồng_Chiêu]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Chính sách hỗ trợ đào tạo duy trì việc làm cho người lao động nằm trong nhóm 12 chính sách tổng thể thuộc Nghị quyết 68 (gói 26.000 tỷ đồng) ban hành ngày 1/7/2021. Để được hỗ trợ, doanh nghiệp phải đáp ứng điều kiện như đóng đủ bảo hiểm thất nghiệp từ 12 tháng trở lên cho lao động tính đến thời điểm đề nghị; thay đổi cơ cấu công nghệ; doanh thu giảm 10% trở lên... Mức hỗ trợ tối đa 1,5 triệu đồng một tháng cho mỗi lao động, tối đa 6 tháng.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Chính sách hỗ trợ đào tạo duy trì việc làm cho người lao động nằm trong nhóm 12 chính sách tổng thể thuộc Nghị quyết 68 (gói 26.000 tỷ đồng) ban hành ngày 1/7/2021. Để được hỗ trợ, doanh nghiệp phải đáp ứng điều kiện như đóng đủ bảo hiểm thất nghiệp từ 12 tháng trở lên cho lao động tính đến thời điểm đề nghị; thay đổi cơ cấu công nghệ; doanh thu giảm 10 % trở lên... Mức hỗ trợ tối đa 1,5 triệu đồng một tháng cho mỗi lao động, tối đa 6 tháng.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Chính_sách]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[hỗ_trợ]]></Token>
@@ -919,7 +913,7 @@
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4/2020]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Theo thống kê của Bộ Lao động Thương binh và Xã hội, năm 2020, tổng số tiền chi trợ cấp thất nghiệp và hỗ trợ học nghề gần 19.600 tỷ đồng (tăng 40% so với năm 2019). Trong đó, riêng khoản chi trợ cấp thất nghiệp hơn 19.500 tỷ đồng cho gần 1,1 triệu lao động (tăng 30% so với năm 2019), còn lại 100 tỷ đồng chi cho học nghề.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Theo thống kê của Bộ Lao động Thương binh và Xã hội, năm 2020, tổng số tiền chi trợ cấp thất nghiệp và hỗ trợ học nghề gần 19.600 tỷ đồng (tăng 40 % so với năm 2019). Trong đó, riêng khoản chi trợ cấp thất nghiệp hơn 19.500 tỷ đồng cho gần 1,1 triệu lao động (tăng 30 % so với năm 2019), còn lại 100 tỷ đồng chi cho học nghề.]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Theo]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thống_kê]]></Token>

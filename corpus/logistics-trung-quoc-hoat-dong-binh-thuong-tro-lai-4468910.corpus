@@ -38,9 +38,7 @@
         <SimpleTextPart><![CDATA[Ngày 26/5, ông Li Huaqiang, Phó giám đốc Sở giao thông thuộc Bộ Giao thông Vận tải Trung Quốc, cho biết đã giải quyết các vấn đề đóng cửa trạm thu phí và các khu vực dịch vụ trên đường cao tốc sau các lệnh phong tỏa, hạn chế để phòng dịch. Những tuyến đường tắc nghẽn gây cản trở trong việc vận chuyển hàng hóa đến các vùng nông thôn cũng được xử lý ổn thỏa.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[26]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[26/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[ông]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Li_Huaqiang]]></Token>
@@ -103,14 +101,12 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ổn_thỏa]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[So với ngày 18/4, lưu lượng xe tải trên đường cao tốc hiện nay đã tăng khoảng 10,9%. Khối lượng vận chuyển hàng hóa đường sắt và đường bộ lần lượt tăng 9,2% và 12,6%. Cả hai đều trở lại khoảng 90% so với mức bình thường.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[So với ngày 18/4, lưu lượng xe tải trên đường cao tốc hiện nay đã tăng khoảng 10,9 % . Khối lượng vận chuyển hàng hóa đường sắt và đường bộ lần lượt tăng 9,2 % và 12,6 % . Cả hai đều trở lại khoảng 90 % so với mức bình thường.]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[So]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[với]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[18]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[18/4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[lưu_lượng]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[xe_tải]]></Token>
@@ -155,7 +151,7 @@
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[bình_thường]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Tuần trước, lĩnh vực bưu chính và chuyển phát bưu kiện của Trung Quốc cũng đạt mức xử lý nhiều hoạt động kinh doanh ngang với cùng kỳ năm ngoái. Các trung tâm vận tải và logistics lớn của Trung Quốc cũng dần hoạt động trở lại. Sản lượng container hàng ngày tại cảng Thượng Hải vượt 95% so với thông thường.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Tuần trước, lĩnh vực bưu chính và chuyển phát bưu kiện của Trung Quốc cũng đạt mức xử lý nhiều hoạt động kinh doanh ngang với cùng kỳ năm ngoái. Các trung tâm vận tải và logistics lớn của Trung Quốc cũng dần hoạt động trở lại. Sản lượng container hàng ngày tại cảng Thượng Hải vượt 95 % so với thông thường.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Tuần]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[trước]]></Token>
@@ -213,7 +209,7 @@
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[thông_thường]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Với đường hàng không, lưu lượng hàng hóa hàng ngày tại sân bay quốc tế Phố Đông (Thượng Hải) phục hồi khoảng 80% khối lượng trước khi dịch bệnh bùng phát. Sân bay quốc tế Bạch Vân (Quảng Châu) cũng ghi nhận snả lượng trở lại mức bình thường.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Với đường hàng không, lưu lượng hàng hóa hàng ngày tại sân bay quốc tế Phố Đông (Thượng Hải) phục hồi khoảng 80 % khối lượng trước khi dịch bệnh bùng phát. Sân bay quốc tế Bạch Vân (Quảng Châu) cũng ghi nhận snả lượng trở lại mức bình thường.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Với]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đường_hàng_không]]></Token>
@@ -283,7 +279,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Thượng_Hải]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
@@ -331,7 +327,7 @@
         <SimpleTextPart><![CDATA[Tháng 4, chính phủ Trung Quốc đã thành lập văn phòng đảm bảo logistics không bị cản trở để giải quyết các vấn đề tắc nghẽn giao thông. Song song đó, chính phủ cũng lập một hotline chuyên giải đáp thắc mắc khách hàng và tiếp nhận các ý kiến đóng góp. Trong tháng qua, hotline này đã ghi nhận và giải quyết hơn 1.900 vấn đề liên quan đến vận chuyển xe tải.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[chính_phủ]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Trung_Quốc]]></Token>

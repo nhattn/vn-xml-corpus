@@ -1074,7 +1074,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nền_tảng]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[...]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Hiện tốc độ tăng trưởng gian hàng chăm sóc sức khỏe và sắc đẹp Fixderma của anh mỗi tháng đạt mức 20-30%. Bản thân anh cũng trở thành một trong những chuyên gia tích cực chia sẻ kinh nghiệm và bí quyết kinh doanh trong cộng đồng Nhà bán hàng Lazada và là Phó chủ tịch Câu lạc bộ Nhà bán hàng Lazada TP HCM, chuyên gia của Cộng đồng Nhà bán hàng Lazada.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Hiện tốc độ tăng trưởng gian hàng chăm sóc sức khỏe và sắc đẹp Fixderma của anh mỗi tháng đạt mức 20-30 % . Bản thân anh cũng trở thành một trong những chuyên gia tích cực chia sẻ kinh nghiệm và bí quyết kinh doanh trong cộng đồng Nhà bán hàng Lazada và là Phó chủ tịch Câu lạc bộ Nhà bán hàng Lazada TP HCM, chuyên gia của Cộng đồng Nhà bán hàng Lazada.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Hiện]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tốc_độ]]></Token>
@@ -1305,15 +1305,11 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ra]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6/4]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[hết]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[30]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[30/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="C" chunking="O" ner="O"><![CDATA[nhân_dịp]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[kỷ_niệm]]></Token>
@@ -1328,7 +1324,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Việt]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Ngoài ra, để đồng hành với nhà bán hàng, thương hiệu, đối tác cũng như đáp ứng nhu cầu mua sắm của người tiêu dùng, Lazada tiếp tục duy trì các chương trình khuyến mãi với nhiều lễ hội mua sắm lớn trong năm. Cụ thể trong thời gian tới, Lễ hội mua sắm 6.6 "Hè tới, Sale chơi tới" diễn ra từ 6/6 đến 10/6 với hàng triệu các sản phẩm giảm giá lên đến 50%, loạt voucher giảm giá cộng dồn 6 lần cùng chương trình miễn phí giao hàng 0 đồng toàn quốc cho người dùng. Đây đồng thời là dịp để các nhà bán hàng gia tăng doanh thu, tối ưu lợi nhuận.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Ngoài ra, để đồng hành với nhà bán hàng, thương hiệu, đối tác cũng như đáp ứng nhu cầu mua sắm của người tiêu dùng, Lazada tiếp tục duy trì các chương trình khuyến mãi với nhiều lễ hội mua sắm lớn trong năm. Cụ thể trong thời gian tới, Lễ hội mua sắm 6.6 "Hè tới, Sale chơi tới" diễn ra từ 6/6 đến 10/6 với hàng triệu các sản phẩm giảm giá lên đến 50 % , loạt voucher giảm giá cộng dồn 6 lần cùng chương trình miễn phí giao hàng 0 đồng toàn quốc cho người dùng. Đây đồng thời là dịp để các nhà bán hàng gia tăng doanh thu, tối ưu lợi nhuận.]]></SimpleTextPart>
         <Sentence>
             <Token tag="X" chunking="O" ner="O"><![CDATA[Ngoài_ra]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>

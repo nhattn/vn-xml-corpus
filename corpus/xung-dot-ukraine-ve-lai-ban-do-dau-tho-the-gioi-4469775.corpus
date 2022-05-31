@@ -169,11 +169,11 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thu_mua]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Đến tháng 4, giá dầu thế giới ổn định quanh mức 110 USD mỗi thùng sau khi chạm mức cao nhất trong 14 năm trên 139 USD vào tháng 3. Dầu Nga bị Mỹ cấm nhập khẩu và doanh nghiệp châu Âu xa lánh, nhưng được Ấn Độ và Trung Quốc tăng cường thu mua với mức chiết khấu cao. Dòng dầu của Nga đến châu Á qua đường biển đã tăng ít nhất 50% kể từ đầu năm, theo công ty theo dõi tàu chở dầu Petro-Logistics và một số nguồn dữ liệu khác.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Đến tháng 4, giá dầu thế giới ổn định quanh mức 110 USD mỗi thùng sau khi chạm mức cao nhất trong 14 năm trên 139 USD vào tháng 3. Dầu Nga bị Mỹ cấm nhập khẩu và doanh nghiệp châu Âu xa lánh, nhưng được Ấn Độ và Trung Quốc tăng cường thu mua với mức chiết khấu cao. Dòng dầu của Nga đến châu Á qua đường biển đã tăng ít nhất 50 % kể từ đầu năm, theo công ty theo dõi tàu chở dầu Petro-Logistics và một số nguồn dữ liệu khác.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Đến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giá]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[dầu]]></Token>
@@ -199,7 +199,7 @@
             <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[USD]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -576,7 +576,7 @@
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[1]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[chỉ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[khoảng]]></Token>
@@ -635,7 +635,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="C" chunking="O" ner="O"><![CDATA[tức]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[khôi_phục]]></Token>
@@ -649,7 +649,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Ukraine]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Trong khi đó, phương Tây tăng mua dầu châu Phi. Để bù đắp cho sự mất mát của dầu Nga, các nhà máy lọc dầu châu Âu đã chuyển sang nhập khẩu dầu thô Tây Phi, tăng 17% trong tháng 4 so với mức trung bình giai đoạn 2018-2021, theo Petro-Logistics. Dữ liệu của Eikon thì ước khoảng 660.000 thùng dầu mỗi ngày - chủ yếu từ Nigeria, Angola và Cameroon - được chuyển đến Tây Bắc châu Âu trong tháng 5.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Trong khi đó, phương Tây tăng mua dầu châu Phi. Để bù đắp cho sự mất mát của dầu Nga, các nhà máy lọc dầu châu Âu đã chuyển sang nhập khẩu dầu thô Tây Phi, tăng 17 % trong tháng 4 so với mức trung bình giai đoạn 2018-2021, theo Petro-Logistics. Dữ liệu của Eikon thì ước khoảng 660.000 thùng dầu mỗi ngày - chủ yếu từ Nigeria, Angola và Cameroon - được chuyển đến Tây Bắc châu Âu trong tháng 5.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[khi]]></Token>
@@ -689,7 +689,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[%]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[so]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[với]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[mức]]></Token>
@@ -715,7 +715,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[dầu]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[mỗi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[-]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[-]]></Token>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[chủ_yếu]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Nigeria]]></Token>
@@ -731,7 +731,7 @@
             <Token tag="Np" chunking="I-NP" ner="I-PER"><![CDATA[châu_Âu]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -764,7 +764,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[giao]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[mức]]></Token>
@@ -774,7 +774,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[do]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Delhi]]></Token>
@@ -837,7 +837,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Brent]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Nguồn cung từ dầu khu vực Bắc Phi sang châu Âu cũng tăng 30% kể từ tháng 3. Trong số này, lượng hàng đến Tây Bắc châu Âu từ cảng Sidi Kerir (Ai Cập) có khả năng là dầu của Saudi Arabia tăng gần gấp đôi so với tháng 3, lên trên 400.000 thùng mỗi ngày vào tháng 5.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Nguồn cung từ dầu khu vực Bắc Phi sang châu Âu cũng tăng 30 % kể từ tháng 3. Trong số này, lượng hàng đến Tây Bắc châu Âu từ cảng Sidi Kerir (Ai Cập) có khả năng là dầu của Saudi Arabia tăng gần gấp đôi so với tháng 3, lên trên 400.000 thùng mỗi ngày vào tháng 5.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Nguồn]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cung]]></Token>
@@ -854,7 +854,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[kể]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -886,7 +886,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[so]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[với]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[lên]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[trên]]></Token>
@@ -896,10 +896,10 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Cùng với đó, Mỹ cũng đã tăng cường cung cấp dầu cho châu Âu. Theo công ty theo dõi dữ liệu Kpler, nhập khẩu dầu thô của châu Âu trong tháng 5 từ Mỹ tăng hơn 15% so với tháng 3. Châu Âu hiện nhận khoảng 1,45 triệu thùng dầu thô mỗi ngày từ Mỹ.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Cùng với đó, Mỹ cũng đã tăng cường cung cấp dầu cho châu Âu. Theo công ty theo dõi dữ liệu Kpler, nhập khẩu dầu thô của châu Âu trong tháng 5 từ Mỹ tăng hơn 15 % so với tháng 3. Châu Âu hiện nhận khoảng 1,45 triệu thùng dầu thô mỗi ngày từ Mỹ.]]></SimpleTextPart>
         <Sentence>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[Cùng]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[với]]></Token>
@@ -928,7 +928,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-ORG"><![CDATA[châu_Âu]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Mỹ]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tăng]]></Token>
@@ -938,7 +938,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[so]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[với]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

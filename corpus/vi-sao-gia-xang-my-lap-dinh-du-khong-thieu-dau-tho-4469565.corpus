@@ -111,7 +111,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thùng]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Giá dầu thô cao sẽ góp phần làm tăng chi phí xăng dầu. Nhưng theo các lãnh đạo công ty và chuyên gia phân tích năng lượng, thủ phạm chính khiến giá xăng tại Mỹ vẫn cao là năng lực lọc dầu.]]></SimpleTextPart>
@@ -522,7 +522,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thùng]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="Cc" chunking="B-NP" ner="O"><![CDATA[và]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hiện_tại]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[là]]></Token>
@@ -805,7 +805,7 @@
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[66]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hồi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[cho]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[biết]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[sẽ]]></Token>
@@ -877,7 +877,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[khi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[việc]]></Token>
@@ -944,7 +944,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[dầu_diesel]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Đầu tháng này, dự trữ diesel của Mỹ đã giảm xuống mức thấp nhất 17 năm, theo JPMorgan Chase. Ngân hàng này cho biết riêng tại Bờ Đông, lượng dầu diesel dự trữ trong tháng 5 đã giảm xuống mức thấp nhất 40 năm. Trong khi đó, lượng xăng tồn kho của Mỹ là 18,8 triệu thùng, tương đương 8%, thấp hơn mức trung bình với thời điểm này trong năm, theo EIA.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Đầu tháng này, dự trữ diesel của Mỹ đã giảm xuống mức thấp nhất 17 năm, theo JPMorgan Chase. Ngân hàng này cho biết riêng tại Bờ Đông, lượng dầu diesel dự trữ trong tháng 5 đã giảm xuống mức thấp nhất 40 năm. Trong khi đó, lượng xăng tồn kho của Mỹ là 18,8 triệu thùng, tương đương 8 % , thấp hơn mức trung bình với thời điểm này trong năm, theo EIA.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Đầu]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
@@ -983,7 +983,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[dự_trữ]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[đã]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[giảm]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[xuống]]></Token>
@@ -1235,7 +1235,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[WSJ]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[)]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Năm ngoái, trong khi nguồn cung xăng dầu trong nước mới đáp ứng được 70%, Việt Nam vẫn phải xuất đi 3,1 triệu tấn dầu thô rồi nhập về gần 10 triệu tấn dầu. 186]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Năm ngoái, trong khi nguồn cung xăng dầu trong nước mới đáp ứng được 70 % , Việt Nam vẫn phải xuất đi 3,1 triệu tấn dầu thô rồi nhập về gần 10 triệu tấn dầu. 186]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Năm_ngoái]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
@@ -1300,7 +1300,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-        <SimpleTextPart><![CDATA[Gà quay (rotisserie chicken) đang là mặt hàng không hề tăng giá giữa cơn bão lạm phát dù giá gà tăng 16,4% và giá hầu hết thực phẩm leo thang. 96]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Gà quay (rotisserie chicken) đang là mặt hàng không hề tăng giá giữa cơn bão lạm phát dù giá gà tăng 16,4 % và giá hầu hết thực phẩm leo thang. 96]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Gà_quay]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[(]]></Token>

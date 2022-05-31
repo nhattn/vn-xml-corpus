@@ -147,7 +147,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[chương_trình]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Cô dẫn chứng, tỷ lệ điểm 8 trở lên trong đợt thi thử môn Toán vào lớp 10 THPT chỉ khoảng 15%, thấp hơn một nửa so với các năm trước. Về học lực, mỗi lớp 9 trong trường có khoảng 20-30% học sinh đạt loại khá, giỏi, trong khi tỷ lệ này các năm trước là 40-45%.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Cô dẫn chứng, tỷ lệ điểm 8 trở lên trong đợt thi thử môn Toán vào lớp 10 THPT chỉ khoảng 15 % , thấp hơn một nửa so với các năm trước. Về học lực, mỗi lớp 9 trong trường có khoảng 20-30 % học sinh đạt loại khá, giỏi, trong khi tỷ lệ này các năm trước là 40-45 % .]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Cô]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[dẫn_chứng]]></Token>
@@ -304,7 +304,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đầu]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[2]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[2]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -423,7 +423,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[online]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hồi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[2]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[2]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -580,7 +580,7 @@
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[nhiều]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Số học sinh khá giỏi của các lớp thầy phụ trách khoảng 70%, trung bình gần 30%, một số ít yếu, kém. Tỷ lệ này tương đương những năm học trước và ở mức chấp nhận được với một trường vùng xa ở thành phố.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Số học sinh khá giỏi của các lớp thầy phụ trách khoảng 70 % , trung bình gần 30 % , một số ít yếu, kém. Tỷ lệ này tương đương những năm học trước và ở mức chấp nhận được với một trường vùng xa ở thành phố.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Số]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[học_sinh]]></Token>
@@ -667,7 +667,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[nói]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Theo khảo sát của Bộ Giáo dục và Đào tạo với hơn 95.300 giáo viên, khoảng 65% thầy cô đánh giá dạy học trực tuyến chỉ "tương đối hiệu quả"; 19-21% giáo viên (tuỳ từng cấp học) thậm chí nhận định dạy học trực tuyến không hiệu quả. Việc học trực tuyến khiến 45% trong tổng số 341.800 học sinh gặp các vấn đề sức khoẻ như mỏi mắt, đau cổ, ù tai.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Theo khảo sát của Bộ Giáo dục và Đào tạo với hơn 95.300 giáo viên, khoảng 65 % thầy cô đánh giá dạy học trực tuyến chỉ "tương đối hiệu quả"; 19-21 % giáo viên (tuỳ từng cấp học) thậm chí nhận định dạy học trực tuyến không hiệu quả. Việc học trực tuyến khiến 45 % trong tổng số 341.800 học sinh gặp các vấn đề sức khoẻ như mỏi mắt, đau cổ, ù tai.]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Theo]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[khảo_sát]]></Token>
@@ -739,7 +739,7 @@
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Hồi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[1]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[khi]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[trả_lời]]></Token>
@@ -970,7 +970,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Mạnh]]></Token>
             <Token tag="Np" chunking="I-NP" ner="I-PER"><![CDATA[Tùng]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Ở các trường nội thành, kết quả khả quan hơn. Ở nhiều trường THCS, THPT tỷ lệ học sinh khá, giỏi năm nay gần 70% - tương đương với nhiều năm. Điều này được lý giải bởi hai nguyên nhân: trường có kế hoạch dạy online, phụ đạo kiến thức tốt; học sinh nội thành có điều kiện học online tốt hơn các em ngoại thành.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Ở các trường nội thành, kết quả khả quan hơn. Ở nhiều trường THCS, THPT tỷ lệ học sinh khá, giỏi năm nay gần 70 % - tương đương với nhiều năm. Điều này được lý giải bởi hai nguyên nhân: trường có kế hoạch dạy online, phụ đạo kiến thức tốt; học sinh nội thành có điều kiện học online tốt hơn các em ngoại thành.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Ở]]></Token>
             <Token tag="L" chunking="B-NP" ner="O"><![CDATA[các]]></Token>

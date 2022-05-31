@@ -398,7 +398,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[địa_phương]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Năm 2016, dự án được phê duyệt, thời hạn thực hiện đến năm 2020, sau khi hoàn thành kỳ vọng giúp ngăn chặn sạt lở, góp phần thay đổi bộ mặt đô thị vùng sông nước Cần Thơ. Tuy nhiên, do nhiều nguyên nhân công trình chậm tiến độ, đội vốn, đến cuối năm 2021 mới triển khai hơn 38%. Sau đó, dự án được tăng thêm vốn hơn 284 tỷ đồng, thời gian thực hiện kéo dài hết năm 2023.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Năm 2016, dự án được phê duyệt, thời hạn thực hiện đến năm 2020, sau khi hoàn thành kỳ vọng giúp ngăn chặn sạt lở, góp phần thay đổi bộ mặt đô thị vùng sông nước Cần Thơ. Tuy nhiên, do nhiều nguyên nhân công trình chậm tiến độ, đội vốn, đến cuối năm 2021 mới triển khai hơn 38 % . Sau đó, dự án được tăng thêm vốn hơn 284 tỷ đồng, thời gian thực hiện kéo dài hết năm 2023.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Năm]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[2016]]></Token>
@@ -924,7 +924,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[triển_khai]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[này]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>

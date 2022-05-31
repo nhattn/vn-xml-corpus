@@ -53,9 +53,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[tới]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[hết]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[16]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[16/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[có]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[53]]></Token>
@@ -157,7 +155,7 @@
             <Token tag="R" chunking="O" ner="O"><![CDATA[nhất]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đầu]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[mới]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tập_hợp]]></Token>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[đủ]]></Token>
@@ -180,7 +178,7 @@
             <Token tag="Cc" chunking="B-NP" ner="O"><![CDATA[hoặc]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giữa]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[mới]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[nhận]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[được]]></Token>
@@ -271,7 +269,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[nộp]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[gộp]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[một]]></Token>
@@ -641,7 +639,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đầu]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[công_ty]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[mới]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[có_thể]]></Token>
@@ -942,9 +940,7 @@
         <Sentence>
             <Token tag="CH" chunking="O" ner="O"><![CDATA["]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[2]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[-]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[2-3]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[là]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[lúc]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[người]]></Token>
@@ -1074,9 +1070,7 @@
         <SimpleTextPart><![CDATA[Ngày 28/3, Chính phủ thông qua chính sách hỗ trợ tiền nhà cho lao động với mức 1,5-3 triệu đồng mỗi người, tối đa ba tháng. Hai nhóm thụ hưởng gồm người có hợp đồng lao động, đóng bảo hiểm xã hội (BHXH) đang làm việc trong doanh nghiệp và người quay lại thị trường lao động, làm việc khu công nghiệp, chế xuất, khu kinh tế, 24 tỉnh thành thuộc 4 vùng kinh tế trọng điểm.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[28]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[28/3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Chính_phủ]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thông_qua]]></Token>

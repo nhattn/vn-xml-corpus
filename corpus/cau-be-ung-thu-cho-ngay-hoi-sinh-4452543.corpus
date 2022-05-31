@@ -378,7 +378,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[cung_cấp]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Bệnh của Quân đã vào giai đoạn hiểm nghèo, nguy cơ tử vong cao. Các bác sĩ tư vấn, phải điều trị theo phác đồ tây y, gồm hóa trị liều cao, phẫu thuật cắt bỏ u, thu tế bào gốc tự thân, sử dụng hóa chất liều cao và ghép tế bào gốc, sau đó xạ trị và dùng thuốc duy trì. Quá trình này được dự đoán sẽ đau đớn, khó khăn, kéo dài cả năm trời, chi phí lên tới vài trăm triệu đồng. Đổi lại, tỷ lệ lui bệnh, sống không bệnh trong vòng 3-5 năm đạt được khoảng 30-50%. Không muốn từ chối bất kỳ cơ hội sống nào của con, bố mẹ Quân quyết tâm theo đuổi điều trị, dù chi phí vượt xa khả năng kinh tế gia đình. Họ dự định bán tài sản duy nhất là căn nhà 20m2, nếu cùng đường.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Bệnh của Quân đã vào giai đoạn hiểm nghèo, nguy cơ tử vong cao. Các bác sĩ tư vấn, phải điều trị theo phác đồ tây y, gồm hóa trị liều cao, phẫu thuật cắt bỏ u, thu tế bào gốc tự thân, sử dụng hóa chất liều cao và ghép tế bào gốc, sau đó xạ trị và dùng thuốc duy trì. Quá trình này được dự đoán sẽ đau đớn, khó khăn, kéo dài cả năm trời, chi phí lên tới vài trăm triệu đồng. Đổi lại, tỷ lệ lui bệnh, sống không bệnh trong vòng 3-5 năm đạt được khoảng 30-50 % . Không muốn từ chối bất kỳ cơ hội sống nào của con, bố mẹ Quân quyết tâm theo đuổi điều trị, dù chi phí vượt xa khả năng kinh tế gia đình. Họ dự định bán tài sản duy nhất là căn nhà 20m2, nếu cùng đường.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Bệnh]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[của]]></Token>
@@ -827,9 +827,7 @@
         </Sentence>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[8]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[8/4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tế_bào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[gốc]]></Token>
@@ -1297,7 +1295,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tái_phát]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Mặc dù vậy, liệu pháp này chỉ có thể thực hiện ở những trung tâm có phương tiện kỹ thuật và cơ sở vật chất tốt, gồm máy thu hoạch tế bào gốc, nơi lưu trữ tế bào gốc, phòng thực hiện ghép tế bào gốc đạt chuẩn (phòng đặc biệt có hệ thống lọc khí). Đồng thời ê kíp y bác sĩ phải được đào tạo và có kinh nghiệm trong lĩnh vực ghép tế bào gốc. Ngoài ra, chi phí của một lần ghép khá cao, khoảng 300-400 triệu đồng, bảo hiểm y tế chi trả một phần, khoảng 50%. Vì vậy, với các gia đình khó khăn về kinh tế đây chính là rào cản lớn, bác sĩ Hoa cho biết.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Mặc dù vậy, liệu pháp này chỉ có thể thực hiện ở những trung tâm có phương tiện kỹ thuật và cơ sở vật chất tốt, gồm máy thu hoạch tế bào gốc, nơi lưu trữ tế bào gốc, phòng thực hiện ghép tế bào gốc đạt chuẩn (phòng đặc biệt có hệ thống lọc khí). Đồng thời ê kíp y bác sĩ phải được đào tạo và có kinh nghiệm trong lĩnh vực ghép tế bào gốc. Ngoài ra, chi phí của một lần ghép khá cao, khoảng 300-400 triệu đồng, bảo hiểm y tế chi trả một phần, khoảng 50 % . Vì vậy, với các gia đình khó khăn về kinh tế đây chính là rào cản lớn, bác sĩ Hoa cho biết.]]></SimpleTextPart>
         <Sentence>
             <Token tag="C" chunking="O" ner="O"><![CDATA[Mặc_dù]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[vậy]]></Token>

@@ -40,9 +40,7 @@
         <SimpleTextPart><![CDATA[Ngày 26/5, cho ý kiến về chủ trương đầu tư Vành đai 4 vùng Thủ đô, Kiểm toán Nhà nước chỉ ra dự án thành phần nhóm 3 bao gồm đường, cầu cạn, nút giao, cầu, hầm, trạm thu phí... lớn hơn tổng chiều dài tuyến đường (dài hơn 12,5 km cầu cạn); tương đương gần 4.500 tỷ đồng. Việc tính khối lượng cầu cạn sang cầu vượt dòng chảy làm tăng giá trị hơn 500 tỷ đồng; xác định cầu vượt đúc hẫng nhịp làm tăng giá gần 500 tỷ đồng.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[26]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[26/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[cho]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ý_kiến]]></Token>
@@ -436,9 +434,7 @@
         <SimpleTextPart><![CDATA[Ngày 20/5, HĐND TP Hà Nội thông qua nghị quyết bố trí hơn 23.000 tỷ đồng cho dự án đầu tư xây dựng Vành đai 4 vùng Thủ đô. Tuyến vành đai này dài 112,8 km, qua 3 tỉnh, thành phố: Hà Nội (58,2 km), Hưng Yên (19,3 km), Bắc Ninh (25,6 km) và tuyến nối khoảng 9,7 km. Điểm đầu tại Km3+695 trên cao tốc Nội Bài - Lào Cai (xã Thanh Xuân, huyện Sóc Sơn, Hà Nội); điểm cuối Km40+500 trên cao tốc Nội Bài - Hạ Long (huyện Quế Võ, tỉnh Bắc Ninh).]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[20]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[20/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="Ny" chunking="B-NP" ner="O"><![CDATA[HĐND]]></Token>
             <Token tag="Ny" chunking="B-NP" ner="B-ORG"><![CDATA[TP]]></Token>

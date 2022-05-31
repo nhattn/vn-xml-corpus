@@ -49,7 +49,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Chính_phủ]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ban_hành_Quyết_định]]></Token>
@@ -523,7 +523,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-        <SimpleTextPart><![CDATA[Các trường hợp thuộc diện được hỗ trợ tiền nhà trọ ở TP HCM chiếm khoảng 60% lao động làm việc tại các doanh nghiệp có đóng bảo hiểm xã hội bắt buộc. 3]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Các trường hợp thuộc diện được hỗ trợ tiền nhà trọ ở TP HCM chiếm khoảng 60 % lao động làm việc tại các doanh nghiệp có đóng bảo hiểm xã hội bắt buộc. 3]]></SimpleTextPart>
         <Sentence>
             <Token tag="L" chunking="B-NP" ner="O"><![CDATA[Các]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[trường_hợp]]></Token>

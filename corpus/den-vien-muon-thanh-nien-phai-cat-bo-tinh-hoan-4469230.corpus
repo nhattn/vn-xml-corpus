@@ -106,9 +106,7 @@
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[tích_cực]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[30]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[30/5]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[cho]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[biết]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[bệnh_nhân]]></Token>
@@ -287,7 +285,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Bệnh_viện]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[cung_cấp]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Xoắn tinh hoàn là sự xoắn của thừng tinh (cuống tinh hoàn) bao gồm mạch máu nuôi tinh hoàn dẫn đến tinh hoàn bị thiếu máu và hoại tử. Bệnh thường gặp ở tuổi dậy thì (chiếm hơn 60%) với triệu chứng thường là đột ngột đau chói tinh hoàn một bên. Tuy nhiên, nhiều trường hợp chỉ đau nhẹ tinh hoàn giống như là viêm tinh hoàn, dẫn đến chẩn đoán nhầm.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Xoắn tinh hoàn là sự xoắn của thừng tinh (cuống tinh hoàn) bao gồm mạch máu nuôi tinh hoàn dẫn đến tinh hoàn bị thiếu máu và hoại tử. Bệnh thường gặp ở tuổi dậy thì (chiếm hơn 60 % ) với triệu chứng thường là đột ngột đau chói tinh hoàn một bên. Tuy nhiên, nhiều trường hợp chỉ đau nhẹ tinh hoàn giống như là viêm tinh hoàn, dẫn đến chẩn đoán nhầm.]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Xoắn]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tinh_hoàn]]></Token>
@@ -357,7 +355,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[nhầm]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Xoắn tinh hoàn là một tối cấp cứu như là các bệnh lý đột quỵ, sốc đa chấn thương. Thời gian vàng điều trị xoắn tinh hoàn là trong 6 giờ đầu tiên tính từ lúc có biểu hiện đau. Đến viện trong khoảng 6-12 giờ, khả năng cứu được tinh hoàn chỉ còn 50%, trong khoảng 12-24 giờ chỉ còn 20%; sau 24 giờ thường sẽ không cứu được tinh hoàn. Thông thường với các trường hợp xoắn tinh hoàn, phẫu thuật gỡ xoắn là phương pháp phổ biến và tối ưu, có thể xử lý triệt để bệnh lý, thời gian hồi phục hậu phẫu ngắn.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Xoắn tinh hoàn là một tối cấp cứu như là các bệnh lý đột quỵ, sốc đa chấn thương. Thời gian vàng điều trị xoắn tinh hoàn là trong 6 giờ đầu tiên tính từ lúc có biểu hiện đau. Đến viện trong khoảng 6-12 giờ, khả năng cứu được tinh hoàn chỉ còn 50 % , trong khoảng 12-24 giờ chỉ còn 20 % ; sau 24 giờ thường sẽ không cứu được tinh hoàn. Thông thường với các trường hợp xoắn tinh hoàn, phẫu thuật gỡ xoắn là phương pháp phổ biến và tối ưu, có thể xử lý triệt để bệnh lý, thời gian hồi phục hậu phẫu ngắn.]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Xoắn]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tinh_hoàn]]></Token>

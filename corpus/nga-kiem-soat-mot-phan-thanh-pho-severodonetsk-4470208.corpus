@@ -170,7 +170,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thành_phố]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Trước đó một ngày, ông Gaidai thừa nhận tình hình rất khó khăn khi lực lượng Nga đang tiến vào trung tâm Severodonetsk. Cơ sở hạ tầng quan trọng của thành phố bị phá hủy và 60% các tòa nhà dân cư bị hư hại đến mức không thể phục hồi.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Trước đó một ngày, ông Gaidai thừa nhận tình hình rất khó khăn khi lực lượng Nga đang tiến vào trung tâm Severodonetsk. Cơ sở hạ tầng quan trọng của thành phố bị phá hủy và 60 % các tòa nhà dân cư bị hư hại đến mức không thể phục hồi.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Trước]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[đó]]></Token>
@@ -377,9 +377,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[quân_sự]]></Token>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[đặc_biệt]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[24]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[2]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[24/2]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[nhằm]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA["]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[phi_quân_sự]]></Token>

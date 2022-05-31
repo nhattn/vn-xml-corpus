@@ -40,9 +40,7 @@
         <SimpleTextPart><![CDATA[Ngày 23/5, ông Nguyễn Văn Lâm, Giám đốc Vườn quốc gia Tràm Chim, cho biết đến thời điểm này sếu vẫn chưa về vườn quốc gia như thông lệ, giống như lần vắng bóng cách đây hai năm. Những năm gần đây, có thời điểm sếu về ít, song vẫn duy trì từ 3 đến 23 con mỗi năm. Mùa đông những năm 1980, vườn quốc gia ghi nhận đàn sếu về tới hàng nghìn con, ở qua mùa xuân mới rời đi.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[23]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[23/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[ông]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Nguyễn_Văn_Lâm]]></Token>
@@ -214,10 +212,10 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[trú_ngụ]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[12]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[12]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[năm]]></Token>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[sau]]></Token>
             <Token tag="C" chunking="O" ner="O"><![CDATA[rồi]]></Token>

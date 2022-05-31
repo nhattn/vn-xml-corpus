@@ -39,7 +39,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thùng]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -76,7 +76,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[kể]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[2]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[2]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thời_điểm]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Nga]]></Token>
@@ -113,7 +113,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Ấn_Độ]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tăng]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
@@ -123,7 +123,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thùng]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="Cc" chunking="B-NP" ner="O"><![CDATA[và]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[khoảng]]></Token>
@@ -132,7 +132,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thùng]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hồi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -150,7 +150,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thùng]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Mẫu dầu thô tại mỏ dầu Yarakta, vùng Irkutsk, Nga năm 2019. Ảnh: Reuters.]]></SimpleTextPart>
@@ -204,7 +204,7 @@
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[này]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Nhập khẩu dầu tăng mạnh đẩy tổng kim ngạch nhập khẩu hàng hóa của Ấn Độ từ Nga từ 24/2 đến 26/5 lên 6,4 tỷ USD, so với 1,99 tỷ USD cùng kỳ năm ngoái, theo số liệu của chính phủ. Tuy nhiên, xuất khẩu của Ấn Độ sang Nga giảm gần 50%, xuống còn 377,07 triệu USD trong cùng thời gian này, do New Delhi vẫn chưa thiết lập cơ chế thanh toán chính thức với Moskva.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Nhập khẩu dầu tăng mạnh đẩy tổng kim ngạch nhập khẩu hàng hóa của Ấn Độ từ Nga từ 24/2 đến 26/5 lên 6,4 tỷ USD, so với 1,99 tỷ USD cùng kỳ năm ngoái, theo số liệu của chính phủ. Tuy nhiên, xuất khẩu của Ấn Độ sang Nga giảm gần 50 % , xuống còn 377,07 triệu USD trong cùng thời gian này, do New Delhi vẫn chưa thiết lập cơ chế thanh toán chính thức với Moskva.]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Nhập_khẩu]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[dầu]]></Token>
@@ -333,9 +333,7 @@
             <Token tag="Ny" chunking="B-NP" ner="O"><![CDATA[EU]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[)]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[30]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[30/5]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[đã]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[đạt]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[được]]></Token>

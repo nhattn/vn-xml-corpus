@@ -53,7 +53,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[tại]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Quy_Nhơn]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[tới]]></Token>
             <Token tag="X" chunking="O" ner="O"><![CDATA[thay_vì]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Nha_Trang]]></Token>
@@ -465,7 +465,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[)]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[quyết_định]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[này]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thành_phố]]></Token>
@@ -581,9 +581,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tranh]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[12]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[12/6]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[với]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[sự]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tham_gia]]></Token>

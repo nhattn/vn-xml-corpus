@@ -62,10 +62,10 @@
             <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[đồng]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Tháng 7 tới, nếu Nghị định về điều chỉnh lương tối thiểu vùng được thông qua, lương căn bản của chị Ngọc sẽ là (lương tối thiểu năm 2020 4.420.000 đồng + 260.000 đồng là mức tăng của vùng I như TP HCM, Hà Nội) x 7% (phần tăng thêm cho lao động đã qua đào tạo) = 5.007.600 đồng). Nếu may mắn, công ty sẽ làm tròn thành 5,01 triệu đồng cho chị. Sau khi trừ 10,5% cho bảo hiểm xã hội, số tiền thực nhận chưa đến 4,5 triệu đồng. So với mức hiện tại 4,3 triệu, lương thực nhận của chị tăng khoảng 200.000 đồng.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Tháng 7 tới, nếu Nghị định về điều chỉnh lương tối thiểu vùng được thông qua, lương căn bản của chị Ngọc sẽ là (lương tối thiểu năm 2020 4.420.000 đồng + 260.000 đồng là mức tăng của vùng I như TP HCM, Hà Nội) x 7 % (phần tăng thêm cho lao động đã qua đào tạo) = 5.007.600 đồng). Nếu may mắn, công ty sẽ làm tròn thành 5,01 triệu đồng cho chị. Sau khi trừ 10,5 % cho bảo hiểm xã hội, số tiền thực nhận chưa đến 4,5 triệu đồng. So với mức hiện tại 4,3 triệu, lương thực nhận của chị tăng khoảng 200.000 đồng.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[7]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[7]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tới]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="C" chunking="O" ner="O"><![CDATA[nếu]]></Token>
@@ -181,7 +181,7 @@
             <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[đồng]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Công ty nơi chị Ngọc làm việc là doanh nghiệp điển hình trong việc bám sát các quy định, luôn xây dựng lương căn bản cao hơn ít nhất 7% so với lương tối thiểu cho những lao động đã qua đào tạo. Tăng ca, thưởng Tết, tham gia bảo hiểm xã hội đều được tính toán trên mức này.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Công ty nơi chị Ngọc làm việc là doanh nghiệp điển hình trong việc bám sát các quy định, luôn xây dựng lương căn bản cao hơn ít nhất 7 % so với lương tối thiểu cho những lao động đã qua đào tạo. Tăng ca, thưởng Tết, tham gia bảo hiểm xã hội đều được tính toán trên mức này.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Công_ty]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nơi]]></Token>
@@ -237,7 +237,7 @@
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[này]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Chị Ngọc cũng là một hoàn cảnh điển hình. Một khảo sát về việc làm của lao động nữ ngành may do Liên đoàn lao động TP HCM công bố đầu năm nay cho thấy thu nhập bình quân mỗi tháng của nhóm này chỉ đạt 6,8 triệu đồng, bao gồm cả thời gian làm thêm. Trong đó trên 20% có thu nhập mỗi tháng chưa đến 5 triệu. Mức thu nhập 5-8 triệu đồng chiếm 60%.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Chị Ngọc cũng là một hoàn cảnh điển hình. Một khảo sát về việc làm của lao động nữ ngành may do Liên đoàn lao động TP HCM công bố đầu năm nay cho thấy thu nhập bình quân mỗi tháng của nhóm này chỉ đạt 6,8 triệu đồng, bao gồm cả thời gian làm thêm. Trong đó trên 20 % có thu nhập mỗi tháng chưa đến 5 triệu. Mức thu nhập 5-8 triệu đồng chiếm 60 % .]]></SimpleTextPart>
         <Sentence>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[Chị]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Ngọc]]></Token>
@@ -318,7 +318,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[%]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Tôi gợi ý chị Ngọc kiếm chỗ khác làm vì lương thấp quá. Nhưng chị lắc đầu, bởi ít nhà máy tuyển công nhân ngoài 40 tuổi. Nếu đi xa, phải chuyển chỗ ở đến một nơi có quá nhiều lao động nhập cư, chị lo hai đứa con không thể tìm được một suất ở trường công lập... Không thể đổi chỗ làm, chị chỉ mong đến kỳ điều chỉnh lương. Sau hai năm tạm hoãn, với mức tăng dự kiến 6%, thu nhập của chị không nhích lên được bao nhiêu.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Tôi gợi ý chị Ngọc kiếm chỗ khác làm vì lương thấp quá. Nhưng chị lắc đầu, bởi ít nhà máy tuyển công nhân ngoài 40 tuổi. Nếu đi xa, phải chuyển chỗ ở đến một nơi có quá nhiều lao động nhập cư, chị lo hai đứa con không thể tìm được một suất ở trường công lập... Không thể đổi chỗ làm, chị chỉ mong đến kỳ điều chỉnh lương. Sau hai năm tạm hoãn, với mức tăng dự kiến 6 % , thu nhập của chị không nhích lên được bao nhiêu.]]></SimpleTextPart>
         <Sentence>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[Tôi]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[gợi_ý]]></Token>
@@ -421,7 +421,7 @@
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[bao_nhiêu]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Theo khảo sát của Trung tâm Nghiên cứu quan hệ lao động, dựa vào phương pháp tính "Lương đủ sống Anker", tức mức lương mà người lao động nhận được để duy trì mức sống bình thường cho bản thân và gia đình tại TP HCM (vùng I) vào năm 2020 là 7,5 triệu đồng. Như vậy, cùng thời điểm, lương tối thiểu (4,42 triệu đồng) chỉ bằng 59% lương đủ sống.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Theo khảo sát của Trung tâm Nghiên cứu quan hệ lao động, dựa vào phương pháp tính "Lương đủ sống Anker", tức mức lương mà người lao động nhận được để duy trì mức sống bình thường cho bản thân và gia đình tại TP HCM (vùng I) vào năm 2020 là 7,5 triệu đồng. Như vậy, cùng thời điểm, lương tối thiểu (4,42 triệu đồng) chỉ bằng 59 % lương đủ sống.]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Theo]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[khảo_sát]]></Token>
@@ -613,7 +613,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA["]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Với nhiều doanh nghiệp, lương tối thiểu chỉ là cơ sở để xây dựng thang lương đóng bảo hiểm xã hội và tham chiếu để không trả thấp hơn. Tổng các khoản bảo hiểm cần đóng chiếm đến 32% lương căn bản cho nên một mức lương tối thiểu thấp sẽ giảm bớt rất nhiều chi phí.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Với nhiều doanh nghiệp, lương tối thiểu chỉ là cơ sở để xây dựng thang lương đóng bảo hiểm xã hội và tham chiếu để không trả thấp hơn. Tổng các khoản bảo hiểm cần đóng chiếm đến 32 % lương căn bản cho nên một mức lương tối thiểu thấp sẽ giảm bớt rất nhiều chi phí.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Với]]></Token>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[nhiều]]></Token>

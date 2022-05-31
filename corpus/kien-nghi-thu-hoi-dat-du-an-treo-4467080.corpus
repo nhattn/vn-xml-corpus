@@ -280,7 +280,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[:]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Hoàng_Phong]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Theo Phó chủ nhiệm Ủy ban Tài chính Ngân sách, tiến độ thực hiện, khả năng hoàn thành một số dự án trọng điểm, công trình quan trọng quốc gia còn chậm, gây lãng phí nguồn lực, ảnh hưởng đến phát triển kinh tế - xã hội. Đó là dự án xây dựng tuyến tàu điện ngầm số 2 TP HCM, Bến Thành - Tham Lương được phê duyệt năm 2010, đến tháng 10/2021 lũy kế giải ngân vốn ODA chỉ đạt 2,5%, vốn đối ứng chỉ đạt 2,09%.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Theo Phó chủ nhiệm Ủy ban Tài chính Ngân sách, tiến độ thực hiện, khả năng hoàn thành một số dự án trọng điểm, công trình quan trọng quốc gia còn chậm, gây lãng phí nguồn lực, ảnh hưởng đến phát triển kinh tế - xã hội. Đó là dự án xây dựng tuyến tàu điện ngầm số 2 TP HCM, Bến Thành - Tham Lương được phê duyệt năm 2010, đến tháng 10/2021 lũy kế giải ngân vốn ODA chỉ đạt 2,5 % , vốn đối ứng chỉ đạt 2,09 % .]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Theo]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Phó_chủ_nhiệm]]></Token>
@@ -411,7 +411,7 @@
             <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[đồng]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Dự án thu hồi đất, bồi thường, hỗ trợ, tái định cư Cảng hàng không quốc tế Long Thành không đảm bảo tiến độ theo nghị quyết của Quốc hội. Theo báo cáo ngày 28/1 của Bộ Kế hoạch và Đầu tư, đến năm 2021 dự án mới giải ngân 63%, trong đó năm 2021 chỉ đạt 39,78%. Còn 304 ha đất thuộc diện tích đất xây dựng cảng giai đoạn một và trên 340 ha đất thuộc diện tích đất dự trữ chưa giải phóng mặt bằng. Điều này gây khó khăn trong việc thi công và không đảm bảo tiến độ.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Dự án thu hồi đất, bồi thường, hỗ trợ, tái định cư Cảng hàng không quốc tế Long Thành không đảm bảo tiến độ theo nghị quyết của Quốc hội. Theo báo cáo ngày 28/1 của Bộ Kế hoạch và Đầu tư, đến năm 2021 dự án mới giải ngân 63 % , trong đó năm 2021 chỉ đạt 39,78 % . Còn 304 ha đất thuộc diện tích đất xây dựng cảng giai đoạn một và trên 340 ha đất thuộc diện tích đất dự trữ chưa giải phóng mặt bằng. Điều này gây khó khăn trong việc thi công và không đảm bảo tiến độ.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Dự_án]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thu_hồi]]></Token>
@@ -438,9 +438,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Theo]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[báo_cáo]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[28]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[28/1]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[của]]></Token>
             <Token tag="N" chunking="B-NP" ner="B-PER"><![CDATA[Bộ]]></Token>
             <Token tag="N" chunking="I-NP" ner="I-PER"><![CDATA[Kế_hoạch]]></Token>

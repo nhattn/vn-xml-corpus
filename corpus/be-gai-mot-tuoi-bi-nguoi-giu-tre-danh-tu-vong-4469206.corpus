@@ -44,9 +44,7 @@
         <SimpleTextPart><![CDATA[Ngày 28/5, nguồn tin từ Công an quận Bình Tân cho biết đã phối hợp Công an TP HCM triệu tập cô gái giữ trẻ 21 tuổi để làm rõ nguyên nhân tử vong của nạn nhân. Cô này được cho là thừa nhận trước đó đã đánh nạn nhân.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[28]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[28/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nguồn]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tin]]></Token>

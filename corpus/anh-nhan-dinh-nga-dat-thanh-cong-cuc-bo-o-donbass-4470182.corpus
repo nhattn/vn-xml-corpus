@@ -73,9 +73,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[báo_cáo]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[31]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[31/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="C" chunking="O" ner="O"><![CDATA[song]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[cho]]></Token>
@@ -204,9 +202,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đông]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Ukraine]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5/4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -494,9 +490,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[quân_sự]]></Token>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[đặc_biệt]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[24]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[2]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[24/2]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[nhằm]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA["]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[phi_quân_sự]]></Token>

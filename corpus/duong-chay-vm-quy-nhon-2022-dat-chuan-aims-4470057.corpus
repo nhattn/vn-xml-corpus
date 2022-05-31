@@ -36,9 +36,7 @@
         <SimpleTextPart><![CDATA[Ngày 30/5, ông Dave Cundy - Phó chủ tịch kiêm Giám đốc kỹ thuật AIMS đã gửi email chứng nhận 4 cung đường đạt chuẩn quốc tế của VnExpress Marathon Sparkling Quy Nhơn 2022 cho ban tổ chức. Với chứng nhận này, runner có thể sử dụng thành tích tại giải làm một phần tiêu chí để đăng ký dự những sự kiện marathon lớn trên thế giới như Boston Marathon, Chicago Marathon hay New York City Marathon.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[30]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[30/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[ông]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Dave_Cundy]]></Token>

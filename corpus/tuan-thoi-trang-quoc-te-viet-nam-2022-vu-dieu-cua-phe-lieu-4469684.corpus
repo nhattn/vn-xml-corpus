@@ -54,7 +54,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[-]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[26]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[26]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[29]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
@@ -190,7 +190,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[sức_khỏe]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Các nhà thiết kế như Võ Công Khanh, Adrian Anh Tuấn, Hoàng Quyên, Hoàng Minh Hà, Lý Giám Tiền, Nguyễn Tiến Truyển... sử dụng vải tái chế từ vỏ hàu, sợi sen, bã cà phê... tạo nên nhiều bộ sưu tập mang tính ứng dụng hoặc dạ tiệc. Vải vỏ hàu được tạo ra nhờ sự kết hợp giữa chai nhựa tái chế và vỏ hàu biển, có đặc tính thoáng ẩm, thoáng nhiệt, thoáng khí, nhanh khô, chống tĩnh điện. Trong khi đó, vải từ bã cà phê nhẹ, siêu mát, khử mùi cơ thể tối ưu, khả năng chống tia UV lên tới 98%.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Các nhà thiết kế như Võ Công Khanh, Adrian Anh Tuấn, Hoàng Quyên, Hoàng Minh Hà, Lý Giám Tiền, Nguyễn Tiến Truyển... sử dụng vải tái chế từ vỏ hàu, sợi sen, bã cà phê... tạo nên nhiều bộ sưu tập mang tính ứng dụng hoặc dạ tiệc. Vải vỏ hàu được tạo ra nhờ sự kết hợp giữa chai nhựa tái chế và vỏ hàu biển, có đặc tính thoáng ẩm, thoáng nhiệt, thoáng khí, nhanh khô, chống tĩnh điện. Trong khi đó, vải từ bã cà phê nhẹ, siêu mát, khử mùi cơ thể tối ưu, khả năng chống tia UV lên tới 98 % .]]></SimpleTextPart>
         <Sentence>
             <Token tag="L" chunking="B-NP" ner="O"><![CDATA[Các]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nhà]]></Token>

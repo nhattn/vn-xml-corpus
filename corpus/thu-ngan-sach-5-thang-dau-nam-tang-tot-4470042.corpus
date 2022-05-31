@@ -44,7 +44,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[năm]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Theo số liệu của Tổng cục thuế, tổng thu ngân sách 5 tháng đầu năm ước đạt gần 672.900 tỷ đồng, bằng 57% so với dự toán, tăng 16,5% so với cùng kỳ năm trước. Trong đó, riêng tháng 5 thu khoảng 99.100 tỷ đồng, tăng gần 13% so với cùng kỳ năm ngoái.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Theo số liệu của Tổng cục thuế, tổng thu ngân sách 5 tháng đầu năm ước đạt gần 672.900 tỷ đồng, bằng 57 % so với dự toán, tăng 16,5 % so với cùng kỳ năm trước. Trong đó, riêng tháng 5 thu khoảng 99.100 tỷ đồng, tăng gần 13 % so với cùng kỳ năm ngoái.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Theo]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[số_liệu]]></Token>
@@ -89,7 +89,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="T" chunking="O" ner="O"><![CDATA[riêng]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thu]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[khoảng]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[99.100]]></Token>
@@ -107,7 +107,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[năm_ngoái]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Tổng cục thuế không công bố chi tiết các khoản thu nhưng cho biết có 16 trên 19 khoản thu, sắc thuế đạt trên 45% dự toán. Trong đó, thu từ khu vực sản xuất, kinh doanh (đóng góp lớn nhất cho thu nội địa) tăng gần 12% so với cùng kỳ và đạt gần 55% dự toán.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Tổng cục thuế không công bố chi tiết các khoản thu nhưng cho biết có 16 trên 19 khoản thu, sắc thuế đạt trên 45 % dự toán. Trong đó, thu từ khu vực sản xuất, kinh doanh (đóng góp lớn nhất cho thu nội địa) tăng gần 12 % so với cùng kỳ và đạt gần 55 % dự toán.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Tổng_cục]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thuế]]></Token>
@@ -169,7 +169,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[dự_toán]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Thu ngân sách tăng, theo lý giải của cơ quan thuế là nhờ kinh tế duy trì tốc độ tăng trưởng khá những tháng qua, hoạt động sản xuất kinh doanh hồi phục khi dịch bệnh được kiểm soát. Tổng cục thuế dẫn chứng, số doanh nghiệp gia nhập và quay lại hoạt động trong 4 tháng đầu năm tăng gần 27% so với cùng kỳ năm trước.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Thu ngân sách tăng, theo lý giải của cơ quan thuế là nhờ kinh tế duy trì tốc độ tăng trưởng khá những tháng qua, hoạt động sản xuất kinh doanh hồi phục khi dịch bệnh được kiểm soát. Tổng cục thuế dẫn chứng, số doanh nghiệp gia nhập và quay lại hoạt động trong 4 tháng đầu năm tăng gần 27 % so với cùng kỳ năm trước.]]></SimpleTextPart>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Thu]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngân_sách]]></Token>
@@ -304,7 +304,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[)]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Riêng tại "đầu tàu" kinh tế TP HCM, nơi đóng góp lớn nhất cho ngân sách - tổng thu cân đối ngân sách nhà nước luỹ kế 5 tháng đầu năm tăng gần 20% so với cùng kỳ, đạt hơn 209.800 tỷ đồng. Trong đó các khoản thu liên quan đến bất động sản tăng gấp 2,1 lần, dầu thô tăng 82,5%.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Riêng tại "đầu tàu" kinh tế TP HCM, nơi đóng góp lớn nhất cho ngân sách - tổng thu cân đối ngân sách nhà nước luỹ kế 5 tháng đầu năm tăng gần 20 % so với cùng kỳ, đạt hơn 209.800 tỷ đồng. Trong đó các khoản thu liên quan đến bất động sản tăng gấp 2,1 lần, dầu thô tăng 82,5 % .]]></SimpleTextPart>
         <Sentence>
             <Token tag="T" chunking="O" ner="O"><![CDATA[Riêng]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[tại]]></Token>
@@ -368,7 +368,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[%]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Bên cạnh đó, nền kinh tế có những tín hiệu tích cực khi thu thuế sản phẩm tăng 11,7% so với cùng kỳ, theo số liệu của Cục thống kê TP HCM. Thu nội địa với sự đóng góp lớn của khối doanh nghiệp ước đạt hơn 141.900 tỷ đồng. Thu dầu thô tại TP HCM khoảng 10.695 tỷ đồng, vượt dự toán cả năm và tăng gần 83% so với cùng kỳ năm ngoái. Thu từ hoạt động xuất nhập khẩu ước thực hiện 57.200 tỷ đồng, đạt 49% dự toán và tăng gần 12% so với cùng kỳ.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Bên cạnh đó, nền kinh tế có những tín hiệu tích cực khi thu thuế sản phẩm tăng 11,7 % so với cùng kỳ, theo số liệu của Cục thống kê TP HCM. Thu nội địa với sự đóng góp lớn của khối doanh nghiệp ước đạt hơn 141.900 tỷ đồng. Thu dầu thô tại TP HCM khoảng 10.695 tỷ đồng, vượt dự toán cả năm và tăng gần 83 % so với cùng kỳ năm ngoái. Thu từ hoạt động xuất nhập khẩu ước thực hiện 57.200 tỷ đồng, đạt 49 % dự toán và tăng gần 12 % so với cùng kỳ.]]></SimpleTextPart>
         <Sentence>
             <Token tag="R" chunking="O" ner="O"><![CDATA[Bên_cạnh]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[đó]]></Token>
@@ -468,7 +468,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[kỳ]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Ông Võ Thành Hưng cho biết so với năm 2020, tổng thu ngân sách 2021 chỉ tăng 3,8%, "hoàn toàn phù hợp với tăng trưởng kinh tế 2,8%" và không lạm thu. 4]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Ông Võ Thành Hưng cho biết so với năm 2020, tổng thu ngân sách 2021 chỉ tăng 3,8 % , "hoàn toàn phù hợp với tăng trưởng kinh tế 2,8 % " và không lạm thu. 4]]></SimpleTextPart>
         <Sentence>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[Ông]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Võ_Thành_Hưng]]></Token>

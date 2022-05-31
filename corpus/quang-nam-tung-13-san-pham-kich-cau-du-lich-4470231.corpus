@@ -14,7 +14,7 @@
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[1]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[8]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
@@ -41,9 +41,7 @@
         <SimpleTextPart><![CDATA[Ngày 31/5, tại TP Hội An, tỉnh Quảng Nam công bố chương trình kích cầu du lịch với chủ đề "Cảm xúc mùa hè". 13 gói sản phẩm được tung ra với mục đích khôi phục, phát triển hoạt động du lịch trên địa bàn.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[31]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[31/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[tại]]></Token>
             <Token tag="Ny" chunking="B-NP" ner="B-LOC"><![CDATA[TP]]></Token>
@@ -162,64 +160,6 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[...]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Để]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[hưởng]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ưu_đãi]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[8]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[du_khách]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[săn]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[sale]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[hai]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[khung]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[giờ]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[vàng]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[11]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[h]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[13]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[h]]></Token>
-            <Token tag="Cc" chunking="O" ner="O"><![CDATA[và]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[16]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[h]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[19]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[h]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[qua]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O"><![CDATA[các]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[kênh]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thông_tin]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[:]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Visit_Quang_Nam]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[quangnamtourism.com.vn]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[vhttdlqnam.gov.vn]]></Token>
-            <Token tag="Cc" chunking="B-NP" ner="O"><![CDATA[và]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O"><![CDATA[các]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nền_tảng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[mạng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[xã_hội]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[:]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Facebook]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Zalo]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Tiktok]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Instagram]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[...]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Trong 13 sản phẩm, Tour Về với đại ngàn Quảng Nam từ 17 đến 20/6, có giá cao nhất 7.050.000 đồng (khách sạn 4 sao) và 7.300.000 đồng (khách sạn 5 sao), giờ vàng còn 5.600.000 đồng và 5.800.000 đồng. Tour thấp nhất Hè rực rỡ nghỉ dưỡng như mơ giá 1.400.000 đồng (khách sạn 4 sao) và 1.950.000 đồng (khách sạn 5 sao), giờ vàng lần lượt còn 1.200.000 đồng và 1.600.000 đồng.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Trong]]></Token>
@@ -319,10 +259,10 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ra]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[9]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[9]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[với]]></Token>
             <Token tag="L" chunking="B-NP" ner="O"><![CDATA[các]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hoạt_động]]></Token>

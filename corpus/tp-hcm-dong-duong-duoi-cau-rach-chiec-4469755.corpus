@@ -413,7 +413,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[:]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Gia_Minh]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Đại diện chủ đầu tư cho biết thêm, theo quyết định cho thu phí của UBND TP HCM, ôtô của người dân có hộ khẩu thường trú hoặc tạm trú dài hạn trên 6 tháng (trước ngày trạm thu phí hoạt động) ở mặt tiền hai đường song hành xa lộ Hà Nội được giảm 50% giá vé. Tuy nhiên, với người dân sống bên trong hiện chưa có chính sách trên.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Đại diện chủ đầu tư cho biết thêm, theo quyết định cho thu phí của UBND TP HCM, ôtô của người dân có hộ khẩu thường trú hoặc tạm trú dài hạn trên 6 tháng (trước ngày trạm thu phí hoạt động) ở mặt tiền hai đường song hành xa lộ Hà Nội được giảm 50 % giá vé. Tuy nhiên, với người dân sống bên trong hiện chưa có chính sách trên.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Đại_diện]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[chủ]]></Token>
@@ -588,9 +588,7 @@
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[0]]></Token>
             <Token tag="Ny" chunking="B-NP" ner="O"><![CDATA[h]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[2]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[1/2]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[với]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giá]]></Token>

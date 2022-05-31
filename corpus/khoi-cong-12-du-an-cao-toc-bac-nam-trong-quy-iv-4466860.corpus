@@ -160,7 +160,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thông_qua]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hồi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[1]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -443,7 +443,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[:]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Hoàng_Phong]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Theo Phó thủ tướng, Việt Nam triển khai hiệu quả chiến dịch tiêm vaccine Covid-19, là một trong 6 nước có tỷ lệ phủ vaccine cao nhất thế giới. Cả nước đã tiêm được 217 triệu liều; phủ hai mũi cho tất cả dân số từ 18 tuổi; mũi ba đạt gần 60%. Trẻ từ 12 tuổi cơ bản được tiêm đủ hai mũi; gần 30% trẻ từ 5 tuổi được tiêm mũi một. Nhờ kết quả này, số ca nhiễm, chuyển nặng, tử vong giảm sâu từ cuối tháng 3.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Theo Phó thủ tướng, Việt Nam triển khai hiệu quả chiến dịch tiêm vaccine Covid-19, là một trong 6 nước có tỷ lệ phủ vaccine cao nhất thế giới. Cả nước đã tiêm được 217 triệu liều; phủ hai mũi cho tất cả dân số từ 18 tuổi; mũi ba đạt gần 60 % . Trẻ từ 12 tuổi cơ bản được tiêm đủ hai mũi; gần 30 % trẻ từ 5 tuổi được tiêm mũi một. Nhờ kết quả này, số ca nhiễm, chuyển nặng, tử vong giảm sâu từ cuối tháng 3.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Theo]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Phó_thủ_tướng]]></Token>
@@ -541,7 +541,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Công tác phòng chống tham nhũng được thực hiện quyết liệt; phát hiện vi phạm về kinh tế gần 16.500 tỷ đồng, 3.000 ha đất; kiến nghị thu hồi gần 8.900 tỷ đồng và 114 ha đất. Hơn 400 tập thể và 800 cá nhân bị kiến nghị xem xét, xử lý hành chính; chuyển cơ quan điều tra 65 vụ, 37 người.]]></SimpleTextPart>

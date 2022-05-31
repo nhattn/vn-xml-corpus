@@ -29,9 +29,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Nhật_Bản]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[10]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[10/6]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Thủ_tướng]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Fumio_Kishida]]></Token>
@@ -130,9 +128,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[quốc_tế]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[24]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[24/5]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[với]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[công_dân]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[đến]]></Token>
@@ -261,7 +257,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hồi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -269,7 +265,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[:]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Bloomberg]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Nhật Bản đóng cửa biên giới vì Covid-19 từ tháng 4/2020. Năm 2019, lượng khách trao đổi hai chiều giữa Việt Nam - Nhật Bản cao nhất từ trước đến nay, với hơn 1,4 triệu lượt (tăng 18,9% so với 2018), trong đó khách Việt Nam đến Nhật Bản đạt 495.000 lượt người (tăng 27,3%).]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Nhật Bản đóng cửa biên giới vì Covid-19 từ tháng 4/2020. Năm 2019, lượng khách trao đổi hai chiều giữa Việt Nam - Nhật Bản cao nhất từ trước đến nay, với hơn 1,4 triệu lượt (tăng 18,9 % so với 2018), trong đó khách Việt Nam đến Nhật Bản đạt 495.000 lượt người (tăng 27,3 % ).]]></SimpleTextPart>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Nhật_Bản]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[đóng]]></Token>

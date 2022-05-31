@@ -51,12 +51,12 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[dự_kiến]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Từ cuối tháng 3, Chính phủ ban hành Quyết định 08 về thực hiện chính sách hỗ trợ khoảng 6.600 tỷ đồng tiền thuê nhà cho 3,4 triệu lao động. Muốn được hỗ trợ, người lao động phải làm hồ sơ thông qua doanh nghiệp gửi cơ quan bảo hiểm. TP HCM là địa phương có số người thuộc diện hỗ trợ nhiều nhất, gần 1,2 triệu người, kinh phí dự trù 2.000 tỷ đồng. Tuy nhiên đến chiều 23/5, Bảo hiểm xã hội TP HCM mới xác nhận cho hơn 21.000 trường hợp, chiếm gần 2%.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Từ cuối tháng 3, Chính phủ ban hành Quyết định 08 về thực hiện chính sách hỗ trợ khoảng 6.600 tỷ đồng tiền thuê nhà cho 3,4 triệu lao động. Muốn được hỗ trợ, người lao động phải làm hồ sơ thông qua doanh nghiệp gửi cơ quan bảo hiểm. TP HCM là địa phương có số người thuộc diện hỗ trợ nhiều nhất, gần 1,2 triệu người, kinh phí dự trù 2.000 tỷ đồng. Tuy nhiên đến chiều 23/5, Bảo hiểm xã hội TP HCM mới xác nhận cho hơn 21.000 trường hợp, chiếm gần 2 % .]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Chính_phủ]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ban_hành_Quyết_định]]></Token>
@@ -202,7 +202,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đầu]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[công_đoàn]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[in]]></Token>
@@ -635,7 +635,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[công_nhân]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Nhà máy Samho Việt Nam có hơn 10.000 công nhân, gần 40% thuê trọ. Ông An dự kiến nhanh nhất đầu tháng 6 mới lập được danh sách và nộp cho bảo hiểm duyệt. Kế đến các bước nộp danh sách về Phòng Lao động, chờ UBND huyện cấp kinh phí.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Nhà máy Samho Việt Nam có hơn 10.000 công nhân, gần 40 % thuê trọ. Ông An dự kiến nhanh nhất đầu tháng 6 mới lập được danh sách và nộp cho bảo hiểm duyệt. Kế đến các bước nộp danh sách về Phòng Lao động, chờ UBND huyện cấp kinh phí.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Nhà_máy]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Samho]]></Token>
@@ -660,7 +660,7 @@
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[nhất]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đầu]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[mới]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[lập]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[được]]></Token>

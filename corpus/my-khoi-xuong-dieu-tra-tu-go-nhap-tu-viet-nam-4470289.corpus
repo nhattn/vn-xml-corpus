@@ -202,9 +202,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[kéo_dài]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6/6]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Theo quy định của Mỹ, các bên có liên quan có thời hạn 30 ngày kể từ ngày khởi xướng - tức hôm 24/5 - để nộp bản bình luận và cung cấp thông tin phản biện tới cơ quan điều tra Mỹ. DOC dự kiến đưa ra kết luận cuối cùng trong vòng 120 ngày kể từ ngày khởi xướng (có thể gia hạn thêm 180 ngày nếu có lý do hợp lý). Trong quá trình điều tra, DOC có thể yêu cầu các bên liên quan cung cấp thông tin phục vụ cho việc xem xét.]]></SimpleTextPart>

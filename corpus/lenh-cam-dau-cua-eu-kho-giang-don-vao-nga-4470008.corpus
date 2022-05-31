@@ -48,9 +48,7 @@
             <Token tag="Ny" chunking="B-NP" ner="O"><![CDATA[EU]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[)]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[30]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[30/5]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thống_nhất]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[được]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[lệnh_cấm]]></Token>
@@ -179,7 +177,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hồi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -188,7 +186,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Reuters]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Châu Âu là khách hàng mua năng lượng lớn nhất của Nga. Theo Eurostat, dầu thô Nga chiếm 27% tổng kim ngạch nhập khẩu của khối vào năm 2021. Dữ liệu từ Cơ quan Năng lượng Quốc tế (IEA) cho thấy mức nhập khẩu này tương đương khoảng 2,4 triệu thùng mỗi ngày và 35% trong số đó được vận chuyển qua đường ống Druzhba.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Châu Âu là khách hàng mua năng lượng lớn nhất của Nga. Theo Eurostat, dầu thô Nga chiếm 27 % tổng kim ngạch nhập khẩu của khối vào năm 2021. Dữ liệu từ Cơ quan Năng lượng Quốc tế (IEA) cho thấy mức nhập khẩu này tương đương khoảng 2,4 triệu thùng mỗi ngày và 35 % trong số đó được vận chuyển qua đường ống Druzhba.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Châu]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Âu_là]]></Token>
@@ -447,7 +445,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[lên]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[mức]]></Token>
@@ -742,7 +740,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Công ty dầu mỏ Hungary MOL hồi đầu tháng cho biết lợi nhuận từ hoạt động lọc dầu của họ đã "tăng vọt" nhờ giá dầu thô Urals của Nga giảm. Chính phủ Hungary từng kiên quyết chống lại các lệnh trừng phạt dầu Nga với lý do họ là quốc gia không giáp biển, không có lựa chọn nào khác ngoài việc dựa vào nguồn dầu nhập khẩu qua đường ống từ Nga.]]></SimpleTextPart>
@@ -854,7 +852,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Nga]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -975,7 +973,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tiền_bạc]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Edward Gardner, chuyên gia kinh tế tại công ty tư vấn và nghiên cứu độc lập Capital Economics, trụ sở ở London, dự đoán xuất khẩu dầu mỏ của Nga sẽ giảm khoảng 20% trong năm nay. Ông lưu ý EU có thể ứng phó "tương đối ổn" khi tìm kiếm các nhà cung cấp mới, nhưng giá dầu sẽ được duy trì ở mức cao tại châu Âu và các nơi khác.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Edward Gardner, chuyên gia kinh tế tại công ty tư vấn và nghiên cứu độc lập Capital Economics, trụ sở ở London, dự đoán xuất khẩu dầu mỏ của Nga sẽ giảm khoảng 20 % trong năm nay. Ông lưu ý EU có thể ứng phó "tương đối ổn" khi tìm kiếm các nhà cung cấp mới, nhưng giá dầu sẽ được duy trì ở mức cao tại châu Âu và các nơi khác.]]></SimpleTextPart>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Edward_Gardner]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>

@@ -268,12 +268,10 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tổ_chức]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[9]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[9/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Bà Lê Thị Quyến, Chủ tịch công đoàn công ty, cho biết trước khi doanh nghiệp đưa hàng xuống, danh sách các sản phẩm kèm giá cả được gửi đến người lao động để tham khảo. Sau ngày mua sắm, công đoàn sẽ lấy ý kiến về chất lượng sản phẩm. Nếu mức độ hài lòng cao, tháng sau phiên chợ sẽ được mở lại với nhiều mặt hàng mới. Phiên chợ ngày 9/5, doanh số bán ra của Công ty Tươi Mart đạt khoảng 30 triệu đồng. Với mức giảm tối đa 30%, tổng số tiền công nhân được ưu đãi gần 10 triệu đồng.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Bà Lê Thị Quyến, Chủ tịch công đoàn công ty, cho biết trước khi doanh nghiệp đưa hàng xuống, danh sách các sản phẩm kèm giá cả được gửi đến người lao động để tham khảo. Sau ngày mua sắm, công đoàn sẽ lấy ý kiến về chất lượng sản phẩm. Nếu mức độ hài lòng cao, tháng sau phiên chợ sẽ được mở lại với nhiều mặt hàng mới. Phiên chợ ngày 9/5, doanh số bán ra của Công ty Tươi Mart đạt khoảng 30 triệu đồng. Với mức giảm tối đa 30 % , tổng số tiền công nhân được ưu đãi gần 10 triệu đồng.]]></SimpleTextPart>
         <Sentence>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[Bà]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Lê_Thị_Quyến]]></Token>
@@ -343,9 +341,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Phiên]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[chợ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[9]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[9/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[doanh_số]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[bán]]></Token>
@@ -378,7 +374,7 @@
             <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[đồng]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Theo ông Nguyễn Thành Đô, Trưởng ban Chính sách pháp luật (Liên đoàn lao động TP HCM), chương trình bán hàng trợ giá cho người lao động được thành phố triển khai gần 5 năm qua. Một số mặt hàng thực phẩm thiết yếu, thời trang... được giảm 10-30% so với thị trường. Từ đầu năm nay, giá cả lên nhanh cùng với tác động của Covid-19, đời sống người lao động khó khăn. Do đó, công đoàn càng đẩy mạnh các chương trình này thông qua tìm kiếm thêm đối tác mới, mở nhiều điểm bán hàng về tận chỗ ở, nơi làm việc của công nhân.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Theo ông Nguyễn Thành Đô, Trưởng ban Chính sách pháp luật (Liên đoàn lao động TP HCM), chương trình bán hàng trợ giá cho người lao động được thành phố triển khai gần 5 năm qua. Một số mặt hàng thực phẩm thiết yếu, thời trang... được giảm 10-30 % so với thị trường. Từ đầu năm nay, giá cả lên nhanh cùng với tác động của Covid-19, đời sống người lao động khó khăn. Do đó, công đoàn càng đẩy mạnh các chương trình này thông qua tìm kiếm thêm đối tác mới, mở nhiều điểm bán hàng về tận chỗ ở, nơi làm việc của công nhân.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Theo]]></Token>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[ông]]></Token>
@@ -569,7 +565,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Trung_tâm]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Hỗ_trợ]]></Token>
@@ -652,7 +648,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thị_trường]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Với chương trình "Chuyến xe cuối tuần", trung tâm phối hợp với Siêu thị Hạnh phúc đưa nhu yếu phẩm đến các khu lưu trú. Ngoài cam kết đảm bảo chất lượng, nhà cung cấp bán giá hỗ trợ từ 5%-10% so với thị trường và giao hàng miễn phí.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Với chương trình "Chuyến xe cuối tuần", trung tâm phối hợp với Siêu thị Hạnh phúc đưa nhu yếu phẩm đến các khu lưu trú. Ngoài cam kết đảm bảo chất lượng, nhà cung cấp bán giá hỗ trợ từ 5 % -10 % so với thị trường và giao hàng miễn phí.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Với]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[chương_trình]]></Token>

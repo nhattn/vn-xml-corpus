@@ -251,7 +251,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[lương]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Mỗi tháng, người lao động sẽ trích khoảng 20% lương cứng đóng bảo hiểm tai nạn, y tế, xã hội, thất nghiệp, thực tập sinh. Ngoài ra, tiền lương còn bị trừ các khoản thuế, tiền nhà, ăn uống, đóng phí nghiệp đoàn. Để dư được mỗi tháng 20-27 triệu đồng gửi về quê trả nợ và lo cho vợ con, anh phải cày cật lực, không ngại tăng ca và tiết kiệm tối đa. Năm đầu tiên, tháng nào anh cũng trữ sẵn mấy thùng mì để ăn hai bữa sáng, tối.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Mỗi tháng, người lao động sẽ trích khoảng 20 % lương cứng đóng bảo hiểm tai nạn, y tế, xã hội, thất nghiệp, thực tập sinh. Ngoài ra, tiền lương còn bị trừ các khoản thuế, tiền nhà, ăn uống, đóng phí nghiệp đoàn. Để dư được mỗi tháng 20-27 triệu đồng gửi về quê trả nợ và lo cho vợ con, anh phải cày cật lực, không ngại tăng ca và tiết kiệm tối đa. Năm đầu tiên, tháng nào anh cũng trữ sẵn mấy thùng mì để ăn hai bữa sáng, tối.]]></SimpleTextPart>
         <Sentence>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[Mỗi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
@@ -1068,7 +1068,7 @@
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Đầu]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="L" chunking="B-NP" ner="O"><![CDATA[các]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[doanh_nghiệp]]></Token>

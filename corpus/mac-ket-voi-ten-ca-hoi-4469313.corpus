@@ -50,9 +50,7 @@
         <SimpleTextPart><![CDATA[Ngày 26/5, các nghị sĩ Đài Loan đang tranh luận về việc thay đổi tính pháp lý với hoạt động đổi tên được quy định trong luật. Mục đích là tìm biện pháp giải quyết những người đang mắc kẹt với cái tên Cá Hồi hơn một năm qua.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[26]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[26/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="L" chunking="B-NP" ner="O"><![CDATA[các]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nghị_sĩ]]></Token>

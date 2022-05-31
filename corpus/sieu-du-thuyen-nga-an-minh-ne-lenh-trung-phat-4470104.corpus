@@ -100,7 +100,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Ukraine]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[2]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[2]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Cuộc điều tra của tuần báo Observer, Anh cho thấy Alfa Nero cùng ít nhất 6 siêu du thuyền Nga khác đang tắt Hệ thống Nhận dạng Tự động (AIS) để "ẩn mình" trước lệnh trừng phạt của phương Tây. Chủ sở hữu những chiếc du thuyền này dường như đã nhận ra nguy cơ trở thành mục tiêu trong cuộc săn lùng tài sản của giới siêu giàu Nga trên toàn cầu.]]></SimpleTextPart>
@@ -200,7 +200,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Guardian]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Thế giới có khoảng 9.300 siêu du thuyền với tổng trị giá 63 tỷ USD, 10% số này thuộc sở hữu của người Nga. Kể từ khi chiến sự Ukraine nổ ra, ít nhất 13 du thuyền với tổng trị giá hơn 2,5 tỷ USD đã bị các nước tịch thu theo lệnh trừng phạt của phương Tây.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Thế giới có khoảng 9.300 siêu du thuyền với tổng trị giá 63 tỷ USD, 10 % số này thuộc sở hữu của người Nga. Kể từ khi chiến sự Ukraine nổ ra, ít nhất 13 du thuyền với tổng trị giá hơn 2,5 tỷ USD đã bị các nước tịch thu theo lệnh trừng phạt của phương Tây.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Thế_giới]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[có]]></Token>
@@ -358,9 +358,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[biển]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Caribe]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3/3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Andrey Guryev, tỷ phú người Nga 62 tuổi, chủ tập đoàn phân bón PhosAgro, được cho là chủ sở hữu siêu du thuyền Alfa Nero. Ông được cho là đã mua Witanhurst, biệt thự lớn nhất London, với giá 63 triệu USD vào năm 2008. Các nguồn tin cho biết ông Guryev thường xuyên cùng gia đình di chuyển bằng du thuyền Alfa Nero.]]></SimpleTextPart>
@@ -630,7 +628,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[là]]></Token>
             <Token tag="L" chunking="B-NP" ner="O"><![CDATA[vài]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[/]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[lần]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA["]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>

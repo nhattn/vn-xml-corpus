@@ -42,7 +42,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[khóc]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Tới bệnh viện Nhi Trung ương, bác sĩ thông báo bé Lý Ngọc Hà, hơn một tuổi bị u nguyên bào thần kinh. Đây là một dạng ung thư phổ biến nhất trong năm năm đầu tiên của cuộc đời. Tuổi trung bình mắc bệnh là 19 tháng với 89% bệnh nhân dưới 5 tuổi và 98% bệnh nhân dưới 10 tuổi.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Tới bệnh viện Nhi Trung ương, bác sĩ thông báo bé Lý Ngọc Hà, hơn một tuổi bị u nguyên bào thần kinh. Đây là một dạng ung thư phổ biến nhất trong năm năm đầu tiên của cuộc đời. Tuổi trung bình mắc bệnh là 19 tháng với 89 % bệnh nhân dưới 5 tuổi và 98 % bệnh nhân dưới 10 tuổi.]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Tới]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[bệnh_viện]]></Token>
@@ -1105,7 +1105,7 @@
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[đang]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[lên]]></Token>

@@ -45,13 +45,13 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[xã_hội]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Nhận phiếu lương tháng 4 từ kế toán, anh Lê Hữu Hưng, công nhân nhà máy cơ khí đóng ở Khu chế xuất Tân Thuận (quận 7), cho biết sau hơn 10 năm làm việc, tổng lương mỗi tháng hơn 12 triệu đồng. Sau khi trừ 10,5% các khoản bảo hiểm xã hội, y tế, thất nghiệp và công đoàn, số tiền anh Hưng thực nhận gần 11,5 triệu. Song mức lương làm căn cứ đóng bảo hiểm xã hội của anh chỉ hơn 6,7 triệu (gồm lương cơ bản, phụ cấp bổ sung và thâm niên).]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Nhận phiếu lương tháng 4 từ kế toán, anh Lê Hữu Hưng, công nhân nhà máy cơ khí đóng ở Khu chế xuất Tân Thuận (quận 7), cho biết sau hơn 10 năm làm việc, tổng lương mỗi tháng hơn 12 triệu đồng. Sau khi trừ 10,5 % các khoản bảo hiểm xã hội, y tế, thất nghiệp và công đoàn, số tiền anh Hưng thực nhận gần 11,5 triệu. Song mức lương làm căn cứ đóng bảo hiểm xã hội của anh chỉ hơn 6,7 triệu (gồm lương cơ bản, phụ cấp bổ sung và thâm niên).]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Nhận]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[phiếu]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[lương]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[kế_toán]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
@@ -711,7 +711,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[bắt_buộc]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA["Doanh nghiệp lách chỗ này để giảm chi phí bởi theo quy định, tỷ lệ đóng vào quỹ bảo hiểm là 32% tiền lương, trong đó công ty đóng 21,5%, chiếm đến 2/3", ông Chính nói. Có những công ty trả lương trung bình mỗi tháng cho người lao động gần 20 triệu đồng nhưng đóng bảo hiểm xã hội chỉ trên mức tối thiểu vùng. Tất cả các khoản còn lại được đưa vào phụ cấp, hỗ trợ nên nhiều trường hợp "phần phụ còn cao hơn lương chính".]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA["Doanh nghiệp lách chỗ này để giảm chi phí bởi theo quy định, tỷ lệ đóng vào quỹ bảo hiểm là 32 % tiền lương, trong đó công ty đóng 21,5 % , chiếm đến 2/3", ông Chính nói. Có những công ty trả lương trung bình mỗi tháng cho người lao động gần 20 triệu đồng nhưng đóng bảo hiểm xã hội chỉ trên mức tối thiểu vùng. Tất cả các khoản còn lại được đưa vào phụ cấp, hỗ trợ nên nhiều trường hợp "phần phụ còn cao hơn lương chính".]]></SimpleTextPart>
         <Sentence>
             <Token tag="CH" chunking="O" ner="O"><![CDATA["]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Doanh_nghiệp]]></Token>
@@ -806,7 +806,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA["]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Trong khi đó, TS Đỗ Quỳnh Chi, Giám đốc Trung tâm Nghiên cứu quan hệ lao động (ERC), nói cần có sự thông cảm nhất định cho tình trạng doanh nghiệp "chẻ" lương để đóng bảo hiểm xã hội mức thấp. Bởi phần lớn các nhà máy ở Việt Nam là gia công, lợi nhuận thấp nhất trong chuỗi cung ứng nhưng chi phí lao động lại khá lớn. Đơn cử, trong ngành gỗ, khoản này chiếm 15-30%, tỷ lệ này ở công ty gia công hàng may là 70-80%.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Trong khi đó, TS Đỗ Quỳnh Chi, Giám đốc Trung tâm Nghiên cứu quan hệ lao động (ERC), nói cần có sự thông cảm nhất định cho tình trạng doanh nghiệp "chẻ" lương để đóng bảo hiểm xã hội mức thấp. Bởi phần lớn các nhà máy ở Việt Nam là gia công, lợi nhuận thấp nhất trong chuỗi cung ứng nhưng chi phí lao động lại khá lớn. Đơn cử, trong ngành gỗ, khoản này chiếm 15-30 % , tỷ lệ này ở công ty gia công hàng may là 70-80 % .]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[khi]]></Token>
@@ -894,7 +894,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[%]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Hiện, tỷ lệ phần trăm (%) lương trích đóng vào quỹ bảo hiểm xã hội ở Việt Nam thuộc nhóm cao nhất châu Á. Vì vậy, các doanh nghiệp xây dựng mức lương căn cứ đóng bảo hiểm chiếm 40-60% thu nhập thực tế là nằm trong khả năng "chịu đựng được".]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Hiện, tỷ lệ phần trăm ( % ) lương trích đóng vào quỹ bảo hiểm xã hội ở Việt Nam thuộc nhóm cao nhất châu Á. Vì vậy, các doanh nghiệp xây dựng mức lương căn cứ đóng bảo hiểm chiếm 40-60 % thu nhập thực tế là nằm trong khả năng "chịu đựng được".]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Hiện]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
@@ -945,7 +945,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA["]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Từ các khảo sát của ERC, TS Chi nhận định chỉ 15-20% doanh nghiệp "tách" lương, giảm mức đóng bảo hiểm để tối đa hóa lợi nhuận, 10% doanh nghiệp sẵn sàng mua thêm bảo hiểm tư nhân để thêm phúc lợi cho người lao động. Số còn lại loay hoay bởi khách hàng ép giá, thị trường khó khăn, lao động nhảy việc nên buộc phải tính toán chi phí hợp lý nhất để tồn tại.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Từ các khảo sát của ERC, TS Chi nhận định chỉ 15-20 % doanh nghiệp "tách" lương, giảm mức đóng bảo hiểm để tối đa hóa lợi nhuận, 10 % doanh nghiệp sẵn sàng mua thêm bảo hiểm tư nhân để thêm phúc lợi cho người lao động. Số còn lại loay hoay bởi khách hàng ép giá, thị trường khó khăn, lao động nhảy việc nên buộc phải tính toán chi phí hợp lý nhất để tồn tại.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Từ]]></Token>
             <Token tag="L" chunking="B-NP" ner="O"><![CDATA[các]]></Token>
@@ -1409,7 +1409,7 @@
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Đến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thành_phố]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ghi_nhận]]></Token>

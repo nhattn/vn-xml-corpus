@@ -233,7 +233,7 @@
             <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[phút]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Trên trang web tổng hợp đánh giá Rotten Tomatoes, phim đạt điểm trung bình 7,7/10, có 71% bài phê bình tích cực. Theo Variety, phim ghi điểm ở diễn xuất duyên dáng của dàn diễn viên. Các tình huống hài dày đặc, chọc cười khán giả từ đầu đến cuối. Tác phẩm được vỗ tay tám phút khi công chiếu ở Cannes. Lần thứ hai Ruben Ostlund giành Cành Cọ Vàng, sau The Square (2017).]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Trên trang web tổng hợp đánh giá Rotten Tomatoes, phim đạt điểm trung bình 7,7/10, có 71 % bài phê bình tích cực. Theo Variety, phim ghi điểm ở diễn xuất duyên dáng của dàn diễn viên. Các tình huống hài dày đặc, chọc cười khán giả từ đầu đến cuối. Tác phẩm được vỗ tay tám phút khi công chiếu ở Cannes. Lần thứ hai Ruben Ostlund giành Cành Cọ Vàng, sau The Square (2017).]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Trên]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[trang_web]]></Token>
@@ -801,7 +801,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ra]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[17]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[17]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[28]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>

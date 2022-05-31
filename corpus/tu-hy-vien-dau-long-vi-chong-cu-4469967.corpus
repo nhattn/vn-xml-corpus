@@ -56,9 +56,7 @@
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[hơn]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[29]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[29/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[khi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[doanh_nhân]]></Token>
@@ -219,9 +217,7 @@
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[nhất]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Weibo]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[31]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[31/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Trên Appledaily, bà Hoàng Xuân Mai, mẹ của Từ Hy Viên, nói diễn viên đau lòng, khổ tâm xen lẫn tức giận vì Uông Tiểu Phi. Bà cho biết sau khi sinh con trai năm 2016, Hy Viên hay bị động kinh, vì thế phải uống thuốc thời gian dài. Do stress, Hy Viên uống thêm thuốc giãn cơ (có khả năng thư giãn hoặc giảm căng cơ) do bác sĩ kê, không phải chất cấm.]]></SimpleTextPart>
@@ -530,7 +526,7 @@
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Hồi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[2]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[2]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[mỹ_nhân]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Vườn]]></Token>

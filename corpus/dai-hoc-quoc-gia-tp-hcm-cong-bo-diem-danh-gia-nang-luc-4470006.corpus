@@ -16,32 +16,6 @@
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[hai]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[31]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Đại_học]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Quốc_gia]]></Token>
-            <Token tag="Ny" chunking="B-NP" ner="B-ORG"><![CDATA[TP]]></Token>
-            <Token tag="Ny" chunking="I-NP" ner="I-ORG"><![CDATA[HCM]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[công_bố]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[kết_quả]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[kỳ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[đánh_giá]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[năng_lực]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đợt]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[hai]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[cho]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[hơn]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[38.000]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thí_sinh]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[tại]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hệ_thống]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thinangluc.vnuhcm.edu.vn]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[TS Nguyễn Quốc Chính, Giám đốc Trung tâm Khảo thí và Đánh giá chất lượng đào tạo (Đại học Quốc gia TP HCM) cho biết, điểm trung bình của thí sinh thi đợt hai là 671,9 điểm (cao hơn đợt một 25 điểm). Trong đó, 61 thí sinh trên 1.000 điểm; thí sinh có điểm thi cao nhất là 1.107, thấp nhất là 212.]]></SimpleTextPart>
         <Sentence>
             <Token tag="Ny" chunking="B-NP" ner="O"><![CDATA[TS]]></Token>
@@ -108,7 +82,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[212]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Theo ông Chính, phổ điểm đợt hai có phần lệch phải, có thấy kết quả thí sinh đợt này cao hơn đợt một. Điều này được lý giải do 65% thí sinh (hơn 25.000) thí sinh từng thi đợt trước đó.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Theo ông Chính, phổ điểm đợt hai có phần lệch phải, có thấy kết quả thí sinh đợt này cao hơn đợt một. Điều này được lý giải do 65 % thí sinh (hơn 25.000) thí sinh từng thi đợt trước đó.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Theo]]></Token>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[ông]]></Token>
@@ -287,9 +261,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đợt]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[hai]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[22]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[22/5]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[tại]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[điểm]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thi]]></Token>
@@ -310,7 +282,7 @@
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="A" chunking="B-AP" ner="O"><![CDATA[gần]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[80.000]]></Token>
@@ -421,7 +393,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tuyển]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Trong phương án tuyển sinh của nhiều đại học năm nay, phương thức xét tuyển bằng điểm thi đánh giá năng lực của Đại học Quốc gia TP HCM chiếm 20-40%. Các trường thành viên Đại học Quốc gia TP HCM sử dụng kết quả kỳ thi này với tỷ trọng chỉ tiêu lớn, như Đại học Khoa học Tự nhiên 70%, Kinh tế - Luật 60%, Khoa học xã hội và Nhân văn 50%.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Trong phương án tuyển sinh của nhiều đại học năm nay, phương thức xét tuyển bằng điểm thi đánh giá năng lực của Đại học Quốc gia TP HCM chiếm 20-40 % . Các trường thành viên Đại học Quốc gia TP HCM sử dụng kết quả kỳ thi này với tỷ trọng chỉ tiêu lớn, như Đại học Khoa học Tự nhiên 70 % , Kinh tế - Luật 60 % , Khoa học xã hội và Nhân văn 50 % .]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[phương_án]]></Token>

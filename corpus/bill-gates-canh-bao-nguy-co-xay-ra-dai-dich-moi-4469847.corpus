@@ -39,7 +39,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[biết]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Tỷ phú Bill Gates trong cuộc phỏng vấn với tờ El Diario của Tây Ban Nha hôm 29/5 cảnh báo rằng đại dịch tiếp theo mà thế giới có nguy cơ đối mặt có thể xuất phát "từ một loại virus mà chúng ta đã biết". Nhà sáng lập Microsoft nói rằng có 50% khả năng đại dịch mới sẽ xuất hiện trong vòng hai thập kỷ tới.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Tỷ phú Bill Gates trong cuộc phỏng vấn với tờ El Diario của Tây Ban Nha hôm 29/5 cảnh báo rằng đại dịch tiếp theo mà thế giới có nguy cơ đối mặt có thể xuất phát "từ một loại virus mà chúng ta đã biết". Nhà sáng lập Microsoft nói rằng có 50 % khả năng đại dịch mới sẽ xuất hiện trong vòng hai thập kỷ tới.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Tỷ_phú]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Bill_Gates]]></Token>
@@ -277,7 +277,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Gates]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hồi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[2]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[2]]></Token>
             <Token tag="R" chunking="O" ner="O"><![CDATA[cũng]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[nhận_định]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nguy_cơ]]></Token>

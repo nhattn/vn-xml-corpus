@@ -78,7 +78,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đại_dịch]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Hong Kong là một thành phố với mật độ dân cư dày đặc và diện tích làm nông nghiệp bị hạn chế nên gần như phụ thuộc hoàn toàn vào nguồn cung nông nghiệp bên ngoài. Hơn 90% thực phẩm tiêu thụ bởi thành phố, đặc biệt là các sản phẩm tươi sống như rau, được nhập khẩu chủ yếu từ Trung Quốc.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Hong Kong là một thành phố với mật độ dân cư dày đặc và diện tích làm nông nghiệp bị hạn chế nên gần như phụ thuộc hoàn toàn vào nguồn cung nông nghiệp bên ngoài. Hơn 90 % thực phẩm tiêu thụ bởi thành phố, đặc biệt là các sản phẩm tươi sống như rau, được nhập khẩu chủ yếu từ Trung Quốc.]]></SimpleTextPart>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Hong_Kong]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[là]]></Token>
@@ -189,7 +189,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Hong_Kong]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[2]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[2]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[năm]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[nay]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
@@ -199,7 +199,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[:]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Bloomberg]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Gordon Tam ước tính chỉ có khoảng 1,5% lượng rau ở thành phố được sản xuất tại địa phương. Và các "nông trại thẳng đứng" như Farm66 có sự hỗ trợ của công nghệ hiện đại như cảm biến IoT, đèn LED và robot, có thể thúc đẩy sản xuất lương thực địa phương. Farm66 cũng có kế hoạch "xuất khẩu bí quyết" này sang các thành phố khác.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Gordon Tam ước tính chỉ có khoảng 1,5 % lượng rau ở thành phố được sản xuất tại địa phương. Và các "nông trại thẳng đứng" như Farm66 có sự hỗ trợ của công nghệ hiện đại như cảm biến IoT, đèn LED và robot, có thể thúc đẩy sản xuất lương thực địa phương. Farm66 cũng có kế hoạch "xuất khẩu bí quyết" này sang các thành phố khác.]]></SimpleTextPart>
         <Sentence>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[Gordon]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Tam]]></Token>

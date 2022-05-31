@@ -67,9 +67,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Đường_sắt]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[31]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[31/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -175,9 +173,7 @@
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[31]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[31/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -185,7 +181,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[:]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Hạ_Giang]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Bà Văn Thị Hữu Tâm, Phó giám đốc đốc Công ty TNHH MTV Đường sắt đô thị số 1 (đơn vị sẽ vận hành Metro Số 1), cho biết số nhân sự trên chiếm hơn 50% người của công ty. Ngoài ra, đơn vị này cũng phối hợp Ban quản lý đường sắt đô thị cùng các nhà thầu đào tạo, chuyển giao công nghệ bảo trì, vận hành các hệ thống thiết bị khác, dự kiến tuyển dụng thêm 200 người.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Bà Văn Thị Hữu Tâm, Phó giám đốc đốc Công ty TNHH MTV Đường sắt đô thị số 1 (đơn vị sẽ vận hành Metro Số 1), cho biết số nhân sự trên chiếm hơn 50 % người của công ty. Ngoài ra, đơn vị này cũng phối hợp Ban quản lý đường sắt đô thị cùng các nhà thầu đào tạo, chuyển giao công nghệ bảo trì, vận hành các hệ thống thiết bị khác, dự kiến tuyển dụng thêm 200 người.]]></SimpleTextPart>
         <Sentence>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[Bà]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Văn_Thị_Hữu_Tâm]]></Token>
@@ -371,7 +367,7 @@
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[4]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[4]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[năm]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[nay]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
@@ -390,7 +386,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[khôi_phục]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Metro Số 1 tổng đầu tư 43.700 tỷ đồng, dài gần 20 km từ Bến Thành (quận 1) đến depot Long Bình (TP Thủ Đức) với ba ga ngầm và 11 ga trên cao. Hiện, dự án đã hoàn thành hơn 90% khối lượng. Dự kiến tuyến tàu điện sẽ được khai thác thương mại cuối năm tới.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Metro Số 1 tổng đầu tư 43.700 tỷ đồng, dài gần 20 km từ Bến Thành (quận 1) đến depot Long Bình (TP Thủ Đức) với ba ga ngầm và 11 ga trên cao. Hiện, dự án đã hoàn thành hơn 90 % khối lượng. Dự kiến tuyến tàu điện sẽ được khai thác thương mại cuối năm tới.]]></SimpleTextPart>
         <Sentence>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[Metro]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Số]]></Token>

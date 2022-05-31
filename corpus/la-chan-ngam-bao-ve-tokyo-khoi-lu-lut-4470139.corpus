@@ -47,9 +47,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Tài_nguyên_và_Môi_trường]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Trần_Hồng_Hà]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[30]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[30/5]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[cho]]></Token>
             <Token tag="C" chunking="O" ner="O"><![CDATA[rằng]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[để]]></Token>
@@ -306,7 +304,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ngập_lụt]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Trước hậu quả nặng nề của bão lũ, chính phủ Nhật Bản quyết tâm hành động. "Vào thời kỳ khôi phục sau chiến tranh những năm 1950-1960, chính phủ vẫn dành 6-7% ngân sách quốc gia cho nỗ lực giảm thiểu rủi ro thiên tai", Miki Inaoka, chuyên gia về thảm họa tại Cơ quan Hợp tác Quốc tế Nhật Bản (JICA), cho biết.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Trước hậu quả nặng nề của bão lũ, chính phủ Nhật Bản quyết tâm hành động. "Vào thời kỳ khôi phục sau chiến tranh những năm 1950-1960, chính phủ vẫn dành 6-7 % ngân sách quốc gia cho nỗ lực giảm thiểu rủi ro thiên tai", Miki Inaoka, chuyên gia về thảm họa tại Cơ quan Hợp tác Quốc tế Nhật Bản (JICA), cho biết.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Trước]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hậu_quả]]></Token>
@@ -777,7 +775,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Earth_Titan]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[MAOUDC hoạt động khoảng 7 lần/năm, đặc biệt trong mùa mưa bão từ tháng 6 đến cuối tháng 10 tại Nhật Bản. "Tại khu vực này, mưa lớn, bão, hay thậm chí lượng mưa hàng ngày cũng có thể gây ngập lụt", Nobuyuki Akiyama, giám đốc bể kiểm soát MAOUDC, cho biết. "Hệ thống này đã giúp ngăn chặn 90% thiệt hại hạ tầng do mưa lũ trong khu vực".]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[MAOUDC hoạt động khoảng 7 lần/năm, đặc biệt trong mùa mưa bão từ tháng 6 đến cuối tháng 10 tại Nhật Bản. "Tại khu vực này, mưa lớn, bão, hay thậm chí lượng mưa hàng ngày cũng có thể gây ngập lụt", Nobuyuki Akiyama, giám đốc bể kiểm soát MAOUDC, cho biết. "Hệ thống này đã giúp ngăn chặn 90 % thiệt hại hạ tầng do mưa lũ trong khu vực".]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[MAOUDC]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[hoạt_động]]></Token>
@@ -794,11 +792,11 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[bão]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[6]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuối]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[10]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[10]]></Token>
             <Token tag="E" chunking="B-PP" ner="O"><![CDATA[tại]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Nhật_Bản]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
@@ -973,7 +971,7 @@
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[biết]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Dựa theo dữ liệu lượng mưa trong lịch sử, chính quyền thành phố đã thiết kế để hệ thống phòng thủ của Tokyo chịu được lượng mưa 50 mm mỗi giờ. Tuy nhiên, một số chuyên gia ước tính trong thế kỷ 21, lượng mưa của Nhật Bản có thể tăng 10% và lên tới 19% vào mùa hè.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Dựa theo dữ liệu lượng mưa trong lịch sử, chính quyền thành phố đã thiết kế để hệ thống phòng thủ của Tokyo chịu được lượng mưa 50 mm mỗi giờ. Tuy nhiên, một số chuyên gia ước tính trong thế kỷ 21, lượng mưa của Nhật Bản có thể tăng 10 % và lên tới 19 % vào mùa hè.]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Dựa]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[theo]]></Token>

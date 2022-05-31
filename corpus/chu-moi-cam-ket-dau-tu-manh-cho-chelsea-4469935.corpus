@@ -39,7 +39,7 @@
             <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[USD]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA["Chúng tôi rất vinh dự khi trở thành chủ sở hữu mới của Chelsea. Chúng tôi sẽ cống hết mình, 100% là như vậy, trong từng phút của mỗi trận đấu. Tầm nhìn của chúng tôi với tư cách là chủ sở hữu rất rõ ràng, là làm người hâm mộ tự hào. Cùng cam kết phát triển học viện và thu hút những cầu thủ trẻ tiềm năng nhất, kế hoạch của chúng tôi là đầu tư lâu dài và xây dựng dựa trên lịch sử thành công của Chelsea", Boehly lần đầu phát biểu với tư cách chủ sở hữu Chelsea ngày 30/5.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA["Chúng tôi rất vinh dự khi trở thành chủ sở hữu mới của Chelsea. Chúng tôi sẽ cống hết mình, 100 % là như vậy, trong từng phút của mỗi trận đấu. Tầm nhìn của chúng tôi với tư cách là chủ sở hữu rất rõ ràng, là làm người hâm mộ tự hào. Cùng cam kết phát triển học viện và thu hút những cầu thủ trẻ tiềm năng nhất, kế hoạch của chúng tôi là đầu tư lâu dài và xây dựng dựa trên lịch sử thành công của Chelsea", Boehly lần đầu phát biểu với tư cách chủ sở hữu Chelsea ngày 30/5.]]></SimpleTextPart>
         <Sentence>
             <Token tag="CH" chunking="O" ner="O"><![CDATA["]]></Token>
             <Token tag="P" chunking="B-NP" ner="O"><![CDATA[Chúng_tôi]]></Token>
@@ -129,9 +129,7 @@
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tư_cách]]></Token>
             <Token tag="V" chunking="B-VP" ner="O"><![CDATA[chủ_sở_hữu_Chelsea]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[30]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[30/5]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Boehly sẽ thay mặt nhóm nhà đầu tư Mỹ làm chủ sở hữu Chelsea. Ảnh: PA]]></SimpleTextPart>

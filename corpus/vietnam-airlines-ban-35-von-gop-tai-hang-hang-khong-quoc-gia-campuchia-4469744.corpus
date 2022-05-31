@@ -51,9 +51,7 @@
             <Token tag="CH" chunking="O" ner="O"><![CDATA[)]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[3]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
+            <Token tag="M" chunking="B-MISC" ner="B-MISC"><![CDATA[3/1]]></Token>
             <Token tag="Cc" chunking="B-NP" ner="O"><![CDATA[và]]></Token>
             <Token tag="M" chunking="B-NP" ner="O"><![CDATA[29]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
@@ -98,7 +96,7 @@
             <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[USD]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Vietnam Airlines góp 49% vốn và trở thành cổ đông lớn của Cambodia Angkor Air vào năm 2009. Theo thoả thuận, Vietnam Airlines sẽ hợp tác và hỗ trợ tối đa cho hãng hàng không Quốc gia Campuchia trong quá trình triển khai hoạt động mở rộng và phát triển, cũng như thực hiện các công việc bảo dưỡng, sửa chữa, hợp tác thương mại với nhiều ưu đãi đặc biệt. Năm 2021, Vietnam Airlines ghi nhận 235 tỷ đồng từ doanh thu bán hàng và cung cấp dịch vụ cho Cambodia Angkor Air.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Vietnam Airlines góp 49 % vốn và trở thành cổ đông lớn của Cambodia Angkor Air vào năm 2009. Theo thoả thuận, Vietnam Airlines sẽ hợp tác và hỗ trợ tối đa cho hãng hàng không Quốc gia Campuchia trong quá trình triển khai hoạt động mở rộng và phát triển, cũng như thực hiện các công việc bảo dưỡng, sửa chữa, hợp tác thương mại với nhiều ưu đãi đặc biệt. Năm 2021, Vietnam Airlines ghi nhận 235 tỷ đồng từ doanh thu bán hàng và cung cấp dịch vụ cho Cambodia Angkor Air.]]></SimpleTextPart>
         <Sentence>
             <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[Vietnam]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Airlines]]></Token>
@@ -250,7 +248,7 @@
             <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[đồng]]></Token>
             <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Hãng hàng không Quốc gia Việt Nam hiện chưa tiết lộ thông tin của đối tác mua lại phần vốn tại K6 này. Vietnam Airlines cho biết theo thoả thuận giữa hai bên, phần vốn góp còn lại của khoản đầu tư này (14%) sẽ được thanh lý trong năm nay.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Hãng hàng không Quốc gia Việt Nam hiện chưa tiết lộ thông tin của đối tác mua lại phần vốn tại K6 này. Vietnam Airlines cho biết theo thoả thuận giữa hai bên, phần vốn góp còn lại của khoản đầu tư này (14 % ) sẽ được thanh lý trong năm nay.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Hãng]]></Token>
             <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hàng_không]]></Token>
