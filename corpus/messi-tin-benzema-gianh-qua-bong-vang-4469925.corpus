@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<corpus>
+    <Document id="2e5f4281838a5c340dbcfdeb7142b5ff4aadbf19fd4d39d85a8d120d0ecf93ad">
+        <Title><![CDATA[Messi tin Benzema giành Quả Bóng Vàng]]></Title>
+        <DocumentURI><![CDATA[https://vnexpress.net/messi-tin-benzema-gianh-qua-bong-vang-4469925.html]]></DocumentURI>
+        <Sentence>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Messi]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tin]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Benzema]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[giành]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Quả_Bóng_Vàng]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[Lionel]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Messi]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[khẳng_định]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tiền_đạo]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Karim_Benzema]]></Token>
+            <Token tag="R" chunking="O" ner="O"><![CDATA[sẽ]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[đoạt]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Quả_Bóng_Vàng]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[2022]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[bởi]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[anh]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[là]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nhân_tố]]></Token>
+            <Token tag="R" chunking="O" ner="O"><![CDATA[không_thể]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[thiếu]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[của]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Real]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trên]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hành_trình]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[vô_địch]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Champions_League]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <SimpleTextPart><![CDATA[Benzema ghi 44 bàn qua 46 trận khi Real đoạt Siêu Cup Tây Ban Nha, vô địch La Liga rồi đăng quang ở Champions League. Riêng tại mặt trận số một châu Âu, Benzema góp 15 trong 29 bàn của toàn đội, và 10 trong số này mang tính quyết định giúp Real lần lượt thắng ngược trước PSG, Chelsea rồi Man City ở vòng đấu loại trực tiếp.]]></SimpleTextPart>
+        <Sentence>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Benzema]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ghi]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[44]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[bàn]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[qua]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[46]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[trận]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[khi]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Real]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[đoạt]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Siêu_Cup]]></Token>
+            <Token tag="Np" chunking="I-NP" ner="I-PER"><![CDATA[Tây]]></Token>
+            <Token tag="Np" chunking="I-NP" ner="I-PER"><![CDATA[Ban_Nha]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[vô_địch]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[La_Liga]]></Token>
+            <Token tag="C" chunking="O" ner="O"><![CDATA[rồi]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[đăng_quang]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[ở]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Champions_League]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="T" chunking="O" ner="O"><![CDATA[Riêng]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[tại]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[mặt_trận]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[số_một]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[châu_Âu]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Benzema]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[góp]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[15]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[29]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[bàn]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[của]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[toàn]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đội]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
+            <Token tag="Cc" chunking="B-NP" ner="O"><![CDATA[và]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[10]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[số]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[này]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[mang]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tính]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[quyết_định]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[giúp]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Real]]></Token>
+            <Token tag="R" chunking="O" ner="O"><![CDATA[lần_lượt]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thắng]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[ngược]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trước]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[PSG]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Chelsea]]></Token>
+            <Token tag="C" chunking="O" ner="O"><![CDATA[rồi]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Man_City]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[ở]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[vòng]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[đấu_loại]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[trực_tiếp]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <SimpleTextPart><![CDATA["Tôi không nghi ngờ khả năng Benzema đoạt Quả Bóng Vàng", Messi nhận xét trên kênh TyC Sports. "Đó là điều rõ ràng bởi cậu ấy đã có một mùa giải tuyệt vời và cuối cùng là vô địch Champions League. Từ vòng 1/8 trở đi, Benzema là cầu thủ không thể thiếu của Real".]]></SimpleTextPart>
+        <Sentence>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA["]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[Tôi]]></Token>
+            <Token tag="R" chunking="O" ner="O"><![CDATA[không]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[nghi_ngờ]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[khả_năng]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Benzema]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[đoạt]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Quả_Bóng_Vàng]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA["]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Messi]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[nhận_xét]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trên]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[kênh]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[TyC]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Sports]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA["]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[Đó]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[là]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[điều]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[rõ_ràng]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[bởi]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cậu]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[ấy]]></Token>
+            <Token tag="R" chunking="O" ner="O"><![CDATA[đã]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[có]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[một]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[mùa]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giải]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[tuyệt_vời]]></Token>
+            <Token tag="Cc" chunking="B-NP" ner="O"><![CDATA[và]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[cuối_cùng]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[là]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[vô_địch]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Champions_League]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Từ]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[vòng]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[8]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[trở_đi]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Benzema]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[là]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cầu_thủ]]></Token>
+            <Token tag="R" chunking="O" ner="O"><![CDATA[không_thể]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[thiếu]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[của]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Real]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA["]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <SimpleTextPart><![CDATA[Messi trong buổi tập gần đây cùng đội tuyển Argentina. Ảnh: Seleccion Argentina.]]></SimpleTextPart>
+        <Sentence>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Messi]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[buổi]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tập]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[gần]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[đây]]></Token>
+            <Token tag="C" chunking="O" ner="O"><![CDATA[cùng]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đội_tuyển]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Argentina]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Ảnh]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[:]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Seleccion_Argentina]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <SimpleTextPart><![CDATA[Messi hiện tập trung cùng đội tuyển Argentina để chuẩn bị cho trận Siêu Cup Liên lục địa, gặp Italy ngày 2/6. Tiền đạo 34 tuổi vừa trải qua mùa giải đầu tiên cùng PSG, sau 20 năm khoác áo Barca. Messi vô địch Ligue 1 nhưng bị Real loại ở vòng 1/8 Champions League.]]></SimpleTextPart>
+        <Sentence>
+            <Token tag="Np" chunking="B-NP" ner="O"><![CDATA[Messi]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hiện]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tập_trung]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[cùng]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đội_tuyển]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Argentina]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[để]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[chuẩn_bị]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[cho]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[trận]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Siêu_Cup]]></Token>
+            <Token tag="Np" chunking="I-NP" ner="I-PER"><![CDATA[Liên]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[lục_địa]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[gặp]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Italy]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ngày]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[2]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[6]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Tiền_đạo]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[34]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tuổi]]></Token>
+            <Token tag="R" chunking="O" ner="O"><![CDATA[vừa]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[trải]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[qua]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[mùa]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[giải]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[đầu_tiên]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[cùng]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[PSG]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[sau]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[20]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[năm]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[khoác]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[áo]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Barca]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[Messi]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[vô_địch]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Ligue]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
+            <Token tag="C" chunking="O" ner="O"><![CDATA[nhưng]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[bị]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Real]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[loại]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[ở]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[vòng]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[1]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[8]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Champions_League]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <SimpleTextPart><![CDATA[Anh cho hay: "May mắn là các con tôi đều hòa nhập tốt với cuộc sống ở Paris. Tôi và vợ đã nghĩ chúng sẽ gặp khó khăn nhưng mọi thứ ngược lại. Chúng tôi mới là những người chật vật. Hôm đầu tiên đưa các con đến trường, tôi và Antonela đều khóc rồi tự nhủ: 'Chúng ta đang làm gì ở đây? Điều gì đã xảy ra?'. Chúng tôi không hiểu tiếng Pháp. Ba con của tôi đã khiến mọi thứ dễ dàng hơn".]]></SimpleTextPart>
+        <Sentence>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Anh]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[cho]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[hay]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[:]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA["]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[May_mắn]]></Token>
+            <Token tag="C" chunking="O" ner="O"><![CDATA[là]]></Token>
+            <Token tag="L" chunking="B-NP" ner="O"><![CDATA[các]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[con]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[tôi]]></Token>
+            <Token tag="R" chunking="O" ner="O"><![CDATA[đều]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[hòa_nhập]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[tốt]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[với]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cuộc_sống]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[ở]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Paris]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[Tôi]]></Token>
+            <Token tag="Cc" chunking="B-NP" ner="O"><![CDATA[và]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[vợ]]></Token>
+            <Token tag="R" chunking="O" ner="O"><![CDATA[đã]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[nghĩ]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[chúng]]></Token>
+            <Token tag="R" chunking="O" ner="O"><![CDATA[sẽ]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[gặp]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[khó_khăn]]></Token>
+            <Token tag="C" chunking="O" ner="O"><![CDATA[nhưng]]></Token>
+            <Token tag="L" chunking="B-NP" ner="O"><![CDATA[mọi]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thứ]]></Token>
+            <Token tag="X" chunking="O" ner="O"><![CDATA[ngược_lại]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[Chúng_tôi]]></Token>
+            <Token tag="R" chunking="O" ner="O"><![CDATA[mới]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[là]]></Token>
+            <Token tag="L" chunking="B-NP" ner="O"><![CDATA[những]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[người]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[chật_vật]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Hôm]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[đầu_tiên]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[đưa]]></Token>
+            <Token tag="L" chunking="B-NP" ner="O"><![CDATA[các]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[con]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[đến]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[trường]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[tôi]]></Token>
+            <Token tag="Cc" chunking="B-NP" ner="O"><![CDATA[và]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Antonela]]></Token>
+            <Token tag="R" chunking="O" ner="O"><![CDATA[đều]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[khóc]]></Token>
+            <Token tag="C" chunking="O" ner="O"><![CDATA[rồi]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tự_nhủ]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[:]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[']]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[Chúng_ta]]></Token>
+            <Token tag="R" chunking="O" ner="O"><![CDATA[đang]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[làm]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[gì]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[ở]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[đây]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[?]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Điều]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[gì]]></Token>
+            <Token tag="R" chunking="O" ner="O"><![CDATA[đã]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[xảy]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ra]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[?]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[']]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[Chúng_tôi]]></Token>
+            <Token tag="R" chunking="O" ner="O"><![CDATA[không]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[hiểu]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tiếng]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Pháp]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[Ba]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[con]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[của]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[tôi]]></Token>
+            <Token tag="R" chunking="O" ner="O"><![CDATA[đã]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[khiến]]></Token>
+            <Token tag="L" chunking="B-NP" ner="O"><![CDATA[mọi]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thứ]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[dễ_dàng]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[hơn]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA["]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <SimpleTextPart><![CDATA[Mục tiêu của Messi trong năm nay là đạt thành tích tốt cùng tuyển Argentina tại World Cup 2022, diễn ra từ tháng 11 đến tháng 12. Đây có thể là cơ hội cuối cùng để anh chinh phục chiếc danh hiệu cao quý nhất cấp ĐTQG này.]]></SimpleTextPart>
+        <Sentence>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Mục_tiêu]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[của]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Messi]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[năm]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[nay]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[là]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[đạt]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thành_tích]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[tốt]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[cùng]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tuyển]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Argentina]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[tại]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[World_Cup]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[2022]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[diễn]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ra]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[11]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[đến]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tháng]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[12]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[Đây]]></Token>
+            <Token tag="R" chunking="O" ner="O"><![CDATA[có_thể]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[là]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cơ_hội]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[cuối_cùng]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[để]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[anh]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[chinh_phục]]></Token>
+            <Token tag="Nc" chunking="B-NP" ner="O"><![CDATA[chiếc]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[danh_hiệu]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[cao_quý]]></Token>
+            <Token tag="R" chunking="O" ner="O"><![CDATA[nhất]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cấp]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ĐTQG]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[này]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <SimpleTextPart><![CDATA["Argentina hiện tại có thể đối đầu và gây khó khăn cho bất kỳ đối thủ nào. Điều đó không có nghĩa chúng tôi là ứng cử viên vô địch. Nhưng Argentina sẵn sàng đấu mọi đối thủ, bởi chúng tôi được chuẩn bị cho điều đó. Cả đội đều nắm rõ mục tiêu chúng tôi muốn hướng đến", tiền đạo PSG chia sẻ. "Tôi nghĩ tuyển Pháp là tập thể ấn tượng. Cú sốc ở Euro 2021 khiến họ mạnh mẽ hơn và tiến bộ hơn. Ngay lúc này, tôi cho rằng Pháp là ứng viên vô địch số một tại World Cup 2022".]]></SimpleTextPart>
+        <Sentence>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA["]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Argentina]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hiện_tại]]></Token>
+            <Token tag="R" chunking="O" ner="O"><![CDATA[có_thể]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[đối_đầu]]></Token>
+            <Token tag="Cc" chunking="B-NP" ner="O"><![CDATA[và]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[gây]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[khó_khăn]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[cho]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[bất_kỳ]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đối_thủ]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[nào]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Điều]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[đó]]></Token>
+            <Token tag="R" chunking="O" ner="O"><![CDATA[không]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[có]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nghĩa]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[chúng_tôi]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[là]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ứng_cử_viên]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[vô_địch]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="C" chunking="O" ner="O"><![CDATA[Nhưng]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Argentina]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[sẵn_sàng]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[đấu]]></Token>
+            <Token tag="L" chunking="B-NP" ner="O"><![CDATA[mọi]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đối_thủ]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[bởi]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[chúng_tôi]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[được]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[chuẩn_bị]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[cho]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[điều]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[đó]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[Cả]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đội]]></Token>
+            <Token tag="R" chunking="O" ner="O"><![CDATA[đều]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[nắm]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[rõ]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[mục_tiêu]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[chúng_tôi]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[muốn]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[hướng]]></Token>
+            <Token tag="T" chunking="O" ner="O"><![CDATA[đến]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA["]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tiền_đạo]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[PSG]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[chia_sẻ]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA["]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[Tôi]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[nghĩ]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tuyển]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Pháp]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[là]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tập_thể]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ấn_tượng]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Cú]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[sốc]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[ở]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Euro]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[2021]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[khiến]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[họ]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[mạnh_mẽ]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[hơn]]></Token>
+            <Token tag="Cc" chunking="B-NP" ner="O"><![CDATA[và]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[tiến_bộ]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[hơn]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="T" chunking="O" ner="O"><![CDATA[Ngay]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[lúc]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[này]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[tôi]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[cho]]></Token>
+            <Token tag="C" chunking="O" ner="O"><![CDATA[rằng]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Pháp]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[là]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ứng_viên]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[vô_địch]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[số_một]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[tại]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[World_Cup]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[2022]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA["]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Duy_Đoàn]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[(]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[theo]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Marca]]></Token>
+            <Token tag="CH" chunking="O" ner="O"><![CDATA[)]]></Token>
+        </Sentence>
+    </Document>
+</corpus>
