@@ -1,15 +1,15 @@
 javascript: (function() {
-    var lines = []
-    lines.push(document.querySelector('h1.title-detail').textContent.trim())
-    lines.push(document.querySelector('p.description').textContent.trim())
+    var lines = [];
+    lines.push(document.querySelector('h1.title-detail').textContent.trim());
+    lines.push(document.querySelector('p.description').textContent.trim());
     document.querySelectorAll('.fck_detail p,.fck_detail figcaption').forEach(function(el) {
-        lines.push(el.textContent.trim())
+        lines.push(el.textContent.trim());
     });
-    var unique = []
+    var unique = [];
     for (var i in lines) {
-        line = lines[i].replace(/[\r\n\t]+/g,' ').replace(/ {2,}/g,' ').trim()
+        line = lines[i].replace(/[\r\n\t]+/g,' ').replace(/ {2,}/g,' ').trim();
         if (unique.includes(line) == false) {
-            unique.push(line)
+            unique.push(line);
         }
     }
     unique = unique.map(function(v) {
@@ -21,6 +21,8 @@ javascript: (function() {
         v = v.replace(/ð/g,"đ");
         v = v.replace(/ {2,}/g,' ');
         return v.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;').trim();
+    }).filter(function(v) {
+        return v.length > 0;
     });
     var xml = '<?xml version="1.0" encoding="UTF-8"?>';
     xml += '<Document>';
