@@ -16,12 +16,20 @@ def unicode_replace(text):
         ["”","\""],
         ["‘","'"],
         ["’","'"],
+        ["''","\""],
         ["–","-"],
         [""," "],
         ["ð","đ"]
     ]
     for _, c in enumerate(uni):
         text = text.replace(c[0],c[1])
+    text = text.replace(',',' , ')
+    text = text.replace('[',' [ ')
+    text = text.replace(']',' ] ')
+    text = text.replace('{',' { ')
+    text = text.replace('}',' } ')
+    text = text.replace(';',' ; ')
+    text = text.replace('...',' ... ')
     return text
 
 def abs_tags(words):
@@ -57,15 +65,41 @@ def has_domain(s):
         return True
     return False
 
+def remove_emojis(data):
+    emoj = re.compile("["
+        u"\U0001F600-\U0001F64F"  # emoticons
+        u"\U0001F300-\U0001F5FF"  # symbols & pictographs
+        u"\U0001F680-\U0001F6FF"  # transport & map symbols
+        u"\U0001F1E0-\U0001F1FF"  # flags (iOS)
+        u"\U00002500-\U00002BEF"  # chinese char
+        u"\U00002702-\U000027B0"
+        u"\U00002702-\U000027B0"
+        u"\U000024C2-\U0001F251"
+        u"\U0001f926-\U0001f937"
+        u"\U00010000-\U0010ffff"
+        u"\u2640-\u2642" 
+        u"\u2600-\u2B55"
+        u"\u200d"
+        u"\u23cf"
+        u"\u23e9"
+        u"\u231a"
+        u"\ufe0f"  # dingbats
+        u"\u3030"
+        "]+", re.UNICODE)
+    return re.sub(emoj, '', data)
+
 def repl(m):
     return m.group(0).replace(' ','')
 
 def qtp_alias(text):
+    text = remove_emojis(text)
     text = re.sub(r'tp\.\s+hcm',repl, text, flags=re.I) # tp. hcm
     text = re.sub(r'tp\s+\.\s+hcm',repl, text, flags=re.I) # tp . hcm
     text = re.sub(r'q\.\s+\d+',repl, text, flags=re.I) # q. 1
     text = re.sub(r'q\s+\.\s+\d+',repl, text, flags=re.I) # q . 1
     text = text.replace('%',' % ')
+    text = re.sub(r'\?{2,}',' ? ', text)
+    text = re.sub(r'\!{2,}',' ! ', text)
     text = " ".join([ w.strip() for w in text.split(' ') if w.strip() ])
     return text.strip()
 
