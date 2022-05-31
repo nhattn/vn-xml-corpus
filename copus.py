@@ -54,6 +54,8 @@ if __name__ == "__main__":
                 # Save to train sentence segment
                 print('        <SimpleTextPart><![CDATA[%s]]></SimpleTextPart>' % el.firstChild.data)
             for sent in sentences:
+                if ' ' not in sent:
+                    continue
                 print('        <Sentence>')
                 result = pos_ner(sent)
                 # Auto 92% -> 1% fixed
