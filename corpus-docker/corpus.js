@@ -44,6 +44,7 @@ app.post('/api/fetch', function(req, res) {
             data += `<Response><Error><![CDATA[${err.message}]]></Error></Response>`;
             return res.status(400).send(data);
         }
+        console.log(article.html);
         let lines = [];
         lines.push(article.title);
         let node = article.document;
