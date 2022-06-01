@@ -4,75 +4,75 @@
         <Title><![CDATA[Xe chạy hơn 2.000 km bằng nhiên liệu sinh khối]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/xe-chay-hon-2-000-km-bang-nhien-lieu-sinh-khoi-4462819.html]]></DocumentURI>
         <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Xe]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[chạy]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[hơn]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[2.000]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O"><![CDATA[km]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[bằng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nhiên_liệu]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[sinh_khối]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Xe]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[chạy]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[hơn]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[2.000]]></Token>
+            <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[km]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[bằng]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nhiên_liệu]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[sinh_khối]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[PhápXe]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Renault_Zoe]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[chạy]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[bằng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nhiên_liệu]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[sinh_khối]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[của]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[công_ty]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ARM]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Engineering]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[lập]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[kỷ_lục]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[di_chuyển]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[xa]]></Token>
-            <Token tag="R" chunking="O" ner="O"><![CDATA[nhất]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[một]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[lần]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tiếp]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nhiên_liệu]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[PhápXe]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Renault_Zoe]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[chạy]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[bằng]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nhiên_liệu]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[sinh_khối]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[của]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[công_ty]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[ARM]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Engineering]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[lập]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[kỷ_lục]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[di_chuyển]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[xa]]></Token>
+            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[nhất]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trong]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[một]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[lần]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tiếp]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nhiên_liệu]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[This]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[is]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[a]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[modal]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[This]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[is]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[a]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[modal]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[window]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Beginning of dialog window. Escape will cancel and close the window.]]></SimpleTextPart>
         <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Beginning]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[of]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[dialog]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Beginning]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[of]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dialog]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[window]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Escape]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[will]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cancel]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[and]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[close]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[the]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Escape]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[will]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cancel]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[and]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[close]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[the]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[window]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[End]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[of]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[dialog]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[End]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[of]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dialog]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[window]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER"><![CDATA[Video]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[:]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[AFP]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Video]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[AFP]]></Token>
         </Sentence>
     </Document>
 </corpus>

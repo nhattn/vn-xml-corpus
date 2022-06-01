@@ -1,260 +1,260 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="5a3ca5c07889d1e56f9fa94246f55a1b6ecf9b0448e24a1f6cb242bd8cb92f53">
+    <Document id="3480ccfa8c6b17da7216d495207e89d059705059dddcec573a4241041b340c45">
         <Title><![CDATA[Ném đồ vật từ chung cư xuống có bị xử phạt không?]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/nem-do-vat-tu-chung-cu-xuong-co-bi-xu-phat-khong-4467862.html]]></DocumentURI>
         <Sentence>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Ném]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đồ_vật]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[chung_cư]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[xuống]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[có]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[bị]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[xử_phạt]]></Token>
-            <Token tag="R" chunking="O" ner="O"><![CDATA[không]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[?]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[Ném]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đồ_vật]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[từ]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[chung_cư]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[xuống]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[có]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[bị]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[xử_phạt]]></Token>
+            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[không]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[?]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Hai hôm trước tôi dắt con xuống sân chung cư chơi. Cháu đang đạp xe thì bị một chai nước rơi từ trên cao xuống, sượt qua đầu. (Thu Ba)]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Hai hôm trước tôi dắt con xuống sân chung cư chơi. Cháu đang đạp xe thì bị một chai nước rơi từ trên cao xuống , sượt qua đầu. (Thu Ba)]]></SimpleTextPart>
         <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[Hai]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hôm]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[trước]]></Token>
-            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[tôi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[dắt]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[con]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[xuống]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[sân]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[chung_cư]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[chơi]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Cháu]]></Token>
-            <Token tag="R" chunking="O" ner="O"><![CDATA[đang]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[đạp]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[xe]]></Token>
-            <Token tag="C" chunking="O" ner="O"><![CDATA[thì]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[bị]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[một]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[chai]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nước]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[rơi]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[trên]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[cao]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[xuống]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[sượt]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[qua]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đầu]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[Hai]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[hôm]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[trước]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[tôi]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[dắt]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[con]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[xuống]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[sân]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[chung_cư]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[chơi]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[(]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Thu_Ba]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[)]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Tôi nghĩ chai nước này không thể vô tình rơi khỏi ban công và văng xa như vậy, mà phải do ai đó ném xuống. Tôi đã báo sự việc với ban quản lý để tìm hiểu và nhắc nhở.]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[Tôi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[nghĩ]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[chai]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[nước]]></Token>
-            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[này]]></Token>
-            <Token tag="R" chunking="O" ner="O"><![CDATA[không_thể]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[vô_tình]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[rơi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[khỏi]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ban_công]]></Token>
-            <Token tag="Cc" chunking="B-NP" ner="O"><![CDATA[và]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[văng]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[xa]]></Token>
-            <Token tag="C" chunking="O" ner="O"><![CDATA[như]]></Token>
-            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[vậy]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
-            <Token tag="C" chunking="O" ner="O"><![CDATA[mà]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[phải]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[do]]></Token>
-            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[ai]]></Token>
-            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[đó]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ném]]></Token>
-            <Token tag="R" chunking="O" ner="O"><![CDATA[xuống]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Cháu]]></Token>
+            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[đang]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đạp]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[xe]]></Token>
+            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[thì]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[bị]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[một]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[chai]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nước]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[rơi]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[từ]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[trên]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[cao]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[xuống]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[sượt]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[qua]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đầu]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[Tôi]]></Token>
-            <Token tag="R" chunking="O" ner="O"><![CDATA[đã]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[báo]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[sự_việc]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[với]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ban]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[quản_lý]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[để]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tìm_hiểu]]></Token>
-            <Token tag="Cc" chunking="B-NP" ner="O"><![CDATA[và]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[nhắc_nhở]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[(]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Thu_Ba]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[)]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Trước đó, một số người trong chung cư cũng từng phản ánh trên trang cộng đồng về tình trạng tương tự. Có người bị đầu thuốc lá cháy dở, người khác bị nguyên hộp cơm rơi trúng đầu khi ngồi hóng mát...]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Tôi nghĩ chai nước này không thể vô tình rơi khỏi ban công và văng xa như vậy , mà phải do ai đó ném xuống. Tôi đã báo sự việc với ban quản lý để tìm hiểu và nhắc nhở.]]></SimpleTextPart>
         <Sentence>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Trước]]></Token>
-            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[đó]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O"><![CDATA[một_số]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[người]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trong]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[chung_cư]]></Token>
-            <Token tag="R" chunking="O" ner="O"><![CDATA[cũng]]></Token>
-            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[từng]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[phản_ánh]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trên]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[trang]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cộng_đồng]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[về]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[tình_trạng]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[tương_tự]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[Tôi]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[nghĩ]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[chai]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nước]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[này]]></Token>
+            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[không_thể]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[vô_tình]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[rơi]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[khỏi]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[ban_công]]></Token>
+            <Token tag="Cc" chunking="B-NP" ner="O" sner="O"><![CDATA[và]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[văng]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[xa]]></Token>
+            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[như]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[vậy]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
+            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[mà]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[phải]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[do]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[ai]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[đó]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[ném]]></Token>
+            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[xuống]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[Có]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[người]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[bị]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đầu]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thuốc_lá]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[cháy]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[dở]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[người]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[khác]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[bị]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[nguyên]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[hộp]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cơm]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[rơi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[trúng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đầu]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[khi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ngồi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[hóng_mát]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[...]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[Tôi]]></Token>
+            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[đã]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[báo]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[sự_việc]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[với]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[ban]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[quản_lý]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[để]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tìm_hiểu]]></Token>
+            <Token tag="Cc" chunking="B-NP" ner="O" sner="O"><![CDATA[và]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[nhắc_nhở]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <SimpleTextPart><![CDATA[Trước đó , một số người trong chung cư cũng từng phản ánh trên trang cộng đồng về tình trạng tương tự. Có người bị đầu thuốc lá cháy dở , người khác bị nguyên hộp cơm rơi trúng đầu khi ngồi hóng mát ...]]></SimpleTextPart>
+        <Sentence>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[Trước]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[đó]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
+            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[một_số]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[người]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trong]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[chung_cư]]></Token>
+            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[cũng]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[từng]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[phản_ánh]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trên]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[trang]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cộng_đồng]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[về]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tình_trạng]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[tương_tự]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[Tôi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[thấy]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[việc]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ném]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[đồ]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[qua]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cửa_sổ]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[ban_công]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[chung_cư]]></Token>
-            <Token tag="C" chunking="O" ner="O"><![CDATA[như]]></Token>
-            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[vậy]]></Token>
-            <Token tag="R" chunking="O" ner="O"><![CDATA[rất]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[nguy_hiểm]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
-            <Token tag="R" chunking="O" ner="O"><![CDATA[không]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[rõ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[theo]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[quy_định]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[có]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[bị]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[xử_phạt]]></Token>
-            <Token tag="R" chunking="O" ner="O"><![CDATA[không]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
-            <Token tag="C" chunking="O" ner="O"><![CDATA[nếu]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[có]]></Token>
-            <Token tag="C" chunking="O" ner="O"><![CDATA[thì]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[xử_phạt]]></Token>
-            <Token tag="X" chunking="O" ner="O"><![CDATA[thế_nào]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[?]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[Có]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[người]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[bị]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đầu]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thuốc_lá]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[cháy]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[dở]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[người]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[khác]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[bị]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[nguyên]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[hộp]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cơm]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[rơi]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[trúng]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đầu]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khi]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[ngồi]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[hóng_mát]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[...]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Thời_gian]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[từ]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[:]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[25]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O"><![CDATA[5]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[Tôi]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[thấy]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[việc]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[ném]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đồ]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[qua]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cửa_sổ]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[ban_công]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[chung_cư]]></Token>
+            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[như]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[vậy]]></Token>
+            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[rất]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[nguy_hiểm]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
+            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[không]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[rõ]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[theo]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[quy_định]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[có]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[bị]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[xử_phạt]]></Token>
+            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[không]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
+            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[nếu]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[có]]></Token>
+            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[thì]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[xử_phạt]]></Token>
+            <Token tag="X" chunking="O" ner="O" sner="O"><![CDATA[thế_nào]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[?]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[>>]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Luật_sư]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tư_vấn]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Trong các dịp lễ, Tết thường xảy ra vi phạm liên quan uống rượu, bia. Bạn hãy cùng VnExpress giải đáp trắc nghiệm để tránh gặp rủi ro pháp lý.]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[Trong]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O"><![CDATA[các]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[dịp]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[lễ]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Tết]]></Token>
-            <Token tag="R" chunking="O" ner="O"><![CDATA[thường]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[xảy]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[ra]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[vi_phạm]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[liên_quan]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[uống]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[rượu]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[bia]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Thời_gian]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[từ]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[25]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[/]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[5]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Bạn]]></Token>
-            <Token tag="R" chunking="O" ner="O"><![CDATA[hãy]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[cùng]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[VnExpress]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[giải_đáp]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[trắc_nghiệm]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[để]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[tránh]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[gặp]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O"><![CDATA[rủi_ro]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[pháp_lý]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[>]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[>]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Luật_sư]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tư_vấn]]></Token>
+        </Sentence>
+        <SimpleTextPart><![CDATA[Trong các dịp lễ , Tết thường xảy ra vi phạm liên quan uống rượu , bia. Bạn hãy cùng VnExpress giải đáp trắc nghiệm để tránh gặp rủi ro pháp lý.]]></SimpleTextPart>
+        <Sentence>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[Trong]]></Token>
+            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[các]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dịp]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[lễ]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Tết]]></Token>
+            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[thường]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[xảy]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[ra]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[vi_phạm]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[liên_quan]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[uống]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[rượu]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bia]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Bạn]]></Token>
+            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[hãy]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[cùng]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[VnExpress]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[giải_đáp]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[trắc_nghiệm]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[để]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tránh]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[gặp]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[rủi_ro]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[pháp_lý]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Một số người ở chung cư của tôi vứt khẩu trang đã sử dụng ngay trước cửa thang máy. Hành vi của họ có vi phạm không và có bị xử lý không? (Thao Huynh). 14]]></SimpleTextPart>
         <Sentence>
-            <Token tag="L" chunking="B-NP" ner="O"><![CDATA[Một_số]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[người]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[ở]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[chung_cư]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[của]]></Token>
-            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[tôi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[vứt]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[khẩu_trang]]></Token>
-            <Token tag="R" chunking="O" ner="O"><![CDATA[đã]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[sử_dụng]]></Token>
-            <Token tag="T" chunking="O" ner="O"><![CDATA[ngay]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[trước]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[cửa]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[thang_máy]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[Một_số]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[người]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[ở]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[chung_cư]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[của]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[tôi]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[vứt]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khẩu_trang]]></Token>
+            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[đã]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[sử_dụng]]></Token>
+            <Token tag="T" chunking="O" ner="O" sner="O"><![CDATA[ngay]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trước]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cửa]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thang_máy]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O"><![CDATA[Hành_vi]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O"><![CDATA[của]]></Token>
-            <Token tag="P" chunking="B-NP" ner="O"><![CDATA[họ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[có]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[vi_phạm]]></Token>
-            <Token tag="R" chunking="O" ner="O"><![CDATA[không]]></Token>
-            <Token tag="Cc" chunking="B-NP" ner="O"><![CDATA[và]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[có]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[bị]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O"><![CDATA[xử_lý]]></Token>
-            <Token tag="R" chunking="O" ner="O"><![CDATA[không]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[?]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Hành_vi]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[của]]></Token>
+            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[họ]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[có]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[vi_phạm]]></Token>
+            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[không]]></Token>
+            <Token tag="Cc" chunking="B-NP" ner="O" sner="O"><![CDATA[và]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[có]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[bị]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[xử_lý]]></Token>
+            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[không]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[?]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[(]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC"><![CDATA[Thao_Huynh]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[)]]></Token>
-            <Token tag="CH" chunking="O" ner="O"><![CDATA[.]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[(]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Thao_Huynh]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[)]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <Sentence>
     </Document>
 </corpus>
