@@ -16,7 +16,7 @@ const errorResponder = function(error, request, response, next) {
         error: error.message
     }));
 };
-app.use(errorResponder);
+
 
 const invalidPathHandler = function(request, response, next) {
     response.header("Content-Type", 'application/json');
@@ -25,7 +25,7 @@ const invalidPathHandler = function(request, response, next) {
         error: 'Not found'
     }));
 };
-app.use(invalidPathHandler);
+
 app.get('/', function (req, res) {
     res.json(["VN Corpus"]);
 });
@@ -78,7 +78,8 @@ app.post('/api/fetch', function(req, res) {
         return res.status(200).send(data);
     });
 });
-
+app.use(errorResponder);
+app.use(invalidPathHandler);
 app.listen(8081, function () {
     console.log('app listening on port 8081!');
 });
