@@ -419,6 +419,7 @@ def qtp_alias(text):
     text = text.replace('%',' % ')
     text = re.sub(r'\?{2,}',' ? ', text)
     text = re.sub(r'\!{2,}',' ! ', text)
+    text = re.sub(r'\d+\s+,\s+\d+',repl, text)
     text = " ".join([ w.strip() for w in text.split(' ') if w.strip() ])
     return text.strip()
 
