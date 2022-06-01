@@ -438,6 +438,10 @@ if __name__ == "__main__":
         xml_text = fin.read()
         fin.close()
         # xml_text = unicode_replace(xml_text)
+        if '<Error>' in xml_text:
+            # Exit if data xml is error
+            sys.exit(0)
+
         mydoc = minidom.parseString(xml_text)
         uri = mydoc.getElementsByTagName('Link')[0]
         texts = mydoc.getElementsByTagName('Text')
