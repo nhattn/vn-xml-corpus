@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="21d5a23cc8b3178a3659a97f6a62f98cf0d41d0fcb14454b6df419335a72c0ab">
-        <Title><![CDATA[' Vợ chồng kiểm tra tin nhắn của nhau là bạo lực gia đình' ]]></Title>
+    <Document id="88b5c6bce8a1d1ad4893a64cee6da0e232e6a0d283ce131a664cf848b538667e">
+        <Title><![CDATA['Vợ chồng kiểm tra tin nhắn của nhau có thể là bạo lực gia đình']]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/vo-chong-kiem-tra-tin-nhan-cua-nhau-la-bao-luc-gia-dinh-4470275.html]]></DocumentURI>
         <Sentence>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[']]></Token>
@@ -11,37 +11,11 @@
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[nhắn]]></Token>
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[của]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nhau]]></Token>
+            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[có_thể]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[là]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bạo_lực]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[gia_đình]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[']]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[Theo]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đại_biểu]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Lê_Minh_Nam]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[vợ_chồng]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[kiểm_tra]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tin]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[nhắn]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[của]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nhau]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[khen]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[hàng_xóm]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[đẹp]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[về]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nhà]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[không]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[nói_chuyện]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[...]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[cũng]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[là]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bạo_lực]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[gia_đình]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[Thảo_luận]]></Token>
@@ -70,28 +44,30 @@
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[bổ_sung]]></Token>
             <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[các]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[hành_vi]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bạo_lực]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[làm]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[ảnh_hưởng]]></Token>
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[đến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[sức_khỏe]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tinh_thần]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[các]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thành_viên]]></Token>
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[gia_đình]]></Token>
+            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[như]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[vợ_chồng]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[kiểm_tra]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tin]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[nhắn]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[của]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nhau]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[từ]]></Token>
-            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[đó]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[kiểm_soát]]></Token>
-            <Token tag="Cc" chunking="B-NP" ner="O" sner="O"><![CDATA[và]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[điều_chỉnh]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[những]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[hành_vi]]></Token>
-            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[này]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[so_sánh]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[con]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[với]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bạn]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[khác]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[...]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Theo ông , bạo lực tinh thần có tác động lớn , âm ỉ , nguy hiểm , thậm chí gây tổn thương cả đời. Như bố mẹ thương con , song đôi khi so sánh con với bạn khác cũng khiến con thấy ức chế. Điều này xuất phát từ tình thương , mong muốn con tiến bộ hơn , nhưng có thể dẫn đến sự việc không tốt.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Theo ông , bạo lực tinh thần có tác động lớn , âm ỉ , nguy hiểm , thậm chí gây tổn thương cả đời. Như bố mẹ thương con , song đôi khi so sánh con với bạn khác cũng khiến con thấy bức xúc , ức chế. Điều này dù xuất phát từ tình thương , mong muốn con tiến bộ hơn , nhưng có thể dẫn đến sự việc không tốt.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[Theo]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[ông]]></Token>
@@ -130,12 +106,15 @@
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[khiến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[con]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[thấy]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[bức_xúc]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[ức_chế]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Điều]]></Token>
             <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[này]]></Token>
+            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[dù]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[xuất_phát]]></Token>
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[từ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tình_thương]]></Token>
@@ -155,14 +134,7 @@
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Đại_biểu]]></Token>
-            <Token tag="N" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[tỉnh]]></Token>
-            <Token tag="Np" chunking="I-NP" ner="I-LOC" sner="O"><![CDATA[Hậu_Giang]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[cũng]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[cho]]></Token>
-            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[rằng]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[luật]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Do_dự_luật]]></Token>
             <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[này]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[liên_quan]]></Token>
             <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[rất]]></Token>
@@ -171,14 +143,18 @@
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[quyền]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[con_người]]></Token>
             <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[nên]]></Token>
+            <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[ông]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Nam]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đề_nghị]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[ban]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[soạn_thảo]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[cần]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[soạn_thảo]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[rà_soát]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[để]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tuân_thủ_Hiến_pháp]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[về]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[quyền]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[con_người]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[;]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đảm_bảo]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tính]]></Token>
             <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[khả_thi]]></Token>
@@ -191,7 +167,7 @@
             <Token tag="Cc" chunking="B-NP" ner="O" sner="O"><![CDATA[và]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[gia_đình]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Bộ_luật_Dân_sự]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Luật_Dân_sự]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[...]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Đại biểu Lê Minh Nam. Ảnh: Media Quốc hội]]></SimpleTextPart>
@@ -205,6 +181,7 @@
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
             <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[Media_Quốc_hội]]></Token>
         </Sentence>
+        <SimpleTextPart><![CDATA[Đại biểu Phan Thị Mỹ Dung viện dẫn hàng loạt hành vi bạo lực tinh thần khó nhận biết , gây khủng hoảng tâm lý , tinh thần , ví dụ chồng đi làm về nhưng im lặng không nói gì , hoặc suốt ngày khen hàng xóm xinh đẹp , chu đáo ; giận dỗi vô cớ ... "Những hành vi này diễn ra phổ biến , trong khi văn hóa người Việt không muốn vạch áo cho người xem lưng. Vì vậy , luật cần có các giải pháp chia sẻ , tư vấn , giải tỏa tâm lý hiệu quả cho người bị bạo lực" , bà Dung nói.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Đại_biểu]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Phan_Thị_Mỹ_Dung]]></Token>
@@ -242,19 +219,9 @@
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
             <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[chu_đáo]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[;]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[giận]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cá]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[chém]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thớt]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[giận_dỗi]]></Token>
             <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[vô_cớ]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[...]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[" Những hành vi này diễn ra phổ biến , trong khi văn hóa người Việt không muốn vạch áo cho người xem lưng. Vì vậy , luật cần có các giải pháp chia sẻ , tư vấn , giải tỏa tâm lý hiệu quả cho người bị bạo lực" , bà Dung nói.]]></SimpleTextPart>
-        <Sentence>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
             <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[Những]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[hành_vi]]></Token>
@@ -304,7 +271,7 @@
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[nói]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Bộ trưởng Văn hóa Thể thao và Du lịch Nguyễn Văn Hùng cũng cho rằng nhận diện các hình thức bạo lực thể xác , bạo lực kinh tế khá dễ , song bạo lực tinh thần không hề đơn giản. Khi báo cáo dự án luật trước cơ quan thẩm tra là Ủy ban Xã hội , có thành viên Ủy ban cũng nêu thực trạng hiện nay nhiều ông chồng đang chịu sức ép từ các bà vợ , đòi hỏi phải làm ra thật nhiều tiền , phải lên chức ... " Như vậy có phải hình thức bạo lực không?" , ông đặt vấn đề.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Bộ trưởng Văn hóa Thể thao và Du lịch Nguyễn Văn Hùng cũng cho rằng nhận diện các hình thức bạo lực thể xác , bạo lực kinh tế khá dễ , song bạo lực tinh thần không hề đơn giản. Khi báo cáo dự án luật trước cơ quan thẩm tra là Ủy ban Xã hội , có thành viên Ủy ban cũng nêu thực trạng hiện nay nhiều ông chồng đang chịu sức ép từ các bà vợ , đòi hỏi phải làm ra thật nhiều tiền , phải lên chức ... "Như vậy có phải hình thức bạo lực không?" , ông đặt vấn đề.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Bộ_trưởng]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Văn_hóa]]></Token>
@@ -390,7 +357,7 @@
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[vấn_đề]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Trong khi đó , đại biểu Lê Xuân Thân (Chủ tịch Hội Luật gia tỉnh Khánh Hòa) thì đề nghị quy định rõ thế nào là bạo lực gia đình? Bạo lực ở các nước phương Tây khác ở Việt Nam nên phải ghi giới hạn cụ thể. " Luật này không phải chỉ dành cho phụ nữ , vì thời kỳ hội nhập nhiều đàn ông cũng bị trấn áp nên luật phải là luật chung" , ông góp ý.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Trong khi đó , đại biểu Lê Xuân Thân (Chủ tịch Hội Luật gia tỉnh Khánh Hòa) thì đề nghị quy định rõ thế nào là bạo lực gia đình? Bạo lực ở các nước phương Tây khác ở Việt Nam nên phải ghi giới hạn cụ thể. "Luật này không phải chỉ dành cho phụ nữ , vì thời kỳ hội nhập nhiều đàn ông cũng bị trấn áp nên luật phải là chung" , ông góp ý.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[Trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khi]]></Token>
@@ -455,7 +422,6 @@
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[luật]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[phải]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[là]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[luật]]></Token>
             <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[chung]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
@@ -463,7 +429,7 @@
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[góp_ý]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Đại biểu Phạm Khánh Phong Lan (Trưởng Ban Quản lý An toàn thực phẩm TP HCM). Ảnh: HK]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Đại biểu Phạm Khánh Phong Lan (Trưởng Ban Quản lý An toàn thực phẩm TP HCM). Ảnh: Hữu Khoa]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Đại_biểu]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Phạm_Khánh]]></Token>
@@ -481,9 +447,9 @@
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Ảnh]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[HK]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Hữu_Khoa]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Bàn về giải pháp phòng chống , đại biểu Phạm Khánh Phong Lan (Trưởng Ban Quản lý An toàn thực phẩm TP HCM) cho rằng cần quản lý những hình ảnh cổ súy bạo lực gia đình trên phim , ảnh , sách. Nhiều bộ phim hiện nay có cảnh chồng tát vợ , đánh ghen , tạt axit ... " Những bộ phim này đang bình thường hóa bạo lực gia đình. Trẻ và thanh thiếu niên xem rất dễ bị tiêm nhiễm" , bà Lan nói.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Bàn về giải pháp phòng chống , đại biểu Phạm Khánh Phong Lan (Trưởng Ban Quản lý An toàn thực phẩm TP HCM) cho rằng cần quản lý những hình ảnh cổ súy bạo lực gia đình trên phim , ảnh , sách. Nhiều bộ phim hiện nay có cảnh chồng tát vợ , đánh ghen , tạt axit ... "Những bộ phim này đang bình thường hóa bạo lực gia đình. Trẻ và thanh thiếu niên xem rất dễ bị tiêm nhiễm" , bà Lan nói.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Bàn]]></Token>
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[về]]></Token>
@@ -562,7 +528,7 @@
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[nói]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Ông Trần Công Phàn (nguyên Phó viện trưởng Viện Kiểm sát nhân dân tối cao) cho rằng sự can thiệp của Nhà nước phải quy định theo hướng để cho gia đình tốt hơn chứ không phải để tan vỡ. Nếu như xảy ra bạo lực gia đình là cấm tiếp xúc , không cần có ý kiến của người bị bạo lực mà xử lý hành chính hoặc bắt đi tù luôn ... thì " chỉ làm khổ thêm , làm khó thêm gia đình nạn nhân" .]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Ông Trần Công Phàn (nguyên Phó viện trưởng Viện Kiểm sát nhân dân tối cao) cho rằng sự can thiệp của Nhà nước phải quy định theo hướng để cho gia đình tốt hơn chứ không phải tan vỡ. Nếu như xảy ra bạo lực gia đình là cấm tiếp xúc , không cần có ý kiến của người bị bạo lực mà xử lý hành chính hoặc bắt đi tù luôn ... thì "chỉ làm khổ thêm , làm khó thêm gia đình nạn nhân".]]></SimpleTextPart>
         <Sentence>
             <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[Ông]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Trần_Công_Phàn]]></Token>
@@ -589,7 +555,6 @@
             <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[chứ]]></Token>
             <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[không]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[phải]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[để]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tan_vỡ]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
@@ -634,7 +599,7 @@
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[" Xử lý hành chính thì ảnh hưởng đến túi tiền , còn đi tù thì lấy ai lao động để nuôi sống gia đình?" , ông nói , đề nghị Ban soạn thảo cần xem xét yếu tố truyền thống của các gia đình Việt Nam. Xử phạt hành chính hay cho đi tù " chỉ phù hợp với nước ngoài , còn Việt Nam phải xử lý theo từng bước , từ hòa giải đến hàn gắn , mới đến xử lý cao hơn" .]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA["Xử lý hành chính thì ảnh hưởng đến túi tiền , còn đi tù thì lấy ai lao động để nuôi sống gia đình?" , ông nói , đề nghị Ban soạn thảo cần xem xét yếu tố truyền thống của các gia đình Việt Nam. Xử phạt hành chính hay cho đi tù "chỉ phù hợp với nước ngoài , còn Việt Nam phải xử lý theo từng bước , từ hòa giải đến hàn gắn , mới đến xử lý cao hơn".]]></SimpleTextPart>
         <Sentence>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[Xử_lý]]></Token>
@@ -950,32 +915,6 @@
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[hội_trường]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[ngày]]></Token>
             <Token tag="M" chunking="B-NP" ner="B-MISC" sner="B-DATE"><![CDATA[14/6]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Ép lựa chọn giới tính thai nhi xâm phạm đến sức khỏe , tinh thần phụ nữ , cần được quy định là hành vi bạo lực gia đình , theo Chủ tịch Quốc hội. 48]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[Ép]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[lựa_chọn]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[giới_tính]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[thai_nhi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[xâm_phạm]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[đến]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[sức_khỏe]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tinh_thần]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[phụ_nữ]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[cần]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[được]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[quy_định]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[là]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[hành_vi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[bạo_lực]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[gia_đình]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[theo]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Chủ_tịch]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Quốc_hội]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

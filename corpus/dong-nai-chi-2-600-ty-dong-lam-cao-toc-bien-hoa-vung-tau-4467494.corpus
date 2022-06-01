@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="3c43e06de33f6f48ab4d6e3e6a5c18c313996bb8e7bfa081b9f13a5fbe11008b">
-        <Title><![CDATA[Đồng Nai chi 2.600 tỷ đồng làm cao tốc Biên Hòa - Vũng Tàu]]></Title>
+    <Document id="18ef8653b39b10818330e97f25b770a9d6ee7ca876bd379fbec8303f13e2ca74">
+        <Title><![CDATA[Đồng Nai chi 2.600 tỷ đồng làm cao tốc Biên Hòa]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/dong-nai-chi-2-600-ty-dong-lam-cao-toc-bien-hoa-vung-tau-4467494.html]]></DocumentURI>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Đồng_Nai]]></Token>
@@ -11,96 +11,7 @@
             <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[đồng]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[làm]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cao_tốc]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Biên_Hòa]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[-]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Vũng_Tàu]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Số]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tiền]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[2.600]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[tỷ]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[đồng]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[sẽ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[được]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Đồng_Nai]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đưa]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[vào]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[nhằm]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[giải_phóng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[mặt_bằng]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[cho]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dự_án]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cao_tốc]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Biên_Hòa]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[-]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Vũng_Tàu]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[qua]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[địa_bàn]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tỉnh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Hướng tuyến cao tốc Biên Hòa - Vũng Tàu. Đồ hoạ: Thanh Nhàn]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Hướng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tuyến]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cao_tốc]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Biên_Hòa]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[-]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Vũng_Tàu]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Đồ_hoạ]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Thanh_Nhàn]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Nội dung này được đại biểu thông qua tại kỳ họp HĐND tỉnh , ngày 24/5. Số tiền tương ứng 50 % giá trị bồi thường , giải phóng mặt bằng thực hiện cao tốc qua địa bàn. Tỉnh cũng cam kết bổ sung vốn nếu dự án tăng vốn đầu tư.]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Nội_dung]]></Token>
-            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[này]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[được]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đại_biểu]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[thông_qua]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[tại]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[kỳ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[họp]]></Token>
-            <Token tag="Ny" chunking="B-NP" ner="O" sner="O"><![CDATA[HĐND]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tỉnh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="B-MISC" sner="B-DATE"><![CDATA[24/5]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Số]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tiền]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tương_ứng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[50]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[%]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[giá_trị]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[bồi_thường]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[giải_phóng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[mặt_bằng]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[thực_hiện]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[cao_tốc]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[qua]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[địa_bàn]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Tỉnh]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[cũng]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[cam_kết]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[bổ_sung]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[vốn]]></Token>
-            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[nếu]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dự_án]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tăng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[vốn]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đầu_tư]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Biên_Hòa]]></Token>
         </Sentence>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[Trước]]></Token>
@@ -280,60 +191,6 @@
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Phước]]></Token>
             <Token tag="Np" chunking="I-NP" ner="I-PER" sner="O"><![CDATA[Tuấn]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Tuyến đường độc đạo kết nối các tỉnh Đông Nam Bộ và Bà Rịa - Vũng Tàu trở nên quá tải , thường xuyên kẹt xe khiến các tài xế ám ảnh. 191]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Tuyến]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đường]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[độc_đạo]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[kết_nối]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[các]]></Token>
-            <Token tag="N" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[tỉnh]]></Token>
-            <Token tag="Np" chunking="I-NP" ner="I-LOC" sner="O"><![CDATA[Đông_Nam_Bộ]]></Token>
-            <Token tag="Cc" chunking="I-NP" ner="I-LOC" sner="O"><![CDATA[và]]></Token>
-            <Token tag="Np" chunking="I-NP" ner="I-LOC" sner="O"><![CDATA[Bà_Rịa]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[-]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Vũng_Tàu]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[trở_nên]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[quá_tải]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[thường_xuyên]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[kẹt]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[xe]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[khiến]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[các]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tài_xế]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[ám_ảnh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Địa phương sẽ chi 670 tỷ đồng , trong tổng số 1.333 tỷ đồng giải phóng mặt bằng đoạn 19,5 km cao tốc Biên Hòa - Vũng Tàu qua địa phận tỉnh này. 40]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Địa_phương]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[sẽ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[chi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[670]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[tỷ]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[đồng]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trong]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tổng_số]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[1.333]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[tỷ]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[đồng]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[giải_phóng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[mặt_bằng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đoạn]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[19,5]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[km]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cao_tốc]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Biên_Hòa]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[-]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Vũng_Tàu]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[qua]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[địa_phận]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tỉnh]]></Token>
-            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[này]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
     </Document>
 </corpus>

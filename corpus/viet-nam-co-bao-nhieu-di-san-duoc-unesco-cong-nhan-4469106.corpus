@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="fc0e97941cdcc85e82dafb27198805c2652ab47b507497f1a3a26da05adb03ff">
+    <Document id="a66e6069c63f2dbbf74dca2c1cb5de3264e5125d696accb553e7fa440cdec1ab">
         <Title><![CDATA[Việt Nam có bao nhiêu di sản được UNESCO công nhận?]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/viet-nam-co-bao-nhieu-di-san-duoc-unesco-cong-nhan-4469106.html]]></DocumentURI>
         <Sentence>
@@ -32,4 +32,9 @@
             <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[1993]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-'NoneType' object has no attribute 'data'
+        <Sentence>
+            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Trung_Nghĩa]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tổng_hợp]]></Token>
+        </Sentence>
+    </Document>
+</corpus>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="0706d9fb36cc4d5fa2f71397a2caacea05a113bb656cc6fc0b069b57a6c53529">
+    <Document id="2a893eb04133b236ffc2da15af07dc25d94ad6cba4ec45b551c44c811d55c3d7">
         <Title><![CDATA[Giá gas tiếp đà giảm mạnh]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/gia-gas-tiep-da-giam-manh-4470337.html]]></DocumentURI>
         <Sentence>
@@ -10,34 +10,6 @@
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đà]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[giảm]]></Token>
             <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[mạnh]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Ny" chunking="B-NP" ner="O" sner="O"><![CDATA[TP]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[HCMTừ]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[1]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[6]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[mỗi]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bình]]></Token>
-            <Token tag="Nb" chunking="B-NP" ner="O" sner="O"><![CDATA[gas]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[loại]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[12]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[kg]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đến]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tay]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[người]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tiêu_dùng]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[giảm]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[31.000]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[đồng]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[hạ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[xuống]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[mức]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[456.000]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[đồng]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Người dùng sẽ tiết kiệm được 2.583 đồng cho mỗi kg gas (tương đương 31.000 đồng một bình 12 kg) so với tháng trước. Giá này đã bao gồm thuế giá trị gia tăng (VAT) khi mua tại các điểm bán lẻ ở TP HCM và các tỉnh phía Nam.]]></SimpleTextPart>
         <Sentence>
@@ -245,63 +217,6 @@
         </Sentence>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Trung_Tín]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Từ 1/5 , mỗi bình gas loại 12 kg đến tay người tiêu dùng giảm 29.000 đồng , hạ xuống mức 487.000 đồng. 5]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[Từ]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[1]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[5]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[mỗi]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bình]]></Token>
-            <Token tag="Nb" chunking="B-NP" ner="O" sner="O"><![CDATA[gas]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[loại]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[12]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[kg]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đến]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tay]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[người]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tiêu_dùng]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[giảm]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[29.000]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[đồng]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[hạ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[xuống]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[mức]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[487.000]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[đồng]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Từ 1/4 , mỗi bình gas loại 12 kg đến tay người tiêu dùng tăng 14.000 đồng , tiếp tục lập đỉnh mới 516.000 đồng. 8]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[Từ]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[1]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[4]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[mỗi]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bình]]></Token>
-            <Token tag="Nb" chunking="B-NP" ner="O" sner="O"><![CDATA[gas]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[loại]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[12]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[kg]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đến]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tay]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[người]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tiêu_dùng]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tăng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[14.000]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[đồng]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tiếp_tục]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[lập]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đỉnh]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[mới]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[516.000]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[đồng]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
     </Document>
 </corpus>

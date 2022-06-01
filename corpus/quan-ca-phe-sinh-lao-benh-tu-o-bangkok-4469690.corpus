@@ -1,41 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="25f0a7ea5d5186f26903b6ebb4afd9158d748f9565cd80805d3ddf9b21968343">
-        <Title><![CDATA[Quán cà phê sinh - lão - bệnh - tử ở Bangkok]]></Title>
+    <Document id="c8e96631e9a769299b19ef05fe6de28a866c1ef0e3823eccfb7d66a779b3be04">
+        <Title><![CDATA[Quán cà phê sinh]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/quan-ca-phe-sinh-lao-benh-tu-o-bangkok-4469690.html]]></DocumentURI>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Quán]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cà_phê]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[sinh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[-]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[lão]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[-]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bệnh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[-]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tử]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[ở]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Bangkok]]></Token>
         </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Thái]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[LanBước]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[chân]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[vào]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[quán]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cà_phê]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Kid_Mai_Death_Awareness]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[một_số]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thực_khách]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cảm_giác]]></Token>
-            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[như]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[đang]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[dự]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[một]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đám_tang]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Từng chi tiết trong Kid Mai Death Awareness đều xoay quanh quy luật sinh - lão - bệnh - tử. Để vào quán , thực khách phải đi qua một hầm tối với những câu hỏi lần lượt hiện lên như " Hôm nay bạn có mệt mỏi không?" , " Bạn sống vì mục đích gì?" , " Có ai đang đợi bạn không?" ... Menu quán cũng có bốn đồ uống đặc biệt mang tên " Sinh" , " Lão" , " Bệnh" , " Tử" .]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Từng chi tiết trong Kid Mai Death Awareness đều xoay quanh quy luật sinh - lão - bệnh - tử. Để vào quán , thực khách phải đi qua một hầm tối với những câu hỏi lần lượt hiện lên như "Hôm nay bạn có mệt mỏi không?" , "Bạn sống vì mục đích gì?" , "Có ai đang đợi bạn không?" ... Menu quán cũng có bốn đồ uống đặc biệt mang tên "Sinh" , "Lão" , "Bệnh" , "Tử".]]></SimpleTextPart>
         <Sentence>
             <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[Từng]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[chi_tiết]]></Token>
@@ -130,7 +103,7 @@
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Từng căn phòng mở ra những trải nghiệm đặc biệt cho thực khách. Ví dụ , trải nghiệm " Sinh" cho phép thực khách nằm trong những chiếc võng lơ lửng như mô phỏng thời gian nằm trong bụng mẹ. Căn phòng " Bệnh" có quần áo , giường như trong bệnh viện , với lời nhắc nhở giữ gìn sức khỏe khi còn có thể.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Từng căn phòng mở ra những trải nghiệm đặc biệt cho thực khách. Ví dụ , trải nghiệm "Sinh" cho phép thực khách nằm trong những chiếc võng lơ lửng như mô phỏng thời gian nằm trong bụng mẹ. Căn phòng "Bệnh" có quần áo , giường như trong bệnh viện , với lời nhắc nhở giữ gìn sức khỏe khi còn có thể.]]></SimpleTextPart>
         <Sentence>
             <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[Từng]]></Token>
             <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[căn]]></Token>
@@ -192,7 +165,7 @@
             <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[có_thể]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Trải nghiệm " Tử" có một chiếc quan tài để khách hiểu cảm giác chết trong ba phút. Người tham gia trải nghiệm này sẽ được giảm giá 10 % cho hóa đơn. Tuy nhiên , nhiều người cho biết họ háo hức vào quan tài nằm không phải vì vấn đề tiền bạc. Họ cho rằng cảm giác kinh khủng khi trải nghiệm cái chết sẽ thôi thúc bản thân trân trọng từng khoảnh khắc quý giá trong đời.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Trải nghiệm "Tử" có một chiếc quan tài để khách hiểu cảm giác chết trong ba phút. Người tham gia trải nghiệm này sẽ được giảm giá 10 % cho hóa đơn. Tuy nhiên , nhiều người cho biết họ háo hức vào quan tài nằm không phải vì vấn đề tiền bạc. Họ cho rằng cảm giác kinh khủng khi trải nghiệm cái chết sẽ thôi thúc bản thân trân trọng từng khoảnh khắc quý giá trong đời.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Trải_nghiệm]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
@@ -266,181 +239,6 @@
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đời]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Trải nghiệm " Sinh" . Ảnh: Kid Mai Death Cafe]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Trải_nghiệm]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Sinh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Ảnh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Kid_Mai_Death_Cafe]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Căn phòng " Bệnh" . Ảnh: Kid Mai Death Cafe]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[Căn]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[phòng]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Bệnh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Ảnh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Kid_Mai_Death_Cafe]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Trải nghiệm " Tử" . Ảnh: Kid Mai Death Cafe]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Trải_nghiệm]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Tử]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Ảnh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Kid_Mai_Death_Cafe]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Quầy bar theo chủ đề nội tạng. Ảnh: Kid Mai Death Cafe]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Quầy]]></Token>
-            <Token tag="Nb" chunking="B-NP" ner="O" sner="O"><![CDATA[bar]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[theo]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[chủ_đề]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nội_tạng]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Ảnh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Kid_Mai_Death_Cafe]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Căn phòng thú tội , nơi thực khách viết những điều sâu kín trong lòng vào một cuốn sổ. Ảnh: Kid Mai Death Cafe]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[Căn]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[phòng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thú_tội]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nơi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[thực_khách]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[viết]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[những]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[điều]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[sâu_kín]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trong]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[lòng]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[vào]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[một]]></Token>
-            <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[cuốn]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[sổ]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Ảnh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Kid_Mai_Death_Cafe]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Những thông điệp xuất hiện ở khắp nơi trong quán. Ảnh: Kid Mai Death Cafe]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[Những]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thông_điệp]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[xuất_hiện]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[ở]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[khắp]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nơi]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trong]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[quán]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Ảnh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Kid_Mai_Death_Cafe]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Một góc của quán cà phê với thông điệp " Dù mang quốc tịch nào , mọi người đều sẽ chết đi" . Ảnh: Kid Mai Death Cafe]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[Một]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[góc]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[của]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[quán]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cà_phê]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[với]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thông_điệp]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[Dù]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[mang]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[quốc_tịch]]></Token>
-            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[nào]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[mọi]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[người]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[đều]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[sẽ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[chết]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[đi]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Ảnh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Kid_Mai_Death_Cafe]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Menu với bốn món " đinh" là Sinh , Lão , Bệnh , Tử. Ảnh: AFP]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Menu]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[với]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[bốn]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[món]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[đinh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[là]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Sinh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Lão]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Bệnh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Tử]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Ảnh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[AFP]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Một ly " Tử" vị chocolate (trái) , bên cạnh ly " Sinh" . Ảnh: The Smart Local]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[Một]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[ly]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Tử]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[vị]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[chocolate]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[(]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[trái]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[)]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bên]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cạnh]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[ly]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[Sinh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Ảnh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[The_Smart_Local]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Veeranut Rojanaprapa , chủ quán , cho biết ông sắp xếp không gian theo giáo lý đạo Phật. Veeranut quan niệm con người khi qua đời đều ra đi tay trắng , không mang theo bất kỳ điều gì. Vì vậy , anh mở quán với mong muốn mọi người hiểu rõ hơn về cái chết , sống vị tha hơn và trân trọng cuộc đời hơn. Anh hy vọng mọi người buông bỏ tham sân si để cảm nhận cuộc sống nhẹ nhàng , thoải mái.]]></SimpleTextPart>
         <Sentence>
@@ -522,7 +320,7 @@
             <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[thoải_mái]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Quán cũng nhận được nhiều đánh giá tích cực từ thực khách và đạt 4,5 sao trên thang điểm 5. Nhiều người đánh giá đây là một trong những quán cà phê thú vị nhất Bangkok. " Hãy đến và thử một ly ' Lão' , có thể đây cũng là một trải nghiệm đáng nhớ trong chuyến đi của bạn" , một thực khách chia sẻ. Một người khác cho rằng không gian của quán khiến họ có cảm giác như đang dự một đám tang.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Quán cũng nhận được nhiều đánh giá tích cực từ thực khách và đạt 4,5 sao trên thang điểm 5. Nhiều người đánh giá đây là một trong những quán cà phê thú vị nhất Bangkok. "Hãy đến và thử một ly 'Lão' , có thể đây cũng là một trải nghiệm đáng nhớ trong chuyến đi của bạn" , một thực khách chia sẻ. Một người khác cho rằng không gian của quán khiến họ có cảm giác như đang dự một đám tang.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Quán]]></Token>
             <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[cũng]]></Token>
@@ -611,7 +409,7 @@
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đám_tang]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Một góc check-in của quán với những tấm biển ghi " cái chết" bằng các ngôn ngữ. Ảnh: Kid Mai Death Cafe]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Một góc check-in của quán với những tấm biển ghi "cái chết" bằng các ngôn ngữ. Ảnh: Kid Mai Death Cafe]]></SimpleTextPart>
         <Sentence>
             <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[Một]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[góc]]></Token>
@@ -741,96 +539,6 @@
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tinh_thần]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Căn phòng trút giận để thực khách xả stress. Ảnh: Kid Mai Death Cafe]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[Căn]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[phòng]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[trút]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[giận]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[để]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[thực_khách]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[xả]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[stress]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Ảnh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Kid_Mai_Death_Cafe]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Không gian trên tầng thượng của quán. Ảnh: Kid Mai Death Cafe]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Không_gian]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trên]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tầng]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[thượng]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[của]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[quán]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Ảnh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Kid_Mai_Death_Cafe]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Ảnh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Kid_Mai_Death_Cafe]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Bậc thang ghi dấu những sự kiện lịch sử. Ảnh: Kid Mai Death Cafe]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Bậc_thang]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[ghi]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dấu]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[những]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[sự_kiện]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[lịch_sử]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Ảnh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Kid_Mai_Death_Cafe]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Uống cà phê bên cạnh một bộ xương. Ảnh: Kid Mai Death Cafe]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[Uống]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cà_phê]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bên]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cạnh]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[một]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bộ]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[xương]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Ảnh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Kid_Mai_Death_Cafe]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Vòng hoa với lời nhắn nhủ " Khi chết bạn chẳng thể mang gì theo" . Ảnh: Kid Mai Death Cafe]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[Vòng_hoa]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[với]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[lời]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[nhắn_nhủ]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Khi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[chết]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bạn]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[chẳng_thể]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[mang]]></Token>
-            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[gì]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[theo]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Ảnh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Kid_Mai_Death_Cafe]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Quán cà phê này tọa lạc ở ở số 1191 , đường Phaholyotin , Samsen Nai , Phaya Thai. Để đến đây bằng tàu điện , bạn xuống ở ga BTS Ari , ra cửa số 1 sau đó đi bộ đến tượng đài Chiến thắng khoảng 40 m sẽ thấy quán cà phê ở bên tay phải. Quán mở cửa từ 10h đến 19h hàng ngày. Địa chỉ này không phù hợp cho trẻ dưới 12 tuổi.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Quán]]></Token>
@@ -922,53 +630,6 @@
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[Theo]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Thaiger]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[)]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[The Travel , tạp chí chuyên viết về các trải nghiệm du lịch , coi cà phê sữa đá là một trong những món ngon nhất thế giới. 46]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[The]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Travel]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tạp_chí]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[chuyên]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[viết]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[về]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[các]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[trải_nghiệm]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[du_lịch]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[coi]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cà_phê]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[sữa]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đá]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[là]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[một]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trong]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[những]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[món]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[ngon]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[nhất]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thế_giới]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Manuscript]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Writing_Café]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[là]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[quán]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cà_phê]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[chỉ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[phục_vụ]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[những]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[người]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[đang]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[sắp]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đến]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[hạn]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[phải]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[nộp]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bản_thảo]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[công_việc]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
     </Document>
 </corpus>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="661ff471f0f6be6d65bf79fb675fb39c6acd8994076a315e20547b4923e26c67">
+    <Document id="c8c9fa950c19ecf27ac3852881002bd36620a18e7dcbac637f95332f239542a4">
         <Title><![CDATA[Hàng không tăng chuyến dịp hè]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/hang-khong-tang-chuyen-dip-he-4467295.html]]></DocumentURI>
         <Sentence>
@@ -10,27 +10,6 @@
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[chuyến]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dịp]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[hè]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[Vietnam]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Airlines]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Vietravel_Airlines]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Bamboo_Airways]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[...]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[đều]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tăng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[chuyến]]></Token>
-            <Token tag="Cc" chunking="B-NP" ner="O" sner="O"><![CDATA[và]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[mở_rộng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đường_bay]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[phục_vụ]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nhu_cầu]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[nghỉ_hè]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tăng]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[cao]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[Do]]></Token>
@@ -760,53 +739,6 @@
             <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[nhiều]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[mùa]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cao_điểm]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Nhiều doanh nghiệp lữ hành đang khởi động lại chương trình tour khi các đường bay quốc tế mở hoàn toàn. 6]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[Nhiều]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[doanh_nghiệp]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[lữ_hành]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[đang]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[khởi_động]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[lại]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[chương_trình]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tour]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khi]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[các]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đường_bay]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[quốc_tế]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[mở]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[hoàn_toàn]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Bắt đầu lấy lại không khí sôi động sau 2 năm bị Covid nhưng để thực sự " cất cánh" , ngành hàng không Việt cần vượt qua nhiều trở ngại. 3]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[Bắt_đầu]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[lấy]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[lại]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[không_khí]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[sôi_động]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[sau]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[2]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[năm]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[bị]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[Covid]]></Token>
-            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[nhưng]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[để]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[thực_sự]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[cất_cánh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[ngành]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[hàng_không]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Việt]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[cần]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[vượt]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[qua]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[nhiều]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[trở_ngại]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

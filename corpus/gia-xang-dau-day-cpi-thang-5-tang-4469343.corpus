@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="7538ec7a56c9f1fe3c06d062877d2f5311b0bacbe8a2c7286f89934fdc0a828c">
+    <Document id="0bd5821ab84b8b71fdac8f7ebea52079c00f427cdbe7ee7fadb1fe645319abfb">
         <Title><![CDATA[Giá xăng dầu đẩy CPI tháng 5 tăng]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/gia-xang-dau-day-cpi-thang-5-tang-4469343.html]]></DocumentURI>
         <Sentence>
@@ -12,29 +12,6 @@
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tháng]]></Token>
             <Token tag="M" chunking="B-NP" ner="B-MISC" sner="B-DATE"><![CDATA[5]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tăng]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Xăng_dầu]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[lương_thực]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[hàng_hoá]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[thiết_yếu]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tăng_giá]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[là]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nguyên_nhân]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[chủ_yếu]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[khiến]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[CPI]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="B-MISC" sner="B-DATE"><![CDATA[5]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tăng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[0,38]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[%]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trong]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="B-MISC" sner="B-DATE"><![CDATA[5]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Thông tin này vừa được Tổng cục Thống kê công bố. Nếu so với cùng kỳ năm ngoái , CPI tháng này tăng 2,86 % .]]></SimpleTextPart>
         <Sentence>
@@ -353,72 +330,6 @@
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[với]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tháng]]></Token>
             <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[trước]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Thuế bảo vệ môi trường với xăng , dầu đã giảm 50 % từ đầu tháng 4 nhưng theo các chuyên gia , vẫn như " muối bỏ bể" trước đà tăng giá thế giới. 53]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Thuế]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[bảo_vệ]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[môi_trường]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[với]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[xăng]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dầu]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[đã]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[giảm]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[50]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[%]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[từ]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đầu]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="B-MISC" sner="B-DATE"><![CDATA[4]]></Token>
-            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[nhưng]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[theo]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[các]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[chuyên_gia]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[vẫn]]></Token>
-            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[như]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[muối_bỏ_bể]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trước]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đà]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tăng_giá]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thế_giới]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Giá dầu thô thế giới đang thấp hơn mức đỉnh tháng 3 nhưng giá xăng trong nước hiện cao hơn giai đoạn đó trong khi thuế bảo vệ môi trường đã giảm 2.000 đồng. 284]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Giá]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dầu_thô]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thế_giới]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[đang]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[thấp]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[hơn]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[mức]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đỉnh]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="B-MISC" sner="B-DATE"><![CDATA[3]]></Token>
-            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[nhưng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[giá]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[xăng]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trong]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nước]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[hiện]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[cao]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[hơn]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[giai_đoạn]]></Token>
-            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[đó]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trong]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khi]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thuế]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[bảo_vệ]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[môi_trường]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[đã]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[giảm]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[2.000]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[đồng]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

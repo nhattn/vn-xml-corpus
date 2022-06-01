@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="2fc5f88c04da4b58b0faef3f3da757f57ea188f276d9e04fc11fe4b52a28e773">
+    <Document id="ff78f4791ff3ccacca1fcc2702817770264af299b76be0c4d1628c3ba015356a">
         <Title><![CDATA[Việt Nam ít kinh nghiệm bậc nhất U23 châu Á]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/viet-nam-it-kinh-nghiem-bac-nhat-u23-chau-a-4470169.html]]></DocumentURI>
         <Sentence>
@@ -11,33 +11,6 @@
             <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[nhất]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[U23]]></Token>
             <Token tag="Np" chunking="I-NP" ner="I-PER" sner="O"><![CDATA[châu_Á]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[UzbekistanSo]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[với]]></Token>
-            <Token tag="X" chunking="O" ner="O" sner="O"><![CDATA[hầu_hết]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[các]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đối_thủ]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[các]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cầu_thủ]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Việt_Nam]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[dự]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[vòng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[chung_kết]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[U23]]></Token>
-            <Token tag="Np" chunking="I-NP" ner="I-PER" sner="O"><![CDATA[châu_Á]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[2022]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[thiếu]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[kinh_nghiệm]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[chơi]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[cho]]></Token>
-            <Token tag="Ny" chunking="B-NP" ner="O" sner="O"><![CDATA[CLB]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[chuyên_nghiệp]]></Token>
-            <Token tag="Cc" chunking="B-NP" ner="O" sner="O"><![CDATA[và]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đội_tuyển]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[quốc_gia]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Trung vệ Bùi Hoàng Việt Anh (trái) tranh chấp với cầu thủ Thái Lan ở chung kết SEA Games 31 trên sân Mỹ Đình hôm 22/5. Việt Anh giàu kinh nghiệm thứ hai ở U23 Việt Nam với 30 trận tại V-League , còn Ekanit đã chơi 81 trận tại Thai League. Ảnh: Giang Huy]]></SimpleTextPart>
         <Sentence>
@@ -591,4 +564,8 @@
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tứ_kết]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-'NoneType' object has no attribute 'data'
+        <Sentence>
+            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Xuân_Bình]]></Token>
+        </Sentence>
+    </Document>
+</corpus>

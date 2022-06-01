@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="0660a16e407d36ff6fbfb0986bfce1da2c98815cb8f3a66525c6e2de2053915e">
-        <Title><![CDATA[Cú gạt lấy 1 , 5 triệu USD ở PGA Tour]]></Title>
+    <Document id="d75340b317ea5c5f96bfded038039a294b500adad07b498f714d02e826fdd193">
+        <Title><![CDATA[Cú gạt lấy 1,5 triệu USD ở PGA Tour]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/cu-gat-lay-1-5-trieu-usd-o-pga-tour-4469703.html]]></DocumentURI>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Cú]]></Token>
@@ -13,32 +13,6 @@
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[ở]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[PGA]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Tour]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[MỹNhờ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[birdie]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[từ]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cú]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[gạt]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[dài]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[11,6]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[m]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Sam_Burns]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đánh_bại]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[số_một]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thế_giới]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Scottie_Scheffler]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[ở]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[hố]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[phụ]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[giải]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Charles_Schwab_Challenge]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[hôm]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[29]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[5]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Sau khi cùng đạt điểm -9 qua bốn vòng , Burns đấu Scheffler tại hố 18 , sân Colonial par70. Sau hai gậy , bóng của họ đều cách lỗ khoảng 11,6 m. Burns có vẻ bất lợi khi bóng ngay triền dốc vùng cỏ rough , còn Scheffler trong green. Dù vậy , Burns vẫn quyết định gạt và ghi birdie.]]></SimpleTextPart>
         <Sentence>
@@ -110,39 +84,6 @@
             <Token tag="Cc" chunking="B-NP" ner="O" sner="O"><![CDATA[và]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[ghi]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[birdie]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[This]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[is]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[a]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[modal]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Beginning of dialog window. Escape will cancel and close the window.]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Beginning]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[of]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dialog]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Escape]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[will]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cancel]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[and]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[close]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[the]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[End]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[of]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dialog]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[window]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

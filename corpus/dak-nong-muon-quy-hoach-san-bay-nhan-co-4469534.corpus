@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="7bccefc623b4ca3dbd7632fe11bf43e2c925409a1d638debe87b6a0371a83fb8">
+    <Document id="d91d9f1af898ddeec64766e9a33d57fab9a29d74209e28c8c99985fca87b86d7">
         <Title><![CDATA[Đăk Nông muốn quy hoạch sân bay Nhân Cơ]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/dak-nong-muon-quy-hoach-san-bay-nhan-co-4469534.html]]></DocumentURI>
         <Sentence>
@@ -10,27 +10,6 @@
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[quy_hoạch]]></Token>
             <Token tag="N" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[sân_bay]]></Token>
             <Token tag="Np" chunking="I-NP" ner="I-LOC" sner="O"><![CDATA[Nhân_Cơ]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Ny" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[UBND]]></Token>
-            <Token tag="N" chunking="I-NP" ner="I-LOC" sner="O"><![CDATA[tỉnh]]></Token>
-            <Token tag="Np" chunking="I-NP" ner="I-LOC" sner="O"><![CDATA[Đăk_Nông]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[vừa]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[kiến_nghị]]></Token>
-            <Token tag="N" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Bộ]]></Token>
-            <Token tag="N" chunking="I-NP" ner="I-PER" sner="O"><![CDATA[Giao_thông]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Vận_tải]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đưa]]></Token>
-            <Token tag="N" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[sân_bay]]></Token>
-            <Token tag="Np" chunking="I-NP" ner="I-LOC" sner="O"><![CDATA[Nhân_Cơ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[vào]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[quy_hoạch]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[hệ_thống]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cảng_hàng_không]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[sân_bay]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[toàn_quốc]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Theo lãnh đạo tỉnh Đăk Nông , địa phương này chỉ có một phương thức vận tải là đường bộ. Đường thủy không khai thác được , đường sắt , hàng không chưa được đầu tư. Đây là hạn chế rất lớn trong việc thu hút đầu tư , phát triển kinh tế - xã hội.]]></SimpleTextPart>
         <Sentence>
@@ -149,11 +128,9 @@
             <Token tag="Np" chunking="I-NP" ner="I-LOC" sner="O"><![CDATA[Nhân_Cơ]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
             <Token tag="N" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[huyện]]></Token>
-            <Token tag="Np" chunking="I-NP" ner="I-LOC" sner="O"><![CDATA[Đăk_R]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[']]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Lấp]]></Token>
+            <Token tag="Np" chunking="I-NP" ner="I-LOC" sner="O"><![CDATA[Đăk_R'Lấp]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cách]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[cách]]></Token>
             <Token tag="N" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[thành_phố]]></Token>
             <Token tag="Np" chunking="I-NP" ner="I-LOC" sner="O"><![CDATA[Gia_Nghĩa]]></Token>
             <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[khoảng]]></Token>
@@ -316,52 +293,6 @@
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Cà_Mau]]></Token>
             <Token tag="Cc" chunking="I-NP" ner="I-PER" sner="O"><![CDATA[và]]></Token>
             <Token tag="Np" chunking="I-NP" ner="I-PER" sner="O"><![CDATA[Côn_Đảo]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Bộ Giao thông Vận tải đề xuất quy hoạch cả nước có 28 sân bay đến năm 2030 và 29 sân bay đến năm 2050. 52]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Bộ]]></Token>
-            <Token tag="N" chunking="I-NP" ner="O" sner="O"><![CDATA[Giao_thông]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Vận_tải]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đề_xuất]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[quy_hoạch]]></Token>
-            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[cả]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nước]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[có]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[28]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[sân_bay]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[đến]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[năm]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[2030]]></Token>
-            <Token tag="Cc" chunking="B-NP" ner="O" sner="O"><![CDATA[và]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[29]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[sân_bay]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[đến]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[năm]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[2050]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Sân bay Quảng Trị sẽ được xây dựng mới , các sân bay Tân Sơn Nhất , Điện Biên , Côn Đảo , Đồng Hới được đầu tư mở rộng. 30]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Sân_bay]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Quảng_Trị]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[sẽ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[được]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[xây_dựng]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[mới]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[các]]></Token>
-            <Token tag="N" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[sân_bay]]></Token>
-            <Token tag="Np" chunking="I-NP" ner="I-LOC" sner="O"><![CDATA[Tân_Sơn_Nhất]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Điện_Biên]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Côn_Đảo]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Đồng_Hới]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[được]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đầu_tư]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[mở_rộng]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

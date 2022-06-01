@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="d88cbd63480e66ee7aedb10528a91b1ad7c2d2d81dbc9f9a9e2036f894af5c1a">
+    <Document id="881aaddcee94c1a1a3e5dad02ff513d33bb1651936f2ef265928f09e561a87d5">
         <Title><![CDATA[Thái Lan trục trặc trước giải U23 châu Á]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/thai-lan-truc-trac-truoc-giai-u23-chau-a-4468660.html]]></DocumentURI>
         <Sentence>
@@ -10,32 +10,6 @@
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[giải]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[U23]]></Token>
             <Token tag="Np" chunking="I-NP" ner="I-PER" sner="O"><![CDATA[châu_Á]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[UzbekistanU23]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Thái_Lan]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[phải]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[di_chuyển]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[kéo_dài]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[thất_lạc]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[hành_lý]]></Token>
-            <Token tag="Cc" chunking="B-NP" ner="O" sner="O"><![CDATA[và]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[phải]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[bỏ]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[buổi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tập]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[đầu_tiên]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đến]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Uzbekistan]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[dự]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[vòng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[chung_kết]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[U23]]></Token>
-            <Token tag="Np" chunking="I-NP" ner="I-PER" sner="O"><![CDATA[châu_Á]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[2022]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Các cầu thủ Thái Lan chờ hành lý ở sân bay quốc tế Islam Karimov Tashkent. Ảnh: Lâm Thỏa]]></SimpleTextPart>
         <Sentence>
@@ -468,4 +442,12 @@
             <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[31]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-'NoneType' object has no attribute 'data'
+        <Sentence>
+            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Lâm_Thoả]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[(]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[từ]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Tashkent]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[)]]></Token>
+        </Sentence>
+    </Document>
+</corpus>

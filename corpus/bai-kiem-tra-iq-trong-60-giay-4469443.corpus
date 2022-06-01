@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="b5de72596dc0ddc9e347426ffc7d9f999f097d27368b3e5d8c3064650fd9c18f">
+    <Document id="51c265a755364b1ec6a8bb40afae3439ba0551fa9ada319939e74be9debd5219">
         <Title><![CDATA[Bài kiểm tra IQ trong 60 giây]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/bai-kiem-tra-iq-trong-60-giay-4469443.html]]></DocumentURI>
         <Sentence>
@@ -12,34 +12,56 @@
             <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[giây]]></Token>
         </Sentence>
         <Sentence>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[Trong]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[các]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[phép_chia]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[52]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[3,19]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[2,45]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[7,56]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[7,123]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[12]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[đâu]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[là]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[phép_tính]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[khác_biệt]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[với]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[số]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[còn]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[lại]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[?]]></Token>
-        </Sentence>
-        <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Câu]]></Token>
             <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[1]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
         </Sentence>
-'NoneType' object has no attribute 'data'
+        <Sentence>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[>>]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[Đáp_án]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Câu]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[2]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Điền]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[số]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[thích_hợp]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[vào]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dấu]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[hỏi]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[chấm]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Câu]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[3]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[Di_chuyển]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[hai]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[que_diêm]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[để]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[có]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[phép_tính]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[đúng]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Câu]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[4]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[Tìm]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[số]]></Token>
+            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[khác]]></Token>
+            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[với]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[phần]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[còn]]></Token>
+            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[lại]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
+        </Sentence>
+        <Sentence>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[Theo]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Bright_Sides]]></Token>
+        </Sentence>
+    </Document>
+</corpus>

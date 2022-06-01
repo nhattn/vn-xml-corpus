@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="43c7a1efc7a29ac58ab570909f3e1e98603ec03f14bb52a110feecc87334e7e4">
+    <Document id="af04a5df4b119a0e36c0a111b67ce2a79e7d80a9860d66f86a3fd29ec9fd1342">
         <Title><![CDATA[Vì sao mỗi đường cao tốc lại hạn chế tốc độ khác nhau?]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/vi-sao-moi-duong-cao-toc-lai-han-che-toc-do-khac-nhau-4470252.html]]></DocumentURI>
         <Sentence>
@@ -13,27 +13,6 @@
             <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[khác]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nhau]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[?]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Đường cao tốc cùng một tiêu chuẩn tại sao mỗi nơi tốc độ tối đa lại khác nhau. (Bắc Giang)]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Đường_cao_tốc]]></Token>
-            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[cùng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[một]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tiêu_chuẩn]]></Token>
-            <Token tag="X" chunking="O" ner="O" sner="O"><![CDATA[tại_sao]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[mỗi]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nơi]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tốc_độ]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[tối_đa]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[lại]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[khác]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nhau]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[(]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Bắc_Giang]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[)]]></Token>
         </Sentence>
         <Sentence>
             <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[Ví_dụ]]></Token>

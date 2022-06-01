@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="82dd9eadd3d32195b97599dca7b7139c9f4992e5a08678da195cb05279e57ac1">
+    <Document id="237e42969aae76c40084a39adc5a4c799e030681b9fa9c486d8c5114c0af0a0b">
         <Title><![CDATA[Lịch trình 4 ngày ở Maldives hết 70 triệu đồng]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/lich-trinh-4-ngay-o-maldives-het-70-trieu-dong-4465597.html]]></DocumentURI>
         <Sentence>
@@ -13,29 +13,6 @@
             <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[70]]></Token>
             <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[triệu]]></Token>
             <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[đồng]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[Sau]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dịch_Covid-19]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Hiếu_Thiên]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[ở]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Hải_Phòng]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[có]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[chuyến]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[du_lịch]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Maldives]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trong]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[bốn]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[ngày]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[với]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[chi_phí]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[70]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[triệu]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[đồng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[một]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[người]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
             <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[Đây]]></Token>
@@ -450,40 +427,7 @@
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[wifi]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[This]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[is]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[a]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[modal]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Beginning of dialog window. Escape will cancel and close the window.]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Beginning]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[of]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dialog]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Escape]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[will]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cancel]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[and]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[close]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[the]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[End]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[of]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dialog]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Du khách Việt gọi Maldives là " thiên đường" vì nước biển trong vắt , bầu trời cao xanh. Video: NVCC]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Du khách Việt gọi Maldives là "thiên đường" vì nước biển trong vắt , bầu trời cao xanh. Video: NVCC]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Du_khách]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Việt]]></Token>
@@ -694,7 +638,7 @@
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khứ_hồi]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Ở đây chia thành hai khu vực chính để khách lưu trú. Đầu tiên là thủ đô Malé và đảo dân sinh Maafushi có ưu điểm chi phí rẻ , giá phòng khoảng 1-3 triệu đồng một đêm. Từ sân bay đến đây mất khoảng 20 USD di chuyển bằng cano. Các khu nghỉ dưỡng tư nhân trên đảo hoặc nổi trên mặt biển là " đặc sản" của Maldives , tuy nhiên giá phòng cao hơn , từ 10 đến cả trăm triệu đồng một đêm. Giá phòng chưa gồm 10 % phí dịch vụ , 12 % thuế và 6 USD phí môi trường.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Ở đây chia thành hai khu vực chính để khách lưu trú. Đầu tiên là thủ đô Malé và đảo dân sinh Maafushi có ưu điểm chi phí rẻ , giá phòng khoảng 1-3 triệu đồng một đêm. Từ sân bay đến đây mất khoảng 20 USD di chuyển bằng cano. Các khu nghỉ dưỡng tư nhân trên đảo hoặc nổi trên mặt biển là "đặc sản" của Maldives , tuy nhiên giá phòng cao hơn , từ 10 đến cả trăm triệu đồng một đêm. Giá phòng chưa gồm 10 % phí dịch vụ , 12 % thuế và 6 USD phí môi trường.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[Ở]]></Token>
             <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[đây]]></Token>
@@ -800,39 +744,6 @@
             <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[USD]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[phí]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[môi_trường]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Vùng_biển]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[quanh]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khu]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[nghỉ_dưỡng]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Tour]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[lặn]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[ngắm]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[san_hô]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[giá]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[75]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[USD]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[một]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[người]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Tour]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[ngắm]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[hoàng_hôn]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Quảng_trường]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Jumhooree_Maidahann]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[ở]]></Token>
-            <Token tag="N" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[thủ_đô]]></Token>
-            <Token tag="Np" chunking="I-NP" ner="I-LOC" sner="O"><![CDATA[Malé]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Hiếu Thiên lưu trú một đêm trên đảo dân sinh và hai đêm ở đảo tư nhân. Trên đảo dân sinh là Kaani Grand Seaview , ưu điểm giáp biển , có thể mua tour từ công ty Kaani. Giá lưu trú ở đây từ 3 triệu đồng một đêm. Khu nghỉ dưỡng Taj Exotica Resort được nhiều ca sĩ nổi tiếng ở Việt Nam lựa chọn. Ở đây có nhiều hoạt động như lặn ngắm san hô , cho cá mập và cá đuối ăn , du thuyền ngắm hoàng hôn. Phòng ở đây giá 25-100 triệu đồng một đêm , chưa bao gồm chi phí di chuyển.]]></SimpleTextPart>
@@ -1096,64 +1007,6 @@
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[-]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Lan]]></Token>
             <Token tag="Np" chunking="I-NP" ner="I-PER" sner="O"><![CDATA[Hương]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Lặn biển khám phá đại dương , bơi cùng cá mập hay thưởng thức một bữa tối bên bờ biển là những trải nghiệm du khách nên thử khi tới Maldives. 8]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[Lặn]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[biển]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[khám_phá]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đại_dương]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[bơi]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[cùng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cá_mập]]></Token>
-            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[hay]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[thưởng_thức]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[một]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bữa]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tối]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bên]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bờ]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[biển]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[là]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[những]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[trải_nghiệm]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[du_khách]]></Token>
-            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[nên]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[thử]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tới]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Maldives]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Với khoảng 1.200 hòn đảo , Maldives là điểm đến thích hợp để lặn biển , nghỉ dưỡng trên biệt thự mặt nước và đi du thuyền Dhoni ngắm hoàng hôn. 3]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[Với]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khoảng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[1.200]]></Token>
-            <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[hòn]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đảo]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Maldives]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[là]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[điểm]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đến]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[thích_hợp]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[để]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[lặn]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[biển]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[nghỉ_dưỡng]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trên]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[biệt_thự]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[mặt_nước]]></Token>
-            <Token tag="Cc" chunking="B-NP" ner="O" sner="O"><![CDATA[và]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[du_thuyền]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Dhoni]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[ngắm]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[hoàng_hôn]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
     </Document>
 </corpus>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="6f158147505cc567078448e48b4848c9ffbe0182a22482c8590c9775c6e54e40">
-        <Title><![CDATA[Liverpool , Real áp đảo đội hình tiêu biểu Champions League]]></Title>
+    <Document id="4ab89e5f21f0f3e1b4bcd202391a71e335d3927ce7943a4cc41b074dd54d6be6">
+        <Title><![CDATA[Liverpool, Real áp đảo đội hình tiêu biểu Champions League]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/liverpool-real-ap-dao-doi-hinh-tieu-bieu-champions-league-4470300.html]]></DocumentURI>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Liverpool]]></Token>
@@ -11,33 +11,6 @@
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đội_hình]]></Token>
             <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[tiêu_biểu]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Champions_League]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[Hai]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đội]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[vừa]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đấu]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[chung_kết]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[cùng]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[góp]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[bốn]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cầu_thủ]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[vào]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đội_hình]]></Token>
-            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[hay]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[nhất]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Champions_League]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[2021]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[-]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[2022]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[do]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Tiểu_ban]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[kỹ_thuật]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[UEFA]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[công_bố]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[ngày]]></Token>
-            <Token tag="M" chunking="B-NP" ner="B-MISC" sner="B-DATE"><![CDATA[31/5]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Đội_hình]]></Token>
@@ -331,39 +304,6 @@
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[vào]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[lưới]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Chelsea]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[This]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[is]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[a]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[modal]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Beginning of dialog window. Escape will cancel and close the window.]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Beginning]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[of]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dialog]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Escape]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[will]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cancel]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[and]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[close]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[the]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[End]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[of]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dialog]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[window]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

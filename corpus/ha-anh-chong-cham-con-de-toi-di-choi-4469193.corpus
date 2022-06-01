@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="8a8e2842ec998e2090b62ffff730ca1fe881f0b33d0130bd7b39e2c54eb8818f">
-        <Title><![CDATA[Hà Anh: ' Chồng chăm con để tôi đi chơi' ]]></Title>
+    <Document id="0db8333f1c3156a310bd0f2b7e058d94367f959d5cb1325484720d7b8b288d25">
+        <Title><![CDATA[Hà Anh: 'Chồng chăm con để tôi đi chơi']]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/ha-anh-chong-cham-con-de-toi-di-choi-4469193.html]]></DocumentURI>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Hà_Anh]]></Token>
@@ -15,65 +15,6 @@
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đi]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[chơi]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[']]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Khi]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Hà_Anh]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[bận]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[lịch]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[công_việc]]></Token>
-            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[hay]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[muốn]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[chơi]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[cùng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bạn_bè]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[chồng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cô]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[-]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Oliver_Dowden]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[người]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Anh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[-]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[giành]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[chăm]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[con]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[This]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[is]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[a]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[modal]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Beginning of dialog window. Escape will cancel and close the window.]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Beginning]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[of]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dialog]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Escape]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[will]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cancel]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[and]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[close]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[the]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[End]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[of]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dialog]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Người mẫu Hà Anh sinh năm 1982 ở Hà Nội. Cô từng vào Top 10 Hoa hậu Hoàn vũ Việt Nam 2008 , đoạt danh hiệu á hậu 2 Hoa hậu Việt Nam Toàn cầu 2008. Cô kết hôn với Oliver Dowden (tên thường gọi là Olly) vào tháng 7/2016. Chồng cô sinh năm 1984 , hiện là giáo viên tiểu học của một trường quốc tế tại TP HCM. Cả hai có con gái đầu lòng vào tháng 6/2018 , tên Myla.]]></SimpleTextPart>
         <Sentence>

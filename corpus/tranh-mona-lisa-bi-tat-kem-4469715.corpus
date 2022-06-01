@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="0b526cb0ac1fa2b16d00e33c96cc80847d33e950e38d35dbb74ac1d76f015244">
-        <Title><![CDATA[Tranh ' Mona Lisa' bị tạt kem]]></Title>
+    <Document id="ee64166cee8667697a1c392cef9d4c8e0840a74e6b4c48ffd4c36c5f6ffd0077">
+        <Title><![CDATA[Tranh 'Mona Lisa' bị tạt kem]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/tranh-mona-lisa-bi-tat-kem-4469715.html]]></DocumentURI>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Tranh]]></Token>
@@ -12,33 +12,7 @@
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tạt]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[kem]]></Token>
         </Sentence>
-        <Sentence>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[PhápMột]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khách]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tham_quan]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[cố]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[phá_hủy]]></Token>
-            <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[tấm]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[kính]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[bảo_vệ]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[kiệt_tác]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Mona_Lisa]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[nhưng]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[bất_thành]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[sau]]></Token>
-            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[đó]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tạt]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[kem]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bên]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[ngoài]]></Token>
-            <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[bức]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tranh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Theo trang Marca , ngày 29/5 , người đàn ông đội tóc giả , ngồi xe lăn để tiếp cận tác phẩm ở Viện bảo tàng Louvre. Khi tới gần bức tranh , người này bứt tóc giả xuống , tạt kem sữa về phía tác phẩm và nói: " Một số kẻ đang hủy hoại Trái đất , hãy nghĩ cho Trái đất" .]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Theo trang Marca , ngày 29/5 , người đàn ông đội tóc giả , ngồi xe lăn để tiếp cận tác phẩm ở Viện bảo tàng Louvre. Khi tới gần bức tranh , người này bứt tóc giả xuống , tạt kem sữa về phía tác phẩm và nói: "Một số kẻ đang hủy hoại Trái đất , hãy nghĩ cho Trái đất".]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[Theo]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[trang_Marca]]></Token>
@@ -95,39 +69,6 @@
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[cho]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Trái_đất]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[This]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[is]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[a]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[modal]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Beginning of dialog window. Escape will cancel and close the window.]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Beginning]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[of]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dialog]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Escape]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[will]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cancel]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[and]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[close]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[the]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[End]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[of]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dialog]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[window]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Nhân viên bảo tàng lau chùi kính chắn tranh. Video: Diario AS]]></SimpleTextPart>
@@ -452,7 +393,7 @@
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thế_giới]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Tác phẩm " Mona Lisa" . Ảnh: Marca]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Tác phẩm "Mona Lisa". Ảnh: Marca]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Tác_phẩm]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>

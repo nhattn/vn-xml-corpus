@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="df076ae9ab9101e216d95f02363d3ab7f4f1d598084b18b6aea9ff24205a3c68">
+    <Document id="597333a6f863336dd53342bbaca82d6cb54edefa751488fcc1572433662b9283">
         <Title><![CDATA[Xuất khẩu dầu Nga sang Ấn Độ tăng 25 lần]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/xuat-khau-dau-nga-sang-an-do-tang-25-lan-4470192.html]]></DocumentURI>
         <Sentence>
@@ -12,35 +12,6 @@
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tăng]]></Token>
             <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[25]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[lần]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Lượng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dầu]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[xuất_khẩu]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[từ]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Nga]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[sang]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Ấn_Độ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tăng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[25]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[lần]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[từ]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[mức]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[trung_bình]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[960.000]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thùng]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[/]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tháng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[năm_ngoái]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[lên]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[24]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[triệu]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thùng]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trong]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="B-MISC" sner="B-DATE"><![CDATA[5]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Reuters]]></Token>
@@ -472,69 +443,6 @@
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[UAE]]></Token>
             <Token tag="Cc" chunking="B-NP" ner="O" sner="O"><![CDATA[và]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Mỹ]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Dầu là nguồn thu ngoại tệ lớn của Nga , nhưng Moskva giờ đây phải đối mặt câu hỏi họ có thể tìm được khách hàng mới khi châu Âu quay lưng hay không. 177]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Dầu]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[là]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nguồn]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[thu]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[ngoại_tệ]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[lớn]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[của]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Nga]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[nhưng]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Moskva]]></Token>
-            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[giờ_đây]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[phải]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đối_mặt]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[câu]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[hỏi]]></Token>
-            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[họ]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[có_thể]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tìm]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[được]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khách_hàng]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[mới]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khi]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[châu_Âu]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[quay]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[lưng]]></Token>
-            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[hay]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[không]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Lệnh cấm dầu sẽ là đòn giáng kinh tế mạnh của EU với Nga trong khủng hoảng Ukraine , nhưng sẽ khiến châu Âu lục đục và đối mặt nguy cơ trả đũa từ Moskva. 23]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Lệnh_cấm]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dầu]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[sẽ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[là]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đòn]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[giáng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[kinh_tế]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[mạnh]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[của]]></Token>
-            <Token tag="Ny" chunking="B-NP" ner="O" sner="O"><![CDATA[EU]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[với]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Nga]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trong]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khủng_hoảng]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Ukraine]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[nhưng]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[sẽ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[khiến]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[châu_Âu]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[lục_đục]]></Token>
-            <Token tag="Cc" chunking="B-NP" ner="O" sner="O"><![CDATA[và]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đối_mặt]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nguy_cơ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[trả_đũa]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[từ]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Moskva]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Huyền Lê (Theo Reuters , RT)]]></SimpleTextPart>

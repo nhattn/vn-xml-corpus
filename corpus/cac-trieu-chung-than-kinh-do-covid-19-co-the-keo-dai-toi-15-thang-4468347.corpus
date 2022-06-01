@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="6c8fb94124edbc4b1028530443ac9123e7a04c3930c57c5ea7cc0b6f3dd53f78">
+    <Document id="3d18f70fcb0c8cda53aa37c5005dcdbe6f19a6bce4f5c89042a665a20e9c2697">
         <Title><![CDATA[Các triệu chứng thần kinh do Covid-19 có thể kéo dài tới 15 tháng]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/cac-trieu-chung-than-kinh-do-covid-19-co-the-keo-dai-toi-15-thang-4468347.html]]></DocumentURI>
         <Sentence>
@@ -14,34 +14,6 @@
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[tới]]></Token>
             <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[15]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tháng]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[MỹHầu]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[hết]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[triệu_chứng]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[liên_quan]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[tới]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thần_kinh]]></Token>
-            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[như]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[sương_mù]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[não]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nhức_đầu]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[chóng_mặt]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[...]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[vẫn]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tồn_tại]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[sau]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[hơn]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[một]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[năm]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[ở]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[những]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[người]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[mắc]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Covid-19]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[Theo]]></Token>
@@ -620,59 +592,6 @@
             <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[nhất]]></Token>
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[để]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[phục_hồi]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[Hơn]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[60]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[%]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[người]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[nhập_viện]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[do]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Covid-19]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[cảm_thấy]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[không]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[khỏe]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[sau]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[xuất_viện]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[một]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[năm]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[đặc_biệt]]></Token>
-            <Token tag="T" chunking="O" ner="O" sner="O"><![CDATA[là]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[phụ_nữ]]></Token>
-            <Token tag="Cc" chunking="B-NP" ner="O" sner="O"><![CDATA[và]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[người]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[béo_phì]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Người_bệnh]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[cần]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[thực_hiện]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[test]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[nhanh]]></Token>
-            <Token tag="Cc" chunking="B-NP" ner="O" sner="O"><![CDATA[hoặc]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[PCR]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[bị]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đau_đầu]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[kèm]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[sốt]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[ho]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đau]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[họng]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[chảy]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[nước_mũi]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đau_nhức]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cơ_thể]]></Token>
-            <Token tag="Cc" chunking="B-NP" ner="O" sner="O"><![CDATA[và]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[mệt_mỏi]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Ý Linh (Theo Times of India)]]></SimpleTextPart>

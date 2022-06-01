@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="40dc4447efed637c8382a214e630d5bc42a53fd161a21536f43dab39cc76ef29">
+    <Document id="ac412dad2063c20d7b953ff895c0d83b3ac60c71fd68e849cbcdefe33658cd50">
         <Title><![CDATA[Xe khách chở 30 người lao xuống vực Tam Đảo]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/xe-khach-cho-30-nguoi-lao-xuong-vuc-tam-dao-4469452.html]]></DocumentURI>
         <Sentence>
@@ -12,31 +12,6 @@
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[xuống]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[vực]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Tam_Đảo]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Vĩnh]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[PhúcXe]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[chở]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[30]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[người]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[lao]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[xuống]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[vực]]></Token>
-            <Token tag="N" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[núi]]></Token>
-            <Token tag="Np" chunking="I-NP" ner="I-LOC" sner="O"><![CDATA[Tam_Đảo]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[may_mắn]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[vực]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[núi]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[không]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[sâu]]></Token>
-            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[nên]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[không]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[có]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thiệt_hại]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[về]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[người]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
             <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[Khoảng]]></Token>
@@ -258,39 +233,6 @@
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[hỗ_trợ]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[This]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[is]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[a]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[modal]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Beginning of dialog window. Escape will cancel and close the window.]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Beginning]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[of]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dialog]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Escape]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[will]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cancel]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[and]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[close]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[the]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[End]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[of]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dialog]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Khoảnh khắc cứu xe máy bị mất phanh ở đèo Tam Đảo. Video: Nguyễn Hải Sinh]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Khoảnh_khắc]]></Token>
@@ -348,7 +290,7 @@
             <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[lại]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Đoạn quốc lộ 2B đường từ chân lên đỉnh núi Tam Đảo dài khoảng 13 km với nhiều khúc cua gấp , độ dốc lớn. Trên tuyến đường này nhà chức trách đặt nhiều biển cảnh báo " không được tắt máy" , " hạn chế đi xe ga" , " nguy hiểm" , tuy nhiên vẫn thường xảy ra tai nạn.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Đoạn quốc lộ 2B đường từ chân lên đỉnh núi Tam Đảo dài khoảng 13 km với nhiều khúc cua gấp , độ dốc lớn. Trên tuyến đường này nhà chức trách đặt nhiều biển cảnh báo "không được tắt máy" , "hạn chế đi xe ga" , "nguy hiểm" , tuy nhiên vẫn thường xảy ra tai nạn.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Đoạn]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[quốc_lộ]]></Token>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="2803cf8eb88d6b91454602704ee417da660ad5685f0d905399fa8492a219e173">
+    <Document id="7028fb35635bc9ccf70227b8194530552e94dfcc1373ac0d484cff4aa183f757">
         <Title><![CDATA[Vietnam Airlines bán 35% vốn góp tại hãng hàng không quốc gia Campuchia]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/vietnam-airlines-ban-35-von-gop-tai-hang-hang-khong-quoc-gia-campuchia-4469744.html]]></DocumentURI>
         <Sentence>
@@ -16,29 +16,6 @@
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[hàng_không]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[quốc_gia]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Campuchia]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[Vietnam]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Airlines]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[cho]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[biết]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[đã]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[thu]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[35]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[triệu]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[USD]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[từ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[chuyển_nhượng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[35]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[%]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[vốn]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[góp]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[tại]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Cambodia_Angkor_Air]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[(]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[K6]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[)]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Theo Tổng công ty Hàng không Việt Nam (Vietnam Airlines) , ngày 3/1 và 29/3 , hãng đã nhận được lần lượt 30 triệu USD và 4 triệu USD từ nhà đầu tư mua lại phần vốn góp của hãng tại K6. Trước đó , Vietnam Airlines cũng đã nhận đặt cọc 1 triệu USD.]]></SimpleTextPart>
         <Sentence>
@@ -367,32 +344,6 @@
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[năm]]></Token>
             <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[2022]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Doanh thu đã dần phục hồi , nhưng Vietnam Airlines vẫn tiếp tục lỗ do ảnh hưởng kéo dài của dịch và các tác động từ xung đột ở Ukraine. 14]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Doanh_thu]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[đã]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[dần]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[phục_hồi]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[nhưng]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Vietnam_Airlines]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[vẫn]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tiếp_tục]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[lỗ]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[do]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[ảnh_hưởng]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[kéo_dài]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[của]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dịch]]></Token>
-            <Token tag="Cc" chunking="B-NP" ner="O" sner="O"><![CDATA[và]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[các]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tác_động]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[từ]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[xung_đột]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[ở]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Ukraine]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="41f3c69da3b546d63e2e85725416272ec79294d810c1af34e9523693f2ef5bd6">
+    <Document id="b19df93fa54fe2c6894279966c169fb750dfe0737f0f245e3ae282964cbe9d28">
         <Title><![CDATA[Khách du lịch nội địa tăng mạnh]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/khach-du-lich-noi-dia-tang-manh-4470054.html]]></DocumentURI>
         <Sentence>
@@ -8,28 +8,6 @@
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nội_địa]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tăng]]></Token>
             <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[mạnh]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="B-MISC" sner="B-DATE"><![CDATA[5]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Việt_Nam]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đạt]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[12]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[triệu]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[lượt]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khách]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nội_địa]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tăng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[243]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[%]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[so]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[với]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[cùng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[kỳ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[2021]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Theo báo cáo tháng 5 của Tổng cục Du lịch , lượng khách nội địa tăng 14 % so với tháng 4 - tháng có hai kỳ nghỉ giỗ Tổ và 30/4 và tăng 243 % so với cùng kỳ 2021. Trong đó , lượng khách lưu trú là 8 triệu lượt. Việt Nam đang chứng kiến sự tăng trưởng mạnh của khách nội địa , khi 5 tháng đầu năm đón 48,6 triệu lượt.]]></SimpleTextPart>
         <Sentence>
@@ -108,24 +86,15 @@
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[lượt]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Không chỉ khách nội địa , khách quốc tế đến Việt Nam trong tháng 5 là 136.000 lượt , tăng khoảng 1,9 lần so với tháng 4. Trong 5 tháng đầu năm , lượng khách ước đạt 228.400 lượt.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Khách quốc tế đến Việt Nam trong tháng 5 tăng khoảng 1,9 lần so với tháng 4 , đạt 136.000 lượt. Trong 5 tháng đầu năm , lượng khách ước đạt 228.400 lượt.]]></SimpleTextPart>
         <Sentence>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[Không]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[chỉ]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khách]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nội_địa]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khách]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[quốc_tế]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Khách]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[quốc_tế]]></Token>
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[đến]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Việt_Nam]]></Token>
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trong]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tháng]]></Token>
             <Token tag="M" chunking="B-NP" ner="B-MISC" sner="B-DATE"><![CDATA[5]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[là]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[136.000]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[lượt]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tăng]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khoảng]]></Token>
             <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[1,9]]></Token>
@@ -134,6 +103,10 @@
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[với]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tháng]]></Token>
             <Token tag="M" chunking="B-NP" ner="B-MISC" sner="B-DATE"><![CDATA[4]]></Token>
+            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
+            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đạt]]></Token>
+            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[136.000]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[lượt]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
@@ -406,70 +379,6 @@
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Lan]]></Token>
             <Token tag="Np" chunking="I-NP" ner="I-PER" sner="O"><![CDATA[Hương]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Doanh nghiệp du lịch đón hàng trăm nghìn khách từ các công ty , tập đoàn đi nghỉ hè kết hợp hội thảo , hội nghị , team building ... đạt mức cao hơn trước dịch. 1]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Doanh_nghiệp]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[du_lịch]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đón]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[hàng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[trăm_nghìn]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khách]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[từ]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[các]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[công_ty]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tập_đoàn]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[nghỉ_hè]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[kết_hợp]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[hội_thảo]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[hội_nghị]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[team]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[building]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[...]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đạt]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[mức]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[cao]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[hơn]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trước]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dịch]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[TripAdvisor , website du lịch nổi tiếng thế giới của Mỹ , công bố 25 điểm đến được yêu thích nhất châu Á 2022 , trong đó Hà Nội đứng thứ 13 và Đà Nẵng thứ 21. 6]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[TripAdvisor]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[website]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[du_lịch]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[nổi_tiếng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thế_giới]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[của]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Mỹ]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[công_bố]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[25]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[điểm]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đến]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[được]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[yêu_thích]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[nhất]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[châu_Á]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[2022]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trong]]></Token>
-            <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[đó]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Hà_Nội]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đứng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thứ]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[13]]></Token>
-            <Token tag="Cc" chunking="B-NP" ner="O" sner="O"><![CDATA[và]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Đà_Nẵng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thứ]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[21]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
     </Document>
 </corpus>

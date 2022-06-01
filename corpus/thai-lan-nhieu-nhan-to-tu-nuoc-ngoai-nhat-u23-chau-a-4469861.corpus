@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="c1bafd5109b37440c6ca03e179fd23b1393018c66e0c22bb79c834d21df2c071">
+    <Document id="28c499bafabf16308f5a4d8d61805a6278dccc03863201f38e63773d60a5d849">
         <Title><![CDATA[Thái Lan nhiều nhân tố từ nước ngoài nhất U23 châu Á]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/thai-lan-nhieu-nhan-to-tu-nuoc-ngoai-nhat-u23-chau-a-4469861.html]]></DocumentURI>
         <Sentence>
@@ -12,27 +12,6 @@
             <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[nhất]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[U23]]></Token>
             <Token tag="Np" chunking="I-NP" ner="I-PER" sner="O"><![CDATA[châu_Á]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[UzbekistanThái]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Lan]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[dùng]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[nhiều]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cầu_thủ]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[đang]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[chơi]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[ở]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nước_ngoài]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[nhất]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trong]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[16]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đội]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[dự]]></Token>
-            <Token tag="Ny" chunking="B-NP" ner="O" sner="O"><![CDATA[VCK]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[U23]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="I-PER" sner="O"><![CDATA[châu_Á]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[2022]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[Trong]]></Token>
@@ -344,4 +323,8 @@
             <Token tag="Np" chunking="I-NP" ner="I-PER" sner="O"><![CDATA[Hàn_Quốc]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-'NoneType' object has no attribute 'data'
+        <Sentence>
+            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Hoàng_An]]></Token>
+        </Sentence>
+    </Document>
+</corpus>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="dd02c8038a0d8bccf56588274df2254422b11bec9b9c28e2627b2f975d54a63d">
+    <Document id="b69bbf909962ddeaf2b47b44328b0df9bd6eab94f1a83b6741edf252e4621be1">
         <Title><![CDATA[Nông dân Việt sáng chế cày tay xuất khẩu sang Mỹ]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/nong-dan-viet-sang-che-cay-tay-xuat-khau-sang-my-4458798.html]]></DocumentURI>
         <Sentence>
@@ -12,65 +12,6 @@
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[xuất_khẩu]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[sang]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Mỹ]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[Ông]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Nguyễn_Văn_Đức]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[(]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[61]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tuổi]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[)]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[làm]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nghề]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nông]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[ở]]></Token>
-            <Token tag="N" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[huyện]]></Token>
-            <Token tag="Np" chunking="I-NP" ner="I-LOC" sner="O"><![CDATA[Gò_Dầu]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Tây_Ninh]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[đã]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[sáng_chế]]></Token>
-            <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[chiếc]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[cày]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tay]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[giúp]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tăng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tốc_độ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[làm_vườn]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[This]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[is]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[a]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[modal]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Beginning of dialog window. Escape will cancel and close the window.]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Beginning]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[of]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dialog]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Escape]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[will]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cancel]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[and]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[close]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[the]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[End]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[of]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dialog]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Cày tay sử dụng trên đồng ruộng. Video: NVCC]]></SimpleTextPart>
         <Sentence>
@@ -86,7 +27,7 @@
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
             <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[NVCC]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Thương hiệu " Cày tay chú Năm" được ông Đức sáng chế từ năm 2001 , trên cơ sở cải tiến lưỡi cày sử dụng sức kéo trâu bò. Cày có thể giúp nông dân làm hàng , xới đất , vun gốc các loại hoa màu trồng theo hàng như khoai , sắn , ngô , đậu ... Chiếc cày thay thế việc sử dụng cuốc mất nhiều thời gian hay ở những vườn diện tích nhỏ hẹp , máy móc không thể vào được.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Thương hiệu "Cày tay chú Năm" được ông Đức sáng chế từ năm 2001 , trên cơ sở cải tiến lưỡi cày sử dụng sức kéo trâu bò. Cày có thể giúp nông dân làm hàng , xới đất , vun gốc các loại hoa màu trồng theo hàng như khoai , sắn , ngô , đậu ... Chiếc cày thay thế việc sử dụng cuốc mất nhiều thời gian hay ở những vườn diện tích nhỏ hẹp , máy móc không thể vào được.]]></SimpleTextPart>
         <Sentence>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[Thương]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[hiệu]]></Token>
@@ -419,7 +360,7 @@
             <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[đồng]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Theo anh Thi , sản phẩm được làm hoàn toàn bằng thủ công và tính toán rất kỹ các công đoạn để đạt hiệu quả cao nhất khi sử dụng. " Mặc dù nhiều người sao chép hình dáng sản phẩm , làm chiếc cày tương tự nhưng khi đưa vào sử dụng không được vì không đạt các yêu cầu về thiết kế" , anh nói. Anh cho biết thêm , tùy vào loại đất và mục đích sử dụng mới tính toán được hiệu quả sản phẩm đến đâu. Trung bình chiếc cày tay có thể thay thế ba nhân công lao động dùng cuốc , giúp nông dân tăng tốc độ làm vườn.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Theo anh Thi , sản phẩm được làm hoàn toàn bằng thủ công và tính toán rất kỹ các công đoạn để đạt hiệu quả cao nhất khi sử dụng. "Mặc dù nhiều người sao chép hình dáng sản phẩm , làm chiếc cày tương tự nhưng khi đưa vào sử dụng không được vì không đạt các yêu cầu về thiết kế" , anh nói. Anh cho biết thêm , tùy vào loại đất và mục đích sử dụng mới tính toán được hiệu quả sản phẩm đến đâu. Trung bình chiếc cày tay có thể thay thế ba nhân công lao động dùng cuốc , giúp nông dân tăng tốc độ làm vườn.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[Theo]]></Token>
             <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[anh]]></Token>
@@ -521,7 +462,7 @@
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[làm_vườn]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Anh Từ Thái Hiếu , nông dân trồng ngô ở Tây Ninh cho biết , chiếc cày tay có thiết kế đẹp , cứng cáp , trọng lượng khoảng 3 kg , không quá nặng nên dễ dàng vận chuyển. " Khi sử dụng mình có thể nâng hạ cán cày để điều khiển được độ sâu đường cày , giúp người dùng không tốn nhiều sức như dùng cuốc , tiết kiệm thời gian làm vườn" , anh Hiếu nói.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Anh Từ Thái Hiếu , nông dân trồng ngô ở Tây Ninh cho biết , chiếc cày tay có thiết kế đẹp , cứng cáp , trọng lượng khoảng 3 kg , không quá nặng nên dễ dàng vận chuyển. "Khi sử dụng mình có thể nâng hạ cán cày để điều khiển được độ sâu đường cày , giúp người dùng không tốn nhiều sức như dùng cuốc , tiết kiệm thời gian làm vườn" , anh Hiếu nói.]]></SimpleTextPart>
         <Sentence>
             <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[Anh]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Từ]]></Token>

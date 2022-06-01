@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="67b9dcc9408bcf2406c490a829d84c41091b5c1c2b2e13e6cf49c65c263ece46">
+    <Document id="0a1f841e47cc723eda3c4d9ad7d2562a1885f903f870b9744aab63771982909c">
         <Title><![CDATA[Bài toán bốn vòng tròn số của Nhật Bản]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/bai-toan-bon-vong-tron-so-cua-nhat-ban-4469812.html]]></DocumentURI>
         <Sentence>
@@ -10,37 +10,6 @@
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[số]]></Token>
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[của]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Nhật_Bản]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[Trong]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[4]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[phút]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[liệu]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bạn]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[có_thể]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[hóa_giải]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bài_toán]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[bốn]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[vòng_tròn]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[số]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[của]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Nhật_Bản]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[dành]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[cho]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[học_sinh]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[14]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tuổi]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trong]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[kỳ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[thi]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Toán]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[quốc_tế]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[tại]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Trung_Quốc]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[năm]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[2015]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[?]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Đề bài. Điền 7 số nguyên từ 1 đến 7 vào các ô tròn nhỏ , sao cho tổng các số trong những ô tròn nhỏ cùng nằm trên một trong 4 hình tròn ở hình vẽ là bội số của 6. Hỏi số được điền vào ô tròn nhỏ ở tâm là bao nhiêu?]]></SimpleTextPart>
         <Sentence>
@@ -101,4 +70,8 @@
             <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[bao_nhiêu]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[?]]></Token>
         </Sentence>
-'NoneType' object has no attribute 'data'
+        <Sentence>
+            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Trần_Phương]]></Token>
+        </Sentence>
+    </Document>
+</corpus>

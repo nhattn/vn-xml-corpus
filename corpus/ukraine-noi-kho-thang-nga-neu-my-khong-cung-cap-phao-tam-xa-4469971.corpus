@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="71faac4820f4f9ded4b0fd7e457c6b65042d30c814e21464534abd1d566db109">
-        <Title><![CDATA[Ukraine nói ' khó thắng Nga' nếu Mỹ không cung cấp pháo tầm xa]]></Title>
+    <Document id="572411585aac56c28de9191502683b76dec5e1e7846b66f3bab775708df974de">
+        <Title><![CDATA[Ukraine nói 'khó thắng Nga' nếu Mỹ không cung cấp pháo tầm xa]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/ukraine-noi-kho-thang-nga-neu-my-khong-cung-cap-phao-tam-xa-4469971.html]]></DocumentURI>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Ukraine]]></Token>
@@ -18,31 +18,6 @@
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[pháo]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tầm]]></Token>
             <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[xa]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Cố_vấn]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[của]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Tổng_thống]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Ukraine]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[nói]]></Token>
-            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[rằng]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[khó]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[có_thể]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[giành]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[chiến_thắng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[quân_sự]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trước]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Nga]]></Token>
-            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[nếu]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Mỹ]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[không]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[cung_cấp]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[pháo]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tầm]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[xa]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
@@ -606,62 +581,6 @@
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Đồ_họa]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Washington_Post]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Không được huấn luyện bài bản , lính tình nguyện Ukraine sa sút tinh thần và sức chiến đấu trước áp lực tấn công của quân Nga ở chiến tuyến Donbass. 6]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[Không]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[được]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[huấn_luyện]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bài_bản]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[lính]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tình_nguyện]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Ukraine]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[sa_sút]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tinh_thần]]></Token>
-            <Token tag="Cc" chunking="B-NP" ner="O" sner="O"><![CDATA[và]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[sức]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[chiến_đấu]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trước]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[áp_lực]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tấn_công]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[của]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[quân_Nga]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[ở]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[chiến_tuyến]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Donbass]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Được ngụy trang kỹ càng , những khẩu lựu pháo M777 Mỹ vừa chuyển cho Ukraine được kỳ vọng sẽ tạo đột phá trong nỗ lực chặn đà tiến Nga ở Donbass. 22]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[Được]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[ngụy_trang]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[kỹ]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[càng]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[những]]></Token>
-            <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[khẩu]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[lựu_pháo]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[M777]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Mỹ]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[vừa]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[chuyển]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[cho]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Ukraine]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[được]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[kỳ_vọng]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[sẽ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tạo]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đột_phá]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trong]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nỗ_lực]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[chặn]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đà]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tiến]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Nga]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[ở]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Donbass]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>

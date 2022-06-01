@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="419a23dfc15216535f6ab3d7727284ea90d8fae8607a18380b547ef8fe4c2b63">
+    <Document id="baa690ad65cbc9379dbcde146d29c03469bfd23be08bd1677d86305fbf1240e7">
         <Title><![CDATA[Hà Nội đếm phương tiện để điều chỉnh giao thông]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/ha-noi-dem-phuong-tien-de-dieu-chinh-giao-thong-4468862.html]]></DocumentURI>
         <Sentence>
@@ -10,29 +10,6 @@
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[để]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[điều_chỉnh]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[giao_thông]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[Một_số]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[điểm]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[thường]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[xảy]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[ra]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[ùn_tắc]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[ở]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Hà_Nội]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[sẽ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[được]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tổ_chức]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đếm]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[lưu_lượng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[phương_tiện]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[để]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[có]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[giải_pháp]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[điều_chỉnh]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[phương_án]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[giao_thông]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Yêu_cầu]]></Token>
@@ -292,74 +269,6 @@
         </Sentence>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Võ_Hải]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Không chỉ giờ cao điểm , nhiều tuyến đường ùn tắc kéo dài cả ngày khi Hà Nội chuyển trạng thái " bình thường mới" sau đại dịch Covid-19. 139]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[Không]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[chỉ]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[giờ]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cao_điểm]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[nhiều]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tuyến]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đường]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[ùn_tắc]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[kéo_dài]]></Token>
-            <Token tag="T" chunking="O" ner="O" sner="O"><![CDATA[cả]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[ngày]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khi]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Hà_Nội]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[chuyển]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[trạng_thái]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[bình_thường]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[mới]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[sau]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đại_dịch]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Covid-19]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Người dân ùn ùn đi nghỉ lễ khiến đường vành đai 3 Hà Nội , cao tốc ở TP HCM kẹt xe nhiều giờ liền , một số điểm thu phí phải xả trạm cho ôtô đi qua , sáng 30/4. 161]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[Người]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dân]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[ùn_ùn]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[nghỉ_lễ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[khiến]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đường]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[vành_đai]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[3]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Hà_Nội]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[cao_tốc]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[ở]]></Token>
-            <Token tag="Ny" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[TP]]></Token>
-            <Token tag="Ny" chunking="I-NP" ner="I-LOC" sner="O"><![CDATA[HCM]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[kẹt]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[xe]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[nhiều]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[giờ]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[liền]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[một_số]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[điểm]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[thu]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[phí]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[phải]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[xả]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[trạm]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[cho]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[ôtô]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[qua]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[sáng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[30]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[/]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[4]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
     </Document>
 </corpus>

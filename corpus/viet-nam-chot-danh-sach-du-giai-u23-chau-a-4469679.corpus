@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="0c7f4199790992ecd2c225727d75a44be3030a43ab76000bdf626a79c96ac341">
+    <Document id="0a961a10643b11207dec6c993da7bba463ab597bfa45549da5c8b1219f9dd93f">
         <Title><![CDATA[Việt Nam chốt danh sách dự giải U23 châu Á]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/viet-nam-chot-danh-sach-du-giai-u23-chau-a-4469679.html]]></DocumentURI>
         <Sentence>
@@ -11,30 +11,6 @@
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[giải]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[U23]]></Token>
             <Token tag="Np" chunking="I-NP" ner="I-PER" sner="O"><![CDATA[châu_Á]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[UzbekistanTrần]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Văn_Công]]></Token>
-            <Token tag="Cc" chunking="B-NP" ner="O" sner="O"><![CDATA[và]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Vũ_Minh_Hiếu]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[bị]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[loại]]></Token>
-            <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[nhưng]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[được]]></Token>
-            <Token tag="Ny" chunking="B-NP" ner="O" sner="O"><![CDATA[HLV]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Gong]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[Oh-kyun]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[giữ]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[ở]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[lại]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tập_luyện]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[tại]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[vòng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[chung_kết]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[U23]]></Token>
-            <Token tag="Np" chunking="I-NP" ner="I-PER" sner="O"><![CDATA[châu_Á]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[2022]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Các cầu thủ U23 Việt Nam đá giao hữu với U23 UAE trước khi dự vòng chung kết U23 châu Á. Ảnh: VFF]]></SimpleTextPart>
         <Sentence>
@@ -339,4 +315,9 @@
             <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[6]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-'NoneType' object has no attribute 'data'
+        <Sentence>
+            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Đức]]></Token>
+            <Token tag="Np" chunking="I-NP" ner="I-PER" sner="O"><![CDATA[Đồng]]></Token>
+        </Sentence>
+    </Document>
+</corpus>

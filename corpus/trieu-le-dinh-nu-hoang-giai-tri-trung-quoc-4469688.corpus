@@ -1,38 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="73611a611072f30ccf9c9bf990ea95be6e815eb55020112375a67d9bbfc1e101">
-        <Title><![CDATA[Triệu Lệ Dĩnh - ' nữ hoàng giải trí' Trung Quốc]]></Title>
+    <Document id="d4e99ae0df085b8235d9ea03deb3a15591e6ccf8530d084b29e6ac4d194cc8f2">
+        <Title><![CDATA[Triệu Lệ Dĩnh]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/trieu-le-dinh-nu-hoang-giai-tri-trung-quoc-4469688.html]]></DocumentURI>
         <Sentence>
-            <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[Triệu]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Lệ_Dĩnh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[-]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[']]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nữ_hoàng]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[giải_trí]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[']]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Trung_Quốc]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[Triệu]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Lệ_Dĩnh]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[được]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[mệnh_danh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Nữ_hoàng]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[giải_trí]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Trung_Quốc]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[vì]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[có]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[người]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[xem]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[nhiều]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[nhất]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trên]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nền_tảng]]></Token>
-            <Token tag="Nb" chunking="B-NP" ner="O" sner="O"><![CDATA[video]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
+            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Triệu]]></Token>
+            <Token tag="Np" chunking="I-NP" ner="I-PER" sner="O"><![CDATA[Lệ_Dĩnh]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Theo Sina , người đẹp 35 tuổi lập kỷ lục là ngôi sao ăn khách nhất ở các nền tảng trực tuyến. Loạt tác phẩm cô đóng chính đạt tổng lượt xem trên 200 tỉ. Số liệu do hãng phân tích thị trường Guduo Data và Vlinkage công bố , dựa trên thống kê từ các nền tảng như Tencent Video , Iqiyi , Youku ...]]></SimpleTextPart>
         <Sentence>
@@ -94,40 +67,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Youku]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[...]]></Token>
         </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[This]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[is]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[a]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[modal]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Beginning of dialog window. Escape will cancel and close the window.]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Beginning]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[of]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dialog]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Escape]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[will]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cancel]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[and]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[close]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[the]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[End]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[of]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dialog]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Triệu Lệ Dĩnh và Phùng Thiệu Phong trong " Minh Lan truyện" . Video: Iqiyi]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Triệu Lệ Dĩnh và Phùng Thiệu Phong trong "Minh Lan truyện". Video: Iqiyi]]></SimpleTextPart>
         <Sentence>
             <Token tag="M" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Triệu]]></Token>
             <Token tag="Np" chunking="I-NP" ner="I-PER" sner="O"><![CDATA[Lệ_Dĩnh]]></Token>
@@ -239,7 +179,7 @@
             <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[nhất]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Triệu Lệ Dĩnh hoạt động giải trí 16 năm , những năm đầu chỉ quanh quẩn với các vai a hoàn , em gái , con gái của nhân vật chính trong phim truyền hình. Bấy giờ , cô bị chê mặt tròn , không hợp tiêu chuẩn V line thịnh hành trong giới giải trí. Trong lần diễn thuyết năm 2017 , diễn viên nói: " Tôi muốn chứng minh giá trị của một diễn viên không phụ thuộc hình dạng gương mặt" .]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Triệu Lệ Dĩnh hoạt động giải trí 16 năm , những năm đầu chỉ quanh quẩn với các vai a hoàn , em gái , con gái của nhân vật chính trong phim truyền hình. Bấy giờ , cô bị chê mặt tròn , không hợp tiêu chuẩn V line thịnh hành trong giới giải trí. Trong lần diễn thuyết năm 2017 , diễn viên nói: "Tôi muốn chứng minh giá trị của một diễn viên không phụ thuộc hình dạng gương mặt".]]></SimpleTextPart>
         <Sentence>
             <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[Triệu]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Lệ_Dĩnh]]></Token>
@@ -399,7 +339,7 @@
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Zhao_Liying_Studio]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Lệ Dĩnh cho biết trước khi kết hôn với Phùng Thiệu Phong năm 2018 , một năm cô làm việc trên trường quay hơn 300 ngày. Cô nói: " Tôi không nhận ra mình miệt mài công việc cho tới khi có người bạn hỏi tôi vì sao không du lịch , tận hưởng cuộc sống. So với các cô gái cùng trang lứa , tôi ít đi chơi , dạo phố , ít yêu đương. Nhưng có thể mang lại chút ảnh hưởng với khán giả qua vai diễn , tôi thấy mãn nguyện" .]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Lệ Dĩnh cho biết trước khi kết hôn với Phùng Thiệu Phong năm 2018 , một năm cô làm việc trên trường quay hơn 300 ngày. Cô nói: "Tôi không nhận ra mình miệt mài công việc cho tới khi có người bạn hỏi tôi vì sao không du lịch , tận hưởng cuộc sống. So với các cô gái cùng trang lứa , tôi ít đi chơi , dạo phố , ít yêu đương. Nhưng có thể mang lại chút ảnh hưởng với khán giả qua vai diễn , tôi thấy mãn nguyện".]]></SimpleTextPart>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Lệ_Dĩnh]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[cho]]></Token>
@@ -491,7 +431,7 @@
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Sau khi thành danh , Lệ Dĩnh lập các công ty riêng , mở rộng lĩnh vực đầu tư , kinh doanh. Cô không giấu tham vọng " thay đổi một số quy luật của làng giải trí" . Sau khi công bố ly hôn năm 2021 , người đẹp liên tục đóng phim mới. Diễn viên sắp ra mắt Dữ phụng hành , đóng cặp Lâm Canh Tân - bạn diễn của cô trong Sở Kiều truyện.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Sau khi thành danh , Lệ Dĩnh lập các công ty riêng , mở rộng lĩnh vực đầu tư , kinh doanh. Cô không giấu tham vọng "thay đổi một số quy luật của làng giải trí". Sau khi công bố ly hôn năm 2021 , người đẹp liên tục đóng phim mới. Diễn viên sắp ra mắt Dữ phụng hành , đóng cặp Lâm Canh Tân - bạn diễn của cô trong Sở Kiều truyện.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[Sau]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khi]]></Token>
@@ -561,7 +501,7 @@
             <Token tag="Ny" chunking="B-NP" ner="O" sner="O"><![CDATA[Kiều_truyện]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Lệ Dĩnh chụp ảnh tạp chí số tháng 5. Video: Harper' s Bazaar]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Lệ Dĩnh chụp ảnh tạp chí số tháng 5. Video: Harper's Bazaar]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Lệ]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Dĩnh]]></Token>
@@ -576,9 +516,7 @@
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Video]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Harper]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[']]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[s]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Harper's]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Bazaar]]></Token>
         </Sentence>
         <Sentence>

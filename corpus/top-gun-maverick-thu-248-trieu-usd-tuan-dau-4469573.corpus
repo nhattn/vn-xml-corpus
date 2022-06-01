@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="4a23e451cf09f3a03b18bbef09bb58e51480042f67696e983b916a9b254b71de">
-        <Title><![CDATA[' Top Gun: Maverick' thu 248 triệu USD tuần đầu]]></Title>
+    <Document id="d3ba43c0e713931a4bc5478f444bde67b3f76fb6ab0c978f23383edf3def2625">
+        <Title><![CDATA['Top Gun: Maverick' thu 248 triệu USD tuần đầu]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/top-gun-maverick-thu-248-trieu-usd-tuan-dau-4469573.html]]></DocumentURI>
         <Sentence>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[']]></Token>
@@ -15,30 +15,6 @@
             <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[USD]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tuần]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đầu]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Top_Gun]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Maverick]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[thu]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[248]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[triệu]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[USD]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[sau]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tuần]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[công_chiếu]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thành_tích]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[phim]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[mở_màn]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[tốt]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[nhất]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[sự_nghiệp]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[của]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Tom_Cruise]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Theo Deadline , phần hai của thương hiệu Top Gun kiếm 151 triệu USD dịp cuối tuần qua tại riêng thị trường Bắc Mỹ. Giới chuyên môn đánh giá thành tích ấn tượng dù chưa đủ vượt kỷ lục phòng vé dịp lễ Memorial Day của Pirates of the Caribbean: At World's End (153 triệu USD) , lập năm 2007. Toàn cầu , phim kiếm tổng 248 triệu USD và là doanh thu mở màn cao nhất trong sự nghiệp hơn 40 năm của Tom Cruise.]]></SimpleTextPart>
         <Sentence>
@@ -124,40 +100,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Tom_Cruise]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[This]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[is]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[a]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[modal]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Beginning of dialog window. Escape will cancel and close the window.]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Beginning]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[of]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dialog]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Escape]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[will]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cancel]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[and]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[close]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[the]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[End]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[of]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dialog]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Trailer " Top Gun: Maverick" . Video: CGV]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Trailer "Top Gun: Maverick". Video: CGV]]></SimpleTextPart>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Trailer]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
@@ -244,7 +187,7 @@
             <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[hai]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Rich Gelfond - giám đốc của IMAX - nói với Deadline: " Nếu bạn nghĩ điện ảnh đã chết , hãy đi xem Top Gun: Maverick. Bộ phim báo hiệu mùa bom tấn hè đã trở lại. Sau khi ngồi trong rạp với màn hình khổng lồ và dàn âm thanh công suất lớn , bạn sẽ nghĩ rằng không có cách nào khác tuyệt vời hơn để thưởng thức bộ phim này. Chúng tôi xin ngả mũ thán phục Tom Cruise , đạo diễn Joe Kosinski và êkíp dũng cảm của họ" .]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Rich Gelfond - giám đốc của IMAX - nói với Deadline: "Nếu bạn nghĩ điện ảnh đã chết , hãy đi xem Top Gun: Maverick. Bộ phim báo hiệu mùa bom tấn hè đã trở lại. Sau khi ngồi trong rạp với màn hình khổng lồ và dàn âm thanh công suất lớn , bạn sẽ nghĩ rằng không có cách nào khác tuyệt vời hơn để thưởng thức bộ phim này. Chúng tôi xin ngả mũ thán phục Tom Cruise , đạo diễn Joe Kosinski và êkíp dũng cảm của họ".]]></SimpleTextPart>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Rich_Gelfond]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[-]]></Token>

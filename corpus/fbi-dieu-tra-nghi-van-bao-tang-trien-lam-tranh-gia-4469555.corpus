@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="9ec2e646e2702f18830ca39895fa32834905e79352320e378a848f3ad24b029d">
+    <Document id="6f4dd3908bb9e3eda7a425d6ccb1fda73ed45985768c0632c62aa826c6b70fb3">
         <Title><![CDATA[FBI điều tra nghi vấn bảo tàng triển lãm tranh giả]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/fbi-dieu-tra-nghi-van-bao-tang-trien-lam-tranh-gia-4469555.html]]></DocumentURI>
         <Sentence>
@@ -11,22 +11,6 @@
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[triển_lãm]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tranh]]></Token>
             <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[giả]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[MỹFBI]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[điều_tra]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nguồn_gốc]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tác_phẩm]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[của]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[danh_họa]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Jean-Michel_Basquiat]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[ở]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[triển_lãm]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[tại]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Bảo_tàng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Nghệ_thuật]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Orlando]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Ngày 29/5 (theo giờ địa phương) , New York Times đưa tin Đội tội phạm nghệ thuật của FBI (Art crime team) đang điều tra tính xác thực của 25 bức tranh trong triển lãm Heroes & Monsters (diễn ra ngày 12/2-30/6) tại Bảo tàng Nghệ thuật Orlando. Các tác phẩm lần đầu được giới thiệu đến giới chuyên môn và công chúng.]]></SimpleTextPart>
         <Sentence>
@@ -205,7 +189,7 @@
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[liên_bang]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Không gian trưng bày triển lãm " Heroes & Monsters" , diễn ra từ ngày 12/2 đến 30/6. Ảnh: Macbeth Studios]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Không gian trưng bày triển lãm "Heroes & Monsters" , diễn ra từ ngày 12/2 đến 30/6. Ảnh: Macbeth Studios]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Không_gian]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[trưng_bày]]></Token>
@@ -471,7 +455,7 @@
             <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[2018]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Aaron De Groft - Bảo tàng Nghệ thuật Orlando - đưa bài thơ vào triển lãm như bằng chứng xác thực về các bức tranh. " Bài thơ gần giống như một biên nhận , nó đề cập đến các tác phẩm , đến những dòng chữ trong tác phẩm và cả thời gian" , De Groft nói.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Aaron De Groft - Bảo tàng Nghệ thuật Orlando - đưa bài thơ vào triển lãm như bằng chứng xác thực về các bức tranh. "Bài thơ gần giống như một biên nhận , nó đề cập đến các tác phẩm , đến những dòng chữ trong tác phẩm và cả thời gian" , De Groft nói.]]></SimpleTextPart>
         <Sentence>
             <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[Aaron]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[De_Groft]]></Token>
@@ -524,7 +508,7 @@
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[nói]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Bức " Untitled (Boxer) - một trong 25 tác phẩm triển lãm. Ảnh: New York Times]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Bức "Untitled (Boxer) - một trong 25 tác phẩm triển lãm. Ảnh: New York Times]]></SimpleTextPart>
         <Sentence>
             <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[Bức]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
@@ -545,7 +529,7 @@
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[New_York_Times]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Nhà buôn nghệ thuật Larry Gagosian nhận định khó có chuyện Basquiat vẽ loạt tranh vào năm 1982. Một tác phẩm được vẽ trên tấm bìa cứng có in dòng chữ " Align top of FedEx Shipping Label here" . Lindon Leader - chuyên gia thương hiệu - cho biết phông chữ đó chỉ được tập đoàn FedEx sử dụng từ năm 1994 - sáu năm sau khi họa sĩ qua đời - khi thiết kế lại logo và bộ nhận diện.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Nhà buôn nghệ thuật Larry Gagosian nhận định khó có chuyện Basquiat vẽ loạt tranh vào năm 1982. Một tác phẩm được vẽ trên tấm bìa cứng có in dòng chữ "Align top of FedEx Shipping Label here". Lindon Leader - chuyên gia thương hiệu - cho biết phông chữ đó chỉ được tập đoàn FedEx sử dụng từ năm 1994 - sáu năm sau khi họa sĩ qua đời - khi thiết kế lại logo và bộ nhận diện.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Nhà_buôn]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nghệ_thuật]]></Token>
@@ -621,7 +605,7 @@
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[nhận_diện]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Một số người thân và bạn bè của Mumford khẳng định " ông không bao giờ đề cập đến sở thích nghệ thuật đương đại , chứ đừng nói đến việc mua tranh của Basquiat" . Biên kịch Sheldon Bull - đồng nghiệp của Mumford - cho biết: " Trở lại những năm 1970 , trước khi có máy tính , chúng tôi thường gửi kịch bản cho nhân viên đánh máy. Điều đó không thay đổi trong những năm 1980. Tôi chưa bao giờ thấy Thad gõ một chữ cái nào. Anh ấy cũng không có máy tính" .]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Một số người thân và bạn bè của Mumford khẳng định "ông không bao giờ đề cập đến sở thích nghệ thuật đương đại , chứ đừng nói đến việc mua tranh của Basquiat". Biên kịch Sheldon Bull - đồng nghiệp của Mumford - cho biết: "Trở lại những năm 1970 , trước khi có máy tính , chúng tôi thường gửi kịch bản cho nhân viên đánh máy. Điều đó không thay đổi trong những năm 1980. Tôi chưa bao giờ thấy Thad gõ một chữ cái nào. Anh ấy cũng không có máy tính".]]></SimpleTextPart>
         <Sentence>
             <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[Một_số]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[người_thân]]></Token>
@@ -716,7 +700,7 @@
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[De Groft thể hiện sự tức giận trước những nghi ngờ về tính xác thực của tranh. Ông nói: " Danh tiếng của tôi đang bị đe dọa. Tôi hoàn toàn khẳng định đây là những ' đứa con' của Basquiat" . De Groft cung cấp phân tích về tác phẩm của một số chuyên gia như: chuyên gia chữ viết tay James Blanco , giám tuyển nghệ thuật Diego Cortez - thành viên của Ủy ban xác thực di sản Basquiat , phó giáo sư Jordana Moore Saggese - tác giả cuốn Reading Basquiat: Exploring Ambivalence in American Art ...]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[De Groft thể hiện sự tức giận trước những nghi ngờ về tính xác thực của tranh. Ông nói: "Danh tiếng của tôi đang bị đe dọa. Tôi hoàn toàn khẳng định đây là những 'đứa con' của Basquiat". De Groft cung cấp phân tích về tác phẩm của một số chuyên gia như: chuyên gia chữ viết tay James Blanco , giám tuyển nghệ thuật Diego Cortez - thành viên của Ủy ban xác thực di sản Basquiat , phó giáo sư Jordana Moore Saggese - tác giả cuốn Reading Basquiat: Exploring Ambivalence in American Art ...]]></SimpleTextPart>
         <Sentence>
             <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[De]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Groft]]></Token>
@@ -802,7 +786,7 @@
             <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[American_Art]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[...]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Tuy nhiên , Diego Cortez đã mất vào năm 2021 , còn Saggese cho rằng báo cáo của bà đã bị chủ sở hữu xuyên tạc. Họ đã xóa trang trong đó bà nói rõ rằng chín trong số 25 bức tranh không thể là của Basquiat. " Họ càng quay lưng lại với tôi , tôi càng nghi ngờ về động cơ của họ" , bà nói.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Tuy nhiên , Diego Cortez đã mất vào năm 2021 , còn Saggese cho rằng báo cáo của bà đã bị chủ sở hữu xuyên tạc. Họ đã xóa trang trong đó bà nói rõ rằng chín trong số 25 bức tranh không thể là của Basquiat. "Họ càng quay lưng lại với tôi , tôi càng nghi ngờ về động cơ của họ" , bà nói.]]></SimpleTextPart>
         <Sentence>
             <Token tag="C" chunking="O" ner="O" sner="O"><![CDATA[Tuy_nhiên]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
@@ -873,7 +857,7 @@
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[nói]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Colette Loll - Giám đốc công ty chuyên về xác thực tác phẩm - cho biết: " Việc thiếu các phân tích khoa học về phương pháp , vật liệu vẽ nói lên rất nhiều điều. Phân tích chữ viết tay hay các bài thơ không xác thực được tác phẩm" .]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Colette Loll - Giám đốc công ty chuyên về xác thực tác phẩm - cho biết: "Việc thiếu các phân tích khoa học về phương pháp , vật liệu vẽ nói lên rất nhiều điều. Phân tích chữ viết tay hay các bài thơ không xác thực được tác phẩm".]]></SimpleTextPart>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Colette_Loll]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[-]]></Token>
@@ -1071,7 +1055,7 @@
             <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[không]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Giá trị tác phẩm của Basquiat tăng vọt trong vài năm trở lại đây. Trong phiên đấu giá hôm 18/5 , bức Untitled (1982) bán ở mức 85 triệu USD. Năm 2017 , bức Untitled bán giá 110,5 triệu USD tại Sotheby' s - mức đấu giá cao nhất đối với một tác phẩm nghệ thuật của Mỹ. Theo Công ty thẩm định cổ vật và mỹ thuật Putnam , nếu 25 bức tranh được xác định của Basquiat , chúng có giá lên tới gần 100 triệu USD. Trưng bày tranh tại bảo tàng thường giúp nâng cao tính hợp pháp của tác phẩm , mà không cần xuất xứ rõ ràng.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Giá trị tác phẩm của Basquiat tăng vọt trong vài năm trở lại đây. Trong phiên đấu giá hôm 18/5 , bức Untitled (1982) bán ở mức 85 triệu USD. Năm 2017 , bức Untitled bán giá 110,5 triệu USD tại Sotheby's - mức đấu giá cao nhất đối với một tác phẩm nghệ thuật của Mỹ. Theo Công ty thẩm định cổ vật và mỹ thuật Putnam , nếu 25 bức tranh được xác định của Basquiat , chúng có giá lên tới gần 100 triệu USD. Trưng bày tranh tại bảo tàng thường giúp nâng cao tính hợp pháp của tác phẩm , mà không cần xuất xứ rõ ràng.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Giá_trị]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tác_phẩm]]></Token>
@@ -1117,9 +1101,7 @@
             <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[triệu]]></Token>
             <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[USD]]></Token>
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[tại]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Sotheby]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[']]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[s]]></Token>
+            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Sotheby's]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[-]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[mức]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đấu_giá]]></Token>

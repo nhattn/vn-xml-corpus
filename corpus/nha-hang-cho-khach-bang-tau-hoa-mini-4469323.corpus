@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="ff7913680e6a1d119cf954285f4f12ca1455c0ea10a56fddfff0d6f5e3b77d36">
+    <Document id="515968e392a27079b238847addecca0872a5e41614ef6807b3c113aae7b4aef5">
         <Title><![CDATA[Nhà hàng chở khách bằng tàu hoả mini]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/nha-hang-cho-khach-bang-tau-hoa-mini-4469323.html]]></DocumentURI>
         <Sentence>
@@ -10,27 +10,6 @@
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[bằng]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tàu_hoả]]></Token>
             <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[mini]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Thái]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[LanThực]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khách]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đến]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nhà_hàng]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[ở]]></Token>
-            <Token tag="N" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[tỉnh]]></Token>
-            <Token tag="Np" chunking="I-NP" ner="I-LOC" sner="O"><![CDATA[Surin]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[được]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[trải_nghiệm]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tàu_hoả]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[mini]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[vòng_quanh]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[với]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[giá]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[10]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[baht]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Nhà hàng Xiao Er Hoi Kham Na Rung , nằm giữa cánh đồng lúa ở tỉnh Surin , Thái Lan , làm một đoàn tàu mini để vận chuyển thực khách. Khách ngồi trên những toa tàu tận hưởng khí trời , nghe tiếng còi và trải nghiệm cảm giác như đi tàu hoả đích thực.]]></SimpleTextPart>
         <Sentence>
@@ -84,39 +63,6 @@
             <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[đích_thực]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[This]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[is]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[a]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[modal]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Beginning of dialog window. Escape will cancel and close the window.]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Beginning]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[of]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dialog]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Escape]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[will]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cancel]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[and]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[close]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[the]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[End]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[of]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dialog]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
         <SimpleTextPart><![CDATA[Du khách thích thú với đoàn tàu mini , đặc biệt là thực khách nhí. Video: Newsflare]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Du_khách]]></Token>
@@ -137,7 +83,7 @@
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[:]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Newsflare]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Chủ nhà hàng , Adisak , 33 tuổi , là một kỹ sư điện. Anh đã tự thiết kế ra đoàn tàu tranh thủ các khoảng thời gian rảnh rỗi hàng ngày. " Tôi đã xây dựng đoàn tàu theo những giấc mơ thời thơ ấu. Tôi muốn những người có cùng ước mơ với mình đến thăm nhà hàng" , Adisak chia sẻ.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Chủ nhà hàng , Adisak , 33 tuổi , là một kỹ sư điện. Anh đã tự thiết kế ra đoàn tàu tranh thủ các khoảng thời gian rảnh rỗi hàng ngày. "Tôi đã xây dựng đoàn tàu theo những giấc mơ thời thơ ấu. Tôi muốn những người có cùng ước mơ với mình đến thăm nhà hàng" , Adisak chia sẻ.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Chủ]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nhà_hàng]]></Token>
@@ -264,7 +210,7 @@
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[)]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Nhà hàng có nhiều không gian thiên nhiên do nằm trong một khu nông trại và phục vụ nhiều món ngon cho thực khách từ đồ ăn thu mua của người dân trong vùng. " Chúng tôi bán thịt lợn nướng , hải sản như hàu tẩm gia vị , salad trộn , mực chiên , súp tom yum ... Khách hàng có thể đặt món ăn một cách an toàn thông qua mã QR" , Adisak giới thiệu. Nhà hàng mở cửa hàng ngày từ 10h đến 21h.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Nhà hàng có nhiều không gian thiên nhiên do nằm trong một khu nông trại và phục vụ nhiều món ngon cho thực khách từ đồ ăn thu mua của người dân trong vùng. "Chúng tôi bán thịt lợn nướng , hải sản như hàu tẩm gia vị , salad trộn , mực chiên , súp tom yum ... Khách hàng có thể đặt món ăn một cách an toàn thông qua mã QR" , Adisak giới thiệu. Nhà hàng mở cửa hàng ngày từ 10h đến 21h.]]></SimpleTextPart>
         <Sentence>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Nhà_hàng]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[có]]></Token>
@@ -358,51 +304,6 @@
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[Theo]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Newsflare]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[)]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Đặng_Thùy_Dương]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[sống]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[tại]]></Token>
-            <Token tag="Ny" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[TP]]></Token>
-            <Token tag="Ny" chunking="I-NP" ner="I-LOC" sner="O"><![CDATA[HCM]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[chia_sẻ]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[lịch_trình]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[chi_tiết]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[ăn_ở]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đi_lại]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[tại]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Bangkok]]></Token>
-            <Token tag="Cc" chunking="I-NP" ner="I-LOC" sner="O"><![CDATA[và]]></Token>
-            <Token tag="Np" chunking="I-NP" ner="I-LOC" sner="O"><![CDATA[Chiang_Mai]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trong]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[chuyến]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[du_lịch]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tháng]]></Token>
-            <Token tag="M" chunking="B-NP" ner="B-MISC" sner="B-DATE"><![CDATA[5]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Chuyến tàu kéo dài 45 phút giúp du khách thay đổi không khí , trải nghiệm cuộc sống khác vào cuối tuần. 62]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Chuyến]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tàu]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[kéo_dài]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[45]]></Token>
-            <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[phút]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[giúp]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[du_khách]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[thay_đổi]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[không_khí]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[trải_nghiệm]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cuộc_sống]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[khác]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[vào]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cuối]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tuần]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
     </Document>
 </corpus>

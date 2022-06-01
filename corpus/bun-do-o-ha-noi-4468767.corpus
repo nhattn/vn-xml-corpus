@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="8932223637b0545e67781082cfd48231f90ac4bc5347177ad5e10ad485b6e700">
+    <Document id="3049fef868c1b0130dec3b2624cdb2c6ab504b34b45691ca2fa5965480d1e4ec">
         <Title><![CDATA[Bún đỏ ở Hà Nội]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/bun-do-o-ha-noi-4468767.html]]></DocumentURI>
         <Sentence>
@@ -8,23 +8,6 @@
             <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[đỏ]]></Token>
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[ở]]></Token>
             <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Hà_Nội]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Món]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bún]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đặc_sản]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[của]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Đăk_Lăk]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[được]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đưa]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[về]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Hà_Nội]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[cho]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thực_khách]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[muốn]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đổi]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[vị]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Màu bắt mắt của bát bún đỏ có thể kích thích sự tò mò của những ai chưa từng thử món này. Người Hà Nội đã quen với bún riêu có màu đỏ từ nước , song sợi bún cũng có màu này thì khá lạ lẫm.]]></SimpleTextPart>
         <Sentence>
@@ -396,7 +379,7 @@
             <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[h]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Khánh Ly , 24 tuổi , đã ăn bún đỏ ở Buôn Ma Thuột , so sánh: " Tô bún đỏ ở cả hai nơi đều hài hòa , dễ ăn. Ở Buôn Ma Thuột có thêm phần rau chần , bún đậm đà vị mắm hơn. Ở Hà Nội thì ấn tượng của mình là miếng riêu tôm thơm , bùi béo" .]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Khánh Ly , 24 tuổi , đã ăn bún đỏ ở Buôn Ma Thuột , so sánh: "Tô bún đỏ ở cả hai nơi đều hài hòa , dễ ăn. Ở Buôn Ma Thuột có thêm phần rau chần , bún đậm đà vị mắm hơn. Ở Hà Nội thì ấn tượng của mình là miếng riêu tôm thơm , bùi béo".]]></SimpleTextPart>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Khánh_Ly]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
@@ -462,90 +445,6 @@
         </Sentence>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Trung_Nghĩa]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[Đến]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Hà_Nội]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[du_khách]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[có_thể]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[dành]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thời_gian]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[dạo]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[quanh]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[phố]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[cổ]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="N" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[hồ]]></Token>
-            <Token tag="Np" chunking="I-NP" ner="I-LOC" sner="O"><![CDATA[Hoàn_Kiếm]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[thăm]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[lăng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Chủ_tịch]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Hồ_Chí_Minh]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Văn_Miếu]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[-]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Quốc_Tử_Giám]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[...]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Phở vịt là đặc sản của người Lạng Sơn , được du nhập về Hà Nội , trở thành món ăn đổi bữa cho buổi sáng. 14]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Phở]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[vịt]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[là]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[đặc_sản]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[của]]></Token>
-            <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[người]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Lạng_Sơn]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[được]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[du_nhập]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[về]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Hà_Nội]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[trở_thành]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[món]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[ăn]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đổi]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bữa]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[cho]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[buổi]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[sáng]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Ở Sài Gòn nhiều người chuộng bún bò có thịt nạm nấu chín trong khi tô bún bò yêu thích của người Huế có thịt tái xoăn ửng hồng , ăn thật mềm. 101]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[Ở]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Sài_Gòn]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[nhiều]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[người]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[chuộng]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bún_bò]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[có]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thịt]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[nạm]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[nấu]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[chín]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[trong]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khi]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[tô]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bún_bò]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[yêu]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[thích]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[của]]></Token>
-            <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[người]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Huế]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[có]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[thịt]]></Token>
-            <Token tag="Z" chunking="O" ner="O" sner="O"><![CDATA[tái]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[xoăn]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[ửng_hồng]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[,]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[ăn]]></Token>
-            <Token tag="T" chunking="O" ner="O" sner="O"><![CDATA[thật]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[mềm]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
     </Document>
 </corpus>

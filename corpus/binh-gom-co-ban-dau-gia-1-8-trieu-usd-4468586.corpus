@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <corpus>
-    <Document id="032f2bd50425a4f136e87e1c1580de42098f667763ea022bffcf23d307e53c3c">
-        <Title><![CDATA[Bình gốm cổ bán đấu giá 1 , 8 triệu USD]]></Title>
+    <Document id="d74db060d37705b1a54f56ec68ee58da5bf7d493d475b5982af8637f9f73e7eb">
+        <Title><![CDATA[Bình gốm cổ bán đấu giá 1,8 triệu USD]]></Title>
         <DocumentURI><![CDATA[https://vnexpress.net/binh-gom-co-ban-dau-gia-1-8-trieu-usd-4468586.html]]></DocumentURI>
         <Sentence>
             <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Bình]]></Token>
@@ -11,66 +11,6 @@
             <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[1,8]]></Token>
             <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[triệu]]></Token>
             <Token tag="Nu" chunking="B-NP" ner="O" sner="O"><![CDATA[USD]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Trung]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[QuốcMột]]></Token>
-            <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[chiếc]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[bình]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[hoàng_gia]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[có]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[liên_quan]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[đến]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[vua]]></Token>
-            <Token tag="Np" chunking="B-NP" ner="B-LOC" sner="O"><![CDATA[Càn_Long]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[được]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[sơn]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[màu]]></Token>
-            <Token tag="A" chunking="B-AP" ner="O" sner="O"><![CDATA[xanh]]></Token>
-            <Token tag="R" chunking="O" ner="O" sner="O"><![CDATA[đã]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[bán]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[đấu_giá]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[với]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[số]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[tiền]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[gấp]]></Token>
-            <Token tag="M" chunking="B-NP" ner="O" sner="O"><![CDATA[10]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[lần]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[dự_kiến]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[This]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[is]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[a]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[modal]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <SimpleTextPart><![CDATA[Beginning of dialog window. Escape will cancel and close the window.]]></SimpleTextPart>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[Beginning]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[of]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dialog]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="Np" chunking="B-NP" ner="B-PER" sner="O"><![CDATA[Escape]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[will]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[cancel]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[and]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[close]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[the]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
-        </Sentence>
-        <Sentence>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[End]]></Token>
-            <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[of]]></Token>
-            <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[dialog]]></Token>
-            <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[window]]></Token>
-            <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
         <SimpleTextPart><![CDATA[Cận cảnh chiếc bình gốm thời nhà Thanh được bán đấu giá hôm 18/5. Video: Dreweatts]]></SimpleTextPart>
         <Sentence>
@@ -423,7 +363,7 @@
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[cướp_phá]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[Trước khi được đem bán đấu giá , " báu vật thời nhà Thanh" đã có thời gian bị lãng quên trong một nhà bếp ở Vương quốc Anh. Các nhà sử học đến nay vẫn không chắc chắn về lịch sử của nó.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA[Trước khi được đem bán đấu giá , "báu vật thời nhà Thanh" đã có thời gian bị lãng quên trong một nhà bếp ở Vương quốc Anh. Các nhà sử học đến nay vẫn không chắc chắn về lịch sử của nó.]]></SimpleTextPart>
         <Sentence>
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[Trước]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[khi]]></Token>
@@ -465,7 +405,7 @@
             <Token tag="P" chunking="B-NP" ner="O" sner="O"><![CDATA[nó]]></Token>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[.]]></Token>
         </Sentence>
-        <SimpleTextPart><![CDATA[" Chiếc bình có thể là một món quà của vua Càn Long cho một trong những quan chức của ông ấy và gia đình của quan chức đó có thể đã bán nó trên thị trường mở vào thế kỷ 20 khi tình hình kinh tế trở nên khó khăn. Tuy nhiên , cũng có khả năng nó đã bị cướp khỏi cung điện bởi quân đội nước ngoài vào khoảng thời gian từ năm 1860 đến năm 1901. Chúng ta có thể sẽ không bao giờ biết được sự thật" , Justin Jacobs , Giáo sư lịch sử tại Đại học Mỹ ở Washington D.C , cho biết trong một cuộc phỏng vấn.]]></SimpleTextPart>
+        <SimpleTextPart><![CDATA["Chiếc bình có thể là một món quà của vua Càn Long cho một trong những quan chức của ông ấy và gia đình của quan chức đó có thể đã bán nó trên thị trường mở vào thế kỷ 20 khi tình hình kinh tế trở nên khó khăn. Tuy nhiên , cũng có khả năng nó đã bị cướp khỏi cung điện bởi quân đội nước ngoài vào khoảng thời gian từ năm 1860 đến năm 1901. Chúng ta có thể sẽ không bao giờ biết được sự thật" , Justin Jacobs , Giáo sư lịch sử tại Đại học Mỹ ở Washington D.C , cho biết trong một cuộc phỏng vấn.]]></SimpleTextPart>
         <Sentence>
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA["]]></Token>
             <Token tag="Nc" chunking="B-NP" ner="O" sner="O"><![CDATA[Chiếc]]></Token>
