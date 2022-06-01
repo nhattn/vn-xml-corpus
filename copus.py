@@ -437,7 +437,7 @@ if __name__ == "__main__":
         fin = open(xml_file, 'r', encoding='utf-8', errors='ignore')
         xml_text = fin.read()
         fin.close()
-        xml_text = unicode_replace(xml_text)
+        # xml_text = unicode_replace(xml_text)
         mydoc = minidom.parseString(xml_text)
         uri = mydoc.getElementsByTagName('Link')[0]
         texts = mydoc.getElementsByTagName('Text')
@@ -449,7 +449,8 @@ if __name__ == "__main__":
         print('        <Title><![CDATA[%s]]></Title>' % texts[0].firstChild.data)
         print('        <DocumentURI><![CDATA[%s]]></DocumentURI>' % uri.firstChild.data)
         for el in texts:
-            text = qtp_alias(el.firstChild.data)
+            text = unicode_replace(el.firstChild.data)
+            text = qtp_alias(text)
             sentences = sent_tokenize(text)
             if len(sentences) > 1:
                 # Save to train sentence segment
