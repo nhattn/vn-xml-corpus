@@ -6,7 +6,7 @@ import sys
 import regex as re
 import hashlib
 from xml.dom import minidom
-from vinlp import pos_ner
+from vinlp import pos_sner
 from vinlp import sent_tokenize
 
 def unicode_replace(text):
@@ -348,14 +348,15 @@ def abs_tags(words):
         if it[0].lower() in ['ngày', 'tháng']:
             found = True
             tokens.append(it)
-            tokens.append(['','M', 'B-NP','B-MISC'])
+            tokens.append(['','M', 'B-NP','B-MISC','B-DATE'])
             continue
         if found:
             if it[0].isdigit() or it[0] in ['-','/']:
                 tokens[-1][0] = tokens[-1][0] + it[0]
                 tokens[-1][1] = 'M'
                 tokens[-1][2] = 'B-NP'
-                tokens[-1][2] = 'B-MISC'
+                tokens[-1][3] = 'B-MISC'
+                tokens[-1][4] = 'B-DATE'
             else:
                 found = False
                 tokens.append(it)
@@ -406,6 +407,8 @@ def qtp_alias(text):
     text = re.sub(r'tp\s+\.\s+hcm',repl, text, flags=re.I) # tp . hcm
     text = re.sub(r'q\.\s+\d+',repl, text, flags=re.I) # q. 1
     text = re.sub(r'q\s+\.\s+\d+',repl, text, flags=re.I) # q . 1
+    text = re.sub(r'p\.\s+\d+',repl, text, flags=re.I) # p. 10
+    text = re.sub(r'p\s+\.\s+\d+',repl, text, flags=re.I) # p . 10
     text = text.replace('%',' % ')
     text = re.sub(r'\?{2,}',' ? ', text)
     text = re.sub(r'\!{2,}',' ! ', text)
@@ -448,12 +451,12 @@ if __name__ == "__main__":
                 if ' ' not in sent or has_domain(sent.lower()):
                     continue
                 print('        <Sentence>')
-                result = pos_ner(sent)
+                result = pos_sner(sent)
                 # All token is part of date/datetime set to one part
                 result = abs_tags(result)
                 # Auto 92% -> 1% fixed
                 for it in result:
-                    print('            <Token tag="%s" chunking="%s" ner="%s"><![CDATA[%s]]></Token>' % (it[1], it[2], it[3], it[0]))
+                    print('            <Token tag="%s" chunking="%s" ner="%s" sner="%s"><![CDATA[%s]]></Token>' % (it[1], it[2], it[3], it[4], it[0]))
                 print('        </Sentence>')
         print('    </Document>')
         print('</corpus>')
