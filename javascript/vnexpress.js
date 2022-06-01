@@ -1,8 +1,12 @@
 javascript: (function() {
+    var node = document.body.cloneNode(true);
     var lines = [];
-    lines.push(document.querySelector('h1.title-detail').textContent.trim());
-    lines.push(document.querySelector('p.description').textContent.trim());
-    document.querySelectorAll('.fck_detail p,.fck_detail figcaption').forEach(function(el) {
+    node.querySelectorAll('.box-tinlienquanv2').forEach(function(el) {
+        el.remove();
+    });
+    lines.push(node.querySelector('h1.title-detail').textContent.trim());
+    lines.push(node.querySelector('p.description').textContent.trim());
+    node.querySelectorAll('.fck_detail p,.fck_detail figcaption').forEach(function(el) {
         lines.push(el.textContent.trim());
     });
     var unique = [];
