@@ -365,6 +365,13 @@ def abs_tags(words):
 
     tokens = [ token for token in tokens if token[0].strip() ]
 
+    for i in range(len(tokens)):
+        if tokens[i][3] in ['B-MISC', 'I-MISC','B-ORG', 'I-ORG']:
+            if tokens[i][4] == 'O':
+                it = list(tokens[i])
+                it[4] = 'B-FLEX' # partern will replace using editor
+                tokens[i] = tuple(it)
+
     return tokens
 
 def has_domain(s):

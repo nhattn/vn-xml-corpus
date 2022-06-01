@@ -591,8 +591,8 @@
             <Token tag="CH" chunking="O" ner="O" sner="O"><![CDATA[/]]></Token>
             <Token tag="N" chunking="B-NP" ner="O" sner="O"><![CDATA[2021]]></Token>
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[của]]></Token>
-            <Token tag="N" chunking="B-NP" ner="B-ORG" sner="O"><![CDATA[Bộ]]></Token>
-            <Token tag="N" chunking="I-NP" ner="I-ORG" sner="O"><![CDATA[Tài_chính]]></Token>
+            <Token tag="N" chunking="B-NP" ner="B-ORG" sner="B-FLEX"><![CDATA[Bộ]]></Token>
+            <Token tag="N" chunking="I-NP" ner="I-ORG" sner="B-FLEX"><![CDATA[Tài_chính]]></Token>
             <Token tag="E" chunking="B-PP" ner="O" sner="O"><![CDATA[về]]></Token>
             <Token tag="V" chunking="B-VP" ner="O" sner="O"><![CDATA[giảm]]></Token>
             <Token tag="L" chunking="B-NP" ner="O" sner="O"><![CDATA[các]]></Token>
