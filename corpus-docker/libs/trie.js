@@ -1,3 +1,5 @@
+var fs = require('fs');
+
 String.prototype.hashCode = function(){
     var hash = 0;
     for (var i = 0; i < this.length; i++) {
@@ -15,9 +17,18 @@ String.prototype.isupper = function() {
     return false;
 };
 const PUNCTUATION = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
+// trường học -> trường/N học/V trường_học/N
+//
+// Mỗi từ đơn đều có tính chất của nó và tính chất này đa trị 'đậu' (động từ)
+// 'đậu' (danh từ) chúng ta lưu mảng và khi lấy phải dùng luật.
 function Trie() {
     this.next = {};
     this.is_word = false;
+    this.tag = [];
+    this.value = '';
+}
+Trie.prototype.getTag = function() {
+    return this.tag;
 }
 Trie.prototype.find = function(word) {
     var tokens = word.split(/\s+/).map(function(v) {
@@ -36,6 +47,23 @@ Trie.prototype.find = function(word) {
     }
     return tmp.is_word;
 };
+Trie.prototype.get = function(word) {
+    var tokens = word.split(/\s+/).map(function(v) {
+        return v.trim();
+    }).filter(function(v) {
+        return v.length > 0;
+    });
+    var tmp = this;
+    for (let i in tokens) {
+        let token = tokens[i];
+        let hash = token.hashCode().toString();
+        if(tmp.next[hash] === undefined) {
+            return null;
+        }
+        tmp = tmp.next[hash];
+    }
+    return tmp;
+};
 Trie.prototype.add = function(word) {
     var tokens = word.split(/\s+/).map(function(v) {
         return v.trim();
@@ -45,15 +73,30 @@ Trie.prototype.add = function(word) {
     var tmp = this;
     for (let i in tokens) {
         let token = tokens[i];
+        // nhà em nuôi chó bẹc-giê sao anh dám tới -> bẹc-giê (hai từ không liên quan)
+        // quay vô-lăng hết cỡ trả lại đúng một vòng thì sẽ trả bánh về đúng chỗ -> ??
         if (PUNCTUATION.indexOf(token) != -1) {
-            tmp.is_word = true;
-            continue;
+            if (token != '-') {
+                tmp.is_word = true;
+                continue;
+            }
         }
         let hash = token.hashCode().toString();
         if(tmp.next[hash] === undefined) {
             tmp.next[hash] = new Trie();
         }
         tmp = tmp.next[hash];
+        if (token.indexOf('/') != -1) {
+            // đi/V, học/V, về/P
+            var tmp = token.split('/');
+            var tag = tmp.pop();
+            var word = tmp.join('/');
+            tmp.value = word;
+            tmp.tag.push(tag);
+        } else {
+            tmp.value = token;
+            tmp.tag.push('X');
+        }
     }
     tmp.is_word = true;
 };
@@ -102,10 +145,25 @@ Trie.prototype.extract = function(str) {
             if (j == tokens.length) {
                 break;
             }
-            let depth = Math.max(1, this.trail(tokens.slice(j));
+            let depth = Math.max(1, this.trail(tokens.slice(j)));
             words.push(tokens.slice(j, j + depth).join(" "));
             j += depth;
         }
     }
     return words;
+};
+exports.load = function(filepath) {
+    var kernel = new Trie();
+    try {
+        var data = fs.readFileSync(filepath, 'utf8');
+        var lines = data.toString().split(/[\r\n]/).map(function(v) {
+            return v.replace(/ {2,}/g,' ').trim();
+        }).filter(function(v) {
+            return v.length > 0;
+        });
+        for (var i in lines) {
+            kernel.add(lines[i]);
+        }
+    } catch(e) {}
+    return kernel;
 };

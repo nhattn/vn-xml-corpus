@@ -3,11 +3,17 @@ const path = require('path');
 const express = require('express');
 const bodyParser = require("body-parser");
 const readability = require('node-readability');
+const trie = require('./libs/trie')
 
 const app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+
+app.set("view engine", "ejs");
+app.set("views", path.join(__dirname, "views"));
+
+const vtrie = trie.load(path.join(__dirname, "vocab.txt"));
 
 const errorResponder = function(error, request, response, next) {
     response.header("Content-Type", 'application/json');

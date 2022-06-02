@@ -8,6 +8,7 @@ import hashlib
 from xml.dom import minidom
 from vinlp import pos_sner
 from vinlp import sent_tokenize
+from vinlp import sent_tag
 
 def unicode_replace(text):
     uni = [
@@ -459,6 +460,11 @@ if __name__ == "__main__":
             if len(sentences) > 1:
                 # Save to train sentence segment
                 print('        <SimpleTextPart><![CDATA[%s]]></SimpleTextPart>' % text)
+                sent_tags = sent_tag(text)
+                print('        <Spliter>')
+                for it in sent_tags:
+                    print('            <Token tag="%s"><![CDATA[%s]]></Spliter>' % tuple(it))
+                print('        </Spliter>')
             for sent in sentences:
                 # ignore if one word or has domain in sentence
                 if ' ' not in sent or has_domain(sent.lower()):
