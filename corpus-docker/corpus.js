@@ -116,7 +116,9 @@ const invalidPathHandler = function(request, response, next) {
 };
 
 app.get('/', function (req, res) {
-    res.json(["VN Corpus"]);
+    res.render("index", {
+        title:'VN Corpus'
+    });
 });
 
 app.post('/api/fetch', function(req, res) {
