@@ -7,7 +7,9 @@ const readability = require('node-readability');
 const trie = require('./libs/trie')
 const re = require('./libs/regex_tokenize')
 const consts = require('./libs/constants')
-const utils = require('./libs/utils')
+const utils = require('./libs/utils');
+const xml2js = require('xml2js');
+const parser = new xml2js.Parser({ attrkey: "ATTR" });
 
 const app = express();
 
@@ -48,15 +50,41 @@ app.post('/upload', async function(req, res) {
     req.pipe(writeStream);
     writeStream.on('finish', () => {
         let reader = fs.readFileSync(temp);
-        let filename = reader.slice(reader.indexOf("filename=\"") + "filename=\"".length, reader.indexOf('"\r\nContent-Type'));
         let hash = reader.slice(0,reader.indexOf('\r\n'));
         let content = reader.slice(reader.indexOf('\r\n\r\n') + '\r\n\r\n'.length, reader.lastIndexOf(Buffer.from('\r\n') + hash));
         // After real file is created, delete temporary file
-        fs.writeFileSync(filename.toString(), content);
         fs.unlinkSync(temp);
-        res.json({
-            filename: filename.toString()
-        })
+        try {
+            parser.parseString(content.toString(), (error, result) => {
+                if(error === null) {
+                    if (result.Document === undefined) {
+                        return res.json({
+                            error:'Tập tin không đúng chuẩn 0'
+                        });
+                    }
+                    let doc = result.Document;
+                    if (doc.Entry === undefined || doc.Entry.length == 0) {
+                        return res.json({
+                            error:'Tập tin không đúng chuẩn 1'
+                        });
+                    }
+                    if (doc.Entry[0].Text === undefined) {
+                        return res.json({
+                            error:'Tập tin không đúng chuẩn 2'
+                        });
+                    }
+                    return res.json(doc.Entry[0].Text);
+                } else {
+                    return res.json({
+                        error:error.message
+                    });
+                }
+            });
+        } catch (e) {
+            res.json({
+                error: e.message
+            })
+        }
     });
 });
 app.post('/api/tokenize', function(req, res) {
@@ -72,17 +100,29 @@ app.post('/api/tokenize', function(req, res) {
 });
 app.post('/api/fetch', function(req, res) {
     let url = req.body.url || null;
-    res.header("Content-Type", "application/xml");
+    let format = (req.body.format || '').toLowerCase();
     if ( ! url || url.length == 0 ) {
-        let data = `<?xml version="1.0" encoding="UTF-8"?>`;
-        data += `<Response><Error><![CDATA[URL is required]]></Error></Response>`;
-        return res.status(400).send(data);
+        if (format == 'xml') {
+            res.header("Content-Type", "application/xml");
+            let data = `<?xml version="1.0" encoding="UTF-8"?>`;
+            data += `<Response><Error><![CDATA[Vui lòng nhập vào địa chỉ lấy nội dung]]></Error></Response>`;
+            return res.status(400).send(data);
+        }
+        return res.json({
+            error:'Vui lòng nhập vào địa chỉ lấy nội dung'
+        });
     }
     readability(url, function(err, article, meta) {
         if (err) {
-            let data = `<?xml version="1.0" encoding="UTF-8"?>`;
-            data += `<Response><Error><![CDATA[${err.message}]]></Error></Response>`;
-            return res.status(400).send(data);
+            if (format == 'xml') {
+                res.header("Content-Type", "application/xml");
+                let data = `<?xml version="1.0" encoding="UTF-8"?>`;
+                data += `<Response><Error><![CDATA[${err.message}]]></Error></Response>`;
+                return res.status(400).send(data);
+            }
+            return res.json({
+                error: err.message
+            });
         }
         let pattern = new RegExp('<br/?>[ \r\n\s]*<br/?>', 'g');
         let html = article.html.replace(pattern, '</p><p>').replace(/<\/?font[^>]*>/g, '');
@@ -132,9 +172,15 @@ app.post('/api/fetch', function(req, res) {
             }
         }
         if (topDiv == null) {
-            let data = `<?xml version="1.0" encoding="UTF-8"?>`;
-            data += `<Response><Error><![CDATA[No content]]></Error></Response>`;
-            return res.status(400).send(data);
+            if (format == 'xml') {
+                res.header("Content-Type", "application/xml");
+                let data = `<?xml version="1.0" encoding="UTF-8"?>`;
+                data += `<Response><Error><![CDATA[Không có nội dung]]></Error></Response>`;
+                return res.status(400).send(data);
+            }
+            return res.json({
+                error:'Không có nội dung'
+            });
         }
         topDiv = utils.killCodeSpans(topDiv);
         topDiv = utils.killDivs(topDiv);
@@ -162,13 +208,17 @@ app.post('/api/fetch', function(req, res) {
         }).filter(function(v) {
             return v.length > 0;
         });
-        let data = `<?xml version="1.0" encoding="UTF-8"?>`;
-        data += `<Document><Link><![CDATA[${url}]]></Link><Entry>`;
-        for (var i in unique) {
-            data += `<Text><![CDATA[${unique[i]}]]></Text>`;
+        if (format == 'xml') {
+            res.header("Content-Type", "application/xml");
+            let data = `<?xml version="1.0" encoding="UTF-8"?>`;
+            data += `<Document><Link><![CDATA[${url}]]></Link><Entry>`;
+            for (var i in unique) {
+                data += `<Text><![CDATA[${unique[i]}]]></Text>`;
+            }
+            data += `</Entry></Document>`;
+            return res.status(200).send(data);
         }
-        data += `</Entry></Document>`;
-        return res.status(200).send(data);
+        return res.json(unique);
     });
 });
 app.use(errorResponder);
