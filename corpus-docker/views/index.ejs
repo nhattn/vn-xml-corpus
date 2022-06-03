@@ -11,6 +11,7 @@
         margin:0;
         padding:0;
         box-sizing:border-box;
+        outline:none;
     }
     a {
         text-decoration:none;
@@ -22,9 +23,223 @@
     body {
         font-family: 'Noto Serif',serif;
     }
+    input[name="group"] {
+        display:none;
+    }
+    nav, #wrap, footer {
+        width:500px;
+        max-width:100%;
+        margin:10px auto;
+    }
+    nav form {
+        display:none;
+    }
+    nav > p {
+        border-bottom: 1px solid #ddd;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    nav label {
+        cursor:pointer;
+        padding:5px 10px;
+        margin-bottom: -1px;
+        color: #555;
+        margin-right:2px;
+    }
+    input#f-link:checked ~ p label[for="f-link"],
+    input#f-upload:checked ~ p label[for="f-upload"] {
+        border-radius: 4px 4px 0 0;
+        border: 1px solid #ddd;
+        border-bottom-color: transparent;
+        background-color:#fff;
+        color:#993333;
+    }
+    input#f-link:checked ~ form#frm-link,
+    input#f-upload:checked ~ form#frm-upload {
+        display:block;
+    }
+    form {
+        background-color:#f6f8fa;
+        padding:10px;
+        margin:10px 0;
+    }
+    form p {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    form input, form button {
+        padding:5px 8px;
+        color:#24292f;
+        border:1px solid #d0d7de;
+        border-radius: 6px;
+    }
+    form input {
+        width:80%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-right-color:#2da44e;
+    }
+    form button {
+        width:20%;
+        border-color:#2da44e;
+        background-color:#2da44e;
+        color:#fff;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    input[type="file"] {
+        opacity:0;
+    }
+    form#frm-upload {
+        position:relative;
+    }
+    form#frm-upload:before {
+        content:'Chọn tập tin/Kéo thả vào đây';
+        display:block;
+        position:absolute;
+        left:10px;
+        top: 50%;
+        transform: translate(0,-50%);
+        color: #888;
+        font-size: small;
+    }
+    form#frm-upload button {
+        border-radius: 6px;
+    }
+    <% if (typeof toolkits != 'undefined') { %>
+    input[name="toolkit"], aside.rules {
+        display:none;
+    }
+    aside#tools {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    aside label {
+        cursor:pointer;
+        margin-right:8px;
+    }
+    aside label:hover {
+        color:brown;
+    }
+    <% toolkits.forEach(function(obj, i) { %>aside label[for="i-<%= obj.name %>"]<% if ( i < toolkits.length - 1 ) { %>, <% } else { %> { <% } %><% }) %>
+        font-size:0;
+    }
+    <% toolkits.forEach(function(obj, i) { %>aside label[for="i-<%= obj.name %>"]:before<% if ( i < toolkits.length - 1 ) { %>, <% } else { %> { <% } %><% }) %>
+        content:attr(data-title);
+        padding:3px 8px;
+        font-size:small;
+        border-radius:6px;
+        background-color:#eee;
+    }
+    <% toolkits.forEach(function(obj, i) { %>input#i-<%= obj.name %>:checked ~ aside label[for="i-<%= obj.name %>"]:before<% if ( i < toolkits.length - 1 ) { %>, <% } else { %> { <% } %><% }) %>
+        display:none;
+    }
+    <% toolkits.forEach(function(obj, i) { %>input#i-<%= obj.name %>:checked ~ aside label[for="i-<%= obj.name %>"]<% if ( i < toolkits.length - 1 ) { %>, <% } else { %> { <% } %><% }) %>
+        font-size:small;
+    }
+    <% toolkits.forEach(function(obj, i) { %>input#i-<%= obj.name %>:checked ~ #area aside#rule-of-<%= obj.name %><% if ( i < toolkits.length - 1 ) { %>, <% } else { %> { <% } %><% }) %>
+        display:block;
+    }
+    <% } %>
+    .rules button {
+        padding:5px 8px;
+        border:1px solid #ccc;
+        background-color:#eee;
+        border-radius:6px;
+        width:100%;
+        margin-bottom:5px;
+        cursor:pointer;
+    }
+    .rules button:hover {
+        border-color:#2da44e;
+        background-color:#2da44e;
+        color:#fff;
+    }
+    aside#rule-of-pos {
+        width:30%;
+    }
+    aside#rule-of-pos button {
+        width: 25%;
+        display: inline-block;
+    }
+    #area {
+        display:flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top:20px;
+    }
+    .rules {
+        width:15%;
+    }
+    main {
+        width:85%;
+    }
+    #raw-text {
+        min-height: 60px;
+        border:1px solid #ddd;
+        padding:8px;
+        width:98%;
+    }
+    footer p {
+        border-top: 1px solid #ddd;
+        font-size:small;
+        color:#666;
+        padding:10px;
+    }
     </style>
 </head>
 <body>
-
+    <nav>
+        <input type="radio" name="group" value="link" id="f-link" checked="checked" />
+        <input type="radio" name="group" value="upload" id="f-upload" />
+        <p>
+            <label for="f-link">Liên kết lấy bài</label>
+            <label for="f-upload">Tải tập tin</label>
+        </p>
+        <form action="" method="post" id="frm-link">
+            <p>
+                <input type="url" name="url" value="" placeholder="Nhập vào liên kết lấy bài..." />
+                <button type="submit">Tải dữ liệu</button>
+            </p>
+        </form>
+        <form action="" method="post" id="frm-upload" enctype="multipart/form-data">
+            <p>
+                <input type="file" name="file" />
+                <button type="submit">Tải tập tin</button>
+            </p>
+        </form>
+    </nav>
+    <div id="wrap">
+        <% if (typeof toolkits != 'undefined') { %>
+            <% toolkits.forEach(function(obj) { %>
+                <input type="radio" name="toolkit" value="<%= obj.name %>" id="i-<%= obj.name %>"<% if ( obj.name == 'sent' ) { %> checked="checked"<% } %> />
+            <% }) %>
+            <aside id="tools">
+            <% toolkits.forEach(function(obj) { %>
+                <label for="i-<%= obj.name %>" data-title="<%= obj.alias %>"><%= obj.fullname %></label>
+            <% }) %>
+            </aside>
+            <div id="area">
+                <main>
+                    <div contenteditable="true" id="raw-text">
+                    
+                    </div>
+                </main>
+                <% toolkits.forEach(function(obj) { %>
+                    <aside class="rules" id="rule-of-<%= obj.name %>">
+                        <% obj.alltags.forEach(function(obj) { %>
+                            <button data-name="<%= obj.name %>" data-cmd="<%= obj.cmd %>"><%= obj.cmd %></button>
+                        <% }) %>
+                    </aside>
+                <% }) %>
+            </div>
+        <% } %>
+    </div> <!-- End #wrap -->
+    <footer>
+        <p>&copy; 2022 Trần Ngọc Nhật.</p>
+    </footer>
 </body>
 </html>
