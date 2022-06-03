@@ -1,4 +1,5 @@
 'use strict';
+const fs = require('fs');
 const path = require('path');
 const express = require('express');
 const bodyParser = require("body-parser");
@@ -118,6 +119,24 @@ const invalidPathHandler = function(request, response, next) {
 app.get('/', function (req, res) {
     res.render("index", {
         title:'VN Corpus'
+    });
+});
+
+app.post('/upload', async function(req, res) {
+    var temp = 'temp' + Math.floor(Math.random() * 10);
+    var writeStream = fs.createWriteStream(temp);
+    req.pipe(writeStream);
+    writeStream.on('finish', () => {
+        let reader = fs.readFileSync(temp);
+        let filename = reader.slice(reader.indexOf("filename=\"") + "filename=\"".length, reader.indexOf('"\r\nContent-Type'));
+        let hash = reader.slice(0,reader.indexOf('\r\n'));
+        let content = reader.slice(reader.indexOf('\r\n\r\n') + '\r\n\r\n'.length, reader.lastIndexOf(Buffer.from('\r\n') + hash));
+        // After real file is created, delete temporary file
+        fs.writeFileSync(filename.toString(), content);
+        fs.unlinkSync(temp);
+        res.json({
+            filename: filename.toString()
+        })
     });
 });
 
