@@ -7,11 +7,11 @@ exports.TOOLKITS = [
         fullname:"Tách câu",
         alltags:[
             {
-                name:"BOS",
+                name:"Bắt đầu câu",
                 cmd:"BOS"
             },
             {
-                name:"EOS",
+                name:"Kết thúc câu",
                 cmd:"EOS"
             }
         ]
@@ -22,11 +22,11 @@ exports.TOOLKITS = [
         fullname:"Tách từ",
         alltags:[
             {
-                name:"B-W",
+                name:"Bắt đầu",
                 cmd:"B-W"
             },
             {
-                name:"I-W",
+                name:"Từ tiếp theo",
                 cmd:"I-W"
             },
         ]
@@ -37,75 +37,75 @@ exports.TOOLKITS = [
         fullname:"Gắn nhãn",
         alltags:[
             {
-                name:"N",
+                name:"Danh từ",
                 cmd:"N"
             },
             {
-                name:"V",
+                name:"Động từ",
                 cmd:"V"
             },
             {
-                name:"R",
+                name:"Phó từ",
                 cmd:"R"
             },
             {
-                name:"M",
+                name:"Số từ",
                 cmd:"M"
             },
             {
-                name:"CH",
+                name:"Ký tự",
                 cmd:"CH"
             },
             {
-                name:"C",
+                name:"Liên từ",
                 cmd:"C"
             },
             {
-                name:"A",
+                name:"Tính từ",
                 cmd:"A"
             },
             {
-                name:"E",
+                name:"Giới từ",
                 cmd:"E"
             },
             {
-                name:"P",
+                name:"Đại từ",
                 cmd:"P"
             },
             {
-                name:"Nu",
+                name:"Danh từ đơn vị",
                 cmd:"Nu"
             },
             {
-                name:"Nc",
+                name:"Danh từ chỉ loại",
                 cmd:"Nc"
             },
             {
-                name:"L",
+                name:"Định từ",
                 cmd:"L"
             },
             {
-                name:"Cc",
+                name:"Liên từ đẳng lập",
                 cmd:"Cc"
             },
             {
-                name:"X",
+                name:"Không phân loại",
                 cmd:"X"
             },
             {
-                name:"Np",
+                name:"Danh từ riêng",
                 cmd:"Np"
             },
             {
-                name:"T",
+                name:"Trợ từ",
                 cmd:"T"
             },
             {
-                name:"Ny",
+                name:"Danh từ viết tắt",
                 cmd:"Ny"
             },
             {
-                name:"Ni",
+                name:"Danh từ ký hiệu",
                 cmd:"Ni"
             },
             {
@@ -113,51 +113,51 @@ exports.TOOLKITS = [
                 cmd:"Nb"
             },
             {
-                name:"Y",
+                name:"Viết tắt",
                 cmd:"Y"
             },
             {
-                name:"Vb",
+                name:"Động từ mượn",
                 cmd:"Vb"
             },
             {
-                name:"I",
+                name:"Thán từ",
                 cmd:"I"
             },
             {
-                name:"Z",
+                name:"Yếu tố cấu tạo",
                 cmd:"Z"
             },
             {
-                name:"B",
+                name:"Từ mượn",
                 cmd:"B"
             },
             {
-                name:"Eb",
+                name:"Giới từ mượn",
                 cmd:"Eb"
             },
             {
-                name:"Vy",
+                name:"Động từ mượn",
                 cmd:"Vy"
             },
             {
-                name:"Ab",
+                name:"Tính từ mượn",
                 cmd:"Ab"
             },
             {
-                name:"Xy",
+                name:"Từ mượn không phân loại",
                 cmd:"Xy"
             },
             {
-                name:"Cb",
+                name:"Liên từ mượn",
                 cmd:"Cb"
             },
             {
-                name:"Mb",
+                name:"Số từ mượn",
                 cmd:"Mb"
             },
             {
-                name:"Pb",
+                name:"Đại từ mượn",
                 cmd:"Pb"
             }
         ]
@@ -168,32 +168,36 @@ exports.TOOLKITS = [
         fullname:"Nhóm từ",
         alltags:[
             {
-                name:"B-NP",
+                name:"Bắt đầu danh từ",
                 cmd:"B-NP"
             },
             {
-                name:"B-VP",
-                cmd:"B-VP"
-            },
-            {
-                name:"B-AP",
-                cmd:"B-AP"
-            },
-            {
-                name:"B-PP",
-                cmd:"B-PP"
-            },
-            {
-                name:"I-NP",
+                name:"Danh từ tiếp theo",
                 cmd:"I-NP"
             },
             {
-                name:"I-AP",
+                name:"Bắt đầu động từ",
+                cmd:"B-VP"
+            },
+            {
+                name:"Động từ tiếp theo",
+                cmd:"I-VP"
+            },
+            {
+                name:"Bắt đầu tính từ",
+                cmd:"B-AP"
+            },
+            {
+                name:"Tính từ tiếp theo",
                 cmd:"I-AP"
             },
             {
-                name:"I-VP",
-                cmd:"I-VP"
+                name:"Bắt đầu đại từ",
+                cmd:"B-PP"
+            },
+            {
+                name:"Đại từ tiếp theo",
+                cmd:"I-PP"
             }
         ]
     },
@@ -203,35 +207,35 @@ exports.TOOLKITS = [
         fullname:"Thực thể",
         alltags:[
             {
-                name:"B-LOC",
+                name:"Bắt đầu địa điểm",
                 cmd:"B-LOC"
             },
             {
-                name:"B-ORG",
-                cmd:"B-ORG"
-            },
-            {
-                name:"I-LOC",
+                name:"Tiếp tục Địa điểm",
                 cmd:"I-LOC"
             },
             {
-                name:"B-PER",
-                cmd:"B-PER"
+                name:"Bắt đầu một tổ chức",
+                cmd:"B-ORG"
             },
             {
-                name:"I-PER",
-                cmd:"I-PER"
-            },
-            {
-                name:"I-ORG",
+                name:"Tiếp tục tên tổ chức",
                 cmd:"I-ORG"
             },
             {
-                name:"B-MISC",
+                name:"Bắt đầu tên người",
+                cmd:"B-PER"
+            },
+            {
+                name:"Tiếp tục tên người",
+                cmd:"I-PER"
+            },
+            {
+                name:"Bắt đầu",
                 cmd:"B-MISC"
             },
             {
-                name:"I-MISC",
+                name:"Tiếp tục",
                 cmd:"I-MISC"
             }
         ]
@@ -241,37 +245,29 @@ exports.TOOLKITS = [
         alias:"CHILD",
         fullname:"Thực thể con",
         alltags:[
-            {
-                name:"B-LOC",
+           {
+                name:"Bắt đầu địa điểm",
                 cmd:"B-LOC"
             },
             {
-                name:"B-ORG",
-                cmd:"B-ORG"
-            },
-            {
-                name:"I-LOC",
+                name:"Tiếp tục Địa điểm",
                 cmd:"I-LOC"
             },
             {
-                name:"B-PER",
-                cmd:"B-PER"
+                name:"Bắt đầu một tổ chức",
+                cmd:"B-ORG"
             },
             {
-                name:"I-PER",
-                cmd:"I-PER"
-            },
-            {
-                name:"I-ORG",
+                name:"Tiếp tục tên tổ chức",
                 cmd:"I-ORG"
             },
             {
-                name:"B-MISC",
-                cmd:"B-MISC"
+                name:"Bắt đầu tên người",
+                cmd:"B-PER"
             },
             {
-                name:"I-MISC",
-                cmd:"I-MISC"
+                name:"Tiếp tục tên người",
+                cmd:"I-PER"
             }
         ]
     }

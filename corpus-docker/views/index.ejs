@@ -133,19 +133,22 @@
         font-size:small;
         border-radius:6px;
         background-color:#eee;
+        color:#888;
     }
     <% toolkits.forEach(function(obj, i) { %>input#i-<%= obj.name %>:checked ~ aside label[for="i-<%= obj.name %>"]:before<% if ( i < toolkits.length - 1 ) { %>, <% } else { %> { <% } %><% }) %>
         display:none;
     }
     <% toolkits.forEach(function(obj, i) { %>input#i-<%= obj.name %>:checked ~ aside label[for="i-<%= obj.name %>"]<% if ( i < toolkits.length - 1 ) { %>, <% } else { %> { <% } %><% }) %>
         font-size:small;
+        background-color: #eee;
+        border:1px solid rgba(27,31,36,.15);
+        padding: 3px 8px;
+        border-radius: 6px;
     }
     <% toolkits.forEach(function(obj, i) { %>input#i-<%= obj.name %>:checked ~ #area aside#rule-of-<%= obj.name %><% if ( i < toolkits.length - 1 ) { %>, <% } else { %> { <% } %><% }) %>
         display:block;
     }
-    <% } %>
     .rules button {
-        padding:5px 8px;
         border:1px solid #ccc;
         background-color:#eee;
         border-radius:6px;
@@ -153,16 +156,39 @@
         margin-bottom:5px;
         cursor:pointer;
     }
+    .rules span {
+        position:relative;
+        padding:5px 8px;
+        display:block;
+        text-align:right;
+    }
+    .rules span:before {
+        content:attr(data-name);
+        position:absolute;
+        top: 50%;
+        transform: translate(0,-50%);
+        right:108%;
+        padding: 8px;
+        background:#242424;
+        display:none;
+        border-radius:5px;
+        white-space: nowrap;
+        z-index:100;
+    }
     .rules button:hover {
         border-color:#2da44e;
         background-color:#2da44e;
         color:#fff;
     }
+    .rules button:hover > span:before {
+        display:block;
+    }
     aside#rule-of-pos {
-        width:30%;
+        width:28%;
+        direction: rtl;
     }
     aside#rule-of-pos button {
-        width: 25%;
+        width: 35px;
         display: inline-block;
     }
     #area {
@@ -177,12 +203,24 @@
     main {
         width:85%;
     }
+    input#i-pos:checked ~ #area main {
+        width:90%;
+    }
     #raw-text {
         min-height: 60px;
         border:1px solid #ddd;
         padding:8px;
         width:98%;
     }
+    #download {
+        border-radius: 2px;
+        border: 0;
+        background-color: #2196F3;
+        color: #FFF;
+        padding: 8px 10px;
+        margin-top: 15px;
+    }
+    <% } %>
     footer p {
         border-top: 1px solid #ddd;
         font-size:small;
@@ -205,6 +243,9 @@
         }
         aside#rule-of-pos button {
             width: 46%;
+        }
+        aside#rule-of-ner, aside#rule-of-sner {
+            width:20%;
         }
         <% } %>
     }
@@ -244,11 +285,14 @@
             <div id="area">
                 <main>
                     <div contenteditable="true" spellcheck="false" id="raw-text"></div>
+                    <p>
+                        <button id="download">Tải về máy</button>
+                    </p>
                 </main>
                 <% toolkits.forEach(function(obj) { %>
                     <aside class="rules" id="rule-of-<%= obj.name %>">
                         <% obj.alltags.forEach(function(obj) { %>
-                            <button data-name="<%= obj.name %>" data-cmd="<%= obj.cmd %>"><%= obj.cmd %></button>
+                            <button data-cmd="<%= obj.cmd %>"><span data-name="<%= obj.name %>"><%= obj.cmd %></span></button>
                         <% }) %>
                     </aside>
                 <% }) %>
@@ -256,7 +300,7 @@
         <% } %>
     </div> <!-- End #wrap -->
     <footer>
-        <p>&copy; 2022 Trần Ngọc Nhật.</p>
+        <p>&copy; 2022<% if ((new Date()).getFullYear() > 2022) { %> - <%= (new Date()).getFullYear() % 100 %><% } %> Trần Ngọc Nhật.</p>
     </footer>
 </body>
 </html>
