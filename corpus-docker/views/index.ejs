@@ -189,6 +189,25 @@
         color:#666;
         padding:10px;
     }
+    @media only screen and (max-width: 500px) {
+        nav > p {
+            padding:0 10px;
+        }
+        #wrap {
+            padding:0 10px;
+        }
+        form button {
+            width:25%;
+        }
+        <% if (typeof toolkits != 'undefined') { %>
+        aside#rule-of-pos {
+            width:25%;
+        }
+        aside#rule-of-pos button {
+            width: 46%;
+        }
+        <% } %>
+    }
     </style>
 </head>
 <body>
@@ -201,7 +220,7 @@
         </p>
         <form action="" method="post" id="frm-link">
             <p>
-                <input type="url" name="url" value="" placeholder="Nhập vào liên kết lấy bài..." />
+                <input type="url" name="url" value="" spellcheck="false" autocomplete="off" placeholder="Nhập vào liên kết lấy bài..." />
                 <button type="submit">Tải dữ liệu</button>
             </p>
         </form>
@@ -224,9 +243,7 @@
             </aside>
             <div id="area">
                 <main>
-                    <div contenteditable="true" id="raw-text">
-                    
-                    </div>
+                    <div contenteditable="true" spellcheck="false" id="raw-text"></div>
                 </main>
                 <% toolkits.forEach(function(obj) { %>
                     <aside class="rules" id="rule-of-<%= obj.name %>">
