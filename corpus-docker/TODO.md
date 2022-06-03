@@ -6,3 +6,5 @@
 4. Nạp Model cho Trie + Model tên thuốc, dữ liệu hình ảnh đã được đưa về
 ma trận, dùng thư viện xử lý ảnh của Node đồng thời chuyển thư viện này về
 đa ngôn ngữ
+5. Nạp Model dữ liệu âm thanh để tiến hành công việc sao chép giọng nói sau
+khi phân tách từ và nhãn thành công.
