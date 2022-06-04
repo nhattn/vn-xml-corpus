@@ -16,11 +16,6 @@ var regexps = {
   attributeRe: /blog|post|article/i
 };
 
-var dbg;
-exports.debug = function(debug) {
-  dbg = (debug) ? console.log : function() {};
-};
-
 var cleanRules = [];
 
 module.exports.setCleanRules = function(rules) {
