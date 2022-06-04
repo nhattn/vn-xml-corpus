@@ -59,18 +59,18 @@ app.post('/upload', async function(req, res) {
                 if(error === null) {
                     if (result.Document === undefined) {
                         return res.json({
-                            error:'Tập tin không đúng chuẩn 0'
+                            error:'Tập tin không đúng chuẩn'
                         });
                     }
                     let doc = result.Document;
                     if (doc.Entry === undefined || doc.Entry.length == 0) {
                         return res.json({
-                            error:'Tập tin không đúng chuẩn 1'
+                            error:'Tập tin không đúng chuẩn'
                         });
                     }
                     if (doc.Entry[0].Text === undefined) {
                         return res.json({
-                            error:'Tập tin không đúng chuẩn 2'
+                            error:'Tập tin không đúng chuẩn'
                         });
                     }
                     return res.json(doc.Entry[0].Text);
