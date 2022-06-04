@@ -3,37 +3,16 @@
 const PUNCTUATION = [',','[',']','{','}',';',':','/','-','.','+','(',')','\'','"'];
 
 exports.tokenize = function(str) {
-    let web = new RegExp("(^(http[s]?://)?(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+$)","g");
-    // dia chi website
-    str = str.replace(web,function(m) {
-        for (var i = 0; i < PUNCTUATION.length; i++) {
-            var repl = 'TOKEN_' + i.toString();
-            var tok = PUNCTUATION[i];
-            var re = null;
-            if ([',',';',':','\'','"'].indexOf(tok) == -1) {
-                re = new RegExp('\\'+tok,'g');
-            } else {
-                re = new RegExp(tok,'g');
-            }
-            m = m.replace(re, repl);
-        }
-        return m;
+    str = (' ' + str + ' ').replace(/\s+/, ' ');
+    str = str.replace(/(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig, function(m) {
+        return 'DOMAIN'
     });
-    let email = new RegExp("(^[a-zA-Z0-9_\.\+\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$)", "g");
-    // dia chi email
-    str = str.replace(email,function(m) {
-        for (var i = 0; i < PUNCTUATION.length; i++) {
-            var repl = 'TOKEN_' + i.toString();
-            var tok = PUNCTUATION[i];
-            var re = null;
-            if ([',',';',':','\'','"'].indexOf(tok) == -1) {
-                re = new RegExp('\\'+tok,'g');
-            } else {
-                re = new RegExp(tok,'g');
-            }
-            m = m.replace(re, repl);
-        }
-        return m;
+    console.log(str)
+    str = str.replace(/(\b[a-zA-Z0-9.]+\.[a-zA-Z]{2,4}$)/ig, function(m) {
+        return 'DOMAIN1'
+    });
+    str = str.replace(/([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+)/ig, function(m) {
+        return 'EMAIL'
     });
     // tach ky tu dac biet ra
     str = str.replace(/([,\[\]\{\};:\/\-\.\+\(\)'"])/g,' $1 ');
@@ -41,7 +20,7 @@ exports.tokenize = function(str) {
     str = str.replace(/\s+/, ' ').trim();
     str = str.replace(/ \. \. \. /g,' ... ');
     // tp . hcm -> tp.hcm
-    str = str.replace(/(tp\s+\.\s+hcm)/ig, function(m) {
+    str = str.replace(/(tp\s+\.\s+(bmt|hcm))/ig, function(m) {
         return m.replace(/ /g,'');
     });
     // gmt + 7/gmt + 007 -> gtm+7/gmt+007
@@ -124,13 +103,9 @@ exports.tokenize = function(str) {
     str = str.replace(/\s+((mr|mrs|ms|dr|ths|ts|gs)\s+\.\s+([A-ZÀÁẢÃẠĂẰẮẲẴẶÂẦẤẨẪẬĐÈÉẺẼẸÊỀẾỂỄỆÌÍỈĨỊÒÓỎÕỌÔỒỐỔỖỘƠỜỚỞỠỢÙÚỦŨỤƯỪỨỬỮỰỲÝỶỸa-zàáảãạăằắẳẵặâầấẩẫậđèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹ]+))/ig, function(m) {
         return ' ' + m.replace(/ /g,'');
     });
-    // bat lai ky tu da ma hoa
-    for (var i = 0; i < PUNCTUATION.length; i++) {
-        var search = 'TOKEN_' + i.toString();
-        var tok = PUNCTUATION[i];
-        var re = new RegExp(search,'g');
-        str = str.replace(re, tok);
-    }
+    str = str.replace(/\d+[A-Z]+\d*-\d+/g, function(m) {
+        return ' ' + m.replace(/ /g,'');
+    });
     return str.split(/\s+/).map(function(v) {
         return v.trim();
     }).filter(function(v) {

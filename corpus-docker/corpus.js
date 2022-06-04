@@ -76,13 +76,13 @@ app.post('/upload', async function(req, res) {
                     return res.json(doc.Entry[0].Text);
                 } else {
                     return res.json({
-                        error:error.message
+                        error:error.message /* Có thể trả về lỗi do mình định nghĩa */
                     });
                 }
             });
         } catch (e) {
             res.json({
-                error: e.message
+                error: e.message /* Có thể trả về lỗi do mình định nghĩa */
             })
         }
     });
@@ -121,7 +121,7 @@ app.post('/api/fetch', function(req, res) {
                 return res.status(400).send(data);
             }
             return res.json({
-                error: err.message
+                error: err.message /* Có thể trả về lỗi do mình định nghĩa */
             });
         }
         let pattern = new RegExp('<br/?>[ \r\n\s]*<br/?>', 'g');
