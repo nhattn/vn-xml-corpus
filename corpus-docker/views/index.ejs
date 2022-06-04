@@ -88,6 +88,7 @@
         color:#fff;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
+        cursor: pointer;
     }
     input[type="file"] {
         opacity:0;
@@ -96,7 +97,7 @@
         position:relative;
     }
     form#frm-upload:before {
-        content:'Chọn tập tin/Kéo thả vào đây';
+        content:attr(data-filename);
         display:block;
         position:absolute;
         left:10px;
@@ -104,6 +105,10 @@
         transform: translate(0,-50%);
         color: #888;
         font-size: small;
+        white-space: nowrap;
+        width: 70%;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     form#frm-upload button {
         border-radius: 6px;
@@ -220,6 +225,21 @@
         padding: 8px 10px;
         margin-top: 15px;
     }
+    #raws {
+        padding:15px 0;
+    }
+    .item {
+        width: 30%;
+        display: inline-block;
+        padding: 3px;
+        margin: 0 5px 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .item:hover {
+        background-color:#eee;
+    }
     <% } %>
     footer p {
         border-top: 1px solid #ddd;
@@ -265,7 +285,7 @@
                 <button type="submit">Tải dữ liệu</button>
             </p>
         </form>
-        <form action="" method="post" id="frm-upload" enctype="multipart/form-data">
+        <form action="" method="post" id="frm-upload" data-filename="Chọn tập tin/Kéo thả vào đây" enctype="multipart/form-data">
             <p>
                 <input type="file" name="file" />
                 <button type="submit">Tải tập tin</button>
@@ -288,6 +308,7 @@
                     <p>
                         <button id="download">Tải về máy</button>
                     </p>
+                    <div id="raws"></div>
                 </main>
                 <% toolkits.forEach(function(obj) { %>
                     <aside class="rules" id="rule-of-<%= obj.name %>">
@@ -302,5 +323,122 @@
     <footer>
         <p>&copy; 2022<% if ((new Date()).getFullYear() > 2022) { %> - <%= (new Date()).getFullYear() % 100 %><% } %> Trần Ngọc Nhật.</p>
     </footer>
+    <script>
+    function getJSON(url, data, callback) {
+        callback = callback || function(obj) { console.log(obj); };
+        var content_type = "application/json";
+        if (data instanceof FormData) {
+            content_type = "multipart/form-data";
+        } else {
+            data = JSON.stringify(data);
+        }
+        fetch(url, {
+            method: "post",
+            headers: { "Content-Type": content_type },
+            body: data
+        }).then(function(resp) {
+            if (resp.status === 200) {
+                return resp.json();
+            } else {
+                return Promise.reject("server");
+            }
+        }).then(function(obj) {
+            callback(obj);
+        }).catch(function(err) {
+            callback({
+                "error": "Có lỗi trong quá trình gửi dữ liệu"
+            })
+        });
+    }
+    function parseResponse(data) {
+        var element = document.querySelector('div#raws');
+        if (!element) {
+            return;
+        }
+        element.querySelectorAll('div.item').forEach(function(el) {
+            el.remove();
+        });
+        for(var i = 0; i < data.length; i++) {
+            var div = document.createElement('div');
+            div.id = 'item-' + i.toString();
+            div.className = 'item';
+            div.setAttribute('data-text', data[i]);
+            div.textContent = 'Đoạn ' + (i + 1).toString();
+            div.addEventListener('click', function(e) {
+                e.preventDefault();
+                var text = this.getAttribute('data-text');
+                if (text) {
+                    var area = document.querySelector('div#raw-text');
+                    if (area) {
+                        area.textContent = text;
+                    }
+                }
+                return false;
+            });
+            element.appendChild(div);
+        }
+    }
+    document.addEventListener("DOMContentLoaded", function(e) {
+        document.querySelectorAll('nav form').forEach(function(el) {
+            el.addEventListener('submit', function(e) {
+                e.preventDefault();
+                return false;
+            });
+        });
+        document.querySelector('form#frm-upload input[name="file"]').addEventListener('change', function(e) {
+            var filename = (this.files[0].name || '').trim();
+            if (filename.length > 0) {
+                document.querySelector('form#frm-upload').setAttribute('data-filename', filename);
+            }
+        });
+        document.querySelector('form#frm-upload button').addEventListener('click', function(e) {
+            e.preventDefault();
+            var inp = document.querySelector('form#frm-upload input[name="file"]');
+            if (inp && inp.files.length > 0) {
+                var data = new FormData();
+                data.append("file", inp.files[0]);
+                getJSON('/upload', data, function(obj) {
+                    if (obj.error !== undefined) {
+                        console.log(obj.error);
+                    } else {
+                        parseResponse(obj);
+                    }
+                });
+            }
+            return false;
+        });
+        document.querySelector('form#frm-link button').addEventListener('click', function(e) {
+            e.preventDefault();
+            var inp = document.querySelector('form#frm-link input[name="url"]');
+            if (inp) {
+                var url = inp.value.trim();
+                if (url.indexOf('://') == -1) {
+                    return false;
+                }
+                var data = {
+                    url : url
+                };
+                getJSON('/api/fetch', data, function(obj) {
+                    if (obj.error !== undefined) {
+                        console.log(obj.error);
+                    } else {
+                        parseResponse(obj);
+                    }
+                });
+            }
+            return false;
+        });
+        document.querySelectorAll('button[data-cmd]').forEach(function(el) {
+            el.addEventListener('click', function(e){
+                e.preventDefault();
+                var command = this.dataset.cmd || null;
+                if (command) {
+                    console.log(command);
+                }
+                return false;
+            }, false);
+        });
+    }, false);
+    </script>
 </body>
 </html>
