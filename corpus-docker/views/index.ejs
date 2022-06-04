@@ -208,6 +208,14 @@
     main {
         width:85%;
     }
+    #message {
+        color: #856404;
+        background-color: #fff3cd;
+        border: 1px solid #ffeeba;
+        border-radius: 0.25rem;
+        margin:20px 0;
+        padding: 8px;
+    }
     input#i-pos:checked ~ #area main {
         width:90%;
     }
@@ -323,6 +331,7 @@
     <footer>
         <p>&copy; 2022<% if ((new Date()).getFullYear() > 2022) { %> - <%= (new Date()).getFullYear() % 100 %><% } %> Trần Ngọc Nhật.</p>
     </footer>
+    <% if (typeof toolkits != 'undefined') { %>
     <script>
     function getJSON(url, data, callback) {
         callback = callback || function(obj) { console.log(obj); };
@@ -378,6 +387,20 @@
             element.appendChild(div);
         }
     }
+    function showMessage(msg) {
+        var ediv = document.querySelector('#message');
+        if (!ediv) {
+            ediv = document.createElement('div');
+            ediv.id = 'message';
+            var addBefore = document.querySelector('aside#tools');
+            if (!addBefore) {
+                console.log(msg);
+                return;
+            }
+            addBefore.parentNode.insertBefore(ediv, addBefore);
+        }
+        ediv.textContent = msg;
+    }
     document.addEventListener("DOMContentLoaded", function(e) {
         document.querySelectorAll('nav form').forEach(function(el) {
             el.addEventListener('submit', function(e) {
@@ -399,7 +422,7 @@
                 data.append("file", inp.files[0]);
                 getJSON('/upload', data, function(obj) {
                     if (obj.error !== undefined) {
-                        console.log(obj.error);
+                        showMessage(obj.error);
                     } else {
                         parseResponse(obj);
                     }
@@ -413,6 +436,7 @@
             if (inp) {
                 var url = inp.value.trim();
                 if (url.indexOf('://') == -1) {
+                    showMessage('Địa chỉ đường dẫn không hợp lệ');
                     return false;
                 }
                 var data = {
@@ -420,7 +444,7 @@
                 };
                 getJSON('/api/fetch', data, function(obj) {
                     if (obj.error !== undefined) {
-                        console.log(obj.error);
+                        showMessage(obj.error);
                     } else {
                         parseResponse(obj);
                     }
@@ -440,5 +464,6 @@
         });
     }, false);
     </script>
+    <% } %>
 </body>
 </html>
