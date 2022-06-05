@@ -4,15 +4,33 @@ const PUNCTUATION = [',','[',']','{','}',';',':','/','-','.','+','(',')','\'','"
 
 exports.tokenize = function(str) {
     str = (' ' + str + ' ').replace(/\s+/, ' ');
-    str = str.replace(/(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig, function(m) {
-        return 'DOMAIN'
-    });
-    console.log(str)
-    str = str.replace(/(\b[a-zA-Z0-9.]+\.[a-zA-Z]{2,4}$)/ig, function(m) {
-        return 'DOMAIN1'
-    });
     str = str.replace(/([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+)/ig, function(m) {
-        return 'EMAIL'
+        for (var i = 0; i < PUNCTUATION.length; i++) {
+            var repl = 'TOKEN_' + i.toString();
+            var tok = PUNCTUATION[i];
+            var re = null;
+            if ([',',';',':','\'','"'].indexOf(tok) == -1) {
+                re = new RegExp('\\'+tok,'g');
+            } else {
+                re = new RegExp(tok,'g');
+            }
+            m = m.replace(re, repl);
+        }
+        return m;
+    });
+    str = str.replace(/((?:(ftp|http)s?:(?:\/{1,3}|[a-z0-9%])|[a-z0-9.-]+[.](?:[a-z]{2,13})\/)(?:[^s()<>{}[]]+|([^s()]*?([^s()]+)[^s()]*?)|([^s]+?))+(?:([^s()]*?([^s()]+)[^s()]*?)|([^s]+?)|[^s`!()[]{};:\'".,<>?«»“”‘’])|(?:(?<!@)[a-z0-9]+(?:[.-][a-z0-9]+)*[.](?:[a-z]{2,13})\b\/?(?!@)))/g, function(m) {
+        for (var i = 0; i < PUNCTUATION.length; i++) {
+            var repl = 'TOKEN_' + i.toString();
+            var tok = PUNCTUATION[i];
+            var re = null;
+            if ([',',';',':','\'','"'].indexOf(tok) == -1) {
+                re = new RegExp('\\'+tok,'g');
+            } else {
+                re = new RegExp(tok,'g');
+            }
+            m = m.replace(re, repl);
+        }
+        return m;
     });
     // tach ky tu dac biet ra
     str = str.replace(/([,\[\]\{\};:\/\-\.\+\(\)'"])/g,' $1 ');
@@ -76,11 +94,11 @@ exports.tokenize = function(str) {
         return m.replace(/ /g,'');
     });
     // ten viet tat P.
-    str = str.replace(/([A-ZÀÁẢÃẠĂẰẮẲẴẶÂẦẤẨẪẬĐÈÉẺẼẸÊỀẾỂỄỆÌÍỈĨỊÒÓỎÕỌÔỒỐỔỖỘƠỜỚỞỠỢÙÚỦŨỤƯỪỨỬỮỰỲÝỶỸa-zàáảãạăằắẳẵặâầấẩẫậđèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹ]\s+\.\s+[A-ZÀÁẢÃẠĂẰẮẲẴẶÂẦẤẨẪẬĐÈÉẺẼẸÊỀẾỂỄỆÌÍỈĨỊÒÓỎÕỌÔỒỐỔỖỘƠỜỚỞỠỢÙÚỦŨỤƯỪỨỬỮỰỲÝỶỸa-zàáảãạăằắẳẵặâầấẩẫậđèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹ]\s+\.)/g, function(m) {
+    str = str.replace(/(^[A-ZÀÁẢÃẠĂẰẮẲẴẶÂẦẤẨẪẬĐÈÉẺẼẸÊỀẾỂỄỆÌÍỈĨỊÒÓỎÕỌÔỒỐỔỖỘƠỜỚỞỠỢÙÚỦŨỤƯỪỨỬỮỰỲÝỶỸa-zàáảãạăằắẳẵặâầấẩẫậđèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹ]\s+\.\s+[A-ZÀÁẢÃẠĂẰẮẲẴẶÂẦẤẨẪẬĐÈÉẺẼẸÊỀẾỂỄỆÌÍỈĨỊÒÓỎÕỌÔỒỐỔỖỘƠỜỚỞỠỢÙÚỦŨỤƯỪỨỬỮỰỲÝỶỸa-zàáảãạăằắẳẵặâầấẩẫậđèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹ]\s+\.)/g, function(m) {
         return m.replace(/ /g,'');
     });
     // ten viet tat p./P.
-    str = str.replace(/([A-ZÀÁẢÃẠĂẰẮẲẴẶÂẦẤẨẪẬĐÈÉẺẼẸÊỀẾỂỄỆÌÍỈĨỊÒÓỎÕỌÔỒỐỔỖỘƠỜỚỞỠỢÙÚỦŨỤƯỪỨỬỮỰỲÝỶỸa-zàáảãạăằắẳẵặâầấẩẫậđèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹ]\s+\.)/g, function(m) {
+    str = str.replace(/(^[A-ZÀÁẢÃẠĂẰẮẲẴẶÂẦẤẨẪẬĐÈÉẺẼẸÊỀẾỂỄỆÌÍỈĨỊÒÓỎÕỌÔỒỐỔỖỘƠỜỚỞỠỢÙÚỦŨỤƯỪỨỬỮỰỲÝỶỸa-zàáảãạăằắẳẵặâầấẩẫậđèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹ]\s+\.)/g, function(m) {
         return m.replace(/ /g,'');
     });
     // 1 h, 1 m, 1 km
@@ -103,6 +121,13 @@ exports.tokenize = function(str) {
     str = str.replace(/\s+((mr|mrs|ms|dr|ths|ts|gs)\s+\.\s+([A-ZÀÁẢÃẠĂẰẮẲẴẶÂẦẤẨẪẬĐÈÉẺẼẸÊỀẾỂỄỆÌÍỈĨỊÒÓỎÕỌÔỒỐỔỖỘƠỜỚỞỠỢÙÚỦŨỤƯỪỨỬỮỰỲÝỶỸa-zàáảãạăằắẳẵặâầấẩẫậđèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹ]+))/ig, function(m) {
         return ' ' + m.replace(/ /g,'');
     });
+    // bat lai ky tu da ma hoa
+    for (var i = 0; i < PUNCTUATION.length; i++) {
+        var search = 'TOKEN_' + i.toString();
+        var tok = PUNCTUATION[i];
+        var re = new RegExp(search,'g');
+        str = str.replace(re, tok);
+    }
     str = str.replace(/\d+[A-Z]+\d*-\d+/g, function(m) {
         return ' ' + m.replace(/ /g,'');
     });
