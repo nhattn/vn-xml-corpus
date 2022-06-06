@@ -5,6 +5,7 @@
     <title>{% if title %}{{ title }}{% else %}Nature Language Processing Toolkit{% endif %}</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
     * {
@@ -226,13 +227,17 @@
         padding:8px;
         width:98%;
     }
-    #download {
+    #predict, #download {
         border-radius: 2px;
         border: 0;
         background-color: #2196F3;
         color: #FFF;
         padding: 8px 10px;
         margin-top: 15px;
+    }
+    #predict {
+        background-color:#2c974b;
+        border-color:#2c974b;
     }
     #raws {
         padding:15px 0;
@@ -315,6 +320,7 @@
                 <main>
                     <div contenteditable="true" spellcheck="false" id="raw-text"></div>
                     <p>
+                        <button id="predict">Dự đoán</button>
                         <button id="download">Tải về máy</button>
                     </p>
                     <div id="raws"></div>
@@ -420,13 +426,37 @@
             if (inp && inp.files.length > 0) {
                 var data = new FormData();
                 data.append("file", inp.files[0]);
-                getJSON('/upload', data, function(obj) {
+                getJSON('{{ url_for(".corpus_upload") }}', data, function(obj) {
                     if (obj.error !== undefined) {
                         showMessage(obj.error);
                     } else {
                         parseResponse(obj);
                     }
                 });
+            }
+            return false;
+        });
+        document.querySelector('button#predict').addEventListener('click', function(e) {
+            e.preventDefault();
+            var inp = document.querySelector('input[name="toolkit"]:checked');
+            var area = document.querySelector('div#raw-text');
+            if (inp && area) {
+                var action = inp.value.trim();
+                var text = area.textContent.trim();
+                if (text.length == 0) {
+                    return false;
+                }
+                var data = {
+                    action:action.toLowerCase(),
+                    text:text
+                };
+                getJSON('{{ url_for(".corpus_predict") }}',data, function(obj) {
+                    if (obj.error !== undefined) {
+                        showMessage(obj.error);
+                    } else {
+                        console.log(obj);
+                    }
+                })
             }
             return false;
         });
@@ -442,7 +472,7 @@
                 var data = {
                     url : url
                 };
-                getJSON('/api/fetch', data, function(obj) {
+                getJSON('{{ url_for(".corpus_fetch") }}', data, function(obj) {
                     if (obj.error !== undefined) {
                         showMessage(obj.error);
                     } else {

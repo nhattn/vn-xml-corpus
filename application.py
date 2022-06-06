@@ -6,9 +6,15 @@ import json
 from xml.dom import minidom
 from flask import Flask
 from flask import Response
+from flask import send_from_directory
 from flask import render_template, request, jsonify
 from readability import get_content
+from vinlp import sent_tokenize
 from vinlp import word_tokenize
+from vinlp import pos_tag
+from vinlp import pos_chunk
+from vinlp import pos_ner
+from vinlp import pos_sner
 
 app = Flask(__name__)
 
@@ -97,21 +103,41 @@ def corpus_fetch():
 
     return jsonify(uniqued)
 
-@app.route('/api/tokenize', methods=['POST'])
-def corpus_tokenize():
+@app.route('/api/predict', methods=['POST'])
+def corpus_predict():
     if request.content_type and "application/json" in request.content_type:
         data = request.get_json()
     else:
         data = request.form
 
+    action = data.get('action', '').strip()
     text = data.get('text', '').strip()
-    if not text:
+    if not action or not text:
         return jsonify({
             'error':'Không có dữ liệu xử lý'
         })
+    if action == "sent":
+        tokens = sent_tokenize(text)
+    elif action == "word":
+        tokens = word_tokenize(text)
+    elif action == "pos":
+        tokens = pos_tag(text)
+    elif action == "chunk":
+        tokens = pos_chunk(text)
+    elif action == "ner":
+        tokens = pos_ner(text)
+    elif action == "sner":
+        tokens = pos_sner(text)
+    else:
+        return jsonify({
+            'error':'Hệ thống không tìm thấy chức năng này'
+        })
 
-    tokens = word_tokenize(text)
     return jsonify(tokens)
+
+@app.route('/favicon.png')
+def corpus_favicon():
+    return send_from_directory(ABSPATH, filename='favicon.png', mimetype='image/png')
 
 # End routes
 
