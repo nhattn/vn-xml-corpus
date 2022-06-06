@@ -3,6 +3,7 @@
 
 import os
 import json
+import regex as re
 from xml.dom import minidom
 from flask import Flask
 from flask import Response
@@ -23,6 +24,84 @@ app.config["JSONIFY_PRETTYPRINT_REGULAR"] = False
 app.config["DEBUG"] = True
 
 ABSPATH = os.path.dirname(os.path.realpath(__file__))
+
+# functions
+def unicode_replace(text):
+    uni = [
+        ["…","..."],
+        ["“","\""],
+        ["”","\""],
+        ["‘","'"],
+        ["’","'"],
+        ["''","\""],
+        ["–","-"],
+        [""," "],
+        ["ð","đ"],
+        ["&nbsp;", " "],
+    ]
+    for _, c in enumerate(uni):
+        text = text.replace(c[0],c[1])
+    return text.strip()
+
+def repl(m):
+    return m.group(0).replace(' ','')
+
+def repx(m):
+    text = m.group(0)
+    encode_chars = [',','[',']','{','}',';',':','/','-','.','+','(',')','\'','"']
+    for i in range(len(encode_chars)):
+        ch = encode_chars[i]
+        enc = 'TOKEN_%d' % i
+        text = text.replace(ch, enc)
+    return text
+
+def decode_special_chars(text):
+    encode_chars = [',','[',']','{','}',';',':','/','-','.','+','(',')','\'','"']
+    for i in range(len(encode_chars)):
+        ch = encode_chars[i]
+        enc = 'TOKEN_%d' % i
+        text = text.replace(enc, ch)
+    return text
+
+def domain_normalize(text):
+    text = re.sub(r'((?:(ftp|http)s?:(?:/{1,3}|[a-z0-9%])|[a-z0-9.-]+[.](?:[a-z]{2,13})/)(?:[^s()<>{}[]]+|([^s()]*?([^s()]+)[^s()]*?)|([^s]+?))+(?:([^s()]*?([^s()]+)[^s()]*?)|([^s]+?)|[^s`!()[]{};:\'".,<>?«»“”‘’])|(?:(?<!@)[a-z0-9]+(?:[.-][a-z0-9]+)*[.](?:[a-z]{2,13})\b/?(?!@)))', repx, text)
+    return text.strip()
+
+def email_normalize(text):
+    text = re.sub(r'([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+)', repx, text)
+    return text.strip()
+
+def datetime_normalize(text):
+    for ch in [',','[',']','{','}',';',':','/','-','.','+','(',')','\'','"']:
+        text = text.replace(ch, " %s " % ch)
+    text = re.sub(r' {2,}',' ', text)
+    text = re.sub(r'\d\s+[\.,]\s+\d',repl, text)
+    text = re.sub(r'([A-Za-z]\s+\'\s+[A-Za-z])',repl, text)
+    text = text.replace(' . . . ', ' ... ')
+    text = re.sub(r'(gmt\s+[\+\-]\s+[0-9]{1,})',repl, text, flags=re.I)
+    text = re.sub(r'((0?[1-9]|1[0-9]|2[0-9]|3[0-1])\s+[\/\-\.]\s+(0?[1-9]|1[0-2])\s+[\/\-\.]\s+([1-9][0-9]{3}))',repl, text)
+    text = re.sub(r'(([1-9][0-9]{3})\s+[\/\-\.]\s+(0?[1-9]|1[0-2])\s+[\/\-\.]\s+(0?[1-9]|1[0-9]|2[0-9]|3[0-1]))',repl, text)
+    text = re.sub(r'((0?[1-9]|1[0-2])\s+[\/\-\.]\s+([1-9][0-9]{3}))',repl, text)
+    text = re.sub(r'(([1-9][0-9]{3})\s+[\/\-\.]\s+(0?[1-9]|1[0-2]))',repl, text)
+    text = re.sub(r'((0?[1-9]|1[0-9]|2[0-9]|3[0-1])\s+[\/\-\.]\s+(0?[1-9]|1[0-2]))',repl, text)
+    text = re.sub(r'((0?[0-9]|1[0-9]|2[0-3])\s+:\s+([0-5]?[0-9])\s+:\s+([0-5]?[0-9]))',repl, text)
+    text = re.sub(r'((0?[0-9]|1[0-9]|2[0-3])\s+:\s+([0-5]?[0-9]))',repl, text)
+    text = re.sub(r'(([0-5]?[0-9])\s+:\s+([0-5]?[0-9]))',repl, text)
+    text = re.sub(r'((0?[1-9]|1[0-9]|2[0-9]|3[0-1])\s+[hg]\s+([0-5]?[0-9]))',repl, text)
+    return text.strip()
+
+def short_name_normalize(text):
+    text = re.sub(r'([A-Z]\s+\.\s+[A-Z][A-Z]\s+\.\s+[A-Z])', repl, text)
+    text = re.sub(r'([A-Z]\s+\.\s+[A-Z]\s+\.\s+[A-Z])', repl, text)
+    text = re.sub(r'([A-Z]\s+\.\s+[A-Z])', repl, text)
+    text = re.sub(r'([A-Z]\s+\.)', repl, text)
+    return text.strip()
+
+def tp_shortname(text):
+    text = re.sub(r'(tp\s+\.\s+(bmt|hcm))', repl, text, flags=re.I)
+    return text.strip()
+
+# end functions
 
 # Routers
 
@@ -116,6 +195,15 @@ def corpus_predict():
         return jsonify({
             'error':'Không có dữ liệu xử lý'
         })
+
+    text = unicode_replace(text)
+    text = email_normalize(text)
+    text = domain_normalize(text)
+    text = tp_shortname(text)
+    text = datetime_normalize(text)
+    text = short_name_normalize(text)
+    text = decode_special_chars(text)
+
     if action == "sent":
         tokens = sent_tokenize(text)
     elif action == "word":
