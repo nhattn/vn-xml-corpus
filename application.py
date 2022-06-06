@@ -101,6 +101,16 @@ def tp_shortname(text):
     text = re.sub(r'(tp\s+\.\s+(bmt|hcm))', repl, text, flags=re.I)
     return text.strip()
 
+def abbr_normalize(text):
+    text = re.sub(r'(th\s+\.\s+s)', repl, text, flags=re.I)
+    text = re.sub(r'(\s+[0-9]{1,}\s+([hm]|km)\s+)', repl, text, flags=re.I)
+    text = re.sub(r'([A-Z0-9]+\s+\-\s+[A-Za-z0-9]+)', repl, text, flags=re.I)
+    text = re.sub(r'([0-9]{1,}\s+x\s+[0-9]{1,})', repl, text, flags=re.I)
+    text = re.sub(r'(pgs\s+[\-\.]\s+ts)', repl, text, flags=re.I)
+    text = re.sub(r'((mr|mrs|ms|dr|ths|ts|gs)\s+\.\s+([A-ZÀÁẢÃẠĂẰẮẲẴẶÂẦẤẨẪẬĐÈÉẺẼẸÊỀẾỂỄỆÌÍỈĨỊÒÓỎÕỌÔỒỐỔỖỘƠỜỚỞỠỢÙÚỦŨỤƯỪỨỬỮỰỲÝỶỸa-zàáảãạăằắẳẵặâầấẩẫậđèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹ]+))', repl, text, flags=re.I)
+    text = re.sub(r'\d+[A-Z]+\d*-\d+', repl, text, flags=re.I)
+    return text.strip()
+
 # end functions
 
 # Routers
@@ -202,6 +212,7 @@ def corpus_predict():
     text = tp_shortname(text)
     text = datetime_normalize(text)
     text = short_name_normalize(text)
+    text = abbr_normalize(text)
     text = decode_special_chars(text)
 
     if action == "sent":
@@ -225,7 +236,7 @@ def corpus_predict():
 
 @app.route('/favicon.png')
 def corpus_favicon():
-    return send_from_directory(ABSPATH, filename='favicon.png', mimetype='image/png')
+    return send_from_directory(app.root_path, path='favicon.png', mimetype='image/png')
 
 # End routes
 
