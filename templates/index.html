@@ -428,13 +428,6 @@
         }
         return hash >>> 0;
     };
-    function sha256(message) {
-        const msgBuffer = new TextEncoder().encode(message);
-        const hashBuffer = crypto.subtle.digest('SHA-256', msgBuffer);
-        const hashArray = Array.from(new Uint8Array(hashBuffer));
-        const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-        return hashHex;
-    }
     document.addEventListener("DOMContentLoaded", function(e) {
         document.querySelectorAll('nav form').forEach(function(el) {
             el.addEventListener('submit', function(e) {
@@ -489,72 +482,7 @@
                     if (obj.error !== undefined) {
                         showMessage(obj.error);
                     } else {
-                        var area = document.querySelector('div#raw-text');
-                        if (area) {
-                            if (action == 'word') {
-                                var html = '';
-                                var tokens = [];
-                                for(var i = 0; i < obj.length; i++) {
-                                    if (obj[i][1] == 'I-W') {
-                                        tokens[tokens.length - 1] += '_' + obj[i][0];
-                                    } else {
-                                        tokens.push(obj[i][0]);
-                                    }
-                                    html += obj[i][0]+'<span>/'+obj[i][1]+'</span> ';
-                                }
-                                area.innerHTML = html.trim();
-                                if (current_part) {
-                                    current_part.setAttribute('data-tokens', tokens.join(' '));
-                                }
-                            } else if(action == 'sent') {
-                                var html = '';
-                                var tokens = []
-                                var sents = []
-                                for(var i = 0; i < obj.length; i++) {
-                                    tokens.push(obj[i][0]);
-                                    sents.push(obj[i][1]);
-                                    html += obj[i][0]+'<span>/'+obj[i][1]+'</span> ';
-                                }
-                                area.innerHTML = html.trim();
-                                if (current_part) {
-                                    current_part.setAttribute('data-tokens', tokens.join(' '));
-                                    current_part.setAttribute('data-sents', sents.join(' '));
-                                }
-                            } else if(action == 'pos') {
-                                var html = '';
-                                var tokens = [];
-                                var tags = [];
-                                for(var i = 0; i < obj.length; i++) {
-                                    tokens.push(obj[i][0]);
-                                    tags.push(obj[i][1]);
-                                    html += obj[i][0]+'<span>/'+obj[i][1]+'</span> ';
-                                }
-                                area.innerHTML = html.trim();
-                                if (current_part) {
-                                    current_part.setAttribute('data-tokens', tokens.join(' '));
-                                    current_part.setAttribute('data-tags', tags.join(' '));
-                                }
-                            } else if(action == 'chunk') {
-                                var html = '';
-                                var tokens = [];
-                                var tags = [];
-                                var chunks = [];
-                                for(var i = 0; i < obj.length; i++) {
-                                    tokens.push(obj[i][0]);
-                                    tags.push(obj[i][1]);
-                                    chunks.push(obj[i][2]);
-                                    html += obj[i][0]+'<span>/'+obj[i][2]+'</span> ';
-                                }
-                                area.innerHTML = html.trim();
-                                if (current_part) {
-                                    current_part.setAttribute('data-tokens', tokens.join(' '));
-                                    current_part.setAttribute('data-tags', tags.join(' '));
-                                    current_part.setAttribute('data-chunks', chunks.join(' '));
-                                }
-                            }
-                        } else {
-                            console.log(obj);
-                        }
+                        
                     }
                 });
             } else {
@@ -569,94 +497,24 @@
         });
         document.querySelector('button#download').addEventListener('click', function(e) {
             e.preventDefault();
+            var inp = document.querySelector('input[name="toolkit"]:checked');
+            if (!inp) {
+                showMessage('Không thể truy xuất được thông tin');
+                return false;
+            }
+            var toolkit = inp.value.trim();
+            if (toolkit.length == 0) {
+                showMessage('Không thể truy xuất được thông tin');
+                return false;
+            }
             var nodes = document.querySelectorAll('div.item');
             if (nodes.length == 0) {
                 showMessage('Không có dữ liệu');
                 return false;
             }
-            var rows = [];
-            for(var i = 0; i < nodes.length; i++) {
-                var node = nodes[i];
-                if (node == undefined) continue;
-                var text = node.dataset.text || null;
-                if (!text) continue;
-                var tokens = node.dataset.tokens || null;
-                if (!tokens) continue;
-                var sents = node.dataset.sents || null;
-                var tags = node.dataset.tags || null;
-                var chunk = node.dataset.chunk || null;
-                var ner = node.dataset.ner || null;
-                var sner = node.dataset.sner || null;
-                var obj = {
-                    raw:text,
-                    tokens: tokens.split(/\s+/)
-                };
-                if (!tags) {
-                    tags = [];
-                    for(var j = 0; j < obj.tokens.length; j++) {
-                        tags.push('X');
-                    }
-                } else {
-                    tags = tags.split(/\s+/)
-                }
-                if (!sents) {
-                    sents = [];
-                    var all_tokens = tokens.replace(/_/g,' ').split(/\s+/);
-                    for(var j = 0; j < all_tokens.length; j++) {
-                        sents.push('O');
-                    }
-                } else {
-                    sents = sents.split(/\s+/)
-                }
-                obj.sents = sents;
-                obj.tags = tags;
-                if (!chunk) {
-                    chunk = [];
-                    for(var j = 0; j < obj.tokens.length; j++) {
-                        chunk.push('O');
-                    }
-                } else {
-                    chunk = chunk.split(/\s+/)
-                }
-                obj.chunks = chunk;
-                if (!ner) {
-                    ner = [];
-                    for(var j = 0; j < obj.tokens.length; j++) {
-                        ner.push('O');
-                    }
-                } else {
-                    ner = ner.split(/\s+/)
-                }
-                obj.ners = ner;
-                if (!sner) {
-                    sner = [];
-                    for(var j = 0; j < obj.tokens.length; j++) {
-                        sner.push('O');
-                    }
-                } else {
-                    sner = sner.split(/\s+/)
-                }
-                obj.sners = sner;
-                rows.push(obj);
-            }
-            if (rows.length == 0) {
-                showMessage('Không có dữ liệu');
-                return false;
-            }
-            
             var xml = '<?xml version="1.0" encoding="UTF-8"?>';
             xml += '<corpus>';
-            xml += '<Document id="'+sha256(JSON.stringify(rows))+'">';
-            for(var i = 0; i < rows.length; i++) {
-                var obj = rows[i];
-                xml += '<SimpleTextPart><![CDATA['+obj.raw+']]></SimpleTextPart>';
-                xml += '<Part>'
-                for (var j in obj.tokens) {
-                    xml += '<Token tag="'+obj.tags[j]+'" chunking="'+obj.chunks[j]+'" ner="'+obj.ners[j]+'" sner="'+obj.sners[j]+'" sent="'+obj.sents[j]+'"><![CDATA['+obj.tokens[j]+']]></Token>';
-                }
-                xml += '</Part>';
-            }
-            xml += '</Document>';
+            
             xml += '</corpus>';
             var a = document.createElement('a');
             a.href = 'data:application/xml;charset=utf-8,' + encodeURIComponent(xml);
