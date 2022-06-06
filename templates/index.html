@@ -260,8 +260,11 @@
         border-radius: 5px;
         cursor: pointer;
     }
-    .item:hover {
+    .current, .item:hover {
         background-color:#eee;
+    }
+    .current {
+        color:darkcyan;
     }
     {% endif %}
     footer p {
@@ -394,6 +397,11 @@
                 e.preventDefault();
                 var text = this.getAttribute('data-text');
                 if (text) {
+                    document.querySelectorAll('div.current').forEach(function(el) {
+                        el.className = 'item';
+                    });
+                    document.querySelector('label[for="i-sent"]').click();
+                    this.className = 'item current';
                     var area = document.querySelector('div#raw-text');
                     if (area) {
                         current_part = this;
@@ -482,7 +490,96 @@
                     if (obj.error !== undefined) {
                         showMessage(obj.error);
                     } else {
-                        
+                        var area = document.querySelector('div#raw-text');
+                        if (!area) {
+                            return false;
+                        }
+                        action = action.toLowerCase()
+                        if (action == 'sent') {
+                            var tokens = [];
+                            var tags = [];
+                            var html = [];
+                            for (var i = 0; i < obj.length; i++) {
+                                tokens.push(obj[i][0]);
+                                tags.push(obj[i][1]);
+                                html.push(obj[i][0]+'<span>/'+obj[i][1]+'</span>');
+                            }
+                            area.innerHTML = html.join(' ');
+                            if (current_part) {
+                                current_part.setAttribute('data-tokens', tokens.join(' '));
+                                current_part.setAttribute('data-sent', tags.join(' '));
+                            }
+                        } else if (action == 'word') {
+                            var tokens = [];
+                            var tags = [];
+                            var html = [];
+                            for (var i = 0; i < obj.length; i++) {
+                                tokens.push(obj[i][0]);
+                                tags.push(obj[i][1]);
+                                html.push(obj[i][0]+'<span>/'+obj[i][1]+'</span>');
+                            }
+                            area.innerHTML = html.join(' ');
+                            if (current_part) {
+                                current_part.setAttribute('data-tokens', tokens.join(' '));
+                                current_part.setAttribute('data-segment', tags.join(' '));
+                            }
+                        } else if (action == 'pos') {
+                            var words = [];
+                            var tags = [];
+                            var html = [];
+                            for (var i = 0; i < obj.length; i++) {
+                                words.push(obj[i][0]);
+                                tags.push(obj[i][1]);
+                                html.push(obj[i][0]+'<span>/'+obj[i][1]+'</span>');
+                            }
+                            area.innerHTML = html.join(' ');
+                            if (current_part) {
+                                current_part.setAttribute('data-words', words.join(' '));
+                                current_part.setAttribute('data-tags', tags.join(' '));
+                            }
+                        } else if (action == 'chunk') {
+                            var words = [];
+                            var tags = [];
+                            var html = [];
+                            for (var i = 0; i < obj.length; i++) {
+                                words.push(obj[i][0]);
+                                tags.push(obj[i][2]);
+                                html.push(obj[i][0]+'<span>/'+obj[i][2]+'</span>');
+                            }
+                            area.innerHTML = html.join(' ');
+                            if (current_part) {
+                                current_part.setAttribute('data-words', words.join(' '));
+                                current_part.setAttribute('data-chunk', tags.join(' '));
+                            }
+                        } else if (action == 'ner') {
+                            var words = [];
+                            var tags = [];
+                            var html = [];
+                            for (var i = 0; i < obj.length; i++) {
+                                words.push(obj[i][0]);
+                                tags.push(obj[i][3]);
+                                html.push(obj[i][0]+'<span>/'+obj[i][3]+'</span>');
+                            }
+                            area.innerHTML = html.join(' ');
+                            if (current_part) {
+                                current_part.setAttribute('data-words', words.join(' '));
+                                current_part.setAttribute('data-ner', tags.join(' '));
+                            }
+                        } else if (action == 'sner') {
+                            var words = [];
+                            var tags = [];
+                            var html = [];
+                            for (var i = 0; i < obj.length; i++) {
+                                words.push(obj[i][0]);
+                                tags.push(obj[i][4]);
+                                html.push(obj[i][0]+'<span>/'+obj[i][4]+'</span>');
+                            }
+                            area.innerHTML = html.join(' ');
+                            if (current_part) {
+                                current_part.setAttribute('data-words', words.join(' '));
+                                current_part.setAttribute('data-child', tags.join(' '));
+                            }
+                        }
                     }
                 });
             } else {
@@ -490,9 +587,58 @@
             }
             return false;
         });
-        document.querySelector('button#download').addEventListener('click', function(e) {
+        document.querySelector('button#update').addEventListener('click', function(e) {
             e.preventDefault();
-            
+            var inp = document.querySelector('input[name="toolkit"]:checked');
+            var area = document.querySelector('div#raw-text');
+            if (!inp || !area) {
+                showMessage('Không thể truy xuất được thông tin');
+                return false;
+            }
+            var text = area.textContent.trim();
+            if (text.length == 0) {
+                showMessage('Không có dữ liệu cập nhật');
+                return false;
+            }
+            if (!current_part) {
+                showMessage('Không xác định được đối tượng cập nhật');
+                return false;
+            }
+            var toolkit = inp.value.trim().toLowerCase();
+            var tokens = text.split(' ');
+            var words = [];
+            var tags = [];
+            console.log(text)
+            console.log(tokens)
+            for (var i = 0; i < tokens.length; i++) {
+                var tmp = tokens[i].split('/');
+                console.log(tmp)
+                var tag = tmp.pop();
+                console.log(tmp)
+                var word = tmp.join('/');
+                console.log(word)
+                words.push(word);
+                tags.push(tag);
+            }
+            if (toolkit == 'sent') {
+                current_part.setAttribute('data-tokens', words.join(' '));
+                current_part.setAttribute('data-sent', tags.join(' '));
+            } else if (toolkit == 'word') {
+                current_part.setAttribute('data-tokens', words.join(' '));
+                current_part.setAttribute('data-segment', tags.join(' '));
+            } else if (toolkit == 'pos') {
+                current_part.setAttribute('data-words', words.join(' '));
+                current_part.setAttribute('data-tags', tags.join(' '));
+            } else if (toolkit == 'chunk') {
+                current_part.setAttribute('data-words', words.join(' '));
+                current_part.setAttribute('data-chunk', tags.join(' '));
+            } else if (toolkit == 'ner') {
+                current_part.setAttribute('data-words', words.join(' '));
+                current_part.setAttribute('data-ner', tags.join(' '));
+            } else if (toolkit == 'sner') {
+                current_part.setAttribute('data-words', words.join(' '));
+                current_part.setAttribute('data-child', tags.join(' '));
+            }
             return false;
         });
         document.querySelector('button#download').addEventListener('click', function(e) {
@@ -512,9 +658,55 @@
                 showMessage('Không có dữ liệu');
                 return false;
             }
+            var rows = [];
+            for (var i = 0; i < nodes.length; i++) {
+                var node = nodes[i];
+                var raw = node.dataset.text || null;
+                var tokens = node.dataset.tokens || null;
+                var sent = node.dataset.sent || null;
+                var segment = node.dataset.segment || null;
+                var words = node.dataset.words || null;
+                var tags = node.dataset.tags || null;
+                var chunk = node.dataset.chunk || null;
+                var ner = node.dataset.ner || null;
+                var child = node.dataset.child || null;
+                if (!tokens || !sent || !segment || !words || !tags || !chunk || !ner || !child) {
+                    continue;
+                }
+                rows.push({
+                    raw : raw,
+                    tokens: tokens.split(' '),
+                    sent: sent.split(' '),
+                    segment: segment.split(' '),
+                    words: words.split(' '),
+                    tags: tags.split(' '),
+                    chunk: chunk.split(' '),
+                    ner: ner.split(' '),
+                    child: child.split(' ')
+                });
+            }
+            if (rows.length == 0 || rows.length != nodes.length) {
+                showMessage('Bản cập nhật chưa đầy đủ');
+                return false;
+            }
             var xml = '<?xml version="1.0" encoding="UTF-8"?>';
             xml += '<corpus>';
-            
+            xml += '<Document id="'+JSON.stringify(rows).hash() + '">';
+            for (var i = 0; i < rows.length; i++) {
+                var obj = rows[i];
+                xml += '<SimpleTextPart><![CDATA['+obj.raw+']]></SimpleTextPart>';
+                xml += '<Spliter>';
+                for (var j = 0; j < obj.tokens.length; j++) {
+                    xml += '<Token sent="'+obj.sent[j]+'" seg="'+obj.segment[j]+'"><![CDATA['+obj.tokens[j]+']]></Token>';
+                }
+                xml += '</Spliter>';
+                xml += '<Sentence>';
+                for (var j = 0; j < obj.words.length; j++) {
+                    xml += '<Token tag="'+obj.tags[j]+'" chunk="'+obj.chunk[j]+'" ner="'+obj.ner[j]+'" child="'+obj.child[j]+'"><![CDATA['+obj.words[j]+']]></Token>';
+                }
+                xml += '</Sentence>';
+            }
+            xml += '</Document>';
             xml += '</corpus>';
             var a = document.createElement('a');
             a.href = 'data:application/xml;charset=utf-8,' + encodeURIComponent(xml);

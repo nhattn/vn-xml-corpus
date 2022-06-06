@@ -205,15 +205,15 @@ def corpus_predict():
         return jsonify({
             'error':'Không có dữ liệu xử lý'
         })
-
-    text = unicode_replace(text)
-    text = email_normalize(text)
-    text = domain_normalize(text)
-    text = tp_shortname(text)
-    text = datetime_normalize(text)
-    text = short_name_normalize(text)
-    text = abbr_normalize(text)
-    text = decode_special_chars(text)
+    if '_' not in text:
+        text = unicode_replace(text)
+        text = email_normalize(text)
+        text = domain_normalize(text)
+        text = tp_shortname(text)
+        text = datetime_normalize(text)
+        text = short_name_normalize(text)
+        text = abbr_normalize(text)
+        text = decode_special_chars(text)
 
     if action == "sent":
         tokens = sent_tokenize(text)
