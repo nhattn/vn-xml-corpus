@@ -7,7 +7,7 @@ import regex as re
 from xml.dom import minidom
 from flask import Flask
 from flask import Response
-from flask import send_from_directory
+from flask import send_file
 from flask import render_template, request, jsonify
 from readability import get_content
 from vinlp import sent_tokenize
@@ -236,7 +236,7 @@ def corpus_predict():
 
 @app.route('/favicon.png')
 def corpus_favicon():
-    return send_from_directory(app.root_path, path='favicon.png', mimetype='image/png')
+    return send_file(os.path.join(ABSPATH,'favicon.png'), mimetype='image/png')
 
 # End routes
 
