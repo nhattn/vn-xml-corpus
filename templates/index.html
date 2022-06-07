@@ -218,6 +218,11 @@
         margin:20px 0;
         padding: 8px;
     }
+    #message.success {
+        color: #155724;
+        background-color: #d4edda;
+        border-color: #c3e6cb;
+    }
     input#i-pos:checked ~ #area main {
         width:90%;
     }
@@ -384,6 +389,10 @@
         if (!element) {
             return;
         }
+        if (data.length == 0) {
+            showMessage('Không có dữ liệu.');
+            return;
+        }
         element.querySelectorAll('div.item').forEach(function(el) {
             el.remove();
         });
@@ -397,10 +406,12 @@
                 e.preventDefault();
                 var text = this.getAttribute('data-text');
                 if (text) {
+                    if (this.className.indexOf('current') == -1) {
+                        document.querySelector('label[for="i-sent"]').click();
+                    }
                     document.querySelectorAll('div.current').forEach(function(el) {
                         el.className = 'item';
                     });
-                    document.querySelector('label[for="i-sent"]').click();
                     this.className = 'item current';
                     var area = document.querySelector('div#raw-text');
                     if (area) {
@@ -471,11 +482,14 @@
             element.appendChild(div);
         }
     }
-    function showMessage(msg) {
+    function showMessage(msg, state) {
         var ediv = document.querySelector('#message');
         if (!ediv) {
             ediv = document.createElement('div');
             ediv.id = 'message';
+            if (state) {
+                ediv.className = state;
+            }
             var addBefore = document.querySelector('aside#tools');
             if (!addBefore) {
                 console.log(msg);
@@ -645,6 +659,15 @@
             }
             return false;
         });
+        document.querySelectorAll('#tools label').forEach(function(el) {
+            el.addEventListener('click', function(e) {
+                setTimeout(function() {
+                    if(current_part) {
+                        current_part.click();
+                    }
+                }, 100);
+            });
+        });
         document.querySelector('button#update').addEventListener('click', function(e) {
             e.preventDefault();
             var inp = document.querySelector('input[name="toolkit"]:checked');
@@ -695,6 +718,9 @@
                 current_part.setAttribute('data-words', words.join(' '));
                 current_part.setAttribute('data-child', tags.join(' '));
             }
+            var sentence = current_part.textContent.trim();
+            var action = document.querySelector('label[for="'+inp.id+'"]').textContent.trim();
+            showMessage('Cập nhật "'+action+'" cho "'+sentence+'" xong.', 'success');
             return false;
         });
         document.querySelector('button#download').addEventListener('click', function(e) {
