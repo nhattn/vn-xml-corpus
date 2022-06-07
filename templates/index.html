@@ -405,7 +405,65 @@
                     var area = document.querySelector('div#raw-text');
                     if (area) {
                         current_part = this;
-                        area.textContent = text;
+                        var inp = document.querySelector('input[name="toolkit"]:checked');
+                        if (!inp) {
+                            return;
+                        }
+                        var toolkit = inp.value.trim().toLowerCase();
+                        var text = '';
+                        var label = '';
+                        if (toolkit == 'sent') {
+                            text = (this.dataset.tokens || this.dataset.text || '').trim();
+                            label = (this.dataset.sent || '').trim();
+                        } else if (toolkit == 'word') {
+                            text = (this.dataset.tokens || this.dataset.text || '').trim();
+                            label = (this.dataset.segment || '').trim();
+                        } else if (toolkit == 'pos') {
+                            text = (this.dataset.words || this.dataset.text || '').trim();
+                            label = (this.dataset.tags || '').trim();
+                        } else if (toolkit == 'chunk') {
+                            text = (this.dataset.words || this.dataset.text || '').trim();
+                            label = (this.dataset.chunk || '').trim();
+                        } else if (toolkit == 'ner') {
+                            text = (this.dataset.words || this.dataset.text || '').trim();
+                            label = (this.dataset.ner || '').trim();
+                        } else if (toolkit == 'sner') {
+                            text = (this.dataset.words || this.dataset.text || '').trim();
+                            label = (this.dataset.child || '').trim();
+                        }
+                        if (text.length == 0) {
+                            return;
+                        }
+                        var tokens = text.split(' ').map(function(v) {
+                            return v.trim();
+                        }).filter(function(v) {
+                            return v.length > 0;
+                        });
+                        if (tokens.length == 0) {
+                            return;
+                        }
+                        var tags = label.split(' ').map(function(v) {
+                            return v.trim();
+                        }).filter(function(v) {
+                            return v.length > 0;
+                        });
+                        if (tags.length == 0 || tags.length != tokens.length) {
+                            var tag = 'O';
+                            tags = [];
+                            if (toolkit == 'word') {
+                                tag = 'B-W';
+                            } else if (toolkit == 'pos') {
+                                tag = 'X';
+                            }
+                            for(var i = 0; i < tokens.length; i++) {
+                                tags.push(tag);
+                            }
+                        }
+                        var html = [];
+                        for(var i = 0; i < tokens.length; i++) {
+                            html.push(tokens[i]+'<span>/'+tags[i]+'</span>');
+                        }
+                        area.innerHTML = html.join(' ').trim();
                     }
                 }
                 return false;
@@ -608,8 +666,6 @@
             var tokens = text.split(' ');
             var words = [];
             var tags = [];
-            console.log(text)
-            console.log(tokens)
             for (var i = 0; i < tokens.length; i++) {
                 var tmp = tokens[i].split('/');
                 console.log(tmp)
@@ -745,7 +801,14 @@
                 e.preventDefault();
                 var command = this.dataset.cmd || null;
                 if (command) {
-                    console.log(command);
+                    var _anchor = (document.selection ? document.selection.createRange() : window.getSelection()).anchorNode;
+                    if (_anchor.parentNode.nodeName == 'SPAN') {
+                        _anchor.parentNode.textContent = '/'+command;
+                    } else {
+                        if (_anchor.nextSibling && _anchor.nextSibling.nodeName == 'SPAN') {
+                            _anchor.nextSibling.textContent = '/'+command;
+                        }
+                    }
                 }
                 return false;
             }, false);
