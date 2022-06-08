@@ -9,8 +9,8 @@ def get_content(url, agent=None):
     headers = {"User-Agent": "Mozilla/5.0"}
     if agent:
         headers['User-Agent'] = agent
-    response = requests.get(url, headers=headers)
-    doc = _Document(response.text)
+    response = requests.get(url, headers=headers, allow_redirects=True)
+    doc = _Document(response.content.decode("utf-8"))
 
     title = doc.title().strip()
     commonSeparatingCharacters = [' | ', ' _ ', ' - ', '«', '»', '—']
