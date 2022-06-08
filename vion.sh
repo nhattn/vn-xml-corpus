@@ -3,7 +3,7 @@
 #python3 vion_csv.py "csv/UIT-ViON_train.csv" > "corpus-urls-train.csv"
 #python3 vion_csv.py "csv/UIT-ViON_test.csv" > "corpus-urls-test.csv"
 #python3 vion_csv.py "csv/UIT-ViON_dev.csv" > "corpus-urls-dev.csv"
-
+force="${1:-}"
 
 for line in `cat corpus-urls-train.csv`;
 do
@@ -12,6 +12,9 @@ do
     name=$(basename $url)
     name="${name%.*}"
     cat="${cols[1]}"
+    if [ "$force" != "" ]; then
+        rm -rf "xmls/${name}.xml"
+    fi
     if [ ! -f "xmls/${name}.xml" ]; then
         echo "Download '${name}.xml'..."
         curl -s -X POST -d "url=$url&format=xml" http://127.0.0.1:8081/api/fetch -o "xmls/${name}.xml"
@@ -28,6 +31,9 @@ do
     name=$(basename $url)
     name="${name%.*}"
     cat="${cols[1]}"
+    if [ "$force" != "" ]; then
+        rm -rf "xmls/${name}.xml"
+    fi
     if [ ! -f "xmls/${name}.xml" ]; then
         echo "Download '${name}.xml'..."
         curl -s -X POST -d "url=$url&format=xml" http://127.0.0.1:8081/api/fetch -o "xmls/${name}.xml"
@@ -44,6 +50,9 @@ do
     name=$(basename $url)
     name="${name%.*}"
     cat="${cols[1]}"
+    if [ "$force" != "" ]; then
+        rm -rf "xmls/${name}.xml"
+    fi
     if [ ! -f "xmls/${name}.xml" ]; then
         echo "Download '${name}.xml'..."
         curl -s -X POST -d "url=$url&format=xml" http://127.0.0.1:8081/api/fetch -o "xmls/${name}.xml"
