@@ -218,15 +218,35 @@ def corpus_predict():
     if action == "sent":
         tokens = sent_tokenize(text)
     elif action == "word":
-        tokens = word_tokenize(text)
+        tokens = []
+        sents = sent_tokenize(text, False)
+        for sent in sents:
+            result = word_tokenize(sent)
+            tokens.extend(result)
     elif action == "pos":
-        tokens = pos_tag(text)
+        tokens = []
+        sents = sent_tokenize(text, False)
+        for sent in sents:
+            result = pos_tag(sent)
+            tokens.extend(result)
     elif action == "chunk":
-        tokens = pos_chunk(text)
+        tokens = []
+        sents = sent_tokenize(text, False)
+        for sent in sents:
+            result = pos_chunk(sent)
+            tokens.extend(result)
     elif action == "ner":
-        tokens = pos_ner(text)
+        tokens = []
+        sents = sent_tokenize(text, False)
+        for sent in sents:
+            result = pos_ner(sent)
+            tokens.extend(result)
     elif action == "sner":
-        tokens = pos_sner(text)
+        tokens = []
+        sents = sent_tokenize(text, False)
+        for sent in sents:
+            result = pos_sner(sent)
+            tokens.extend(result)
     else:
         return jsonify({
             'error':'Hệ thống không tìm thấy chức năng này'
