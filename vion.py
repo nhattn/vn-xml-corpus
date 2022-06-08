@@ -507,6 +507,7 @@ if __name__ == "__main__":
     xml_file = sys.argv[1].strip()
 
     if not os.path.isfile(xml_file):
+        print('Không tìm thấy tập tin "%s".' % xml_file)
         sys.exit(0)
     xml_text = ''
     try:
@@ -514,13 +515,16 @@ if __name__ == "__main__":
         xml_text = fin.read()
         fin.close()
     except:
+        print('Lỗi đọc tập tin "%s".' % xml_file)
         sys.exit(0)
 
     if '<Error>' in xml_text:
+        print('Có lỗi với thông tin tải về.')
         sys.exit(0)
 
     dest = sys.argv[2].strip() if len(sys.argv) > 3 else None
     if not dest:
+        print("Không tìm thấy tập tin để lưu")
         sys.exit(0)
 
     try:
@@ -528,6 +532,7 @@ if __name__ == "__main__":
         uri = mydoc.getElementsByTagName('Link')[0]
         texts = mydoc.getElementsByTagName('Text')
         if len(texts) == 0:
+            print('Không có nội dung.')
             sys.exit(0)
 
         fout = open(dest, 'w', encoding='utf-8')
