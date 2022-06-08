@@ -185,8 +185,8 @@ def corpus_fetch():
     if fmt == "xml":
         xml = '<?xml version="1.0" encoding="UTF-8"?>'
         xml += '<Document><Link><![CDATA[%s]]></Link><Entry>' % url
-        for text in unique:
-            xml += '<Text><![CDATA[%s]]></Text>' % text
+        for text in uniqued:
+            xml += '<Text><![CDATA[%s]]></Text>' % re.sub(r' {2,}',' ',text)
         xml += '</Entry></Document>'
         return Response(xml, mimetype='text/xml')
 
