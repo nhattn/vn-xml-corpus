@@ -4,7 +4,7 @@ javascript: (function() {
     node.querySelectorAll('.box-tinlienquanv2').forEach(function(el) {
         el.remove();
     });
-    lines.push(node.querySelector('h1.title-detail').textContent.trim());
+    lines.push((node.querySelector('h1.title-detail') || node.querySelector('h1.title-post')).textContent.trim());
     lines.push(node.querySelector('p.description').textContent.trim());
     node.querySelectorAll('.fck_detail p,.fck_detail figcaption').forEach(function(el) {
         lines.push(el.textContent.trim());
@@ -31,6 +31,14 @@ javascript: (function() {
     var xml = '<?xml version="1.0" encoding="UTF-8"?>';
     xml += '<Document>';
     xml += '<Link>'+document.location.href+'</Link>';
+    var cnode = document.querySelector('.breadcrumb a:nth-child(1)');
+    if (cnode) {
+        xml += '<Category>'cnode.textContent.trim()+'</Category>';
+    }
+    cnode = document.querySelector('.header-content span.date');
+    if (cnode) {
+        xml += '<Publish>'cnode.textContent.trim()+'</Publish>';
+    }
     xml += '<Entry><Text>';
     xml += unique.join('</Text>\n<Text>');
     xml += '</Text></Entry>';
