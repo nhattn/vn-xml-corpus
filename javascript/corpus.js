@@ -4,7 +4,9 @@ javascript: (function() {
     var sremove = [
         '.box-tinlienquanv2',
         '.location-stamp',
-        '#innerarticle'
+        '#innerarticle',
+        '.ck-cms-insert-neww-group',
+        '.vnn-template-noneditable'
     ];
     for (var i in sremove) {
         node.querySelectorAll(sremove[i]).forEach(function(el) {
@@ -16,7 +18,8 @@ javascript: (function() {
         'h1.title-post',
         'h1.cms-title',
         'h1.the-article-title',
-        'h1.article-title'
+        'h1.article-title',
+        '.newsFeature__header-title'
     ];
     for(var i in stitle) {
         var title = node.querySelector(stitle[i]);
@@ -29,7 +32,8 @@ javascript: (function() {
         'p.description',
         'div.cms-desc',
         'h2.sapo',
-        'p.the-article-summary'
+        'p.the-article-summary',
+        '.newFeature__main-textBold'
     ];
     for(var i in ssapo) {
         var sapo = node.querySelector(ssapo[i]);
@@ -43,7 +47,8 @@ javascript: (function() {
         '.cms-body p,.cms-body figcaption',
         '.the-article-body p,.the-article-body figcaption',
         '.source-wrapper',
-        '.main-content-body p,.main-content-body figcaption'
+        '.main-content-body p,.main-content-body figcaption',
+        '#maincontent p,#maincontent figcaption'
     ];
     for(var i in sbody) {
         node.querySelectorAll(sbody[i]).forEach(function(el) {
@@ -80,7 +85,8 @@ javascript: (function() {
         '.breadcrumb a:nth-child(1)',
         '.breadcrumb a:nth-child(1)',
         '.the-article-category a:nth-child(1)',
-        '.bread-crumbs a:nth-child(1)'
+        '.bread-crumbs a:nth-child(1)',
+        '.breadcrumb-box a:nth-child(1)'
     ];
     for(var i in scat) {
         var cnode = document.querySelector(scat[i]);
@@ -93,7 +99,8 @@ javascript: (function() {
         '.header-content span.date',
         '.article__meta time',
         'li.the-article-publish',
-        '.content-detail div.date-time'
+        '.content-detail div.date-time',
+        '.breadcrumb-box__time span'
     ];
     for (i in stime) {
         var cnode = document.querySelector(stime[i]);
