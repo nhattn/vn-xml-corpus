@@ -80,7 +80,7 @@ javascript: (function() {
     });
     var xml = '<?xml version="1.0" encoding="UTF-8"?>';
     xml += '<corpus xmlns="http://semweb.unister.de/xml-corpus-schema-2013"><Document>';
-    xml += '<Link>' + document.location.href + '</Link>';
+    xml += '<Link><![CDATA[' + document.location.href + ']]></Link>';
     var scat = [
         '.breadcrumb a:nth-child(1)',
         '.breadcrumb a:nth-child(1)',
@@ -91,7 +91,7 @@ javascript: (function() {
     for(var i in scat) {
         var cnode = document.querySelector(scat[i]);
         if (cnode) {
-            xml += '<Category>' + cnode.textContent.trim() + '</Category>';
+            xml += '<Category><![CDATA[' + cnode.textContent.trim() + ']]></Category>';
             break;
         }
     }
@@ -105,7 +105,7 @@ javascript: (function() {
     for (i in stime) {
         var cnode = document.querySelector(stime[i]);
         if (cnode) {
-            xml += '<Publish>' + cnode.textContent.trim().replace(' | ',' ') + '</Publish>';
+            xml += '<Publish><![CDATA[' + cnode.textContent.trim().replace(' | ',' ') + ']]></Publish>';
             break;
         }
     }
