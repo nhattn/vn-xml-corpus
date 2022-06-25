@@ -6,7 +6,8 @@ javascript: (function() {
         '.location-stamp',
         '#innerarticle',
         '.ck-cms-insert-neww-group',
-        '.vnn-template-noneditable'
+        '.vnn-template-noneditable',
+        '.body-ads'
     ];
     for (var i in sremove) {
         node.querySelectorAll(sremove[i]).forEach(function(el) {
@@ -33,7 +34,8 @@ javascript: (function() {
         'div.cms-desc',
         'h2.sapo',
         'p.the-article-summary',
-        '.newFeature__main-textBold'
+        '.newFeature__main-textBold',
+        '.cms-desc p'
     ];
     for(var i in ssapo) {
         var sapo = node.querySelector(ssapo[i]);
@@ -86,7 +88,8 @@ javascript: (function() {
         '.breadcrumb a:nth-child(1)',
         '.the-article-category a:nth-child(1)',
         '.bread-crumbs a:nth-child(1)',
-        '.breadcrumb-box a:nth-child(1)'
+        '.breadcrumb-box a:nth-child(1)',
+        '.breadcrumb .breadcrumb-item:nth-child(2) a:first-child'
     ];
     for(var i in scat) {
         var cnode = document.querySelector(scat[i]);
@@ -100,7 +103,8 @@ javascript: (function() {
         '.article__meta time',
         'li.the-article-publish',
         '.content-detail div.date-time',
-        '.breadcrumb-box__time span'
+        '.breadcrumb-box__time span',
+        '.details__meta .meta time[datetime]'
     ];
     for (i in stime) {
         var cnode = document.querySelector(stime[i]);
