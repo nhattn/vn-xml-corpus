@@ -76,6 +76,10 @@ javascript: (function() {
         v = v.replace(/–/g, "-"), v = v.replace(/%08/g, " ");
         v = v.replace(/ð/g, "đ");
         v = v.replace(/ {2,}/g, ' ');
+        v = v.trim();
+        if (v.length == 0) {
+            return '';
+        }
         return '<SimpleText><![CDATA['+v+']]></SimpleText>'.trim();
     }).filter(function(v) {
         return v.length > 0;
